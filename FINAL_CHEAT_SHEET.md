@@ -341,11 +341,12 @@ Correlations in Z basis:
 - $\lvert \Phi^\pm\rangle$: same outcomes, 00 or 11.
 - $\lvert \Psi^\pm\rangle$: opposite outcomes, 01 or 10.
 
-Pauli action:
+Pauli action on Bell states:
 
-- $X$ on either qubit maps $\lvert \Phi^+\rangle\leftrightarrow\lvert \Psi^+\rangle$.
-- $X$ on either qubit maps $\lvert \Phi^-\rangle\leftrightarrow\lvert \Psi^-\rangle$ up to global phase.
-- $Z$ changes plus/minus sign within the same same/opposite family.
+- $X$ on either qubit maps $\lvert \Phi^+\rangle\leftrightarrow\lvert \Psi^+\rangle$ (up to global phase). [problem-bank Entanglement Q4]
+- $X$ on either qubit maps $\lvert \Phi^-\rangle\leftrightarrow\lvert \Psi^-\rangle$ (up to global phase). [problem-bank Entanglement Q4]
+- $Z$ changes the $\pm$ sign within the same same/opposite family: $Z\otimes I\,\lvert\Phi^+\rangle=\lvert\Phi^-\rangle$, $Z\otimes I\,\lvert\Psi^+\rangle=\lvert\Psi^-\rangle$. [superdense-coding lecture: Alice's encoding $(z,x)\mapsto Z^zX^x$]
+- $Y\otimes I$ maps $\lvert\Phi^+\rangle\leftrightarrow\lvert\Psi^-\rangle$ and $\lvert\Phi^-\rangle\leftrightarrow\lvert\Psi^+\rangle$ (up to phase), since $Y=iXZ$ combines the $X$ and $Z$ rules.
 
 ### GHZ States
 
@@ -355,12 +356,15 @@ $$\lvert \mathrm{GHZ}_3\rangle=\frac{\lvert 000\rangle+\lvert 111\rangle}{\sqrt2
 $n$-qubit GHZ:
 $$\lvert \mathrm{GHZ}_n\rangle=\frac{\lvert 0\rangle^{\otimes n}+\lvert 1\rangle^{\otimes n}}{\sqrt2}.$$
 
-Problem-bank GHZ basis:
+Problem-bank GHZ basis (Q23): note that $Z$ acts on the first qubit and $X^{\vec x}$ acts on the remaining $n-1$:
 $$\lvert \mathrm{GHZ}_{z,\vec x}\rangle=(Z^z\otimes X^{\vec x})\lvert \mathrm{GHZ}_n\rangle,\quad
 z\in\{0,1\},\ \vec x\in\{0,1\}^{n-1}.$$
 
 - These $2^n$ vectors form an ONB.
 - Their projectors form a POVM.
+
+Three-qubit GHZ-basis specialization (problem-bank Q22): with $\vec x=(x_1,x_2)$,
+$$\lvert \psi_{z,x_1,x_2}\rangle_{ABC}=(Z^z\otimes X^{x_1}\otimes X^{x_2})\lvert\mathrm{GHZ}_3\rangle_{ABC}.$$
 - Tracing out any one qubit of $\lvert \mathrm{GHZ}_3\rangle\langle\mathrm{GHZ}_3\rvert$ kills the off-diagonal coherence and leaves classical correlation on the remaining pair.
 
 ### Product Vs Entangled
@@ -388,6 +392,9 @@ where $s_k>0$, $\{\lvert a_k\rangle\}$ and $\{\lvert b_k\rangle\}$ are ON sets.
 - Product iff $r=1$.
 - Entangled iff $r>1$.
 - Compute by SVD of coefficient matrix $C=UDV^\dagger$.
+- Normalization: $\sum_k s_k^2=1$.
+- $\mathrm{Tr}_B[\lvert\psi\rangle\langle\psi\rvert]=\sum_k s_k^2\lvert a_k\rangle\langle a_k\rvert$ and $\mathrm{Tr}_A[\lvert\psi\rangle\langle\psi\rvert]=\sum_k s_k^2\lvert b_k\rangle\langle b_k\rvert$ — the two reduced states share the same nonzero eigenvalues.
+- Maximally entangled: $r=d$ and $s_k=1/\sqrt d$ for all $k$. Marginals are $I_d/d$.
 
 ### Mixed-State Separability And PPT
 
@@ -418,11 +425,21 @@ $$\lvert \Psi^-\rangle=\frac{\lvert 01\rangle-\lvert 10\rangle}{\sqrt2}.$$
 - For any single-qubit unitary $U$:
   $$(U\otimes U)\lvert \Psi^-\rangle\langle\Psi^-\rvert (U\otimes U)^\dagger
   =\lvert \Psi^-\rangle\langle\Psi^-\rvert.$$
+- General determinant identity (any $2\times 2$ matrix $M$):
+  $$(M\otimes M)\lvert \Psi^-\rangle=\det(M)\lvert \Psi^-\rangle.$$
+  Since $|\det U|=1$ for unitary $U$, the projector identity follows.
 
 ## 9. Purification And Vectorization
 
 Maximally entangled unnormalized vector:
 $$\lvert \Gamma_d\rangle=\sum_{k=0}^{d-1}\lvert k\rangle\otimes\lvert k\rangle.$$
+
+Normalized version (lecture):
+$$\lvert \Phi_d^+\rangle=\frac1{\sqrt d}\sum_{k=0}^{d-1}\lvert k,k\rangle.$$
+
+For any single-system unitary $U$:
+$$(U\otimes\overline U)\lvert \Phi_d^+\rangle=\lvert \Phi_d^+\rangle,\qquad
+(I\otimes U)\lvert \Phi_d^+\rangle\text{ is maximally entangled with marginals }I_d/d.$$
 
 Vectorization:
 $$\lvert M\rangle\rangle=\mathrm{vec}(M)=(I\otimes M)\lvert \Gamma_d\rangle.$$
@@ -566,6 +583,11 @@ Outcomes:
 
 Check: $5/8+1/8+1/8+1/8=1$.
 
+Identification of the 00 branch with $R_z(\theta)$ (problem-bank Q14(b)):
+$$3S+XSX=\begin{pmatrix}3+i&0\\0&1+3i\end{pmatrix},\quad
+\frac{1+3i}{3+i}=\frac35+\frac45 i=e^{i\theta}.$$
+So up to global phase the $00$ branch implements $R_z(\theta)$ with $\cos\theta=3/5$ and $\sin\theta=4/5$. Every other outcome implements $Z$ up to global phase.
+
 ### Assignment 6 Measurement Circuit
 
 For the circuit with initial $\lvert 00\rangle$, $H$ on the first qubit, controlled-$S$ on the second, then $H$ on the second and SWAP, the state before measurement is $\lvert ++\rangle$.
@@ -575,6 +597,19 @@ Measurement probabilities:
 - Z on both qubits: all four outcomes $00,01,10,11$ have probability $1/4$.
 - X on both qubits: $++$ has probability 1.
 - Bell measurement: $\Phi^+$ and $\Psi^+$ each have probability $1/2$; $\Phi^-$ and $\Psi^-$ have probability 0.
+
+### X-Basis Parity Circuit (Problem-Bank Q7)
+
+Three-qubit circuit: top qubit $\lvert a\rangle\to H\to\bullet\to H$, middle qubit $\lvert b\rangle\to H\to\bullet\to H$, bottom qubit $\lvert 0\rangle$ is the target of two CNOTs (controlled by top and middle). Outputs:
+
+| $(\lvert a\rangle,\lvert b\rangle)$ | Output (top, middle, bottom) |
+| --- | --- |
+| $(\lvert+\rangle,\lvert+\rangle)$ | $\lvert+,+,0\rangle$ |
+| $(\lvert+\rangle,\lvert-\rangle)$ | $\lvert+,-,1\rangle$ |
+| $(\lvert-\rangle,\lvert+\rangle)$ | $\lvert-,+,1\rangle$ |
+| $(\lvert-\rangle,\lvert-\rangle)$ | $\lvert-,-,0\rangle$ |
+
+With encoding $\lvert+\rangle\mapsto 0$, $\lvert-\rangle\mapsto 1$, the bottom qubit holds $a\oplus b$ — the parity of the top two qubits in the X basis. Mechanism: each $H$-conjugated CNOT acts as $\mathrm{CZ}$-like in the X basis, flipping the bottom only when the corresponding top is $\lvert-\rangle$.
 
 ### Matrix From Basis Actions
 
@@ -642,7 +677,12 @@ Common encoding table (bits $(z, x)$, Alice applies $Z^z X^x$, i.e., $X$ first, 
 | 10 | $Z$ | $\lvert\Phi^-\rangle$ |
 | 11 | $ZX$ | $\lvert\Psi^-\rangle$ |
 
-Reason it works: Bell states are orthonormal, so Bob can distinguish them perfectly. (If Alice applies $XZ$ instead of $ZX$, the encoded state for $(1,1)$ is $-\lvert\Psi^-\rangle$, indistinguishable from $\lvert\Psi^-\rangle$ under measurement.)
+Reason it works: Bell states are orthonormal, so Bob can distinguish them perfectly. (Order does not matter physically: $XZ=-ZX$, so applying $XZ$ gives $-\lvert\Psi^-\rangle$, which is the same physical state up to global phase.)
+
+Probability that Bob recovers Alice's bits exactly:
+$$\Pr[(z',x')\mid(z,x)]=\mathrm{Tr}[\Phi^{z',x'}\Phi^{z,x}]=\delta_{z,z'}\delta_{x,x'}.$$
+
+Key trace identity used in the proof: $\mathrm{Tr}[Z^aX^b]=2\delta_{a,0}\delta_{b,0}$ for $a,b\in\{0,1\}$.
 
 ## 13. Swap Test
 
@@ -688,6 +728,9 @@ Circuit:
 4. Apply $H$ to ancilla.
 5. Measure ancilla in Z basis.
 
+State just before measurement:
+$$\frac12\lvert 0\rangle(I+U)\lvert\psi\rangle+\frac12\lvert 1\rangle(I-U)\lvert\psi\rangle.$$
+
 Probabilities:
 
 $$\Pr[0]=\frac12(1+\mathrm{Re}\langle\psi\rvert U\lvert \psi\rangle),$$
@@ -695,7 +738,7 @@ $$\Pr[1]=\frac12(1-\mathrm{Re}\langle\psi\rvert U\lvert \psi\rangle).$$
 
 ### Imaginary Part
 
-Use $S^\dagger$ on the ancilla before controlled-$U$ if you want the same sign convention as the real-part estimator:
+Lecture convention: insert $S^\dagger$ between $H$ and controlled-$U$:
 
 1. $H$
 2. $S^\dagger$
@@ -708,7 +751,7 @@ Then:
 $$\Pr[0]=\frac12(1+\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle),$$
 $$\Pr[1]=\frac12(1-\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle).$$
 
-If the circuit uses $S$ instead, the signs flip:
+Problem-bank convention uses $S$ instead of $S^\dagger$, which flips the signs:
 $$\Pr[0]=\frac12(1-\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle),\quad
 \Pr[1]=\frac12(1+\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle).$$
 
@@ -755,12 +798,16 @@ Two versions:
 Single-qubit gates:
 
 - Every single-qubit unitary can be decomposed using rotations, e.g. $R_z$, $R_y$, and phases.
+- ZYZ decomposition (Lemma 4.1 from lecture): every single-qubit unitary equals
+  $$U=e^{i\delta}R_z(\alpha)R_y(\theta)R_z(\beta)$$
+  for real $\alpha,\beta,\theta,\delta$.
 - Rotation families $R_x(\theta), R_y(\theta), R_z(\theta)$ are continuous, so exact universality is not finite.
 
 Clifford group:
 
 - Generated by $H$, $S$, and CNOT.
-- Clifford gates map Pauli operators to Pauli operators under conjugation.
+- Definition: $\mathcal C_n=\{U:UPU^\dagger\in\pm\mathcal P_n^*\ \forall P\in\mathcal P_n^*\}/U(1)$ — Cliffords map Paulis to Paulis (up to sign) modulo global phase.
+- Useful conjugations: $HXH=Z$, $HZH=X$, $SXS^\dagger=Y$, $SZS^\dagger=Z$.
 - $\{H,S,\mathrm{CNOT}\}$ is not universal.
 
 Make it universal by adding any one-qubit non-Clifford gate such as $T$:
@@ -813,11 +860,13 @@ $$\mathcal E_{\mathrm{dep}}(\rho)
 Bloch-vector transformation:
 $$\vec r'=\left(1-\frac{4p}{3}\right)\vec r.$$
 
-Equivalent form:
+Equivalent "all or nothing" form (derived using the Pauli twirl):
 $$\mathcal E_{\mathrm{dep}}(\rho)
 =\left(1-\frac{4p}{3}\right)\rho+\frac{4p}{3}\frac I2.$$
 
-At $p=3/4$, the output is maximally mixed $I/2$.
+- $p=0$: identity (no noise).
+- $p=3/4$: output is maximally mixed $I/2$.
+- The Pauli-mixture form is a valid channel for $p\in[0,1]$, but the "all or nothing" form is only a probability mixture for $p\in[0,3/4]$.
 
 ## 18. Quantum Error Correction: 3-Qubit Bit-Flip Code
 

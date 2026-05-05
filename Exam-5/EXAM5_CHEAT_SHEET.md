@@ -144,13 +144,17 @@ If
 $$\Pr[0]=\frac12(1+\alpha),\quad \Pr[1]=\frac12(1-\alpha),$$
 record outcome $0$ as $+1$ and outcome $1$ as $-1$. The sample average estimates $\alpha$.
 
+Observable expectation values: any Hermitian $M=\sum_j c_j U_j$ decomposed into unitaries can be estimated by running the Hadamard test on each $U_j$ to estimate $\langle\psi|U_j|\psi\rangle$, then combining linearly to estimate $\langle M\rangle = \mathrm{Tr}[M\rho]$.
+
 ## 3. Assignment 8 Controlled-S Gadget
 
 Two ancillas start in $|00\rangle$, each gets $H$, the third qubit is an arbitrary $|\psi\rangle$, and the first two qubits are measured in the Z basis after final $H$ gates.
 
-Gate structure on the third qubit: **Toffoli, then $S$, then Toffoli**, where both ancillas are joint controls on each Toffoli. So $X$ is applied iff both ancillas read $1$. The branch operator on basis state $(a,b)$ of the ancillas is therefore
+Gate structure on the third qubit: **Toffoli, then $S$, then Toffoli**, where both ancillas are joint controls on each Toffoli (each vertical line carries dots on top and middle wires plus a target $\oplus$ on bottom). So $X$ is applied iff both ancillas read $1$. The branch operator on basis state $(a,b)$ of the ancillas is therefore
 
-$$U_{ab}=X^{ab}\,S\,X^{ab}.$$
+$$U_{ab}=X^{ab}\,S\,X^{ab},$$
+
+where $ab$ is logical AND. (If you only had two CNOTs, $V_{ab}=X^bSX^a$, the probability $\Pr[00]$ would depend on $\lvert\psi\rangle$ — Toffolis are required for the $\lvert\psi\rangle$-independent $\frac{5}{8}$.)
 
 After the first two Hadamards:
 
@@ -204,6 +208,8 @@ So, up to global phase, the $00$ branch applies $R_z(\theta)$, where:
 
 $$\cos\theta=\frac35,\quad \sin\theta=\frac45.$$
 
+Summary: the circuit applies $R_z(\theta)$ (with $\cos\theta=3/5$, $\sin\theta=4/5$) to the third qubit when both ancilla outcomes are $0$; otherwise it applies $Z$ to the third qubit (up to global phase). This matches Problem 14 of the problem bank.
+
 Post-measurement rule:
 
 $$
@@ -250,17 +256,52 @@ $$
 =(-1)^b|a,b\oplus a\rangle.
 $$
 
+### Other Common Circuit Identities
+
+CZ from CNOT (Assignment 7 #1 / Problem Bank #10): $H$ on target conjugates $X$ to $Z$, so
+
+$$\mathrm{CZ}=(I\otimes H)\,\mathrm{CNOT}\,(I\otimes H).$$
+
+Proof on $|a,b\rangle$: $(I\otimes H)\mathrm{CNOT}(I\otimes H)|a,b\rangle$ — first $H$ sends $|b\rangle\to(|0\rangle+(-1)^b|1\rangle)/\sqrt2$, CNOT controls flip bottom, second $H$ recovers; net effect is $(-1)^{ab}|a,b\rangle=\mathrm{CZ}|a,b\rangle$.
+
+SWAP from three CNOTs (Assignment 6 #3 / Problem Bank #9):
+
+$$\mathrm{SWAP}=\mathrm{CNOT}_{12}\,\mathrm{CNOT}_{21}\,\mathrm{CNOT}_{12}.$$
+
+Proof on $|a,b\rangle$: $\mathrm{CNOT}_{12}|a,b\rangle=|a,a\oplus b\rangle$; then $\mathrm{CNOT}_{21}|a,a\oplus b\rangle=|a\oplus(a\oplus b),a\oplus b\rangle=|b,a\oplus b\rangle$; then $\mathrm{CNOT}_{12}|b,a\oplus b\rangle=|b,b\oplus a\oplus b\rangle=|b,a\rangle$. ✓
+
+Flip CNOT direction with Hadamards (Problem Bank #11):
+
+$$\mathrm{CNOT}_{2\to1}=(H\otimes H)\,\mathrm{CNOT}_{1\to2}\,(H\otimes H).$$
+
+Proof: conjugating CNOT by $H\otimes H$ swaps which qubit is the $X$-eigenstate (control) — equivalently $HXH=Z$, $HZH=X$ swaps roles of control and target.
+
 ## 5. Problem-Bank Circuit Extras
 
-### Simple Controlled-S Circuit
+### Simple Controlled-S Circuit (Problem Bank #13 / Assignment 6 #4)
 
-For the problem-bank circuit with top qubit $|0\rangle$ then $H$, bottom qubit $|0\rangle$, controlled-$S$, then $H$ on the bottom and a final swap:
+For the circuit with top qubit $|0\rangle$ then $H$, bottom qubit $|0\rangle$, controlled-$S$ (control top, $S$ as target on bottom), then $H$ on the bottom and a final swap:
 
-- $S|0\rangle=|0\rangle$, so the controlled-$S$ does nothing.
-- Before measurement, the two measured qubits are $|+\rangle|+\rangle$ up to swap.
-- Therefore:
+- $S|0\rangle=|0\rangle$, so the controlled-$S$ does nothing on input $|0\rangle_{\text{bottom}}$.
+- Before measurement, the two measured qubits are $|+\rangle|+\rangle$ (and $\mathrm{SWAP}|++\rangle=|++\rangle$).
+- Therefore the Pauli-$Z$ outcome distribution is uniform:
 
 $$\Pr[00]=\Pr[01]=\Pr[10]=\Pr[11]=\frac14.$$
+
+For Assignment 6 #4, the same state $|++\rangle$ also gives Pauli-$X$ outcome $++$ with probability 1, and Bell-measurement outcomes $\Phi^+,\Psi^+$ each with probability $1/2$ (and $\Phi^-,\Psi^-$ with probability 0).
+
+### Parity Circuit In X Basis (Problem Bank #7)
+
+Three-qubit circuit: top qubit $|a\rangle\to H\to\bullet\to H$, middle qubit $|b\rangle\to H\to\bullet\to H$, bottom qubit $|0\rangle$ is the target of two CNOTs (one controlled by top, one controlled by middle). The circuit computes the X-basis parity of the top two qubits onto the bottom qubit:
+
+| $(|a\rangle,|b\rangle)$ | Output (top, middle, bottom) |
+| --- | --- |
+| $(|+\rangle,|+\rangle)$ | $|+,+,0\rangle$ |
+| $(|+\rangle,|-\rangle)$ | $|+,-,1\rangle$ |
+| $(|-\rangle,|+\rangle)$ | $|-,+,1\rangle$ |
+| $(|-\rangle,|-\rangle)$ | $|-,-,0\rangle$ |
+
+So with the encoding $|+\rangle\mapsto 0$, $|-\rangle\mapsto 1$, the bottom qubit reads the parity $a\oplus b$ in the X basis. Mechanism: each $H$ pair conjugates the CNOT control from the X-eigenbasis to the Z-eigenbasis, so each CNOT effectively flips the bottom only when the corresponding top qubit is $|-\rangle$.
 
 ### Molmer-Sorensen Gate
 
@@ -487,6 +528,16 @@ Noise-channel formulas:
 | Bit flip | $\mathcal E(\rho)=(1-\alpha)\rho+\alpha X\rho X$ | $(r_x,r_y,r_z)\mapsto(r_x,(1-2\alpha)r_y,(1-2\alpha)r_z)$ |
 | Phase flip / dephasing | $\mathcal E(\rho)=(1-\alpha)\rho+\alpha Z\rho Z$ | $(r_x,r_y,r_z)\mapsto((1-2\alpha)r_x,(1-2\alpha)r_y,r_z)$ |
 | Depolarizing | $\mathcal E(\rho)=(1-\alpha)\rho+\frac\alpha3(X\rho X+Y\rho Y+Z\rho Z)$ | $(r_x,r_y,r_z)\mapsto(1-\frac{4\alpha}{3})(r_x,r_y,r_z)$ |
+
+Dephasing in the standard basis:
+
+$$
+\rho=\begin{pmatrix}a&c\\\bar c&1-a\end{pmatrix}
+\;\mapsto\;
+\begin{pmatrix}a&(1-2\alpha)c\\(1-2\alpha)\bar c&1-a\end{pmatrix}.
+$$
+
+Diagonal entries are preserved; off-diagonal coherences are suppressed by $1-2\alpha$. At $\alpha=1/2$ the off-diagonals vanish and superposition is destroyed.
 
 Special case:
 
