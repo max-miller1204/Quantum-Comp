@@ -9,7 +9,7 @@ lectures, assignments 1-9, problem bank, and exam cover/study guide files.
 - For circuits, compute on computational-basis states first, then extend by linearity.
 - For measurement problems, write the POVM/projectors first, then apply Born's rule.
 - For entanglement, use the quickest valid criterion: factorization, coefficient-matrix rank, Schmidt rank, or PPT if mixed.
-- Global phase does not matter for state vectors: $|\psi\rangle$ and $e^{i\theta}|\psi\rangle$ represent the same physical pure state.
+- Global phase does not matter for state vectors: $\lvert \psi\rangle$ and $e^{i\theta}\lvert \psi\rangle$ represent the same physical pure state.
 - Keep normalization visible: probabilities must sum to 1, state-vector norms must be 1, density matrices must have trace 1.
 
 ## 1. Core Notation And Linear Algebra
@@ -23,74 +23,89 @@ lectures, assignments 1-9, problem bank, and exam cover/study guide files.
 
 ### Dirac Notation
 
-- Ket $|v\rangle$: column vector.
-- Bra $\langle v|$: conjugate transpose of $|v\rangle$.
-- Inner product: $\langle v|w\rangle=\sum_i \bar v_i w_i$.
-- $\langle v|w\rangle=\overline{\langle w|v\rangle}$.
-- Norm: $\|v\|=\sqrt{\langle v|v\rangle}$.
-- Normalized state vector: $\langle v|v\rangle=1$.
-- Normalize: $|v\rangle/\sqrt{\langle v|v\rangle}$.
-- Standard basis: $|0\rangle=(1,0)^T$, $|1\rangle=(0,1)^T$.
+- Ket $\lvert v\rangle$: column vector.
+- Bra $\langle v\rvert$: conjugate transpose of $\lvert v\rangle$.
+- Inner product: $\langle v\rvert w\rangle=\sum_i \bar v_i w_i$.
+- $\langle v\rvert w\rangle=\overline{\langle w\rvert v\rangle}$.
+- Norm: $\|v\|=\sqrt{\langle v\rvert v\rangle}$.
+- Normalized state vector: $\langle v\rvert v\rangle=1$.
+- Normalize: $\lvert v\rangle/\sqrt{\langle v\rvert v\rangle}$.
+- Standard basis: $\lvert 0\rangle=(1,0)^T$, $\lvert 1\rangle=(0,1)^T$.
 
 ### Important Bases
 
-- Computational/Z basis: $|0\rangle, |1\rangle$.
+- Computational/Z basis: $\lvert 0\rangle, \lvert 1\rangle$.
 - X basis:
-  - $|+\rangle=(|0\rangle+|1\rangle)/\sqrt2$
-  - $|-\rangle=(|0\rangle-|1\rangle)/\sqrt2$
+  - $\lvert +\rangle=(\lvert 0\rangle+\lvert 1\rangle)/\sqrt2$
+  - $\lvert -\rangle=(\lvert 0\rangle-\lvert 1\rangle)/\sqrt2$
 - Y basis:
-  - $|+i\rangle=(|0\rangle+i|1\rangle)/\sqrt2$
-  - $|-i\rangle=(|0\rangle-i|1\rangle)/\sqrt2$
+  - $\lvert +i\rangle=(\lvert 0\rangle+i\lvert 1\rangle)/\sqrt2$
+  - $\lvert -i\rangle=(\lvert 0\rangle-i\lvert 1\rangle)/\sqrt2$
 
 ### Outer Products And Projectors
 
-- $|v\rangle\langle w|$ is a rank-one operator.
-- $|v\rangle\langle v|$ is the projector onto $|v\rangle$ if $|v\rangle$ is normalized.
+- $\lvert v\rangle\langle w\rvert$ is a rank-one operator.
+- $\lvert v\rangle\langle v\rvert$ is the projector onto $\lvert v\rangle$ if $\lvert v\rangle$ is normalized.
 - Trace identities:
-  - $\mathrm{Tr}[|v_1\rangle\langle v_2|]=\langle v_2|v_1\rangle$
-  - $\mathrm{Tr}[M|v_1\rangle\langle v_2|]=\langle v_2|M|v_1\rangle$
+  - $\mathrm{Tr}[\lvert v_1\rangle\langle v_2\rvert]=\langle v_2\rvert v_1\rangle$
+  - $\mathrm{Tr}[M\lvert v_1\rangle\langle v_2\rvert]=\langle v_2\rvert M\lvert v_1\rangle$
   - $\mathrm{Tr}[AB]=\mathrm{Tr}[BA]$
 
 ### Orthonormal Bases
 
-- Orthonormal: $\langle e_i|e_j\rangle=\delta_{ij}$.
-- Completeness: if $\{|e_k\rangle\}_{k=1}^d$ is an ONB, then
-  $$I_d=\sum_{k=1}^d |e_k\rangle\langle e_k|.$$
+- Orthonormal: $\langle e_i\rvert e_j\rangle=\delta_{ij}$.
+- Completeness: if $\{\lvert e_k\rangle\}_{k=1}^d$ is an ONB, then
+  $$I_d=\sum_{k=1}^d \lvert e_k\rangle\langle e_k\rvert.$$
 - Change of basis:
-  $$|u\rangle=\sum_k \langle e_k|u\rangle |e_k\rangle.$$
+  $$\lvert u\rangle=\sum_k \langle e_k\rvert u\rangle \lvert e_k\rangle.$$
 
 ### Matrix Classes
 
 - Adjoint/conjugate transpose: $M^\dagger=\bar M^T$.
 - Unitary: $U^\dagger U=UU^\dagger=I$.
-  - Preserves inner products: $\langle Uv|Uw\rangle=\langle v|w\rangle$.
+  - Preserves inner products: $\langle Uv\rvert Uw\rangle=\langle v\rvert w\rangle$.
   - Columns form an ONB.
 - Hermitian/self-adjoint: $M^\dagger=M$.
   - Eigenvalues are real.
   - Observable matrices are Hermitian.
   - General 2 by 2 Hermitian matrix:
     $$\begin{pmatrix}a&b+ci\\ b-ci&d\end{pmatrix},\quad a,b,c,d\in\mathbb R.$$
-- Positive semidefinite: $M\succeq0$ iff $\langle v|M|v\rangle\ge0$ for all $|v\rangle$.
+- Positive semidefinite: $M\succeq0$ iff $\langle v\rvert M\lvert v\rangle\ge0$ for all $\lvert v\rangle$.
   - Equivalent for Hermitian $M$: all eigenvalues are nonnegative.
   - $M^\dagger M\succeq0$ always.
 
 ### Useful Conjugate-Transpose Identity
 
-$$\langle v_2|M|v_1\rangle=\langle M^\dagger v_2|v_1\rangle.$$
+$$\langle v_2\rvert M\lvert v_1\rangle=\langle M^\dagger v_2\rvert v_1\rangle.$$
+
+### Operator Norms And Trace Distance
+
+- Hilbert-Schmidt norm: $\|M\|_{\mathrm{HS}}=\sqrt{\mathrm{Tr}[M^\dagger M]}$.
+- Trace norm: $\|M\|_1=\mathrm{Tr}\sqrt{M^\dagger M}$.
+- If $P\succeq0$, then $\|P\|_1=\mathrm{Tr}[P]$.
+- Operator norm:
+  $$\|M\|_\infty=\sqrt{\lambda_{\max}(M^\dagger M)}.$$
+- If $U$ is unitary, then $\|U\|_\infty=1$.
+- Trace distance:
+  $$D(\rho,\sigma)=\frac12\|\rho-\sigma\|_1.$$
+- Every pure state is the same trace distance from the maximally mixed state:
+  $$D(\lvert \psi\rangle\langle\psi\rvert,I_d/d)=1-\frac1d.$$
+- If $\rho$ has rank $r$ with nonzero eigenvalues $\lambda_1,\dots,\lambda_r$, then
+  $$D(\rho,I_d/d)=\frac12\left(\sum_{k=1}^r\left|\lambda_k-\frac1d\right|+\frac{d-r}{d}\right).$$
 
 ### Building A Unitary From Two ONBs
 
-If $\{|e_k\rangle\}$ and $\{|f_k\rangle\}$ are ONBs, then
-$$U=\sum_k |e_k\rangle\langle f_k|$$
-is unitary and maps $|f_k\rangle\mapsto |e_k\rangle$.
+If $\{\lvert e_k\rangle\}$ and $\{\lvert f_k\rangle\}$ are ONBs, then
+$$U=\sum_k \lvert e_k\rangle\langle f_k\rvert$$
+is unitary and maps $\lvert f_k\rangle\mapsto \lvert e_k\rangle$.
 
 ## 2. Tensor Products
 
-- Tensor states: $|v\rangle\otimes|w\rangle$, also written $|v,w\rangle$.
+- Tensor states: $\lvert v\rangle\otimes\lvert w\rangle$, also written $\lvert v,w\rangle$.
 - Operator action:
-  $$(A\otimes B)(|v\rangle\otimes|w\rangle)=(A|v\rangle)\otimes(B|w\rangle).$$
+  $$(A\otimes B)(\lvert v\rangle\otimes\lvert w\rangle)=(A\lvert v\rangle)\otimes(B\lvert w\rangle).$$
 - Two-qubit computational-basis order used in the repo:
-  $$|00\rangle,\ |01\rangle,\ |10\rangle,\ |11\rangle.$$
+  $$\lvert 00\rangle,\ \lvert 01\rangle,\ \lvert 10\rangle,\ \lvert 11\rangle.$$
 - Kronecker product: if $A=(a_{ij})$, then $A\otimes B$ replaces each $a_{ij}$ by $a_{ij}B$.
 
 ## 3. Probability And Statistics
@@ -98,10 +113,17 @@ is unitary and maps $|f_k\rangle\mapsto |e_k\rangle$.
 - Joint PMF: $p_{X,Y}(x,y)=\Pr[X=x,Y=y]$.
 - Marginal: $p_X(x)=\sum_y p_{X,Y}(x,y)$.
 - Conditional: $\Pr[A|B]=\Pr[A\cap B]/\Pr[B]$.
+- Total probability: if $\{B_i\}$ partitions the sample space, then
+  $$\Pr[A]=\sum_i\Pr[A|B_i]\Pr[B_i].$$
+- Bayes:
+  $$\Pr[B_j|A]=\frac{\Pr[A|B_j]\Pr[B_j]}{\sum_i\Pr[A|B_i]\Pr[B_i]}.$$
 - Independence: $p_{X,Y}(x,y)=p_X(x)p_Y(y)$.
 - Expectation: $\mathbb E[X]=\sum_x x\Pr[X=x]$.
 - Variance: $\mathrm{Var}(X)=\mathbb E[X^2]-\mathbb E[X]^2$.
 - Covariance: $\mathrm{Cov}(X,Y)=\mathbb E[XY]-\mathbb E[X]\mathbb E[Y]$.
+- PMF normalization: solve unknown constants from $\sum_xp_X(x)=1$.
+- Markov-chain path probability:
+  $$\Pr[X_0=x_0,\dots,X_n=x_n]=\Pr[X_0=x_0]\prod_{t=1}^nP_{x_{t-1},x_t}.$$
 - Sample mean estimator:
   $$\hat X_N=\frac1N\sum_{i=1}^N X_i,\quad \mathbb E[\hat X_N]=\mathbb E[X].$$
 - If $\Pr[0]=\frac12(1+\alpha)$ and $\Pr[1]=\frac12(1-\alpha)$, record outcome 0 as $+1$ and outcome 1 as $-1$. Then:
@@ -119,8 +141,8 @@ $\rho$ is a valid quantum state iff:
 
 ### Pure Vs Mixed
 
-- Pure state: $\rho=|\psi\rangle\langle\psi|$.
-- Mixed state: $\rho=\sum_i p_i|\psi_i\rangle\langle\psi_i|$, with $p_i\ge0$, $\sum_i p_i=1$.
+- Pure state: $\rho=\lvert \psi\rangle\langle\psi\rvert$.
+- Mixed state: $\rho=\sum_i p_i\lvert \psi_i\rangle\langle\psi_i\rvert$, with $p_i\ge0$, $\sum_i p_i=1$.
 - Purity: $\mathrm{Tr}[\rho^2]$.
   - Pure iff $\mathrm{Tr}[\rho^2]=1$.
   - Maximally mixed in dimension $d$: $\rho=I_d/d$, purity $1/d$.
@@ -138,12 +160,12 @@ $$\rho=\frac12(I+r_xX+r_yY+r_zZ)=\frac12(I+\vec r\cdot\vec\sigma).$$
 
 Key points:
 
-- $|0\rangle$: $(0,0,1)$.
-- $|1\rangle$: $(0,0,-1)$.
-- $|+\rangle$: $(1,0,0)$.
-- $|-\rangle$: $(-1,0,0)$.
-- $|+i\rangle$: $(0,1,0)$.
-- $|-i\rangle$: $(0,-1,0)$.
+- $\lvert 0\rangle$: $(0,0,1)$.
+- $\lvert 1\rangle$: $(0,0,-1)$.
+- $\lvert +\rangle$: $(1,0,0)$.
+- $\lvert -\rangle$: $(-1,0,0)$.
+- $\lvert +i\rangle$: $(0,1,0)$.
+- $\lvert -i\rangle$: $(0,-1,0)$.
 
 ## 5. Pauli Operators
 
@@ -155,9 +177,9 @@ $$
 
 Actions:
 
-- $X|0\rangle=|1\rangle$, $X|1\rangle=|0\rangle$.
-- $Y|0\rangle=i|1\rangle$, $Y|1\rangle=-i|0\rangle$.
-- $Z|0\rangle=|0\rangle$, $Z|1\rangle=-|1\rangle$.
+- $X\lvert 0\rangle=\lvert 1\rangle$, $X\lvert 1\rangle=\lvert 0\rangle$.
+- $Y\lvert 0\rangle=i\lvert 1\rangle$, $Y\lvert 1\rangle=-i\lvert 0\rangle$.
+- $Z\lvert 0\rangle=\lvert 0\rangle$, $Z\lvert 1\rangle=-\lvert 1\rangle$.
 
 Properties:
 
@@ -190,9 +212,12 @@ $$M=\begin{pmatrix}p&q\\r&s\end{pmatrix}:$$
 
 $M$ is Hermitian iff $c_0,c_1,c_2,c_3$ are real.
 
+Hilbert-Schmidt norm in Pauli coefficients:
+$$\|M\|_{\mathrm{HS}}=\sqrt{\frac12\left(|c_0|^2+|c_1|^2+|c_2|^2+|c_3|^2\right)}.$$
+
 ### Important Two-Qubit Pauli Identities
 
-$$|\Phi^+\rangle\langle\Phi^+|
+$$\lvert \Phi^+\rangle\langle\Phi^+\rvert
 =\frac14(I\otimes I+X\otimes X-Y\otimes Y+Z\otimes Z).$$
 
 Swap operator:
@@ -209,10 +234,10 @@ A projective measurement is a set of orthogonal projectors $\{\Pi_x\}$ such that
 $$\Pi_x^\dagger=\Pi_x,\quad \Pi_x\Pi_y=\delta_{xy}\Pi_x,\quad \sum_x\Pi_x=I.$$
 
 Born rule:
-$$\Pr[x]=\langle\psi|\Pi_x|\psi\rangle=\mathrm{Tr}[\Pi_x\rho].$$
+$$\Pr[x]=\langle\psi\rvert \Pi_x\lvert \psi\rangle=\mathrm{Tr}[\Pi_x\rho].$$
 
 Post-measurement state for pure input:
-$$|\psi_x\rangle=\frac{\Pi_x|\psi\rangle}{\sqrt{\Pr[x]}}.$$
+$$\lvert \psi_x\rangle=\frac{\Pi_x\lvert \psi\rangle}{\sqrt{\Pr[x]}}.$$
 
 For density operators:
 $$\rho_x=\frac{\Pi_x\rho\Pi_x}{\mathrm{Tr}[\Pi_x\rho]}.$$
@@ -229,15 +254,15 @@ $$\Pr[x]=\mathrm{Tr}[M_x\rho].$$
 
 Examples:
 
-- Z measurement: $\{|0\rangle\langle0|,\ |1\rangle\langle1|\}$.
-- X measurement: $\{|+\rangle\langle+|,\ |-\rangle\langle-|\}$.
-- Any ONB measurement: $\{|e_k\rangle\langle e_k|\}$.
+- Z measurement: $\{\lvert 0\rangle\langle0\rvert,\ \lvert 1\rangle\langle1\rvert\}$.
+- X measurement: $\{\lvert +\rangle\langle+\rvert,\ \lvert -\rangle\langle-\rvert\}$.
+- Any ONB measurement: $\{\lvert e_k\rangle\langle e_k\rvert\}$.
 - Five-state POVM from Assignment 9:
-  $$\left\{\frac25|\psi_k\rangle\langle\psi_k|\right\}_{k=0}^4,\quad
-  |\psi_k\rangle=\cos(2\pi k/5)|0\rangle+\sin(2\pi k/5)|1\rangle.$$
+  $$\left\{\frac25\lvert \psi_k\rangle\langle\psi_k\rvert\right\}_{k=0}^4,\quad
+  \lvert \psi_k\rangle=\cos(2\pi k/5)\lvert 0\rangle+\sin(2\pi k/5)\lvert 1\rangle.$$
 
-For $|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$, the five-state POVM probabilities are
-$$p_k=\frac25|\langle\psi_k|\psi\rangle|^2
+For $\lvert \psi\rangle=\alpha\lvert 0\rangle+\beta\lvert 1\rangle$, the five-state POVM probabilities are
+$$p_k=\frac25\left\lvert\langle\psi_k\rvert \psi\rangle\right\rvert^2
 =\frac25|\alpha\cos(2\pi k/5)+\beta\sin(2\pi k/5)|^2.$$
 
 With $c_k=\cos(2\pi k/5)$ and $s_k=\sin(2\pi k/5)$:
@@ -247,18 +272,23 @@ $$p_k=\frac25\left(|\alpha|^2c_k^2+|\beta|^2s_k^2
 To show it is a POVM, use
 $$\sum_k c_k^2=\frac52,\quad \sum_k s_k^2=\frac52,\quad \sum_k c_ks_k=0.$$
 
+Naimark/projective-measurement principle:
+
+- Every POVM can be implemented as a projective measurement on a larger system with an added probe/ancilla.
+- To prove this direction, build a unitary on system plus probe whose measurement branches reproduce the POVM effects.
+
 ### Observable Expectation Values
 
 For Hermitian observable
-$$M=\sum_i\lambda_i|v_i\rangle\langle v_i|,$$
+$$M=\sum_i\lambda_i\lvert v_i\rangle\langle v_i\rvert,$$
 the measurement outcomes are eigenvalues $\lambda_i$ with probabilities
-$$\Pr[\lambda_i]=\mathrm{Tr}[|v_i\rangle\langle v_i|\rho].$$
+$$\Pr[\lambda_i]=\mathrm{Tr}[\lvert v_i\rangle\langle v_i\rvert \rho].$$
 
 Expected value:
 $$\mathbb E[M]=\sum_i\lambda_i\Pr[\lambda_i]=\mathrm{Tr}[M\rho].$$
 
 If $M=\sum_j c_jU_j$ is decomposed into unitaries, estimate each
-$\langle\psi|U_j|\psi\rangle$ using the Hadamard test and combine linearly.
+$\langle\psi\rvert U_j\lvert \psi\rangle$ using the Hadamard test and combine linearly.
 
 ## 7. Partial Trace
 
@@ -269,8 +299,8 @@ $$\mathrm{Tr}_A[P_A\otimes M_B]=\mathrm{Tr}[P_A]M_B.$$
 $$\mathrm{Tr}_B[P_A\otimes M_B]=\mathrm{Tr}[M_B]P_A.$$
 
 General basis rule:
-$$\mathrm{Tr}_B[|i\rangle\langle j|_A\otimes|k\rangle\langle l|_B]
-=|i\rangle\langle j|_A\langle l|k\rangle.$$
+$$\mathrm{Tr}_B[\lvert i\rangle\langle j\rvert_A\otimes\lvert k\rangle\langle l\rvert_B]
+=\lvert i\rangle\langle j\rvert_A\langle l\rvert k\rangle.$$
 
 Useful identity:
 $$\mathrm{Tr}_A[(I_A\otimes M_B)H_{AB}(I_A\otimes N_B)]
@@ -281,7 +311,7 @@ For a two-qubit 4 by 4 matrix in basis $00,01,10,11$:
 - $\mathrm{Tr}_B$ gives a 2 by 2 matrix whose entries are traces over B-index blocks.
 - $\mathrm{Tr}_A$ sums A-index blocks.
 
-Explicitly, if $M_{ab,a'b'}=\langle a,b|M|a',b'\rangle$, then
+Explicitly, if $M_{ab,a'b'}=\langle a,b\rvert M\lvert a',b'\rangle$, then
 $$[\mathrm{Tr}_B(M)]_{a,a'}=\sum_{b\in\{0,1\}}M_{ab,a'b},\quad
 [\mathrm{Tr}_A(M)]_{b,b'}=\sum_{a\in\{0,1\}}M_{ab,ab'}.$$
 
@@ -292,11 +322,11 @@ $$\rho_A=\mathrm{Tr}_B[\rho_{AB}],\quad \rho_B=\mathrm{Tr}_A[\rho_{AB}].$$
 
 ### Bell Basis
 
-$$|\Phi^+\rangle=\frac{|00\rangle+|11\rangle}{\sqrt2},\quad
-|\Phi^-\rangle=\frac{|00\rangle-|11\rangle}{\sqrt2}.$$
+$$\lvert \Phi^+\rangle=\frac{\lvert 00\rangle+\lvert 11\rangle}{\sqrt2},\quad
+\lvert \Phi^-\rangle=\frac{\lvert 00\rangle-\lvert 11\rangle}{\sqrt2}.$$
 
-$$|\Psi^+\rangle=\frac{|01\rangle+|10\rangle}{\sqrt2},\quad
-|\Psi^-\rangle=\frac{|01\rangle-|10\rangle}{\sqrt2}.$$
+$$\lvert \Psi^+\rangle=\frac{\lvert 01\rangle+\lvert 10\rangle}{\sqrt2},\quad
+\lvert \Psi^-\rangle=\frac{\lvert 01\rangle-\lvert 10\rangle}{\sqrt2}.$$
 
 Facts:
 
@@ -304,29 +334,45 @@ Facts:
 - Each Bell state is maximally entangled.
 - Reduced state of either qubit is maximally mixed: $I/2$.
 - Bell measurement POVM:
-  $$\{|\Phi^+\rangle\langle\Phi^+|,\ |\Phi^-\rangle\langle\Phi^-|,\ |\Psi^+\rangle\langle\Psi^+|,\ |\Psi^-\rangle\langle\Psi^-|\}.$$
+  $$\{\lvert \Phi^+\rangle\langle\Phi^+\rvert,\ \lvert \Phi^-\rangle\langle\Phi^-\rvert,\ \lvert \Psi^+\rangle\langle\Psi^+\rvert,\ \lvert \Psi^-\rangle\langle\Psi^-\rvert\}.$$
 
 Correlations in Z basis:
 
-- $|\Phi^\pm\rangle$: same outcomes, 00 or 11.
-- $|\Psi^\pm\rangle$: opposite outcomes, 01 or 10.
+- $\lvert \Phi^\pm\rangle$: same outcomes, 00 or 11.
+- $\lvert \Psi^\pm\rangle$: opposite outcomes, 01 or 10.
 
 Pauli action:
 
-- $X$ on either qubit maps $|\Phi^+\rangle\leftrightarrow|\Psi^+\rangle$.
-- $X$ on either qubit maps $|\Phi^-\rangle\leftrightarrow|\Psi^-\rangle$ up to global phase.
+- $X$ on either qubit maps $\lvert \Phi^+\rangle\leftrightarrow\lvert \Psi^+\rangle$.
+- $X$ on either qubit maps $\lvert \Phi^-\rangle\leftrightarrow\lvert \Psi^-\rangle$ up to global phase.
 - $Z$ changes plus/minus sign within the same same/opposite family.
+
+### GHZ States
+
+Three-qubit GHZ:
+$$\lvert \mathrm{GHZ}_3\rangle=\frac{\lvert 000\rangle+\lvert 111\rangle}{\sqrt2}.$$
+
+$n$-qubit GHZ:
+$$\lvert \mathrm{GHZ}_n\rangle=\frac{\lvert 0\rangle^{\otimes n}+\lvert 1\rangle^{\otimes n}}{\sqrt2}.$$
+
+Problem-bank GHZ basis:
+$$\lvert \mathrm{GHZ}_{z,\vec x}\rangle=(Z^z\otimes X^{\vec x})\lvert \mathrm{GHZ}_n\rangle,\quad
+z\in\{0,1\},\ \vec x\in\{0,1\}^{n-1}.$$
+
+- These $2^n$ vectors form an ONB.
+- Their projectors form a POVM.
+- Tracing out any one qubit of $\lvert \mathrm{GHZ}_3\rangle\langle\mathrm{GHZ}_3\rvert$ kills the off-diagonal coherence and leaves classical correlation on the remaining pair.
 
 ### Product Vs Entangled
 
 Pure bipartite state:
 
-- Product iff $|\psi\rangle_{AB}=|a\rangle_A\otimes|b\rangle_B$.
+- Product iff $\lvert \psi\rangle_{AB}=\lvert a\rangle_A\otimes\lvert b\rangle_B$.
 - Entangled iff it cannot be written as a product.
 
 Coefficient-matrix test:
 
-1. Write $|\psi\rangle=\sum_{ij}c_{ij}|i\rangle|j\rangle$.
+1. Write $\lvert \psi\rangle=\sum_{ij}c_{ij}\lvert i\rangle\lvert j\rangle$.
 2. Form coefficient matrix $C=(c_{ij})$.
 3. Product iff $\mathrm{rank}(C)=1$.
 4. Entangled iff $\mathrm{rank}(C)>1$.
@@ -334,8 +380,8 @@ Coefficient-matrix test:
 ### Schmidt Decomposition
 
 Every bipartite pure state has
-$$|\psi\rangle_{AB}=\sum_{k=1}^r s_k|a_k\rangle|b_k\rangle,$$
-where $s_k>0$, $\{|a_k\rangle\}$ and $\{|b_k\rangle\}$ are ON sets.
+$$\lvert \psi\rangle_{AB}=\sum_{k=1}^r s_k\lvert a_k\rangle\lvert b_k\rangle,$$
+where $s_k>0$, $\{\lvert a_k\rangle\}$ and $\{\lvert b_k\rangle\}$ are ON sets.
 
 - $s_k$ are Schmidt coefficients.
 - $r$ is Schmidt rank.
@@ -360,26 +406,26 @@ Partial transpose:
 ### Classical Correlation Vs Entanglement
 
 Classically correlated but separable example:
-$$\rho=\frac12(|00\rangle\langle00|+|11\rangle\langle11|).$$
+$$\rho=\frac12(\lvert 00\rangle\langle00\rvert +\lvert 11\rangle\langle11\rvert).$$
 
 - Correlated in Z basis.
 - Uncorrelated in X basis.
 
 Singlet:
-$$|\Psi^-\rangle=\frac{|01\rangle-|10\rangle}{\sqrt2}.$$
+$$\lvert \Psi^-\rangle=\frac{\lvert 01\rangle-\lvert 10\rangle}{\sqrt2}.$$
 
 - Perfectly anti-correlated in any common basis.
 - For any single-qubit unitary $U$:
-  $$(U\otimes U)|\Psi^-\rangle\langle\Psi^-|(U\otimes U)^\dagger
-  =|\Psi^-\rangle\langle\Psi^-|.$$
+  $$(U\otimes U)\lvert \Psi^-\rangle\langle\Psi^-\rvert (U\otimes U)^\dagger
+  =\lvert \Psi^-\rangle\langle\Psi^-\rvert.$$
 
 ## 9. Purification And Vectorization
 
 Maximally entangled unnormalized vector:
-$$|\Gamma_d\rangle=\sum_{k=0}^{d-1}|k\rangle\otimes|k\rangle.$$
+$$\lvert \Gamma_d\rangle=\sum_{k=0}^{d-1}\lvert k\rangle\otimes\lvert k\rangle.$$
 
 Vectorization:
-$$|M\rangle\rangle=\mathrm{vec}(M)=(I\otimes M)|\Gamma_d\rangle.$$
+$$\lvert M\rangle\rangle=\mathrm{vec}(M)=(I\otimes M)\lvert \Gamma_d\rangle.$$
 
 For a 2 by 2 matrix
 $$M=\begin{pmatrix}p&q\\r&s\end{pmatrix},\quad
@@ -387,18 +433,19 @@ $$M=\begin{pmatrix}p&q\\r&s\end{pmatrix},\quad
 
 Key identities:
 
-- $\mathrm{vec}(|v_1\rangle\langle v_2|)=\overline{|v_2\rangle}\otimes|v_1\rangle$.
-- $(I\otimes M)|\Gamma_d\rangle=(M^T\otimes I)|\Gamma_d\rangle$.
-- $\mathrm{Tr}[M]=\langle\Gamma_d|(I\otimes M)|\Gamma_d\rangle$.
-- $\mathrm{vec}(KML^\dagger)=(L\otimes K)\mathrm{vec}(M)$.
+- $\mathrm{vec}(\lvert v_1\rangle\langle v_2\rvert)=\overline{\lvert v_2\rangle}\otimes\lvert v_1\rangle$.
+- $(I\otimes M)\lvert \Gamma_d\rangle=(M^T\otimes I)\lvert \Gamma_d\rangle$.
+- $\mathrm{Tr}[M]=\langle\Gamma_d\rvert (I\otimes M)\lvert \Gamma_d\rangle$.
+- $\mathrm{vec}(KML^\dagger)=(\overline L\otimes K)\mathrm{vec}(M)$.
 
 Purification from spectral decomposition:
 
 If
-$$\rho=\sum_k\lambda_k|\psi_k\rangle\langle\psi_k|,$$
+$$\rho=\sum_k\lambda_k\lvert \psi_k\rangle\langle\psi_k\rvert,$$
 then
-$$|\psi_\rho\rangle=\sum_k\sqrt{\lambda_k}\,|\psi_k\rangle\otimes|\psi_k\rangle$$
-is a purification, meaning tracing out one subsystem gives $\rho$.
+$$\lvert \psi_\rho\rangle_{ES}=\sum_k\sqrt{\lambda_k}\,\overline{\lvert \psi_k\rangle}_E\otimes\lvert \psi_k\rangle_S
+=(I_E\otimes\sqrt\rho)\lvert \Gamma_d\rangle$$
+is a purification, meaning $\mathrm{Tr}_E[\lvert \psi_\rho\rangle\langle\psi_\rho\rvert]=\rho$.
 
 ## 10. Gates And Circuits
 
@@ -409,10 +456,10 @@ $$H=\frac1{\sqrt2}\begin{pmatrix}1&1\\1&-1\end{pmatrix}.$$
 
 Actions:
 
-- $H|0\rangle=|+\rangle$.
-- $H|1\rangle=|-\rangle$.
-- $H|+\rangle=|0\rangle$.
-- $H|-\rangle=|1\rangle$.
+- $H\lvert 0\rangle=\lvert +\rangle$.
+- $H\lvert 1\rangle=\lvert -\rangle$.
+- $H\lvert +\rangle=\lvert 0\rangle$.
+- $H\lvert -\rangle=\lvert 1\rangle$.
 
 Phase gate:
 $$S=\begin{pmatrix}1&0\\0&i\end{pmatrix},\quad S^\dagger=\begin{pmatrix}1&0\\0&-i\end{pmatrix}.$$
@@ -431,13 +478,13 @@ General Pauli rotation:
 $$e^{i\phi(\vec n\cdot\vec\sigma)}
 =\cos(\phi)I+i\sin(\phi)(\vec n\cdot\vec\sigma),\quad |\vec n|=1.$$
 
-State preparation from $|0\rangle$:
+State preparation from $\lvert 0\rangle$:
 
-- $|+\rangle$: apply $H$.
-- $|-\rangle$: apply $X$ then $H$, or $H$ then $Z$.
-- $(|0\rangle-i|1\rangle)/\sqrt2$: apply $H$ then $S^\dagger$.
-- $\cos(\theta/2)|0\rangle+\sin(\theta/2)|1\rangle$: apply $R_y(\theta)$.
-- $(|0\rangle+e^{i\theta}|1\rangle)/\sqrt2$: apply $H$ then $S(\theta)$.
+- $\lvert +\rangle$: apply $H$.
+- $\lvert -\rangle$: apply $X$ then $H$, or $H$ then $Z$.
+- $(\lvert 0\rangle-i\lvert 1\rangle)/\sqrt2$: apply $H$ then $S^\dagger$.
+- $\cos(\theta/2)\lvert 0\rangle+\sin(\theta/2)\lvert 1\rangle$: apply $R_y(\theta)$.
+- $(\lvert 0\rangle+e^{i\theta}\lvert 1\rangle)/\sqrt2$: apply $H$ then $S(\theta)$.
 
 Useful $R_y$ convention:
 $$R_y(\theta)=
@@ -449,7 +496,7 @@ $$R_y(\theta)=
 ### Two-Qubit Gates
 
 CNOT:
-$$\mathrm{CNOT}|c,t\rangle=|c,c\oplus t\rangle.$$
+$$\mathrm{CNOT}\lvert c,t\rangle=\lvert c,c\oplus t\rangle.$$
 
 Matrix in order $00,01,10,11$:
 $$\mathrm{CNOT}=
@@ -461,18 +508,18 @@ $$\mathrm{CNOT}=
 \end{pmatrix}.$$
 
 Operator form:
-$$\mathrm{CNOT}=|0\rangle\langle0|\otimes I+|1\rangle\langle1|\otimes X.$$
+$$\mathrm{CNOT}=\lvert 0\rangle\langle0\rvert \otimes I+\lvert 1\rangle\langle1\rvert \otimes X.$$
 
 Controlled-U:
-$$C(U)=|0\rangle\langle0|\otimes I+|1\rangle\langle1|\otimes U
+$$C(U)=\lvert 0\rangle\langle0\rvert \otimes I+\lvert 1\rangle\langle1\rvert \otimes U
 =\begin{pmatrix}I&0\\0&U\end{pmatrix}.$$
 
 Controlled-Z:
-$$CZ=|0\rangle\langle0|\otimes I+|1\rangle\langle1|\otimes Z
+$$CZ=\lvert 0\rangle\langle0\rvert \otimes I+\lvert 1\rangle\langle1\rvert \otimes Z
 =\mathrm{diag}(1,1,1,-1).$$
 
 Swap:
-$$F|a,b\rangle=|b,a\rangle.$$
+$$F\lvert a,b\rangle=\lvert b,a\rangle.$$
 
 ### Circuit Identities
 
@@ -489,26 +536,24 @@ $$F|a,b\rangle=|b,a\rangle.$$
 
 Proof template for circuit identities:
 
-1. Apply left side to $|00\rangle,|01\rangle,|10\rangle,|11\rangle$.
+1. Apply left side to $\lvert 00\rangle,\lvert 01\rangle,\lvert 10\rangle,\lvert 11\rangle$.
 2. Apply right side to same basis.
 3. Same action on basis means same operator by linearity.
 
 ### Assignment 8 / Problem Bank Controlled-S Gadget
 
-This template appears in the final-review material: two ancilla qubits start in $|00\rangle$, each gets $H$, a controlled branch operation acts on an arbitrary third-qubit state $|\psi\rangle$, then the first two qubits get final $H$ gates and are measured in Z.
+Circuit: two ancilla qubits start in $\lvert 00\rangle$, each gets $H$. The third qubit holds $\lvert\psi\rangle$. The two ancillas jointly control two Toffoli gates (CCX) with target on the third qubit; an $S$ gate sits between them. The first two qubits get final $H$ gates and are measured in Z.
 
 After the first two Hadamards:
-$$\frac12\sum_{a,b\in\{0,1\}}|a,b\rangle|\psi\rangle.$$
+$$\frac12\sum_{a,b\in\{0,1\}}\lvert a,b\rangle\lvert \psi\rangle.$$
 
-Branch operators on the third qubit:
+Each Toffoli applies $X$ to qubit 3 only when $a=b=1$. So the operator on qubit 3 conditioned on $(a,b)$ is $U_{ab}=X^{ab}\,S\,X^{ab}$:
 
-- $U_{00}=S$
-- $U_{01}=S$
-- $U_{10}=S$
+- $U_{00}=U_{01}=U_{10}=S$
 - $U_{11}=XSX=\mathrm{diag}(i,1)$
 
 After the final Hadamards, the unnormalized third-qubit state conditioned on measured outcome $m=(m_1,m_2)$ is
-$$|\phi_m\rangle=\frac14\sum_{a,b}(-1)^{am_1+bm_2}U_{ab}|\psi\rangle.$$
+$$\lvert \phi_m\rangle=\frac14\sum_{a,b}(-1)^{am_1+bm_2}U_{ab}\lvert \psi\rangle.$$
 
 Outcomes:
 
@@ -523,7 +568,7 @@ Check: $5/8+1/8+1/8+1/8=1$.
 
 ### Assignment 6 Measurement Circuit
 
-For the circuit with initial $|00\rangle$, $H$ on the first qubit, controlled-$S$ on the second, then $H$ on the second and SWAP, the state before measurement is $|++\rangle$.
+For the circuit with initial $\lvert 00\rangle$, $H$ on the first qubit, controlled-$S$ on the second, then $H$ on the second and SWAP, the state before measurement is $\lvert ++\rangle$.
 
 Measurement probabilities:
 
@@ -535,41 +580,41 @@ Measurement probabilities:
 
 If a gate is defined by its action on basis states, its matrix columns are those output vectors in the same basis order. In the $00,01,10,11$ basis:
 
-1. Column 1 is $U|00\rangle$.
-2. Column 2 is $U|01\rangle$.
-3. Column 3 is $U|10\rangle$.
-4. Column 4 is $U|11\rangle$.
+1. Column 1 is $U\lvert 00\rangle$.
+2. Column 2 is $U\lvert 01\rangle$.
+3. Column 3 is $U\lvert 10\rangle$.
+4. Column 4 is $U\lvert 11\rangle$.
 
 Use this for custom gates such as the Molmer-Sorensen gate: write each mapped output as a four-entry column, then assemble the columns.
 
 ## 11. Teleportation
 
 Goal: transfer an unknown qubit state
-$$|\psi\rangle=\alpha|0\rangle+\beta|1\rangle$$
+$$\lvert \psi\rangle=\alpha\lvert 0\rangle+\beta\lvert 1\rangle$$
 from Alice to Bob using one shared Bell pair and two classical bits.
 
 Resource:
-$$|\Phi^+\rangle_{AB}=(|00\rangle+|11\rangle)/\sqrt2.$$
+$$\lvert \Phi^+\rangle_{AB}=(\lvert 00\rangle+\lvert 11\rangle)/\sqrt2.$$
 
 Protocol:
 
-1. Alice has unknown qubit $A'$ and her half $A$ of $|\Phi^+\rangle_{AB}$.
+1. Alice has unknown qubit $A'$ and her half $A$ of $\lvert \Phi^+\rangle_{AB}$.
 2. Alice applies CNOT from $A'$ to $A$.
 3. Alice applies $H$ to $A'$.
 4. Alice measures $A'A$ in the Z basis, getting two bits.
 5. Alice sends the two classical bits to Bob.
 6. Bob applies a Pauli correction.
 
-Outcome table:
+Outcome table (Alice outcome $(z, x)$, where $z$ is the H'd qubit's bit):
 
-| Alice outcome | Bob before correction | Bob correction |
+| Alice outcome $(z,x)$ | Bob before correction | Bob correction |
 | --- | --- | --- |
 | 00 | $\lvert\psi\rangle$ | $I$ |
 | 01 | $X\lvert\psi\rangle$ | $X$ |
 | 10 | $Z\lvert\psi\rangle$ | $Z$ |
-| 11 | $XZ\lvert\psi\rangle$ up to phase | apply $X$ then $Z$ |
+| 11 | $XZ\lvert\psi\rangle$ | apply $X$ then $Z$ |
 
-Every Alice outcome has probability $1/4$.
+Every Alice outcome has probability $1/4$. Bob's correction $Z^zX^x$ recovers $\lvert\psi\rangle$ since $Z^zX^x \cdot XZ = I$ when $(z,x)=(1,1)$.
 
 Important:
 
@@ -578,66 +623,66 @@ Important:
 
 ## 12. Superdense Coding
 
-Goal: send two classical bits using one transmitted qubit, assuming Alice and Bob already share $|\Phi^+\rangle$.
+Goal: send two classical bits using one transmitted qubit, assuming Alice and Bob already share $\lvert \Phi^+\rangle$.
 
 Protocol:
 
-1. Alice and Bob share $|\Phi^+\rangle$.
+1. Alice and Bob share $\lvert \Phi^+\rangle$.
 2. Alice encodes two bits using a Pauli on her qubit.
 3. Alice sends her qubit to Bob.
 4. Bob performs a Bell measurement.
 5. Bell outcome reveals Alice's two bits.
 
-Common encoding table:
+Common encoding table (bits $(z, x)$, Alice applies $Z^z X^x$, i.e., $X$ first, then $Z$):
 
-| Bits | Alice operation | State sent to Bell measurement |
+| Bits $(z,x)$ | Alice operation | State sent to Bell measurement |
 | --- | --- | --- |
 | 00 | $I$ | $\lvert\Phi^+\rangle$ |
 | 01 | $X$ | $\lvert\Psi^+\rangle$ |
 | 10 | $Z$ | $\lvert\Phi^-\rangle$ |
-| 11 | $XZ$ | $\lvert\Psi^-\rangle$ up to phase |
+| 11 | $ZX$ | $\lvert\Psi^-\rangle$ |
 
-Reason it works: Bell states are orthonormal, so Bob can distinguish them perfectly.
+Reason it works: Bell states are orthonormal, so Bob can distinguish them perfectly. (If Alice applies $XZ$ instead of $ZX$, the encoded state for $(1,1)$ is $-\lvert\Psi^-\rangle$, indistinguishable from $\lvert\Psi^-\rangle$ under measurement.)
 
 ## 13. Swap Test
 
 Goal: estimate closeness/fidelity of two pure states:
-$$|\langle\psi|\phi\rangle|^2.$$
+$$\left\lvert\langle\psi\rvert \phi\rangle\right\rvert^2.$$
 
 Circuit:
 
-1. Ancilla starts $|0\rangle$.
+1. Ancilla starts $\lvert 0\rangle$.
 2. Apply $H$ to ancilla.
-3. Apply controlled-SWAP to $|\psi\rangle$ and $|\phi\rangle$.
+3. Apply controlled-SWAP to $\lvert \psi\rangle$ and $\lvert \phi\rangle$.
 4. Apply $H$ to ancilla.
 5. Measure ancilla in Z basis.
 
 Probabilities:
 
-$$\Pr[0]=\frac12(1+|\langle\psi|\phi\rangle|^2),$$
-$$\Pr[1]=\frac12(1-|\langle\psi|\phi\rangle|^2).$$
+$$\Pr[0]=\frac12(1+\left\lvert\langle\psi\rvert \phi\rangle\right\rvert^2),$$
+$$\Pr[1]=\frac12(1-\left\lvert\langle\psi\rvert \phi\rangle\right\rvert^2).$$
 
 Estimator:
 
 - Record outcome 0 as $+1$ and outcome 1 as $-1$.
-- Sample average estimates $|\langle\psi|\phi\rangle|^2$.
+- Sample average estimates $\left\lvert\langle\psi\rvert \phi\rangle\right\rvert^2$.
 
-Related POVM for testing equality to known $|\phi\rangle$:
-$$\{|\phi\rangle\langle\phi|,\ I-|\phi\rangle\langle\phi|\}.$$
+Related POVM for testing equality to known $\lvert \phi\rangle$:
+$$\{\lvert \phi\rangle\langle\phi\rvert,\ I-\lvert \phi\rangle\langle\phi\rvert\}.$$
 
-Use Cauchy-Schwarz to show $I-|\phi\rangle\langle\phi|\succeq0$:
-$$\langle v|(I-|\phi\rangle\langle\phi|)|v\rangle
-=\langle v|v\rangle-|\langle v|\phi\rangle|^2\ge0.$$
+Use Cauchy-Schwarz to show $I-\lvert \phi\rangle\langle\phi\rvert \succeq0$:
+$$\langle v\rvert (I-\lvert \phi\rangle\langle\phi\rvert)\lvert v\rangle
+=\langle v\rvert v\rangle-\left\lvert\langle v\rvert \phi\rangle\right\rvert^2\ge0.$$
 
 ## 14. Hadamard Test
 
-Goal: estimate $\langle\psi|U|\psi\rangle$ for unitary $U$.
+Goal: estimate $\langle\psi\rvert U\lvert \psi\rangle$ for unitary $U$.
 
 ### Real Part
 
 Circuit:
 
-1. Ancilla $|0\rangle$.
+1. Ancilla $\lvert 0\rangle$.
 2. Apply $H$ to ancilla.
 3. Apply controlled-$U$.
 4. Apply $H$ to ancilla.
@@ -645,12 +690,12 @@ Circuit:
 
 Probabilities:
 
-$$\Pr[0]=\frac12(1+\mathrm{Re}\langle\psi|U|\psi\rangle),$$
-$$\Pr[1]=\frac12(1-\mathrm{Re}\langle\psi|U|\psi\rangle).$$
+$$\Pr[0]=\frac12(1+\mathrm{Re}\langle\psi\rvert U\lvert \psi\rangle),$$
+$$\Pr[1]=\frac12(1-\mathrm{Re}\langle\psi\rvert U\lvert \psi\rangle).$$
 
 ### Imaginary Part
 
-Use $S^\dagger$ on the ancilla before controlled-$U$:
+Use $S^\dagger$ on the ancilla before controlled-$U$ if you want the same sign convention as the real-part estimator:
 
 1. $H$
 2. $S^\dagger$
@@ -660,8 +705,12 @@ Use $S^\dagger$ on the ancilla before controlled-$U$:
 
 Then:
 
-$$\Pr[0]=\frac12(1+\mathrm{Im}\langle\psi|U|\psi\rangle),$$
-$$\Pr[1]=\frac12(1-\mathrm{Im}\langle\psi|U|\psi\rangle).$$
+$$\Pr[0]=\frac12(1+\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle),$$
+$$\Pr[1]=\frac12(1-\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle).$$
+
+If the circuit uses $S$ instead, the signs flip:
+$$\Pr[0]=\frac12(1-\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle),\quad
+\Pr[1]=\frac12(1+\mathrm{Im}\langle\psi\rvert U\lvert \psi\rangle).$$
 
 Estimator:
 
@@ -678,7 +727,7 @@ $$y_k=\frac1{\sqrt N}\sum_{j=0}^{N-1}e^{2\pi ijk/N}x_j.$$
 ### QFT Definition
 
 For dimension $d$:
-$$Q_d|j\rangle=\frac1{\sqrt d}\sum_{k=0}^{d-1}\omega^{jk}|k\rangle,\quad
+$$Q_d\lvert j\rangle=\frac1{\sqrt d}\sum_{k=0}^{d-1}\omega^{jk}\lvert k\rangle,\quad
 \omega=e^{2\pi i/d}.$$
 
 Matrix entries:
@@ -774,11 +823,11 @@ At $p=3/4$, the output is maximally mixed $I/2$.
 
 Logical encoding:
 
-$$|0_L\rangle=|000\rangle,\quad |1_L\rangle=|111\rangle.$$
+$$\lvert 0_L\rangle=\lvert 000\rangle,\quad \lvert 1_L\rangle=\lvert 111\rangle.$$
 
 Arbitrary logical state:
-$$|\psi_L\rangle=\alpha|0_L\rangle+\beta|1_L\rangle
-=\alpha|000\rangle+\beta|111\rangle.$$
+$$\lvert \psi_L\rangle=\alpha\lvert 0_L\rangle+\beta\lvert 1_L\rangle
+=\alpha\lvert 000\rangle+\beta\lvert 111\rangle.$$
 
 Corrects one bit flip.
 
@@ -811,17 +860,17 @@ The problem bank asks in the order $(p_{12},p_{01})=(\mathrm{parity}(q_1,q_2),\m
 
 1. Compute $U^\dagger U$.
 2. If $U^\dagger U=I$, it is a valid quantum gate.
-3. To find $U|0\rangle$ and $U|1\rangle$, read the first and second columns of $U$.
+3. To find $U\lvert 0\rangle$ and $U\lvert 1\rangle$, read the first and second columns of $U$.
 
 ### Measurement Probabilities For A State Vector
 
-For $|\psi\rangle=\sum_x\alpha_x|x\rangle$ in the measurement basis:
+For $\lvert \psi\rangle=\sum_x\alpha_x\lvert x\rangle$ in the measurement basis:
 
 $$\Pr[x]=|\alpha_x|^2.$$
 
-If measuring in another ONB $\{|e_k\rangle\}$:
+If measuring in another ONB $\{\lvert e_k\rangle\}$:
 
-$$\Pr[k]=|\langle e_k|\psi\rangle|^2.$$
+$$\Pr[k]=\left\lvert\langle e_k\rvert \psi\rangle\right\rvert^2.$$
 
 Post-measurement state is the normalized projected state.
 
@@ -840,7 +889,7 @@ $$\Pr[a,b]=\mathrm{Tr}[(M_a\otimes N_b)\rho_{AB}].$$
 1. Show each $M_x$ is PSD.
 2. Show $\sum_xM_x=I$.
 
-For rank-one positive operators $c|\psi\rangle\langle\psi|$ with $c\ge0$, positivity is automatic.
+For rank-one positive operators $c\lvert \psi\rangle\langle\psi\rvert$ with $c\ge0$, positivity is automatic.
 
 ### Show A Set Is An ONB
 
@@ -873,7 +922,7 @@ With basis order $00,01,10,11$:
 
 Use computational-basis states:
 
-$$|00\rangle,\ |01\rangle,\ |10\rangle,\ |11\rangle.$$
+$$\lvert 00\rangle,\ \lvert 01\rangle,\ \lvert 10\rangle,\ \lvert 11\rangle.$$
 
 If both sides map every basis vector to the same output, the circuits are identical.
 
@@ -892,13 +941,13 @@ Sample mean estimates $\alpha$.
 
 Recent exam covers in the repo provided:
 
-- Pauli matrices $X,Y,Z$.
-- Pauli-X eigenvectors $|\pm\rangle$ on Exams 3 and 5.
-- Bell state vectors on Exam 3.
-- Hadamard $H$.
-- Phase gate $S$.
-- CNOT.
-- Swap on Exam 4.
+- Pauli matrices $X,Y,Z$ on Exams 2-5.
+- Pauli-X eigenvectors $\lvert \pm\rangle$ on Exams 3 and 5.
+- Bell state vectors on Exams 2 and 3.
+- Hadamard $H$ on Exams 4 and 5.
+- Phase gate $S$ on Exams 4 and 5.
+- CNOT on Exams 4 and 5.
+- Swap on Exams 2 and 4.
 
 Even if a formula is given, know how to use it:
 
@@ -923,6 +972,7 @@ Even if a formula is given, know how to use it:
 You should be able to do the following without notes:
 
 - Normalize complex vectors and compute inner products.
+- Use Bayes/total probability, PMF normalization, and Markov-chain path products.
 - Convert between computational, X, and Y bases.
 - Check whether a matrix is Hermitian, PSD, unitary, or a density operator.
 - Use Pauli decomposition and Bloch vectors.
@@ -931,7 +981,7 @@ You should be able to do the following without notes:
 - Take partial traces.
 - Identify pure vs mixed states using $\mathrm{Tr}[\rho^2]$.
 - Determine product vs entangled pure states by factorization, matrix rank, or Schmidt rank.
-- Use Bell-state correlations and Bell-basis measurements.
+- Use Bell-state, Bell-basis, and GHZ-basis measurement facts.
 - Explain and calculate teleportation corrections.
 - Explain and calculate superdense coding encodings.
 - Prove CNOT, CZ, Swap, and Pauli propagation identities.
@@ -940,4 +990,4 @@ You should be able to do the following without notes:
 - Define QFT and recognize its unitary/circuit structure.
 - Explain why Clifford gates alone are not universal and why adding $T$ helps.
 - Apply bit-flip, phase-flip, and depolarizing channels to Bloch vectors.
-- Use the 3-qubit bit-flip code syndrome table.
+- Use operator norms, trace distance, and the 3-qubit bit-flip code syndrome table.
