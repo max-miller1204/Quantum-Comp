@@ -41,8 +41,17 @@ Actions:
 
 ### X Basis And Hadamard
 
-$$|+\rangle=\frac{|0\rangle+|1\rangle}{\sqrt2},\quad
-|-\rangle=\frac{|0\rangle-|1\rangle}{\sqrt2}.$$
+$$
+\lvert+\rangle=\frac{\lvert0\rangle+\lvert1\rangle}{\sqrt2},\quad
+\lvert-\rangle=\frac{\lvert0\rangle-\lvert1\rangle}{\sqrt2}.
+$$
+
+They are Pauli-X eigenvectors:
+
+$$
+X\lvert+\rangle=+\lvert+\rangle,\quad
+X\lvert-\rangle=-\lvert-\rangle.
+$$
 
 $$
 H=\frac1{\sqrt2}\begin{pmatrix}1&1\\1&-1\end{pmatrix}.
