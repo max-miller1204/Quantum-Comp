@@ -1,0 +1,258 @@
+Recaps
+
+
+
+
+ States
+            of live on the surface of thechsphere            they are
+ described by 2 dimensional staterects
+
+
+                                               m aostpiis
+      141
+              5 iapee.gg
+                                   yt              105
+                                                         1      115
+                                                                        i
+  States     Iride the sphere are also possible    they are describedby
+  demity matrices We will see this later
+
+
+
+         Ecce
+                           Complex numbers
+
+
+ in               Iv Earlens     lei         lea                 led
+
+                                              Éalus lus          bulks
+         at a_     g      cut   agent        via     Enki bulk's
+                          I
+lus   am   Its hillians       abakh
+              Fiance      Eian
+              I
+               941
+  Notations     let to         leg     1         led    d1        The standardbasis
+                                                                or computational basis
+  For a qubit          147                 210    pll
+                                           α     a147
+                                                        β 41147
+ Addition of vectors
+
+  Ivi    aulus       Iv27      burns        iv     in          an ba ins
+
+ Inner product of vectors is givenby vilva
+
+
+   in    anius         in        balm            can
+                                                       14gal
+anti iii                              Eian                     aim
+
+
+ The norm of a vector is 1110311
+
+
+         in      ants
+
+
+ We call a vector normalized                if I will 1
+
+   To normalize a vector justdivide by its norm
+
+    Iv        auth          1110711        last         15s    try Irs      If antus
+
+                                                                       EE.FM
+  Lech        v45     truffaut turnÉian                 1h's
+               t.fi           lani
+                           First
+                           1110711
+
+                       p
+               Liv
+Tensorproductofrectors Used to describe the stateofmultiplequbits
+                                                      and entanglement
+ One qubit    2 dimensional vector        147
+                                                f
+  It qubit I has state 14 and qubit 2 hasstate 1427 then
+  the Intstate is given by
+
+                                                                theftpinal
+        F             f f
+      tensor Kroneckerproduct
+
+  Abstract notation    14 a e pill 14 22e β11
+
+
+      1410111
+                                     te         an
+                1a    221070107      α β1070117 β22117010   βBallon
+
+ Reali le       b      117     9          les         lens
+110101             111117               This defines the
+                                                             veraceed
+ 1070107 1070115 1110107 1170 is         is the standard computational
+bad for e             Justall two bit strings
+
+Inabilities Prep      14,2212 Pilot
+                                       kp.lt Pillie part Pratt tp.at
+
+This extends to any dimension
+
+For   d 4ᵗʰ basis is             1h10 ke kieleland 11 katsahida.tl
+Dimension is    did
+
+methandetation              k   this     kith       1k kid
+Tensor product
+                   of three vectors
+mis
+         i      was             ms
+
+ 14,1 147      14                               14,70142701437
+
+
+               111
+                                       019
+
+               Y                                a
+                    4,22                                          4423     000
+                                                                           00
+                                                                   as
+                    pig         1               Pal
+                                                                   1828 010
+                                                                            oi
+                                             pink                ftp.ps3 100
+                                                                  11 2
+ The resulting vector has                    pipe                 pitups    101
+ dimension     8 22.2 23                                          Pipe 3    110
+                                                                                 I
+ Thevector space is e           eat                               Pimps
+  Affcetation             147 467 1,11              1427 2210    Pills 1435 43101 1311
+
+      14       1 7 0147   ate pills             22101 Balls      23101 1311
+
+
+
+                          4221010        2 pale1 Bidallie pipallis            23101 13111
+
+
+
+                       14dmladies 4,4                         dpads1910 dipapslat.tl
+                                                 β 190,1
+                                                           Pipa31.1.01 BBB ill
+                          β229110,0 B2283111011
+Arbitrary number of tenser products
+
+ 14        Cjklk     Giole       Gill
+
+                                     his_Inanimate canthink.in
+           f
+ Generalizes to arbitrary dimension            14      gin lil
+
+           14,7 11               cnn.ca.us i   himthink then
+
+       T
+      Vector in 4404920 04dm
+
+Basis of n qubitspace            4ᵗʰ is labeled by all n bitstrings
+  a         span le
+                          keenly            setofall n bitstrings
+                     To Notations e sent x̅ 124,4 and ait all
+                             E      74,22      kn     4 0174 0     atan
+    Example n 2            1907 10,17 11.07 11117
+
+                 n 3       10,0101 190.17 191,071911 140,02 iididtileshills
+
+  Tensor product and inner product
+
+
+   By definition
+                        Leeton                 vital valued       yd
+                                                                 iifEEico
+   Eemple for basis vectors           coteen        ffi.fi
+     In general for basis vectors        x̅ 157 x̅ 124,24 Kale 0113
+                                                    Y YYy yn 50,1
+          x̅ Y   deny   daydiary dinin
+
+     Probabilities   For a state of n qubits given by
+
+
+      14           Ge 7          Normalization condition is            set 1
+             syn                                                  up
+
+       Probabilities are    Pr ic    get      147
+
+
+
+
+of ii i
+ sphere
+                           ItIa             amine state inside the non
+          i.e mixedstates and the gates we can apply to qubitson a
+ quantum computer
+We also call matriles Leoperatostranformation
+
+
+Latrines                                   a b 4 dec
+                     m
+                         9
+
+ Multiplying a matrix with a vector            Iv
+                                                       Y
+  min
+              till            l
+ Matrices act linearly as follows           M α vis p.lv 2Mlvi pMlvi
+
+
+
+
+ Matrix multiplication    Mi
+                                       9               9
+
+ mimic          lt            tl                            al
+ Abstract notation from vector extendsto matrices
+
+
+
+     1               1             4               4             1
+   Beall 10              11                  101    1 01 411       01
+                     f             9
+
+   observer   ok                                       in    b e        p
+                     114g
+           11401                           11411
+                    9 1101     98                  9 10 11   89
+ then
+              Metacritic                   g       m   if tiny
+ This makes multiplication easier      Noneed to remember matrix
+ multiplication rules
+
+  Mlr      aleko blokil alike d 1 a vile relis
+
+
+        ask.taraleytbulokoiice
+           es'tcrallwt drinkin lt
+          avi bra 10     crit drz 11
+
+
+               Fiat               before
+
+
+
+Afrarydmatics
+                         hymies     h j.mg ikil
+
+        i omfstikil le M
+                                     mishki.by mae
+         entry in theithrowandjthcolumn complexnumber
+
+
+
+MFE.im
+           likilMF
+ImiYliki MiMz
+          i.mil hiki    i lista
+                         mi
+
+
+     t.fi i.mki.mkilikifin ii l imid.mil axial
+

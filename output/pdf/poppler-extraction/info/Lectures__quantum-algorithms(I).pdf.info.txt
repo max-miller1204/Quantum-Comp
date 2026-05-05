@@ -1,0 +1,17 @@
+Creator:         Mozilla Firefox 149.0
+Producer:        cairo 1.18.0 (https://cairographics.org)
+CreationDate:    Thu Apr  9 12:37:35 2026 EDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           5
+Encrypted:       no
+Page size:       612 x 804 pts
+Page rot:        0
+File size:       1924116 bytes
+Optimized:       no
+PDF version:     1.7

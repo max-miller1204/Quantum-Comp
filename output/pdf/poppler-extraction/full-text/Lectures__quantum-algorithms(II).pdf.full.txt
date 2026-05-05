@@ -1,0 +1,337 @@
+# Lectures/quantum-algorithms(II).pdf
+
+Pages: 7
+Embedded text lines: 0
+Tesseract OCR lines: 325
+
+## Poppler embedded text (`pdftotext -layout`)
+
+[No embedded text extracted by Poppler.]
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Lectures/quantum-algorithms(II).pdf ---
+g ~~
+a Pe ,
+> \ =
+. ne sk =
+= It — ’
+3 iV} “ts < >~ f= N=
+aad —_— — = ’
+=~ = v rr “ slid rr =
+@ ‘ \ x ~ ~~
+Le! s)) \ “> = ~~ “o
+3 |< = i" ny) h ~ inure ay
+= fS => a Pa we “~~ — Th ts \
+‘* s = >< a) co\ _-- “~~
+2% wo Ss —_ - yy
+3 Sus 2 —_ —\¢ i) \
+s no —_ 1° > ) csied —~
+ol} a R -—|=—
+S) ed —o 7
+re =~ =~ 2
+Sz el ee = \ \\ ~*~
+> t : = vw s) ) )
+% t 5 Ss ) A >< r
+my aa = oN
+{
+Gq ~
+3 ~ )
++ or 23 5 } cr
+SIL =| =|
+he , )
+x My <= = ( se (>~ W))
+= 5 rs \
+= Ss = } Y
+3 SG ~ s
+~—
+S = a = - 2
+2 4 F & =}
+= =
+A =
+> D7A > RB = - -<
+=} xe as 5 =]
+. ZR EF Fk + sje i 3 s
+3 cd = a
+— ar
+
+--- OCR page 2: Lectures/quantum-algorithms(II).pdf ---
+e v2
+= =
+° A ae
+n Fe AY
+n~ = > s aw~ -- pra) = =&
+Se my = 2 = ~r ‘eo => 32.
+i) \\ ~ " ~
+pam Gi) aa << J Ss SDR
+= 5-8 Woy ’ = KK 7
+a - “~~ => —, = ‘3 & ~~ S I~ = -‘~
+~ac = rm A < s< = fe. 2He sa
+. ~y, oo. ay ~~ =“ > , ad S° _ _—
+“| ' w = = z= 2 — (ee
+> \ at CS i T
+u " x mR =<
+S_ so > - 2 = % 4 = se =
+—> ~> DA BAX 2D \_ i= ony
+nD oo so <s —
+~ = peu —
+c \ Iwers In \
+=! , 3 23\
+-_-s = — > *
+i s a, — *
+=o
+1 ~~ — S - & 9s|— o = a
+= \ ‘ 3
+\ — cy
++2 FOF alo — ~ =
+. ee -|o 0 2 a
+. ze — = =
+\
+~< 2 Sa my a
+<P 2 rs S Bea an = wf J
+a 7 hed ia = " | rm]
+sp —_ > Qo Ss |
+J 3 = =z cS | >
+Qu Ke ~ = |
+7s) — — |
+
+--- OCR page 3: Lectures/quantum-algorithms(II).pdf ---
+Bell
+Measurement
+
+IW)e
+
+lice and Bob art no Spoti lly Separated, thea the o
+wr follows
+a) we
+Ul Ja
+ry > —
+WA 1H} >. q
+10) 6 X t )
+am 8 ‘B
+4 ame
+9) +11) q
+. V (NOT
+J I ] \
+0), lop 2 [tp lodg = 15 [L0)p lo7y +1'2Q lode } 7 V2 g)=
+i |
+IV hi! 1024 Lop -—> [Flay @ [Bag = Ya (1% he Loy lerg +
+val lf) = alo
+4 /
+
+7
+an
+—~
+—~
+ES
+>
+.
+—
+=
+D>
+=
+a
+~
+we
+—
+
+M—
+
+--- OCR page 4: Lectures/quantum-algorithms(II).pdf ---
+y /
+[— of t lI )g! 1970 Log
+A + | A [i lg
+4 Ig gl dg
+\
++ pu lo)y Ig )
+|
+( ONT,
+
+1 1Dalodg N= -[0
+
+| Dal lod Ig Eo) = Jo)
+
+she
+
+it
+
+ri—
+
+~
+
+=» [#)
+
+rim
+
+[gt log + ltl? IY),
+
+i\y
+
+--- OCR page 5: Lectures/quantum-algorithms(II).pdf ---
+mole: Si p rdenat, coding: using Cat An glemeat + 1 gubi 1 tranmit }
+Create ih
++> Encoding bits 2x
+into ihe gubit.
+Alice +
+reneasotons [D*)ag Qrenttctenscscsccscscsccscscdvarcscsrcscscsscscscascecs
+(x, 2)
+e
+Bell
+Measurement
+6 ¢ test
+How ol) we eStimate the inner product ¢ 0 (uaknowa] Stakes of a guantum .
+computer
+eo € Ww) }—> If) a) |) 7 10) lop
+) “EI 112 EIN IO)
+7 Dl LWYS
+ng IDE MD
+Ord
+At oT of } 9 o O\
+oi) O O| |) oO
+o| 0d | oO |
+if 0 @ 0 J]
+Ciccuit far He SWAP te
+— =v
+9 fg ee
+
+WAP
+
+--- OCR page 6: Lectures/quantum-algorithms(II).pdf ---
+H
+[fined = 102147147 ES (o>1¥7 149 + DYea72))
+ef
+Ht0? = & (10) ¢ iy) fa A [te ispl4) + 1714919?)
+& &lie 4)? +l-rl¢91¥2) 14) =A [wy £0).
+
+$10Xe, ny}. (tena) = lope liye) + r0ra)| +i (i¥9I#) -l¢v19))
+= t]0> (irri) +142iep) +d Lp[ttyiee -16904))
+
+Now measure —what if the probability of geting er: * (Recall partiod measurements )
+
+Mel lieeaea tll «rte
+
+Iv>
++ rel (tonsyeiepir9) (eridel ecaieri) | t¢[ xt] = dete
+£ [videl cacel) (Iv9i4)¢1b77)
+od, | Lanai GANA) + INGA + MALIN |
+
+LAH ua
+=| =l
+
+ail@lor
+
+<— \
+
+at
+
+(
+
+elrl=t [1+ lonP }
+mly= tlie kag? |
+
+@ The probabilitit§ Contain the inner product |
+Go how do we extract the Value df the ianer prodac*
+We tun the alqecithan many times |
+
++ Each time we ia vicome'0''—9 recork x= 1 | 2B this defines a random
+* Eaun time we Get outcome "l"—9 rook 4) = 1 Variable X
+
+«Do this N times, thea take the Samale
+
+P(x=el) = 4 [12 )¢a147).
+mean / Average: % be
+
+--- OCR page 7: Lectures/quantum-algorithms(II).pdf ---
+=z
+
+t- A N
+ib detings a random variable Yy=WLXi- Xy if an unbia f ator of X:
+Ve
+[Nw B 4
+ELXul= wZ ALY} = w2 Ely) = lx],
+. 1 oot
+“Ely Vizb all Stn t E vl -$y
+Nolependent And ideatica re
+rn 5 4 ian Py A
+XJ= CH) ir keel) + (el) PeiXe 1 = 0 Ub [oe] J- 2 [l- [alo] ) = 14 e)]
+
++B Noo
+
+><>
+2s
+{
+Vv
+wz
+-
+~<
+—)
+t |
+=
+te
+TT
+=
+
+inn
+
+tl
+
+(50 the Samale reeage approactes He t
+
+[89]: | import numpy as np
+import matplotlib.pyplot as plt
+
+inner_product=0.8
+
+# Parameters
+
+p = (1/2)*(1-inner_product)
+n_samples = 20000
+
+# probability of original "1"
+
+# Step 1: sample Bernoulli (0 or 1)
+samples = np.random.binomial(1, p, size=n_samples)
+
+# Step 2: map to +1 / -1
+mapped = 1-2 * samples #0 ->1, 1 -> -1
+
+# Step 3: running average
+running avg = np.cumsum(mapped) / np.arange(1, n_samples + 1)
+
+# True mean of the new variable
+true_mean = 1 - 2*p
+
+# Plot
+
+plt.figure()
+
+plt.plot(running avg)#, label="Running average")
+plt.axhline(true_mean, linestyle='--', label="True inner product")
+
+plt.xlabel("Number of samples")
+plt.ylabel("Sample average")
+
+plt.title("Inner product estimation (swap test)")
+plt.legend()
+
+plt.show()
+
+Inner product estimation (swap test)
+
+1.00 --- True inner product
+0.95
+0.90
+0.85
+0.80 + ‘an -
+0.75
+
+0.70
+
+Sample average
+
+0.65
+
+0.60
+
+°O 2500 5000 7500 10000 12500 15000 17500 20000
+Number of samples

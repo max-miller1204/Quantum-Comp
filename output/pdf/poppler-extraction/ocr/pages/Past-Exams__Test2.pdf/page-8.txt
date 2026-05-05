@@ -1,0 +1,18 @@
+“(OTA
+
+8. Consider the following two-qubit density operator pap of Alice and Bob:
+
+Pap = (1 p)\@t bt] yp + F(\O XP Lan + [PTW Lae + [EXE Lap),
+
+where p € (0,1). Suppose Alice and Bob both measure their qubits with respect to the | auli-z basis: i
+
+7 1?
+POVM is {|0X0\,|1)1\}. What is the probability that they obtain the same measurement outcome:
+
+r4N \ An. { } an
+i if) owe Ble Vy<t L PM [ag JEN
+A een | y)
+Cig reece eee bee
+=6 {4 ]
+ea
+

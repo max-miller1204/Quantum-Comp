@@ -1,0 +1,158 @@
+    Betheer
+a What is a qubit
+
+
+
+
+    The state of a qubit is given by a demity matrixtoperator
+
+     111     plHermitian      conjugatetranspose
+
+      2 pso positive semi definite         non negative eigenvalues
+
+
+             III     sum of thediagonalelements
+     131
+
+
+    Points on the surface
+                            of the Blochsphere are givenby statevectors
+    they are called purestates      p 14141
+                                               1444251
+    Points inside the Blochsphere are mixedstates
+
+
+           PE.at            silent Een t
+                    tf
+     Legates are usedto describe operations computations on qubits
+    They are defined by unitymatrices UEL d         utu nut 1
+b Howto extract information from a qubit Matements
+                                                             pour
+    A Mehmet aka positive operator valuedmeasure is defined by
+    a set of operators Malax some finite setX suchthat
+
+      11 May Fat X         Mael d       did matrix for arbitrary dimension d
+     121    Mx 1
+
+    Forany state
+                   p the outcome probabilities are givenby
+        Pr x Tr Map         KEX
+
+    Examples of measurements
+
+     111 Pauli z computational basis       rhinitis If
+      21 Pauli X      4141 1 413 117        1071111   XII     III
+
+      31Any basis for any unitary U          unexout unknut
+
+           Check     alokolut    unclat a                   at out ar
+                                             111th
+G Entanglement Oneofthe key distinguishing characteristicsof quantumvs classical
+    A state vector 147ms is entangled if it cannot be written
+
+   Every state vector 141am has a Setdecomposition                  affffled
+    111147
+         AB      Salent    Ifn
+                                                      It       101102 11311
+
+     2 Sn Schmidt coefficients      Suso
+
+        tentali and       lfulli are orthonormal vectors
+                                  lenient dan
+                                                  1 if k k
+        r Schmidt rank
+
+  137147A is entangled
+                         if andonly ifs
+  Entanglement of mixed states is more complicated
+
+  A mixed state density operator pay is entangled it cannot be written as
+
+  PAB                        this is separabten
+        fexkfI.la 1                                                 partiatrampose
+
+
+   It A    B are qubits then pad is separable if andonly if paplo
+
+
+
+Lateen
+A method to transfer the state of a qubit from Alice to Bob using
+entanglement and classical communication only
+
+
+Given i statevectorthat Alice wants to sendto Bob
+        1 SharedentangledState b w AliceandBob
+
+Goal Transfer thestate of qubit A to Bob's qubit
+
+
+
+                                             Ei
+
+
+                                                     If 2 0 donothing
+                                                                   Z
+                                                         It 1 apply
+                                           it thing
+                                               l apply
+                                          It x
+ 12 CNOTAA       α10,0d AAB 210,1 1 aAB
+                                   β        aim
+                    ftp.haa
+
+                 α10,007am 210,1 1alar
+                  tp111,07am β11,01A'AB
+
+  3 Hadamardon A           al olaatxieii.ba
+       it           Hlolt              an     β 9.17am
+H111   17
+                      y
+
+                          α dd am     Hit halal
+                             pt 1,07am Bt0,17AAB
+
+
+  4 Measure A'A in the Z basis computational basis                102,117   basis
+
+
+            Imm           00 01 10 11             2x
+
+
+              x t dd an    dltilillalastplil.nland Bt0,17am
+               α 1107 177a 10.0 Ap        2       1074117        1 1 AB
+                                                            at
+                    1103 117                        101 117
+                β              a 11,0As       β               a
+                                                                  10,17am
+
+
+
+   14and      Data 2107 pli B             Lalat α 1 plo B
+                    a'at210 pls                   ant 11 plot
+      Lary          Paid t          State 147 forBob
+                   Pr 0 1       state 14 for Bob
+                   Pr1,0        State 2147forBob
+                   Pr1,11       state xZMforBob
+
+
+151Afterthe measurement Alice communicates the outcomes toBob
+
+6 Depending on the outcome Bobapplies a correction
+
+       I     No correction
+
+    0.1     Apply Pauli x    x x147         447 147
+
+    10     Apply Pauli t     212147           11
+                                        f
+    1.1    Apply Pauli X thenPauli z
+
+  Then Bob recovers Alice's State
+
+
+Teleportation is not instantaneous faster than light          it only works if Bob
+ gets Alice's measurement outtomes          this takes time
+
+The teleported state can also be a mixedstate
+

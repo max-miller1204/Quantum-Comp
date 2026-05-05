@@ -1,0 +1,29 @@
+CS 4134 — Quantum Computation and Information Processing
+
+Assignment 7
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Name:
+
+Date: Thursday, April 9, 2026 (in class)
+Due: End of class!
+Number of problems: 3
+
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer, but
+having a complete solution. You may work in collaboration with others and ask the instructor for help. Use of AT
+tools is not prohibited, but remember that the assignments are preparation for the exam — so if you use AI, use it
+wisely! Use it to learn.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and mistake,
+you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted problems result in a
+10-point deduction. You must submit the assignment with at least one problem attempted in order to get a grade.
+Blank submissions will receive a grade of zero.
+
+For the grader only
+
+Problem 1 2 3 Final Score
+
+Score
+

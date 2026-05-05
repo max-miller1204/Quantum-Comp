@@ -1,0 +1,6 @@
+2. Consider a probability distribution with two outcomes, 0 and 1, and the probabilities defined as follows:
+1 1
+Pr(0] = 3 +a), Pr{l] = g(t —a).
+
+Suppose that the value of a is unknown. Describe a procedure, based on repeatedly sampling from this probability
+distribution, that can be used to estimate the value of a.

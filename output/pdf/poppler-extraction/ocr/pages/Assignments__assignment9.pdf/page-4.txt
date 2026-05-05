@@ -1,0 +1,7 @@
+3. (a) Prove that the Pauli operators X, Y, Z anti-ccommute: XY = -YX, XZ =—-ZX,YZ=-—ZY.
+(b) Prove that the Pauli operators are orthogonal: Tr[XY] = Tr[X Z] = Tr[Y Z] = 0.
+(c) Consider an arbitrary operator M € L(C?) decomposed in terms of the Pauli operators as M = $(col +
+eX + @Y +c¢3Z). Verify that co = Tr[M], cy = Tr[XM], co = Tr[Y M], and cs = Tr[ZM].
+
+(d) If we represent M as a 2 x 2 matrix, M = (” ‘), then show that Tr[X.M] = q+ 1, Tr[YM] = i(q—1r), and
+Tr[ZM|=p-s.

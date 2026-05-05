@@ -1,0 +1,34 @@
+elu) = (+: AL yet) + Ci)-Plxe-1]=t [te @)- F(a} <a.
+
++B Now, Yoke d [ law 4 large nies?)
+
+@5o the sample arte approach He true lunkntwa) value Wd!
+
+Q) Motivation : Expectation values
+
++ Why do we corte about quantities Yi the fom vlulyy?
+
+Bjc they can be used 1 compute expectation values of Observanler.
+
+Observable : Any Hermitian operatr [ recat: M Hermitian e mtem)
+
+@ Fact from lineac alae bra: Extry Hermitian operatir Can be diagonalized,
+
+d im
+M=S ). IviXvil where : A; : cigeavaluca (real number). Pe (o-)
+
+4 Yil=4 vss orthonormal eigenvecten. = (oxol — (Xi!
+iil =
+WI
+
+ka
+
+® Axio wnAntum Mechanics every physical quantity Copeeaponds 1
+a Hermitian operate (es, position, momentum , entry.)
+The eigenvalua are the pumible value the quantity
+We get the value i the guaatity through medaurement.
+
+Foc an obgervable [Hermitian operat M, the Corresponding meadurtareat
+is given hy the eigenvector Uf bavvil] if the Pove.)
+
++ For a State p; the probability that it hod Volue dj if

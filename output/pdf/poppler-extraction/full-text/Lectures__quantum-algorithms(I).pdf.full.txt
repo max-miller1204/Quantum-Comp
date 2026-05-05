@@ -1,0 +1,233 @@
+# Lectures/quantum-algorithms(I).pdf
+
+Pages: 5
+Embedded text lines: 0
+Tesseract OCR lines: 221
+
+## Poppler embedded text (`pdftotext -layout`)
+
+[No embedded text extracted by Poppler.]
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Lectures/quantum-algorithms(I).pdf ---
+0) Reco : Swap _tett
+
+* Gong: given two pure Sates given by 1¥> and 142, find out how close they art.
+
+DIP H fe(o]=2 (i+ eles?)
+i
+
+#? rT «\}—— oe Pli]=t/ te 1d
+
+| slap Paul-2 [= a(t eve!)
+
+mM
+Meret 18
+DER AOYT El? 2 |o)[o) +> o)I0)
+HII? = (to) 1:9} =1-9 lopnyes [r)12) > This means thet cwee[]12I6))= 19
+hylores oh)
+
+[Dyes [Yhy
+
++The guantity [ier quantifier the closeness of 14) and I4? — it is
+called the fidelity qf If) and 142.
+
+[Made , Maro, Zr =H
+(x) Obseeve that f19Xél, 2 HX¢I} if a meadurtment (rev).
+
+Check + Wl¢eXeluy = [dul49]? 2 0 /
+
+Alro, from the Cauchy -Schware inequality: [evle2] & Quiva - Sal4p
+=|
+
+= Ay = Wi
+Therefore, v1 (a~ l4xXel Jl) = Cle) - Lealas 204
+
+lw)
+Finally, Xe + 2 -19X4) = 1
+
+St 1 1X, 2 1#¥¢(| Sotiffies the definition f a quantun
+meadurement (POV).
+
+--- OCR page 2: Lectures/quantum-algorithms(I).pdf ---
+(a) 5 lexe1, a- lave) it a meanurement that fell wo whetner or nok a
+givin State if equal te [+Xél.
+
+It has two outcomes (ble the set has two aperajort).
+HX = “yes, the State is Xe]
+
+Q-l¢X6l = “no, the State if not exe!
+Born Rule: fr} Pow
+
+lx) For 0 given Stode é, p[¢) 2 Tr[l4Xélp) Stafe p> Ptx)= Telex).
+Pr{ not +) = wl (1 -14x4)} 9]. =T(p) Lexy) = [- ple).
+
+Of eel itself, then Pr[t) = TH{lexel¢yel ) = T[l4Xel] = dled = 1,
+=|
+Prlaot 4) = I~ Prl4) <0
+Tf p= lYXHl, then Bele) = Tel lao yyol) = [Xél9)]* > fidelity!
+(+) So the Swap tett allow ws fr do the measurement flsxel 14X41]
+
+and, ettimate the fidelity — without ewn kndwing whot |¢) if!
+
+Q Statiicol Estimation from a Quantum Computer.
+
+When We fun a quantum algeritho and dg the measurement at the end,
+the outcome will generally be probabilistic.
+
+*To extract the relevant information, We have to fun the algorithin many
+times.
+
+--- OCR page 3: Lectures/quantum-algorithms(I).pdf ---
+= >
+= _—
+e &
+~~} +n =)
+=~ — Ss
+Se -S “ec -= —.
+
+> 3 Co = Vv
+= 5 S| iin ‘ =
+ACE | 3 z
+
+<3 s Ss -
+
+y = [=a > Aka! = u S
+
+s
+x“ Q <r) i S$ Ss = Fy
+rs) ; s
+
+— = = D = < ea
+
+x >= a \ < —
+
++ ; = 4 - . Ss ares a 3
+aa = ih - 1 § 3
+sa is re} o we oor z =
+
+. y t Gg om
+so 4 = g  * « . =| + §
+J — 2 a
++ 5 Ss § z 3 x - = ‘ z 2
+Zz = os =) Ny > Ss r <=
+~ > ( & + a - = ~s = 3
+(a 2 " cat ,
+
+= YY — = aay = ; ERY : =< H = L =
+
+= 2 2 coc yw Ss ex <
+
+Ss _ ~s = T 3 ~ ~ — |e — =
+
+= za Ss =z 2 = aN 3 >< s = =
+
+< = s x ls . = = + = ab
+~ r=} - a er \ Ss WAN v P= ss a =
+\€ 3 Ff ) = = § ‘
+- — ~ by S > ~—/= i = ¢
+- ry = _ <a S \) s ¢ ¢ =
+= 2 ‘- asyg. =. Zz *
+Ss Ss a ny w“ J &
+= oS : —! pad >e ) w > 4
+Ss ‘i = —- 2: = 3 Sy) ne =
+‘= - > ce NT : L
+“< z vz = are >
+nal Ya =F € &- = ss
+= 2 aa = -i¢ ( A bp 1
+= 2 3 ; .
+= 2 § wo Ss é = . >< =z “>
+
+5 = Pret fe le ew er -  @
+
+ss =
+
+--- OCR page 4: Lectures/quantum-algorithms(I).pdf ---
+6) Hadamard, Test : Estimactiny Calul¥), whet UW if a Unitary dnt IT) iS OO State
+Vecfor.
+
+0) —[4}- aya
+es Wat yet [2)= & (10210)
+
+——
+
+Yt elo) 9) > Wired Lorry « wiy) At (bow) + oun)
+rt [laypyel-yulrr) =a ( lord Lede utr) + [vd (19-0099) =I).
+
+Polo} = Tel [1oX0l 0 2) Mas Xna t (insur) "= r (coe wu)
+e+ [ (exj+qnut) (i+ uin))
+] t ane |» t+2=2x
+=f [dane (ru) + utis enyduin) — Eexeyi OO
+
+= CFIMIF) et “v=
+= [1+ Le (luin)) = lp
+“ ~> Then Some procedure QA above to estimate «|
+peli)= 2 [1~f6 teloaam)} Prlol=4 (i+), Prfil=+(I-e).
+
+& For the ing nary fiat —? include He S gale ;
+
+GH} ae aaa)
+0)=\o7
+a in Kec
+
+choy sth)
+Lo)i79 by [91M <a [lod [4+ 191¥9) 4 4 (TIF yy)
+
+bs A (109 1r9—inigulr)) tsar ( ety —it-yuln?)
+
+sauGuas peau
+
+--- OCR page 5: Lectures/quantum-algorithms(I).pdf ---
+=
+ly
+s —
+sl >
++ nm
+an a
+Ns “~~ n <<
+u 7 peal x
+SS mi E
+LS Sz ) =s 4
+3 ‘= ears
+< Es x eo
+— -
+Kal = NM i a a4
+x oT re
+Pan Iv bad =
+= \ l ‘ sec
+= — >) z is
+— _ —\— _
+nw — = Sy “3s ~~
+= = = =! =
+— . = “N- iw) +
++ — 2.
+. . |
+S Kal — 1" wy a4
+’ Ss = _ = s
+Ss fs BR = = & ve
+~ v= =! <i + Ss Ly
+om ) + ~~ ~ ~ <= a
+rd —
+~ EF Ey ¢ = =j)s *
+= ay _— ~ SIZ ~~ =
+= Pal a te ! ~~ |
+—
+— + + <= —
++ s~ ) 4 * 7 <a ~ ca a
+z £8 = \f© SIS 6 =
+~— a ww i= Re y =~ ~
+= — ‘~ FR ~~, 3s
+hd ~w . = =
+at “=
+ta ‘ ) 1 mud
+N- _— — +~
+—_— — a
+ain v [ 5
+a syst ' )
+i n \\ i" =
+To! aA
+\
+= bu
+a =
+a

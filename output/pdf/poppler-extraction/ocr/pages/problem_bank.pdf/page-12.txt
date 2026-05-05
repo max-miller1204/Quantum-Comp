@@ -1,0 +1,61 @@
+10.
+11.
+
+12.
+
+13.
+
+Consider the following state vectors. Determine the probabilities for obtaining the outcomes “0”
+and “1”.
+
+(a) |v) = (§ + 3) 10) + (5 + 2) 1)
+(b) |) = (5 + 2) [O) + (G5 + 3) I)
+(c) 1) = (a5 + 75) 10) + (3 + 95) ID)
+(@) 18) = (H+ BIO + (+B)
+Two qubits are in the state given by the vector
+: : im /100
+0.0) + 2, 4 1,0) + Ein). (54)
+
+If we measure the qubits in the two-qubit Z-basis {|0,0),|0,1),|1,0),|1,1)}, what are the possible
+measurement outcomes and their associated probabilities?
+
+Determine whether or not the following density matrices represent pure states. Then, write each
+density matrix with respect to the Pauli basis, i-e., determine the coefficients rx,ry,rz € R such
+that p= $(l+rxX +ryY +1rzZ).
+
+5 342i
+(a) p= 13 13
+P= \ 3-93 8
+13 13
+
+109 112 4 2
+(b) p= 225 225 1 45
+P\i a 6
+225 45 225
+377 242248241
+(c) p= 1125 O25
+P= \ 2499-g04i 748
+5625 1125
+4 142—44i
+(d) p= 325 TI25
+p 1424.44i 221
+T125 225
+
+Prove that every Hermitian operator has real eigenvalues.
+
+Prove that a linear operator M € L(C?), decomposed as M = 5(col +c,X + cY +c3Z) in the
+Pauli basis, is Hermitian if and only if the coefficients co, c1, c2, c3 are all real-valued.
+
+Let M € L(C%) be an arbitrary linear operator. Prove that M can be decomposed as follows:
+M=H,+ ilo, (55)
+
+where : :
+H,= (M+ M"), Hy = 3M - M!). (56)
+1
+
+Verify that Hy, and H2 are Hermitian.
+
+Let U € L(C%) be a unitary operator, and let |v1),|v2) € C4 be arbitrary vectors. Prove that
+(Uv |Uv2) = (v1 |v2).
+
+12

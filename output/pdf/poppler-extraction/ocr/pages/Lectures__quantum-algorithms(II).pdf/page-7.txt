@@ -1,0 +1,94 @@
+=z
+
+t- A N
+ib detings a random variable Yy=WLXi- Xy if an unbia f ator of X:
+Ve
+[Nw B 4
+ELXul= wZ ALY} = w2 Ely) = lx],
+. 1 oot
+“Ely Vizb all Stn t E vl -$y
+Nolependent And ideatica re
+rn 5 4 ian Py A
+XJ= CH) ir keel) + (el) PeiXe 1 = 0 Ub [oe] J- 2 [l- [alo] ) = 14 e)]
+
++B Noo
+
+><>
+2s
+{
+Vv
+wz
+-
+~<
+—)
+t |
+=
+te
+TT
+=
+
+inn
+
+tl
+
+(50 the Samale reeage approactes He t
+
+[89]: | import numpy as np
+import matplotlib.pyplot as plt
+
+inner_product=0.8
+
+# Parameters
+
+p = (1/2)*(1-inner_product)
+n_samples = 20000
+
+# probability of original "1"
+
+# Step 1: sample Bernoulli (0 or 1)
+samples = np.random.binomial(1, p, size=n_samples)
+
+# Step 2: map to +1 / -1
+mapped = 1-2 * samples #0 ->1, 1 -> -1
+
+# Step 3: running average
+running avg = np.cumsum(mapped) / np.arange(1, n_samples + 1)
+
+# True mean of the new variable
+true_mean = 1 - 2*p
+
+# Plot
+
+plt.figure()
+
+plt.plot(running avg)#, label="Running average")
+plt.axhline(true_mean, linestyle='--', label="True inner product")
+
+plt.xlabel("Number of samples")
+plt.ylabel("Sample average")
+
+plt.title("Inner product estimation (swap test)")
+plt.legend()
+
+plt.show()
+
+Inner product estimation (swap test)
+
+1.00 --- True inner product
+0.95
+0.90
+0.85
+0.80 + ‘an -
+0.75
+
+0.70
+
+Sample average
+
+0.65
+
+0.60
+
+°O 2500 5000 7500 10000 12500 15000 17500 20000
+Number of samples
+

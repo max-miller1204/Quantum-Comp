@@ -1,0 +1,60 @@
+18.
+
+19.
+20.
+
+21.
+
+(b) Let
+|0;) = S~2|yy) (25)
+for all j € {0,1,...,d—1}. Prove that {165 }=5 is an orthonormal basis for C%. Also, prove
+that (di|~;)
+
+= (i|G2|7) for all i,j € {0,1,...,d—1}, where G:= TIT and T = esr baal:
+
+(c) Let us now show that the vectors defined in (25) are optimal with respect to the Euclidean
+norm, in the following sense:
+
+d-1
+inf Dll) — |i) |13 = 185) = Qld), (ily) = 41,5 VI € {0,1...,d- 1} (26)
+j=
+
+d-1 1
+= Elles) — $2 ley), (27)
+j=0
+
+where the optimization in (26) is with respect to every invertible linear operator Q.
+
+i. Prove that solving the optimization problem given by (26) can be reduced to solving
+the optimization problem given by
+
+sup {TH{(Q + Q'S]: QSQt = 1a}. (28)
+Q
+
+ii. Prove that the constraint QSQ* = 1g in (28) implies that Q = US™2, where U isa
+unitary operator. (Hint: Consider a polar decomposition of Q.)
+Hence, show that the optimization problem given by (28) is equivalent to
+
+1
+sup Re (mUs?]), (29)
+U
+where the optimization is with respect to unitary operators U acting on C?.
+iii. Prove that the solution to the optimization problem given by (29) is U = 14, implying
+that the optimal Q in (26) is indeed Soa,
+
+Prove that the trace norm can be calculated as ||M||1 = Tr[VMtM]. (Hint: Start by writing
+M in terms of its singular-value decomposition. Then recall how we define the square root of
+Hermitian operators.)
+
+Prove that ||P||1 = Tr[P] for every (Hermitian) positive semi-definite operator P.
+
+* Let |u), |v) € C4, with d€ {2,3,...}, be arbitrary vectors (not necessarily unit /state vectors).
+Prove that
+
+[lu] — JoXv|[lt = (ule) + (vle))? ~ 4|(ulo)/?. (30)
+Let |b) € C7 be a state vector, with d € {2,3,...}. Prove that
+Ly, la 1
+= |\juyy| — <2) =1--. 31
+5 |e = 3 (31)
+
+In other words, every pure state is the same trace distance away from the maximally-mixed state.

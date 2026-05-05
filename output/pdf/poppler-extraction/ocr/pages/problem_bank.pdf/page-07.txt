@@ -1,0 +1,23 @@
+22.
+
+23.
+
+24.
+
+Let p be a density operator in dimension d € {2,3,...}. Prove that
+1 r
+
+“35
+
+1 k=1
+
+where r € {1,2,...,d} is the rank of p and {A,};_, is the set of non-zero eigenvalues of p. If
+Ax > 4 for all k € {1,2,...,r}, then conclude that 4||p — 44|],; =1—- 5.
+
+1 lg
+1|_ da
+2 ||P a
+
+Prove that ||M||oo = VAmax(MTM), where \max(MtM) denotes the largest eigenvalue of Mi M.
+
+Prove that ||U||.o = 1 for every unitary operator U.

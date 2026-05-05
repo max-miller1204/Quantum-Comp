@@ -1,0 +1,71 @@
+Quantum circuits
+
+1. Let a, 8 € C. Prove that:
+(a) XZXZ(a0) + [1)) = —(al0) + Bl).
+(b) ZXZX(al0) + B[1)) = —(al0) + B|1)).
+
+B
+
+2. Let |y) = a|0) + B|1), with a, 8 € C and Ja|? +8)? =1. Let H= 4 (; _
+
+l ') be the Hadamard
+
+gate. Calculate the following vectors.
+
+(a) Aly).
+
+(b) HI-) = 1).
+
+(c) H|—i) =e |+)).
+
+(d) Let T = (; J) be the T gate. Calculate HTHTH|0).
+
+3. Draw the state vector HYTHX|0) as a quantum circuit.
+
+4. Consider an operator U that performs the following mapping on the Z-basis state vectors:
+
+1 . 1.
+yall — il); U|1) = gil) +10). (76)
+
+(a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+(b) For arbitrary a, 8 € C, what is U(a|0) + B|1))?
+(c) Does U represent a valid quantum gate? Explain your reasoning.
+
+U|0) =
+
+5. (a) Does U = Fa (; ‘) represent a valid quantum gate? If so, what is U|0) and U|1)?
+
+(b) Does U = a (; *) represent a valid quantum gate? If so, what is U|0) and U|1)?
+6. Let 7 € R® be a unit vector, let ¢ = (X,Y, Z) be the vector of Pauli operators, and let y € R.
+Prove that
+
+el?) — cos(y)1 + isin(y)(*- &). (77)
+
+7. Consider the following quantum circuit:
+la
+» [Z}- 8
+
+mY rant
+vy
+
+S
+a
+
+©
+ae
+a
+m
+£
+ll
+a
+2
+i=}
+Q
+=
+ll
+
+| |+), then find the resulting state at the end of the circuit.
+(b) If Ja) = |+) and |b) = |—), then find the resulting state at the end of the circuit.
+(c) If ja) = |—) and |b) = |+), then find the resulting state at the end of the circuit.
+
+18

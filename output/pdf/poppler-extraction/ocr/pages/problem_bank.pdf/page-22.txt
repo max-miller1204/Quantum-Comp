@@ -1,0 +1,17 @@
+Quantum error correction
+
+1. A logical qubit is in the state given by the vector |) = 3107) + 3|11). We encode the logical
+qubit into three physical qubits according to |0;) = |0,0,0) and |1,) = |1,1,1). You suspect that
+a partial bit flip has occurred to one of the qubits, so you measure the parity of adjacent qubits.
+(a) If parity(q, q2) = 0 and parity(go, qi) = 0, what quantum gate(s), if any, should you apply
+
+to fix the error?
+(b) If parity(qi,q2) = 0 and parity(qo,q) = 1, what quantum gate(s), if any, should you apply
+
+to fix the error?
+(c) If parity(q1, q2) = 1 and parity(qo,q) = 0, what quantum gate(s), if any, should you apply
+to fix the error? If parity(q1, q2) = 1 and parity(qo,q) = 1, what quantum gate(s), if any,
+
+should you apply to fix the error?
+
+22

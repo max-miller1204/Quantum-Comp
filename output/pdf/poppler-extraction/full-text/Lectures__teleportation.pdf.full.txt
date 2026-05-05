@@ -1,0 +1,477 @@
+# Lectures/teleportation.pdf
+
+Pages: 8
+Embedded text lines: 98
+Tesseract OCR lines: 309
+
+## Poppler embedded text (`pdftotext -layout`)
+
+Betheer
+a What is a qubit
+
+
+
+
+    The state of a qubit is given by a demity matrixtoperator
+
+     111     plHermitian      conjugatetranspose
+
+      2 pso positive semi definite         non negative eigenvalues
+
+
+             III     sum of thediagonalelements
+     131
+
+
+    Points on the surface
+                            of the Blochsphere are givenby statevectors
+    they are called purestates      p 14141
+                                               1444251
+    Points inside the Blochsphere are mixedstates
+
+
+           PE.at            silent Een t
+                    tf
+     Legates are usedto describe operations computations on qubits
+    They are defined by unitymatrices UEL d         utu nut 1
+b Howto extract information from a qubit Matements
+                                                             pour
+    A Mehmet aka positive operator valuedmeasure is defined by
+    a set of operators Malax some finite setX suchthat
+
+      11 May Fat X         Mael d       did matrix for arbitrary dimension d
+     121    Mx 1
+
+    Forany state
+                   p the outcome probabilities are givenby
+        Pr x Tr Map         KEX
+
+    Examples of measurements
+
+     111 Pauli z computational basis       rhinitis If
+      21 Pauli X      4141 1 413 117        1071111   XII     III
+
+      31Any basis for any unitary U          unexout unknut
+
+           Check     alokolut    unclat a                   at out ar
+                                             111th
+G Entanglement Oneofthe key distinguishing characteristicsof quantumvs classical
+    A state vector 147ms is entangled if it cannot be written
+
+   Every state vector 141am has a Setdecomposition                  affffled
+    111147
+         AB      Salent    Ifn
+                                                      It       101102 11311
+
+     2 Sn Schmidt coefficients      Suso
+
+        tentali and       lfulli are orthonormal vectors
+                                  lenient dan
+                                                  1 if k k
+        r Schmidt rank
+
+  137147A is entangled
+                         if andonly ifs
+  Entanglement of mixed states is more complicated
+
+  A mixed state density operator pay is entangled it cannot be written as
+
+  PAB                        this is separabten
+        fexkfI.la 1                                                 partiatrampose
+
+
+   It A    B are qubits then pad is separable if andonly if paplo
+
+
+
+Lateen
+A method to transfer the state of a qubit from Alice to Bob using
+entanglement and classical communication only
+
+
+Given i statevectorthat Alice wants to sendto Bob
+        1 SharedentangledState b w AliceandBob
+
+Goal Transfer thestate of qubit A to Bob's qubit
+
+
+
+                                             Ei
+
+
+                                                     If 2 0 donothing
+                                                                   Z
+                                                         It 1 apply
+                                           it thing
+                                               l apply
+                                          It x
+ 12 CNOTAA       α10,0d AAB 210,1 1 aAB
+                                   β        aim
+                    ftp.haa
+
+                 α10,007am 210,1 1alar
+                  tp111,07am β11,01A'AB
+
+  3 Hadamardon A           al olaatxieii.ba
+       it           Hlolt              an     β 9.17am
+H111   17
+                      y
+
+                          α dd am     Hit halal
+                             pt 1,07am Bt0,17AAB
+
+
+  4 Measure A'A in the Z basis computational basis                102,117   basis
+
+
+            Imm           00 01 10 11             2x
+
+
+              x t dd an    dltilillalastplil.nland Bt0,17am
+               α 1107 177a 10.0 Ap        2       1074117        1 1 AB
+                                                            at
+                    1103 117                        101 117
+                β              a 11,0As       β               a
+                                                                  10,17am
+
+
+
+   14and      Data 2107 pli B             Lalat α 1 plo B
+                    a'at210 pls                   ant 11 plot
+      Lary          Paid t          State 147 forBob
+                   Pr 0 1       state 14 for Bob
+                   Pr1,0        State 2147forBob
+                   Pr1,11       state xZMforBob
+
+
+151Afterthe measurement Alice communicates the outcomes toBob
+
+6 Depending on the outcome Bobapplies a correction
+
+       I     No correction
+
+    0.1     Apply Pauli x    x x147         447 147
+
+    10     Apply Pauli t     212147           11
+                                        f
+    1.1    Apply Pauli X thenPauli z
+
+  Then Bob recovers Alice's State
+
+
+Teleportation is not instantaneous faster than light          it only works if Bob
+ gets Alice's measurement outtomes          this takes time
+
+The teleported state can also be a mixedstate
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Lectures/teleportation.pdf ---
+Q Recap of the coure so far.
+
+(a) What ig 0 aubit f
+
+0 |0)
+
+e |) = a0) + Bl),
+
+ape,
+lol? +18 =1
+-i) j+ipY
+VA |+) = Jy(|0) + |1))
+e
+
+1 xy |i) = 4,((0) + i)1))
+
+Bit Qubit
+0 or 1;
+
+or probabilistic
+mixture
+
+|0) or |1);
+
+or superposition
+
+» The State @ gubit iS given by a demity matrix | operator :
+l" CE (Hemita) oul tronpage
+(1) p20 (puitive Semi-definite & non-negative eigenvalues)
+
+(3) tele) =| Sum q the dingona element?
+
+~~
+
++ Points on the Suiface ¢ the Bloch Sphere art given by State vectors;
+they art called purt stata: = 19X#, Nee [lh = 1.
+
+Sen
+» Points ingide the Bloch Sphere art mixed States: — State vector,
+c ,
+key pure =|
+Sree
+
++ Quantum gates ort wheol + dencribe opevahon computation on gubits.
+They art defined by unitary Matric: nelle’), utu= uut= 2.
+
+--- OCR page 2: Lectures/teleportation.pdf ---
+(b) How to extract information from a qubit | Measurements |
+Coe 77 (POM)
+
++A measurement (aka " positive operatir Valued measur" is defined by
+a Set C operatoct Me) cy (Some finite set Y ), Such that:
+
+(1) M70 ¥ xe Y. | MyeL(G*) dro mapriy for arbitrary dimension d..)
+0) £ m= dl
+xey
+
+* For any State ¢, the outcome prebabilitia are given by
+Pr(x) = Tr [meg] ¥ xeX.
+
+* Exam les ef meadurements : Mm, nt, __ £10) lo)
+ZA tye -W
+(1) Pauly? | Computation, baais : fayXol, xi) 10X04 WXi= 4.
+Q Powti-y : { leXel, eX}, Is Alien) Ke) = £149
+(3) Any basis: for any unitary U, F yboxowut, wixauth
+
+( Check: uleKorut + uliyatut = u[10Xol + ixujuf = nut = 4 /}
+—
+
+=
+(c) Entonalement : One of the bey distinguishing Characteristics of quantum vt. clasicel.
+“A State vector [Aygo entangled if it Connot be Written ad I¥ lg =1F) 0 14%,
+* Every Stele vectue IF )yp hos @ Schmidt decomposition : phi
+| 5 | If State
+HL Mhag = Aol Hie LF) = [Isler 010).
+() $,: Schmidt coefficients (5, x0)
+
+Slee ond {Miyh., art ofthondrmal vectors.
+(tule diy = $0 if kee
+
+fel
+
+--- OCR page 3: Lectures/teleportation.pdf ---
+foe Sy) we oe
+
+r: Schmidt rank.
+
+(3) (%p is entangled if and only if cel.
+
+‘ Enfanglemeat f mixed, States if mort Complicated:
+A miveo State (denaity operator ) Og ig entangled if cannot he written as
+
+tos =f pls i ® vp —> Thit if Separable . basil
+X probabilitic® J Franapare
+GIF A +B art qubits, then fyy if Sepavable if and only if rnb, 20
+
+() Teleportation
+
+“A method +r transfer the state d A qubil from Alice 10 Bob using
+entry lemert and cladical Communicahon only
+
+= hriven: (0) State vector that Alice wants to Send to Bob.
+0) Shareo entangled. (tate blw Alice and Bob.
+
+"Goal : Transfer the Stufe of qubit Al to Bob's qubit:
+
+Bell
+
+Measurement
+
+1 fol}
+2 é foul
+
+|W)p
+
+= 5 en
+4 Us of <0, do nothing
+
+Bit Beh ve
+
+--- OCR page 4: Lectures/teleportation.pdf ---
+7)
+aL =
+pra Para >
+= S
+= 2 ~~ 4
+= |= lea “~~ —
++\ = =
+zak f& 2s
+mS aa ~ = Ss ss =>
+< Fst Res ss sz = ca — hd
+1 == 3feSaTt- fl] oS
+on + ) = rf) yn » ta ma ~'s * =
+ps > w\ =~ L hal =
+wee SS BSSER z 2 22
+fe | Pk La n Ss 2 3 s = = =
+2 S i: M4 xt = a =
+3 f a a S 3. y )
+aH = = = a 2 = “~~,
+= n = ~*~ hn id . ~ dy i
+~ — ~
++ Ss Oo Qa = 2
+— . eae — a
+> vy - s < a <= S —_
+$ 33 » cS =
+~ ig . 2 Qa 20 R so
+I~ 8 em — Sb ) ~
+a = V—_ t—~
+SP oe BS eS = =
+’ qd ’ mal ] 7“ mo
+7 \ 1 \ n sb =
+Be ri fe 5 2s .
+- £ 2 ris = ~ SF ES
+f x 3 &
+ami 2 Tits 3
+7 2 = = SY
+28 3 2 fics a\e = &
+= Ss 23 - > |e = <=> sg \s3 ~ <=
+=x —— a s = )
+5 s Le et S - —
+s> & = — = = ‘Ss
+= > o oS a >
+CO. — = — pd
+Zo. - e =
+—{
+Ss a
+
+--- OCR page 5: Lectures/teleportation.pdf ---
+(1) CwoTys, « t (u 100.0949 L101, ghg
+
++p Il, 0,9)yrag + lites
+| Io
+la
+i (v0.0) 94g tl 10,1, gle
+toll, 1,9)qaa + 6.140,12404
+
+I+)
+(3 )Hodanord on A’: & (ul lilo’ sna tl 10,1, Dgleg
++p Il, 1,9) 44
+Ho) 2 (+) plot yaa *4uaiaes)
+Hi = U-9
+
+t (ul4 009g tl yl, "Yglag
+ply .°qae + ls l2vea J
+
+(4) Meoaue A'A in the E-basit [Computational baait) {1pm} bans:
+
+* Four outamea : 08 Ol, 1, = (a)
+
+ae L140) pug tel Daa tpl ylelyan + 6ls0ldaea
+tladl [p+], 1.0 ag + wt [10)+09),, Il, og
+
+| ee +0% ()-b7), 1,09
+Fang =
+
+(oy {ain +p), + Lona lia +l0?),
+
+#1 yal ils) I), + Ldgy slat ~ ple) )
+
+--- OCR page 6: Lectures/teleportation.pdf ---
+(0,9X@,o|,
+
+lore, + Outcome (0,0): Pr{0,e) = Te (10,0xe,nlgy » Bp) eX Alas]
+
+[1,0Xi,1,
+att = TH (d6.0hy 9 te) |*X¢lay [ 14,0 )4%4 TAI
+
+[oy 94s ) [4 Dye = (daly 01) t (so [aor p10), + 10,1 )—/p [ulin +a>),
+
+TIL dp’ laler-pio), + 194 («10 p19)
+
+\
+
+4 (Arla re) Gye [ui +plor)p
+CT, [abr- pio) *4albnay (airy pie) )
+
+1 FD "0 0
+
+} Ai)
+
+t
+
+[fy =? Pro) = tt nt} = i r{oxa]
+
+{ =|
+
+State f Bob conditioned on outcome (0,0) it If)!
+Exactly the State Alice Wanted, + Send]
+
++ Outcome (6,1): Pe(0,1) | Te(((Xet9y 0 ts ) leXalaing |
+= tel (do, ote) 14X+lang (its)q4 9 %)).
+
+|
+
+L
+}.
+
+Fang et (ayn {ate +plir), +) 10,19q/y [12+ pl),
+
+|¥)= (0) tp uly F119 )p% [aby-pho), +194 (xiry~ pre) )
+XIFP= AYO +6 KIN) = alid-t ble?
+
+(Coutly ¢ Be) yan = (wire gio») TMI Paul: xX,
+
+Tei xtexnys) = dt xrkee) = 4 [lien] =,
+=) p-(0, 1) = vel
+
+--- OCR page 7: Lectures/teleportation.pdf ---
+eyState ¢ fob Conditioned on Alice's outcome it YIP).
+
++ Outcome (1,0] : Pr(i.0) = Tel ((10lgg 0 hg) 4X4 lve (1.44 ®24)]
+
+Is
++1 0p’, late)-h),
+
+Fang = f (yn [ate tpl] 9 \+ 10,1)a%m [wir+pbr),
+
++1044 («1 619) |
+
+IF) = olla) +p
+
+ElF)= abl +pthy
+| he = 1 - = = alo) - (1).
+
+[(,tlpiy 9) [gg = 4 [ated pi) un, inca“
+
+tl=-
+
+el gebynet) = dtr 2eKne) = 4 linen) <4,
+L
+=> plo) =4 ye
+
+eyState ¢ fob Conditioned on Alice's outeome is 2%).
+
++ Qutcome (ijt): Pelt.t = Tl (itigg 0 My) 4X4 lies (lll)yy ® 24)
+
++ 10,1 %9/p [12+ pb),
++ Lg («1 419) |
+
+[Fagg © i tor (210) +19),
+
+11,9 dp’ lavr-p I),
+
+(tle 0 Ms ) Dang = t lan)-pwy) st KEIN),
+
+Tel Exe bXntY 4] = 4 tel bxivKeiee = A(X) =¢.
+=> plied eke
+
+eyState ¢ fob Conditioned on Alice? outcome it XPIFY.
+
+--- OCR page 8: Lectures/teleportation.pdf ---
+Sumenary: + Prlt.0)= 4 —y State IY? fit Bob.
++ Pr(o,t)= 4 > state xiv) far Bob.
+A(Lo)=4 2 State #1¥7 far Bob.
++ Peli) = 4 > State XE” fae Bod.
+
+Is) Alter the meanpament, Mice Communicates He outcomes ty Bob.
+(6) Depending an the outcome, Bob applica a Correction «
+0 —7 No correction
+0,19 Ayply Pouli-x X [ylvr) = einen
+10 7 Apply Pauh-t Huon Bin =n
+11-7 Ally Pouli-X, thea Powli-t
+Then Bob rtcover Alice's Safe!
+
+® Teleporeatin pot inttantaneous | faster than light — it only works iP Bob
+nets Mice's measurtment Outcome —»thig takes hme!
+
+QThe teleported Stofe con aloo be a mixed Ctate.

@@ -1,0 +1,37 @@
+() Detennini lemeat.
+
+U o
+
+(a) Given a Stope vere LY), how to determine if it is entanag (ed ac not
+
+7
+
+Precitely: 3 14), IAQ St In)> (4.28 (KD q
+
+@ Theorem _[Schmidtt Decomposition): Every State vector [Wag Con be written as
+
+t at
+L# lag =o 5 lev, a Ifudy. ca “£5 li), 9 lise
+
+or: Schmidt ronk
+
+. bol : Schmidt coefficients S70 Vk
+
+. ; lend ds ard, fist, Art orthonormal, vector.
+
+| Asut (recatl) : Write the vector (¥ep ad a moti, then oo the
+Fingulas yalue decomposition af the matriy.}
+
+= The Schmiolt rank if bnigus, — $0 we get the fallaving crifercon :
+
+© TF rel, then I¥)= lere lf) > nok tatangied!
+i.
+
+I
+¢ rol, then Catarglca! [g0< Ad hl
+
+(b) What about mixed, states? Mor complicated:
+"Exomole: conver mixture of Bell States. (iea=A [o.0)* 11,0), =a wre ua)
+
+tna = pi By * bh bat pot + fy dae) pr0 bobilities Pry Par fy € C2)
+Ge = (EXEL, By = (DOE yg. Ath py =!

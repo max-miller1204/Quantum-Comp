@@ -1,0 +1,317 @@
+--- OCR page 1: Lectures/quantum-algorithms(III).pdf ---
+©) Recap: Hadamard, Test.
+
+Estimating CAIUI¥), wert Wit a Unitary ant 12 16 0. State vecte.
+
+10) —[H]}4 fu} tae
+
+Ke
+1) ——J U }——— toto
+
+——"
+
+yt
+
+r{o)= t (I+ Re(caiulr)) pr{t} =4(I- ke (enuiy>))
+
+- |! °\ 3 ote! ?
+| eles} e ela
+For the imaginary part:
+
+Eee | A t (1+ bal@atuy))
+P(t] = 4 (I+ Jn(Celul»))}
+
+In) a
+@ In both cones, we have Prfo)=t (ie), Pli\=4li-a), where a is
+Unknow. To estimate wwe do the Fallowing procedure
+
+/
+
+for i=t,d,...,N (Need Samplea | # d times we run Hie gudntum Gireuit)
+
++ Each Hime We gh Ovfcome "0! 9 record = AB thit defines a random
+* Each time we get outcome "I" rtd x; = =I Variable _y
+Do tht N times, thea faut the Samale
+mean / average ‘es ql Loy sie
+aay
+Thib define? a random variable Xy= ah: Xe if an unbiated estimator of X:
+
+vey
+
+E(%= v2 ly] ¢ reel = lx].
+/\ “EELy) Vi,ble all Samplea art independent and identical
+
+Aye
+
+P{x=#\) 2a [lea]
+
+--- OCR page 2: Lectures/quantum-algorithms(III).pdf ---
+elu) = (+: AL yet) + Ci)-Plxe-1]=t [te @)- F(a} <a.
+
++B Now, Yoke d [ law 4 large nies?)
+
+@5o the sample arte approach He true lunkntwa) value Wd!
+
+Q) Motivation : Expectation values
+
++ Why do we corte about quantities Yi the fom vlulyy?
+
+Bjc they can be used 1 compute expectation values of Observanler.
+
+Observable : Any Hermitian operatr [ recat: M Hermitian e mtem)
+
+@ Fact from lineac alae bra: Extry Hermitian operatir Can be diagonalized,
+
+d im
+M=S ). IviXvil where : A; : cigeavaluca (real number). Pe (o-)
+
+4 Yil=4 vss orthonormal eigenvecten. = (oxol — (Xi!
+iil =
+WI
+
+ka
+
+® Axio wnAntum Mechanics every physical quantity Copeeaponds 1
+a Hermitian operate (es, position, momentum , entry.)
+The eigenvalua are the pumible value the quantity
+We get the value i the guaatity through medaurement.
+
+Foc an obgervable [Hermitian operat M, the Corresponding meadurtareat
+is given hy the eigenvector Uf bavvil] if the Pove.)
+
++ For a State p; the probability that it hod Volue dj if
+
+--- OCR page 3: Lectures/quantum-algorithms(III).pdf ---
+Peli) =Te[IviXvilp] [Born tule}. 55 = (vile led
+lhe expected valw P ¢ observable is:
+i py, ya , iD 7
+\Mh = fli) = 2 A. TreilMXyle] = Tr Ah “il}p = Tri M
+MA, itl t Laz!
+! ce
+Mm
+Definition
+df eupect tion Value!
+we don't WwW th cigenver (ble they art ard 8 get fw large m
+UY
+f we know + Can be Write
+k, A 5
+=2¢.U, then 4M, = Trl MYX?)
+jz9 TL.
+” vk
+an 22GTr| UTX
+nltatie jt / P 1
+N k,
+=2.G (AIUD
+“3 Vos
+: i
+]
+EStimate wing
+( Hodamard teat!
+o we eAtimgte €ach term indi idwally i ig The Hadamard. te,
+and then add get an overall eatimate of the expectation
+alue.
+
+--- OCR page 4: Lectures/quantum-algorithms(III).pdf ---
+@)Guantwn Fourier Transfer
+
+(a) Recay : ditcrete fourier transform (per),
+
+— Wed in a lot d place:
+. Signal pnacending — identifying Frequency Com ponents u a Sunah.
+(andio and video praceatina
+
+* Machine leatniny — feature eebracton
+© Scientific Computing — Solving differcatial Heaton numerically.
+— Defintim : far a Signed fyin,, it DFT if
+
+Ns dikk f Omix
+WE ef é = Cos(an) + isin (2nx)
+
+~ Eromgle = Connider a rignal of tno Sing Worel piak Hgether
+
+le) = Sin (2th) +£¢in (Inf t)
+K _f
+Frequencied
++f25 He
+
+of <5 te
+* Sampling. rate : f= loo He = 100 Samples total (in [sec-)
+
+Time-Domain Signal Time-Domain Signal (sampled) Frequency-Domain Spectrum (vel)
+
+HH
+
+0.6
+0.0 =
+2 e
+7 = 04
+0.5
+0.2
+bb
+ma i ! f 0.0 | eum
+:
+00 0.25 0.50 075 1.00 0 ¢ 40
+s] Hz]
+
+--- OCR page 5: Lectures/quantum-algorithms(III).pdf ---
+lb) The Quantum Ver ion! (Quantuwn Fourier Trantfinn 2 af),
+
+on del Lniby'
+!
+- YF hex a ale “ae e* [k) [activa on bas is
+Veet).
+WET _matriy
+det d|
+
+j & dniht
+[¥)e Lr l0 => Wine= £34 ky = Lyake I")
+
+8 (bP SE) woes
+
+(ae eel
+= Wy
+gi dz ni
+— The FT matriy if Unitary | Let wees, Deetep
+d= “a! wrk Lu cas (2) + isin 2)
+<0 i
+w=et= ia +igiel)
+Ta uy
+“i' Lo = -18inlZ
+2, cm a
+=e wt.
+, “ kw eget =
+te 5" PTE LG
+14 ar AnD
+= a watt ik [kX
+hiblzo yee
+det pa!
+- if wr le-j)} ny
+flat } il
+
+--- OCR page 6: Lectures/quantum-algorithms(III).pdf ---
+rs
+
+&
+=\|a
+LVN
+=
+x)
+&| >
+— | —
+Pr
+x S30
+me ~ iy) Nn '&
+i v
+C wa are ~ '
+py 2h
+~) “eo 3
+Sy \ “
+al* 3 >
+>\
+! —~
+n\s = if x *
+~< w ra Boye — RA iy
+KO a 3 3 1) ”
+=f =
+- cS — jj— —
+lL — ye 5S
+A. - > \ —!-3 wal ; = :
+Tin - LN \ 7) = : 3 7 7
+s 5" _ ~~ \ “_ oS) = a =
+a= S = “QV ic => SS” te _ nw, "
+q ~ a aL >) Zz Py ” > 3
+a ee eee ’ = e eo “2 |
+=- x 4 gt) -' —yniec 7 Se ,
+=< = 3 —-e a we? uw Ss = ~I-< al [ Q- &
+Binia. r >™ > =e “ te
+N ) | ” 3 4 yk
+bd . 1 ~~ = =
+» 7 w=.
+~ ~ —!| - 3 — -
+7) ‘ NX
+
+v
+
+--- OCR page 7: Lectures/quantum-algorithms(III).pdf ---
+Note: for a=2, peObec™e-| => a4 (i a) =a (| |) Hadamed
+
+ni
+— Let d=1",) wee" —> What if a circuit representation pf OFT:
+Use. the binary neprtaen tacioa ¢ D,1,)..., 28-1
+
+tg, n=3: 0 -» 000 | cat)
+1 —? ool eat
+
+2-4 0 10
+34 o11 ke kg thle |
+4 -7 100 I
+ser tet | @In quent: ke J Phy
+
+> J19
+
+ral |
+
+Lf ee
+
+ectanen' eed (He tha -+hy) Veasbay on by 2
+
+hisha). aahnt {41
+Y ast acd di 7
+ud a bdo} rs i
+
+\
+
+helt} késo,
+
+9 at top gar dx:
+
+V
+
+[ad hy wo) Md che hg | - (nee a)
+
+beta laGui}
+
+--- OCR page 8: Lectures/quantum-algorithms(III).pdf ---
+. ; oe ky nih, tril,
+Conoides n=}: Wj. jug? = (age e t (ag. 1) (4,2 b i)
+
+dob et hee
+oh i or
+py tt a ty
+=) brits L pri (24) Faia Pars = otihijs = [18
+ea Oe
+=( =
+
+griht brid prikl By rts (B)
+e_ fos
+
+Ls if
+
+athe = Pb Sh 4
+
+ici +
+therefare + & Uji, jig? = [aZ,, [-1) Ts) (ag. Lib e 7M Io)
+——~. A]
+[-7 Sign PEL i)
+l kei tiles bla
+TE as [-he cry (ex) Pa tt his A 4 kj @ Fh Tasha, by)
+= Bhaja? pide = (1 2)
+Defia H bef! © | 9
+lis? = uL—[a}at- 1 0 a
+
+A A FS FF
+
+--- OCR page 9: Lectures/quantum-algorithms(III).pdf ---
+C
+Ww
+
+~r
+
+~~
+
+Q In aeneral, Gif b
+in a, Be -(@.|—[x
+M" iH
+lia? %
+1. ta
+yu —+—

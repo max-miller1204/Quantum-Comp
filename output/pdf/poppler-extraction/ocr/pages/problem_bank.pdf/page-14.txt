@@ -1,0 +1,56 @@
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+Consider the three-qubit state vectors
+
+lv1)aBo = a" 0,0) ape + |1,1,1)4zc), (59)
+
+|¥2)aBo = Salls0. 1)aBc +|0,1,0)4Bc + |1,0,0) zc). (60)
+
+Determine the following partial traces.
+
+(a) Tra[\viXvilasc]-
+(b) Tra[|b2)(v2|aBc]-
+(c) Tra[pld)vlase + (1 — p)|2)(b2| 4Bc], where p € [0,1].
+(4) Tre [pldi\Xb2lase + (1 — p)|v2vilazc], where p € [0, 1].
+
+Prove the following identity:
+Tra[(le ® Ms)Hes(1e ® Ns)| = Ms Tre[Hes|Ns, (61)
+where Hes, Msg, and Ng are arbitrary linear operators.
+
+Consider the following two-qubit density operator 4g of Alice and Bob:
+pap = (1—p)|®TXO* lap + 5 § (|e X®" lap + |W Xt ae + |[Y- XY 4B), (62)
+where we recall the two-qubit Bell state vectors:
+
+\®*) = 7 ((0,0) + (1,1), (63)
+ve
+B
+Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i-e.,
+
+the POVM is {|0)OJ,|1)(1|}. What is the probability that they obtain different measurement
+outcomes?
+
+|W*) = (0, 1) + |1,0)). (64)
+
+Consider the qubit state vectors
+2nk 2nk
+|vp) = cos |O) + sin |1), ke {0,1,2,3, 4}. (65)
+
+Verify that the set dimou, is a POVM.
+
+Consider the three-qubit state vector |) in (59), known as the GHZ state vector, and define the
+following set of eight state vectors:
+
+|Pz,01,02) ABC = (Z7@ X*1@X™)\di)aBe, 2,21, v2 € {0,1}. (66)
+
+Prove that the set {| z,21,2) }ze1,¢2¢{0,1} iS an orthonormal basis for C? @ C? @ C?. Conclude
+that the set {|Qz,0y arXVz,01 02} z,c1,a2€{0,1} 8 a POVM.
+
+14

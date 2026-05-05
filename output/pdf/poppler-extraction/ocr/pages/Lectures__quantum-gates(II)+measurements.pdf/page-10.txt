@@ -1,0 +1,39 @@
+@ Dbeervoles
+
++Tn quantum mechanics, meomurtment outcomes ore. not deterministic — they
+Occur with Some piohabilit y.
+
+“What it the Cxpecteol, outcome rt} a meadurtment -
+“Recall: For @ probability mnat function pi»), padels,t en
+"g pide
+
+xex 'X
+
+ws
+
+(
+
+The expected Value it Pardon ey Pe(K=x) = pple)
+
+E(y) = pl): %
+
+A
+We can mengue wet any orthonormal boris —conmider bani 2 fee ey
+
+Outcomes are Inbeled by k
+Qutcome bk it andociated with value J,. 7 Condom variable X
+
+For a State vector IvEct, He probability dittribution ¢
+Polk) = Ldeulvo = Pel Ye dn)
+
+MIMS = 7 |
+The expected value of X it ilmileys = Te Coa (axl.
+
+‘ , ‘
+E(x) 6 Pe(Xe a] Ae valent Ce lOX FIG) Aa
++4 Te(lalalnx] }. = WEE [ae event] = Tile)
+be
+
+Hlery = Lleol? = T Aves? H —? Hermitian operator.
+kek!
+

@@ -1,0 +1,781 @@
+# Lectures/entanglement(III).pdf
+
+Pages: 10
+Embedded text lines: 199
+Tesseract OCR lines: 459
+
+## Poppler embedded text (`pdftotext -layout`)
+
+Dingentrem
+a Given a state vector 14h how to determine          if it is entangled or not
+  Precisely     7 141 141 sit 1415141 14
+
+                                  Every state vector     in can be written as
+ Thifftiision                                147A      Cig i a lilis
+
+
+   r Schmidt rank
+
+
+    Sali Schmidt coefficients Suso k
+    enlahi and       lful i are orthonormal vectors
+
+  Proof recall    Write the vector14A as a matrix then do the
+
+  singular value decomposition of the matrix
+
+  The Schmidt rank is unique       so wegetthe following criterion
+
+
+           If   r 1 then 14       e 0   If       notentangled
+
+           If rst then entangled             E       psalm
+
+
+b whatabout mixed States More complicated
+
+  Example convex mixtures of Bell States         1       10e   11.171
+                                                                        E   ten the
+
+    Pais
+             pEats P2InstpsEftPyEAB probabilities pi PaPspye oil
+                                                 Pit PtP3 Pa 1
+           Its IE El Eta I     KEHAB
+  P 1 PePs py 0          PAD   Its    entangled
+
+  P D p L p p4 0          Pas Ems        entangled
+
+
+  P p Op 1p e              par Its         entangled
+                                                             B c BellStates
+  p p p d p 1 Pa Its                  entangled                       termone
+
+
+  But p P B PF             Pay       Its Ear East Ears Ha HB
+                                                    It entangled
+
+Generiterion PLiePartiatramposellriterio
+
+Recall Transpose of a matrix flip rows andcolumns
+
+    In Bra ketnotation     M
+                                  f   mi
+                                           lipI
+                           MT         mi likil              T
+                                                       MT       M
+
+  For MABEL added              MAB             my likila 15       1is
+
+  haltranposemonA          Mats
+                                     É       My likila      ljkjtis
+
+
+  WtranposenB MAB                    É      my likila    likjlis
+
+   Emma
+        MT11tA
+                  miieii.in
+                 MAB    ititm
+                           00       01   10   11
+
+
+
+
+                   i
+              i.LI              F        L
+
+
+
+
+      m
+                       1
+                                              my
+
+
+
+
+    Telppicriterion             Pas separable      Past   0   past so
+
+Y
+n
+        enef i f ii iterate
+       Converter
+                       piecemeal                      Nottruein general
+                                                      There areentangledStates
+                                                      w positivepartialtranspose
+
+                                                                Example inthispaper
+                                                           1
+
+Proof Pa separable        Pas      plalIn o w
+
+                  Pak
+                            palt.gg      1tso
+            Myo         Mtse fulltransposedoesnotchange eigenvalues
+           Pass so       Past   part    rs Fulltranspose         Pat 0     B
+
+      Converse
+                 Is true for 202 and 203
+      PAB separable       Pattis 70
+
+
+
+
+ExamplefthePPTcriterion                 Et       cello   lists
+
+
+
+  e                                          a
+
+
+       Eigenvalues ofFae are It
+                                                     FIFector
+       Fm    jlj.isi.jl      Faslij lj i            Fmg10110     107107
+
+                                                    Far107117 117107
+                 ljiiki.gl jkilolikil
+                                                    FAR 1 10      107117
+
+                                                     Far 1 11    11711
+            FAB 14a   14B   Na 14,7ps
+           Proof FAB 147A 14dB          jkilaolikj.la 14,70142
+
+
+                                        lk iTs
+
+
+
+                                 iniltuolixit fE
+
+                                  17
+                                       f    hankies
+                                         4B
+ lift Einicate pay t.pl           a      Ens IAs Easl               pelo.tl
+
+           00   01     10   11                       00        01       10    11
+                                                               0        0     0
+pit   00                              hit     oo          it
+      01    f                                 01      0        B Ef           0
+
+                                                                        p     p
+                                              1
+                                                               y
+      I                     É                 into             a         ate
+                                A to13 2p         multiplicity 3
+
+   Eg Tyl                                1 20    multiplicity 1
+
+    eigenvalueforentanglement
+
+
+
+
+                                          Fat
+
+            Pals     t p Eas        B EA Its Ea
+  Observe   Tr pillIto     Etpath It
+                Hpl 11 181 BKIEAeitinefeiicetfeai.tt
+                                     l
+                    p           p               this
+                                                       is calledthe Ey
+  Se ph is entangled ifandonly if
+                                         CEPablett
+
+
+
+               i i                  iitiiii              animatamarine
+In practice we needto do            meets       to determine whether or not
+qubits are entangled
+Edexamplefromnbefore              Ppp      likea0 1111143 11411A 107101
+  This state is separable notentangled
+   If Alice and Bob both measure in 107 as basis then
+      They both get      o and I         w probability
+          ie locally it looks completely random b c Pa Tr Pais EA
+          and PB TraPas      A
+      But if they compare their measurement outcomes they will always
+      bethe opposite WheneverAlicegota o or l Bobgot I or 0
+      So their outcomes are perfectly anti            related
+
+Butthe same thing happens with the maximally entangled state
+
+                                   in the 101as basis the outcomes are
+   as
+                     1 11,1
+ perfectly anti correlated
+
+Sohow to distinguish thetwo What makes the entangled state special
+
+Tosee thedifference measure in a different basis Say in the 17,17 basis
+  For Pap       1070
+                     A   11k11g   11411A 10110lb
+
+
+     Pr t t     Trl 4kta 1 1 1BPar                         7411411 7        4101011
+                                                                       1,1111
+                                                   1,101
+                         that
+                                                     til
+    Similarly   Pr           Prl t      Prl 1
+    So the outcomes are completely uncorrelated
+
+    Why    B c the jointdistribution is a product ofthe marginaldistributions
+  Marginal distributions are given by the partialtrace
+
+      MarginalforAlice Pa EDA         Pra t   Pral 1
+
+     Marginal for Bob p EBB          Pr t Prel 1
+
+                                                       Pratt Pris 7
+     Product
+                of the marginals    Pra t Pro
+
+Py Px Py                            Pral 1Prelt        Pral 1Prot 1
+
+     This is the same as the joint distribution calculated above
+      So Alice and Bob's random variables are independent             no correlation
+
+
+  But for 11Jan      10all   11alot the outcomes are still perfectly
+  anti correlated
+
+       4104113 Elag                11 41174101     0       Eeo
+                             1,1
+       tlaot.li lElas                              trl t tl t
+                        tkyyey yttfl
+           Pr     1 Ktla      1B 11Jan
+
+
+      Kta.HN                                      taltttl t
+                        t1fI Efiet
+                          ta.atB 1e a t
+                        IIK
+       had b le la                                o       Leo
+                         ftp.T
+                                h Eytyl
+The anti correlation exists for
+                              any basis measurement
+  Fact Let U be an arbitrary 2 2 unitary matrix Then
+
+            no a LIKE 1 luault IE KI 1
+
+
+  ee
+     t.tt onliaeianiaihtrary2x2matrixm
+                                                                   a made
+
+                                                       Mio alestalis
+    Mom E 1           Mio 0min midemies
+                                                       Mill ble did
+                       ale cli o blastdid               blot did   aletotal
+
+                              ad10,17 cbll e       cop
+                      abe
+                            abf ab1,0 ad1,0 adf.tl
+                      lad be 10,1       ad be11.0
+
+                    lad be 1011 11,07
+                   ad bc     10,11 11,01
+
+                                  determinant   of M
+                 demley
+     Soforany matrix M            mom EYE1 mom t detail EKE1
+
+      Determinant is product of the eigenvalues
+
+
+     Let U       daltakal bethe spectral decomposition
+                                                             of a unitary
+            at                out       HalNakul a by unitarity du re
+     Then
+                 In Halal
+     Also     144k     1     Mnl 1         h      An e'ok      eigenvalues   of
+      a unitary are complex numbers with unit modulus
+
+        def a Ddead is a complex numberwith unitmodulus
+
+            detail 1
+            uoul EYE1 uoult detailLIKE1 EXIT B
+  The vectors utes utill define a measurement with measurement
+   operators Mo Utexolu      M Utilli u
+
+    MotM Utokola         utikilu                      uh     1
+                                   utlq.lu
+   Probability distribution is
+
+   Pr i j     Trl MioMj EXE1a      to utlikiluoutljkj.lu 1EYE1m
+                                          Xpy Xn       X.aeYih
+
+               Trflutout li.glij1 uou II KI1AB
+
+              t.im
+              I1 intyiiiifi               level
+
+               To hikingERE1
+
+       Same distribution as the    101 in basis So still anti correlated
+
+
+
+We can formalize this idea into an experimetaltest for entanglement
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Lectures/entanglement(III).pdf ---
+() Detennini lemeat.
+
+U o
+
+(a) Given a Stope vere LY), how to determine if it is entanag (ed ac not
+
+7
+
+Precitely: 3 14), IAQ St In)> (4.28 (KD q
+
+@ Theorem _[Schmidtt Decomposition): Every State vector [Wag Con be written as
+
+t at
+L# lag =o 5 lev, a Ifudy. ca “£5 li), 9 lise
+
+or: Schmidt ronk
+
+. bol : Schmidt coefficients S70 Vk
+
+. ; lend ds ard, fist, Art orthonormal, vector.
+
+| Asut (recatl) : Write the vector (¥ep ad a moti, then oo the
+Fingulas yalue decomposition af the matriy.}
+
+= The Schmiolt rank if bnigus, — $0 we get the fallaving crifercon :
+
+© TF rel, then I¥)= lere lf) > nok tatangied!
+i.
+
+I
+¢ rol, then Catarglca! [g0< Ad hl
+
+(b) What about mixed, states? Mor complicated:
+"Exomole: conver mixture of Bell States. (iea=A [o.0)* 11,0), =a wre ua)
+
+tna = pi By * bh bat pot + fy dae) pr0 bobilities Pry Par fy € C2)
+Ge = (EXEL, By = (DOE yg. Ath py =!
+
+--- OCR page 2: Lectures/entanglement(III).pdf ---
+- PEL, AEG? Pye 9 =? fag = he 2 entangled !
+A=0, Rel, R=p,=0 - fag = Bon > entangled -
+~ A= h=0, R= A=os Bg = Lee = entang led:
+te a al pe lS aad 2 janiiiate He ae vale
+
+> re enttangled !
+
+“General cciterion: Positive Partiol Tonapese, [PPT) criterion
+
+Recall: Trompe 2 O marx [Si rows ad Columad ).
+
+Jn Bra- ket notation: Me -§ Mis KY; il
+
+ne
+
+iy) 20
+
+dol dz!
+
+fac Mes et(oct®) a Mag = = J ts rues
+
+ii/t0 4! ba} ye
+
+det da!
+
+fartiak. tranapase on A: mit = 2 LZ Mi; bYXily @ bX; ‘Ig.
+ite 45/20 at
+dort de!
+
+Paria tranapase oa B: Mie = SZ mgs Xl @ Xl.
+ii! 29 dy! =o fy yt
+
+Full traeapone : Mpg = Mall => Me = (ms)
+pcrarnaceed
+
+--- OCR page 3: Lectures/entanglement(III).pdf ---
+f
+C Mig = 92 fm Ai) My \
+LA24 fh) \\
+a4 on) n CMs 8
+Cree
+He Ze) — My Zy
+Ae Ap)
+ul (m7 r] mM;
+v oe t To
+oo 0 oe Ul
+f \
+
+aa
+
+my
+to M%
+il m
+
+25 November 1996
+
+PHYSICS LETTERS A
+
+PHYSICAL REVIEW
+
+Physies Levers A 223 (1996) 1-8
+
+LETTERS
+
+VOLUME 77 19 AUGUST 1996 NUMBER 8
+
+Separability of mixed states: necessary and sufficient conditions
+
+ywel Horodecki, Ryszard Horodecki®
+iy of Gas, 80-952 Garis, Poland
+
+Separability Criterion for Density Matrices sity of Gdarisk, 80-952 Gdavsk, Poland
+
+Asher Peres* ptember 1996
+Department of Physics, Technion—Israel Institute of Technology, 32000, Haifa, Israel Communicated by VM. Agranovich
+(Received 8 April 1996)
+A a) « ‘If - Tp
+eoremr | PPT Criterion): Aig arable <= 20. he 20.
+t | FN
+
+Ys Y
+=) 1
+
+7
+
+ed
+
+%
+(SE
+Ja
+>
+exe
+S
+— A
+=
+\i
+=
+S
+
+x
+
+BN
+=
+
+iaenvalue |
+
+wb
+—
+ra)
+ry
+as
+=>
+=]
+S
+=
+a
+
+>
+|
+
+| Kom)
+a
+3
+ek
+A
+=z
+-y
+v
+\
+I
+ro)
+tf
+\
+=
+So
+>
+S
+S
+
+¢
+
+--- OCR page 4: Lectures/entanglement(III).pdf ---
+Q 4 August 1997
+PHYSICS LETTERS A
+
+ELSEVIER Physics Letters A 232 (1997) 333-339 ————
+
+Separability criterion and inseparable mixed states
+
+with positive partial transposition
+
+Pawet Horodecki
+Faculty of Applied Physics and Mathematics, Technical University of Gdarsk, 80-952 Gdarsk, Poland
+
+Received 26 March 1997; revised manuscript received 5 June 1997; accepted for publication 5 June 1997
+Communicated by V.M. Agranovich
+
+r aK om VA x XY
+Proo faa Separab le~> & =/2 plt) ty @ We
+Ta Vol / \T
+
+wv
+°
+v
+cc)
+
+= p82 te. (h¥. Full « da4zo. DB
+7 (a8 ‘ AB ~ (Ab, 3 Fu | : (48
+
+> Examalea PPT criterion: — (E*) = tz (lod(o) + ny).
+
+Qo 0
+—- pet = it} 0 0 0 0| sptel 0 |
+LAB 6 ] - ea] |
+o o 9 Y | 0
+leon n | \ on n |
+q U U 7] VU U Uy
+po Esgenvoluca Fog are +1. ~ Fag — Swap_operator.
+
+Jo) = ]0 210)
+
+eS
+~\
+s
+~. |
+<>
+<=:
+<=
+7
+a
+=
+dl
+=
+ast!
+
+et
+a
+c,
+—/
+
+Na?
+
+piGac = bale XI
+
+: . IIe? h
+
+a
+Ss
+
+a
+
+IV.
+
+--- OCR page 5: Lectures/entanglement(III).pdf ---
+— TT _———
+a ays
+oS = S&S
+it
+aiae’ m=) ~~ a GS
+hea! =
+_ Q wee
+aS =) ales ‘ S
+call ~ \c
+* \ ehn
+loa | = al” ~
+- AY —)
+= ae v~ 2x8) 4 v\"
+-— Kan _ “sf ~ a
+a =? .
+S/F ot
+>< — re = o> —T 2 -~ ° =
+— Ss ) a + ° Ss — =
+= |] a ~~ <= iN)
+7S re et ml > Kot aT pe
+=, 25 = > Se Sia S=
+ca ’ a - So = <=
+we SS S o n ai +
+w LSS Fn Be a ee
+aad — oc WN y) —
+e iY) )) v p r << —,
+S — -— {SP \ ~
+a ~ \ \
+s&s a3 ay Sta \ N \
+) Tee! WS wR \Q&
+= y ° \ NN
+ss 7 Ww — a v ‘\
+: Ss > el) 2)
+ai — aS yy, YS
+@ Qa
+-= 7 = jG (SN
+to - es \O ahr (=> \=
+= r= KA \ we \
+? a cry aya Y \O YEN
+v € 2 ~ \o\ a\
+¢ FS AN AY \ate
+‘= 1
+7 ~—___
+\ ~ ° —
+a=) ~ o =
+ra se
+_— a v
+ae ay
+aS an =
+Qs
+
+--- OCR page 6: Lectures/entanglement(III).pdf ---
+v 4 \
+iqenvo. lum :)8 ,= b (3-do}] [multiplicity 3)
+€ need a negative \ \, e4(1+ ) { ultiplicity }).
+acWvolue tye entarsleneat!
+J U
+— 1(-2p)
+— 3(-1+2p)
+() <4 a) es
+Oe: | ‘Bha| = Cet lat et)
+ian 7 7 \ f) ry)
+ay |? 5) ef le | EAE) + (BH IE) ¢¢ A
+I Hn 7 yr aie
+Zip => pe l- Eleaf) es.
+Ly Thit if called the. ridelity .
+(a A lo n
+bY tog i$ entangled iF and only if EA’ |E*? > 7
+LY) Clase; tlation’ : Be ICHSH Ines lity
+t criteria for dete ‘ing entanglement re partly athematical
+pr tice, WE neeol tH) of0 me 4 oletermine whether or n
+bits Ore entangled
+UJ
+
+--- OCR page 7: Lectures/entanglement(III).pdf ---
+* Recall example from. befart : fy = 2 (loXel,9 UX + LXilg 8 lo%iy]
+
+— This state if Separable (not entang led)
+— Tf Alice and Bob bath meadurt, in i 119} basil, heh:
+» They both get © 0" and nn Ww! probabity i.
+(i ity locally, if looms completely Fandom , b{c = Tals] = 24
+
+and. fy = = Tyltn) = 2%. |
+
+* But if Hey Compare their measurement outcomes, they Will al
+be the opposite! ( Whenever Alice got 0 "o" or "|", Bob got "[  "ot)
+So their outcome art perfectly anti—carrelated.
+
++ Bur the Same thing happens with the maxima [ly “entangled State!
+
+[Fy = fy LUO II - ~ lilo, J —in the $103,t} bast$ the outcomes art
+
+) hey ity
+
+perfectly anti-cofrelated.;
+Sd how to distinguish He toa? What maker the entangled State Special:
+“Th See the difference, measure in a different basit.! Say in the $14, -x} bonis.
+— far baa = 4 (loxay a [Kng +lXllg # LoYdly } :
+
+p- (+, += Te ( LtX+ly @ Xp ) Oye | 24 [uererercen [47-+4LXtl XoXo)
+
+sae
+
+[ u2=A w+) | 3 +
+et{tyt 1
+=3( 47 i) 4 -
+Sint lad ty : At) -] = Pe{-)+) = p[-)-] =}
+So the outcomen are Completely uncorrelated |
+
+Why Ble the joint distriloution if @ praduct f. the marginal. distribution.
+
+--- OCR page 8: Lectures/entanglement(III).pdf ---
+- Motyinal oli tributionA are girca by the partial trace :
+* Marginal fic Alice 4-2 = fl*]=A,(-12
++ Marginal for Bab: p= 4M = frl-e]= Rgl-1~
+
+“Product of the maryinaln: Ayl+)-fel+ #55, ® [+)-fe (-) = 4
+
+= hy ty eel] fe) =4 =4) A{-)-Agl-Te 4.
+
+This 18 the Some on the joint distribution Calculated above!
+So Mice and Bob$ random variable Or independent =¥ no Gorrelation.
+
+L
+L
+L
+ra
+
+— but for F-yp=tl lag LI ~ (1410p » the outcomes art Stil) perfectly
+anti- correlated !
+
+» (dj, 9 Gla) dog = =a (aeN0- aiyirla)) = =0 3 hl+)+]=0
+“hi a
+
+_-
+=
+
+=) Pel +)-] arenas (5 %ma| = 3
+
++ (Ly a Gl) le tgg =A (Cloyetiy-Cueinn) = 4 [a+t) =a
+pata
+
+=) Pele )= | (Cpa Cr) Eel =
+
+ol. K £
+
+--- OCR page 9: Lectures/entanglement(III).pdf ---
+— The anti-correlation exith far day basis meaaurment |
++ Foct: Let W be an arbitrary Ly unitary matrix. Then
+
+( ue u) exg1 (uoult = EXEL.
+(Ee & [ Lo) L1d16r)
+Prout: Fit Consider an atbitrary 1x2 matriy M= (* 3); a,b,c) A €C.
+
+Mlo) = glo? echy
+
+= &( (am+cin)e blo)+d liv) - [biy+a00) 0 Lale)ren)}
+=i | abfony + adf0t?+ chile) + cart
+- ab Jo/6) ~ cblis) - adlio)~ cdi}
+= [ad-be}in - [ad -be)i10)
+2h (ad~be) (Io, - 110%)
+= (od ~ be) a [10,1)- 11,09).
+
+2 AED» determinant ef M:
+
+So far aay matrix m: (Mam) 1g-Xe|(me mn)! = [det onl? EXE,
+
+Determinant is product 4 He eigenvalues.
+Le Us J Ath YA be the Spectral decomposition f a unitary,
+
+key
+if
+
+Then ut = $7, LAY%| <7 dull = 5 lat (AX = (by unitarity) Ayre
+Also, bial 12 Ad '= =|] ¥k 2? Ae Phan eigenvonlnee of
+
+--- OCR page 10: Lectures/entanglement(III).pdf ---
+Q@ unitary are Complex Numbers With unit modula.
+
+~> det lu\= AAJ, if complex number with unit modulud.
+= |detla) = |
+> (ueu) [-Xe| (youll = [det O) EXEL = EXE. B
+
+The vectd fio), uin} define a meaauremen ) With meagurtmert
+operator m= Wloxou , My= Uhixilu
+
+M,tM.= ullo¥oru + NIN = ull toxor mxil}u =< min =4, /
+a
+
+=y
+Probability distribution if :
+
+Pelsj) = Tel (Mi 9m )IE-XE gg] = Tel [WEleXel outty XIU )1EYErps)
+(xoy,) (Kax)= Kya
+
+ot (ubut) [1ijytagl) (wou) EXE og]
+
+= Te [iy XiyI (ueu)IP-NE- (usul*]
+ON Rm
+= (EXE (From abore}
+2 Til iy Xig EXE]
+
+27 Same distibution ad the Sin, 195 basis! $0 Shill_anti- correlated |
+
+(%) We con formalize thi idea inte an experimental test for entanglement.

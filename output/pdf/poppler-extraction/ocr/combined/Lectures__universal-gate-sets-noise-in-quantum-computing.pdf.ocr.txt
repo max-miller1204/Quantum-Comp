@@ -1,0 +1,372 @@
+--- OCR page 1: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+() Univertol Gote Sets
+
+—We wont ue a set ¢ elementary gated to execute astray
+Unitaried OA n qeeits -
+
+Relevant when we Nant fhe fet 40 be Sit.
+— wo yediom : wm + Approximate. > we com allow for Some trror | deviak
+
+Regu (uncostohty) infinite + gate in the implenentotien
+
+dhe set.
+
+(a) Evock cout COT + all Singl-gulit gakee are wnivertal! (@ Thit Set
+i$ pot finite.)
+
+Lemma 4.1. Every unitary 22 matrix can be expressed
+
+as @Reca the rotation gotta!
+(S ° | oe °.,| on a | ui $e ¥ A p
+‘ ei \—ain6s2 eos inet re = co(5)4 “att
+
+eiBl2 0
+cit a(t) a - - Sin(s <)Y
+
+where 6, a, 0, and £ are real valued. Moreover, any special by (¢)=
+unitary 22 matrix (i.e., with unity determinant) can be ex-
+pressed as
+
+(“ ° (0 soar \(em ° ). nei = col 4) 1 isinl £)3
+
+2}\ —sina/2 cose/2}\ 0 X= [7 } ye [? yt Tika
+
+hsepvs: hie 0 ae eel (wt? ia
+)
+
+x
+
+o cat silt) 4 sae) onl?)
+
+--- OCR page 2: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+0, = (at 0 \- [e 0
+
+0 conlf) 0 ~ghl4)
+i?
+= iauaunk 0 C= Cos(4) eSial?)
+0 cas(3) +ifinld|
++o
+v
+
+0 e
+®So awry Gingle-aubit gate can be decomposed into. rotating gaten:
+
+U> k (a) B,(o) Aa(o) , for appropriate angles dp, 0
+
+Lemma 5.]. For a unitary 2X2 matrix W, a /\,(W) gate
+can be simulated by a network of the form
+
+where A, B, and Ce SU(2) if and only if We SU(2).
+
+(b} Apacoximat, cans + frites whea he Bd alt in the Sef it finite
+
+(Ble the Set 4 usitoriea i UncoUntably infinite, while the Set of Sequencey
+of ant fon O ffoite Set wil) be Cowntally infinite)
+
+Theorem : ChiPford qo + ON Single-quait non Chiferd gate, iS vaiyersal |
+" ba.
+Lr gate T= (, Mh]
+— flecat Pouti operotuy on A qubits : Ye ITY, y2yers P=TeX oyokat
+
+sy
+a ke an
+Loe MIT eluate the identity gate.
+
+--- OCR page 3: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+yw
+3s a>
+= <
+2 Ss
+= — —_ ~2,
+o>
+oo = Ss = at
+= ° sD = 2 LZ =
+= = 3 Ss >
+= eF = Y 4 -
+s> a T 3 o s2 5 3 =
+= & 1S 2 s=> . = —~ 5
+J YN _~ Cv] =
+3 J ~ =] (ios | Ss
+3 * > a3 = : 4“
+\ ) = - - — Ss = ma “S a
+=S 3 = uo -: Xm S =< c
+— — = — K wna a om ~ \S >~ o
+—_ a ~ ”R — —
+* =. SS L aa Ss) =) < S
+: | Se Ss S| S| \ S ]
+Ms Tt a = ] m ~}
+a = “| rian \s\8 4
+- nal sD Ss at U i
+“> = C= = 2 we
+s( 3 ‘= if =F 5 +s 2 =
+yo 7 8 = =| 3 AOR
+( = “< <( = < , —~, 4 y,
+Qees:s Be wc =) S| 2 ps
+“ = = \
+San a Ss | fs L = |
+a) VY TF Ls gs s = _\ 2 3
+-  ) | = = S => ) <= iz
+= - HS — = — i eS =) < S H bp
+=z vine Ss ea = ls = » ¢
+ny = = rt Ss ~~ qe =
+J we > an uw = . Ve NS) >~_— a qa Ww
+1 x= = ~ i QQ _= “
+r~ s @ zy £5
+=F 3 ES =| 2 = ¢
+J —= is 2 Ss = —
+= 4 be — a
+— Mad _~4 25 ]*™’!.
+\ oes k
+— be =
+} HS <3) =
+CG»
+
+--- OCR page 4: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+[reauity}-» ener 4
+
+Qubit Sipk, deify
+ovur_time-
+
+Origins moximally-miy.ed
+ow Mt a
+it) ‘D.
+
+(a) Ary unrated gate applied to the gubit can be thought ¢ a1 noite:
+Example: Bit Flip > Powli- x got, X= (! )
+
+at)
+Xl? = |, XlQ= [oy > opposite enda the Bloch Spher.!
+
+[P= dle) +a) fe d XI?) = ulr+a lo) \0)
+
+7 medaurement probabi kites get a
+Flipped ! / .
+
+Example: Rotations > Ry (8), Ryd), (a)
+
+® Pecan telepoctatina| The State before Bob's correction is prtcitely a noisy
+verdion d the tre State Alice wants to Stand.
+
+(b)_Differcat yates Can apo he applied. randomly + the stafe
+* Brample : Apsly X with probability ¢, do nothing With probability Ia.
+
+--- OCR page 5: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+qubit State it given y a enmity operator, then rtec the
+i$ \ ;
+© (la)p + dex Bit~Flig channel
+l \
+y —? Apply the X gate with probability of.
+0 Nd] int Vv ! )
+with peobabilit ; (he)
+ka F QY
+= [1 0\e> (ra) [i 0) 4 &XioXolX = fia o\ + (0
+n— |
+p00 \0 0] =X (9 0} a
+= [ta 0
+measure the initial (noise lese 0
+
+oa
++
+
+(t-a )1oYol+ alinGl.
+
+\
+
+en We Would aet the outcome
+
+noile,
+
+Of babilityy [4
+
+| >
+re
+AS
+
+[-]
+~
+
+noise
+
+.
+>
+=
+
+Auankeies the amount of nase! -
+
+rj)
+—|
+(— 4
++
+<?
+
+ss
+
+Z?
+~Z
++
+—
+
+orm o=
+
+C
+
+loch Sphere
+
+arm after the nois
+
+Ce
+
+ole coordinat
+
+~<s <=
+By
+
+wl
+—
+~»
+
+Yoox }
+
+--- OCR page 6: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+a
+V“—_—
+RG) sa >
++ aus ; tat) >
+am) 1 ra) !
+ao ' \ 1]
+2 ) x
++> + > ~ ar)
+rank Tas > =~ =_
+i |
+kod ‘ ) \ ”
++ a n > iat
+~ + Po x —
+- >
+ak >< + = = ~s agit
+><) <3 TT » kcal ~< D> a _ Ne = +
+% ox a 3 ; _— ‘pe = PI
+—
+a ya > + ) 4 = rt = * ES
+os nid 7 Ss 7 ow + ~ 2 > v
++ ar ws Qos >~ — ~ rol re
+~ ) + 2 ‘ ) a le = < =~ _
+) > =
++ ~~ wor = ~ tt) AS ra r oC
+1 Saat = = y oa —
+s + + ) im 2s n
+oe >< ; T + ~~ = = 3 A= ~
++ x + “ o = =
+2 aml pe « 3 —
+> ‘sa < 2
+\ >~ y a + ex} . = —— >
+— fant rm % = S Ss wee } =
+; =
+j wf) — — al > =3 ao C
+— > = _ — = bead) = S ~ 2
+~ as) = aid ied — — * ? 3s VV >
+Le y y > 3! = == = = ~ ra ’
+~~ Ty —— . —
+Qe a, ‘ < = Ss Ps y
+>< 3 ) — Ss S ><
+= =] 7 ) > e
+= = _ = 2 =
+— = wl Jt = A
+‘ wy S Qt = "
+= <= = Qe
+>
+°
+
+--- OCR page 7: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+os 7
+—- o
+2
+1 o .
+— — a — . >
+a)
+\o ¢ = = s
+= a g ss ~*~ Ld
+— = bn) ry see : x=
+ce >) ¥ ce ~*~ i wal = = $s
+= == <_- " S + #3
+= ~s ~ iy A a pnd Ss
++ . > a Ne => S
+= r n = * 3 = = x J
+= o F ~ s S > + (sign | =
+= ~ 7 — 4 >< ‘ = =
+sw =), | Ma Ss =i <
+> VAY — —
+S + ae c= =
+= = — ‘Ss qa Ss es esl as
+2 + o| it | = > = —s " =
+. ow
+yn & gs ’ Ss nd <=
+D) a < — ae ree s
+“ > \ es} pie + = | os US
+x a Any I 3 s al hal
+: o .
+os 3 T [oe ,— “Yoosg a = re
+i ~\ 4 -_ s> we
+5 vo QW \ Ss Ms = . =
+> oO tfiy = aoe! + =
+3 = ‘ ; = ' = P< S
+=~ Per ™ % rN => s =a 2
+3 4 * = =|
+= + < = Ss = + v
+—_= . Y ) vu ’ ¥ — ed QL es
+s ~~ > = - ‘+ =>
+= 3 cS) \ s Ww \ = —\a Ras
+= 4 — 7 \ ~— we -. .
+s a “Ss Ss ) ss
+_ pi ~ 4
+S ss) ~ a _ = 5
+: . Ss
+" ~~ —> » oo) ne =} <n
+. = a . —
+G
+«
+
+--- OCR page 8: Lectures/universal-gate-sets-noise-in-quantum-computing.pdf ---
+2p
+
+4
+
+tn |
+c
+e
+—_
+8
+ow
+ae
++
+>~
++ R
+=
+= 2
+=
+H)) "|
+— =
+ast <s =
+= = 7
+—
+Se Ne — yin wi( = ml
+n ei 4 —_ 3 Se
+had Ta ec Sr \- <= 3 “
+
+a ren = sh se alia
+as oS Oe SE) = cm
++ — - +
+
+> a) 4 wy at =
+ae i + “_— i —— +
+al a Da oI = oie. > =
++ =< =) s ie = | [7
+~ + \ ’ \ — an
+Ca = — = =| )
+an f hn i) y
+i a4
+a
+) I
+
+yy
+
+San

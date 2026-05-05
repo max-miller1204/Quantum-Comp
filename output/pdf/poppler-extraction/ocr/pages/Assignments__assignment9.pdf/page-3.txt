@@ -1,0 +1,3 @@
+2. Consider the state vector |v’) = a|0) +1), where a, 8 € C and |a|?+|8|? = 1. Determine the outcome probabilities
+when measuring this state according to the measurement {2|v;)(W%|}429, Where |j,) = cos (22) |0) + sin (22) |1),
+k € {0,1,2,3,4}.

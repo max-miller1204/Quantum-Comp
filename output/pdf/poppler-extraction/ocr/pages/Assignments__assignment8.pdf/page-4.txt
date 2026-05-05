@@ -1,0 +1,14 @@
+2. Prove the following circuit identities.
+
+(a) CNOT(X @ 1) = (X ® X)CNOT.
+
+Ey
+
+d
+u
+
+(b) CNOT(1 ® Z) = (Z@ Z)CNOT.
+
+—{z}-o—
+
+aq oo

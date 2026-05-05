@@ -1,0 +1,28 @@
+(b) $2 @lga t+ X@X+VOQV+4+Z@Z)=
+
+ooor
+orooe
+coors
+i)
+
+Consider the following two-qubit density operator pag of Alice and Bob:
+Pap = Pil®*\®* | 4B + pal® XO ap + p3l¥T XU ap + pal YX ap, (1)
+
+where pi, p2,p3,p4 are probabilities (p1,p2,p3,pa € [0,1] and p; + pp + p3 + pa = 1) and we recall the
+two-qubit Bell state vectors:
+
+1
+V2
+
+Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i.e., the POVM
+is {|0)(0|, |1)(1|}. What is the probability that they obtain different measurement outcomes?
+
+|*) = (10,0) |1.1)), |W) = ((0,1) + |1,0)). (2)
+
+Consider the state vector |Y~) 4g of Alice and Bob, defined in (2).
+(a) If Alice and Bob both measure in the computational basis, then how are their outcomes correlated?
+(b) For every measurement outcome of Alice, calculate the corresponding post-measurement state of Bob.
+(c) Let U € L(C?) be an arbitrary 2x 2 unitary matrix. Prove that (U@U)|W~\(W-|(U@U)t = |W- wr].
+(d) Conclude that if Alice and Bob both do a measurement with respect to the same but arbitrary
+basis, then their outcomes are always correlated in the same way as in the computational-basis
+measurement.

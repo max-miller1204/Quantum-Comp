@@ -1,0 +1,311 @@
+R       tyien.lt
+A density matrix in dimension de 2,3             is a dxd matrixpelled
+satisfying the following properties
+
+    I Hermitian   pt p       t       conjugate transpose
+
+121 UnitTrace      Trip 1              Recall Tr trace sum
+                                                                  ofdiagonal elements
+                                       of a matrix
+    131 Positive semi definite
+                                 pso
+                                                indeed
+         This means that         r plusso
+
+         Equivalently   all the eigenvaluesofp are non negative
+                                     Timius           lu
+                         the state of any quantumsystem
+          Acumen
+    is mathematically
+               described                              dimension
+                                     by a density matrix arbitrary
+
+
+fi    Eisitiiiiiiinaiies'arithmmous win pointsen and
+                                           Trpx Tr 1trxxtryytre.tlx
+                                                                   EITHERTHATINTE
+                                                                                  z
+
+             AZ              Point re R         real 3D space rx
+                                     rx ry rz     p           1trxktryytrzzl.tt   fl
+                                 rit ry tri 1 rx.ir pxl ry Trlpyl rz trlptl
+                                 x              4                 2
+             I
+                                       p              1               1191 then
+          111                    It rytrytr.tl then p is apestate it
+                                 can be written as            147141 where
+                                                          p
+                                 14 Ed is a state ector 14 2107
+                                                                                            1014411
+Origin F 1,0e         p f lake that          the            namstyle
+      A completely randomstate             12
+Points on   the X axis T           1 0,0      p        a x 11741 1                      1107111
+
+
+ These are eigenvectors
+                             of      X1                              it      17
+  Eigenvaluesof   X are 1                                           14            17
+Points on the Y axis        F 0 11,0 p                     a y           tiktil        is    lo tills
+
+ These are eigenvectors of Y       Y Ii           Ii             Y til      Iti
+
+ Kieran
+Points on the        it cmen sp aaniEiii
+ These are eigenvectors            10 1072111
+                            of 2                           117
+                                                                    Eigenvalues        of Z are 1
+For higher dimensions we don't have such a nice representation
+
+We can still check if a state is pure using thepurity
+
+
+                 p in dimension d
+For density matrix
+                                       Icy
+The state p is pure if and only if Trph 1
+
+ Every pure state is represented by a density matrixoftheform p 1541
+ where   1 7 ed is a state vector          1114711     1
+
+ If a state is not pure then we call it a mixedstate
+Implantfact Every mixed state can be written as a cembination
+of pure states
+                    p
+                               fight
+                    ftp.E.int
+            Che                             E.Pn I
+                                 y4all
+             the.pt        int            E.paaxal p
+1h   m.tl
+                               ffft              Insert insert
+             check pad         Yes bc we sumover PSD elements
+
+                                   Mi Mao
+                                                  v1 M Ma r
+Quantumcircuitandges
+                                    Ver Igm
+Recaplaincomputation manipulation of bits
+                                          violetsor not or
+     For input re e13 calculate flat for some f
+     How to realize f with a circuit Howmanygates depth is
+      necessary andor sufficient
+
+     We rarely think about computation in theseterms anymore
+
+     We program in some high levlaguge C                python julia and
+     then the code gets compiled into the machine level language
+
+
+     Quantum computing is still thought about at the gate level
+
+        Although quantum programming languages   are being developed
+
+        giskit is a simple example
+                             01J
+                                      AND
+Lanicallegicciruits
+
+
+
+                         It
+  For every logicgate we have a truthtable how 0         are transformed by
+  thegate
+
+                                        A       NOTA      A     B      AANDB
+                                       91                       0
+                                                          0     I          0
+
+
+
+
+                                      centipi
+  A   B     AORB    A    B    AXORB              B     ACNOTB        Reversible
+
+
+                                                                               f
+  0   1                  I I            0        1      01          gate
+  1   0             1    0              1        0      11
+  l   l              l   l
+
+                                            A   B
+                                                  If
+                                                 H A AOB
+
+ For agiven circut we usethese truthtables combiningthem to
+                                                                    getthe truth
+ table of the whole circuit
+IntumcircuitsandGates very similar But thegates act on the
+
+complex vector space    d    of n qubits     they are representedby
+
+Unitarymatrices       matrix Uelled satisfying Utu Uat D
+
+        114                               Dui           Each box represents a
+         a                                D k           gate unitarymatrix
+        13                                D y
+                                                        Multiplythegatesto
+       174                                Drug
+                                                        get a unitary matrixfor
+        14                                Dry           thefullcircuit
+                                          D xp
+
+       ftp.ifi.ifiiii                er
+                                                 measurementread out
+
+                                           time
+
+  Why unitary matrix Comes from quantumphysics Schrodinger equation
+
+  To understand what the circuitdoes wejusthave to know how it actson
+  basis vectors
+
+
+  Ball anystate vector of n qubits can be represented as
+     147
+                   Gtt GEE ftp.gntsil       1      x̅    24,12   an kiefall
+              an
+              inputstate of the quantumcircuit                           ms
+       UM U Esau's 7             Fainted
+
+           Linearity of matrices m   alvitp.lv    2mlristpmivs
+ From calculating Uli   for all at weget something likethe truth table
+ of thequantum circuit
+
+                                               of largercircuits
+Elementary quantum gates               blocks
+                            building
+
+
+
+
+  Parts                                         9
+                                                          Xies        it XD les
+
+                                       4                     lo       ill      4117 ites
+                                                9
+
+
+                                       2                  2101 101 2111                111
+                                           1
+
+   Kardgate                 A                   H
+                                                      t.li
+  Ht H     H 11                                 Hle       4       lost113
+                                                H1        17           101 111
+
+
+
+   Reae                                    5                      5
+                        B                        1                      1
+
+    It
+                                                  defla
+                                                      É                     isint.it
+                                                                  if
+                            control
+
+
+
+
+ t.li i                   target
+                                         ie.I
+                                         10710       107107
+
+                                         107117   7 10711
+
+
+
+              fÉ
+ cost
+                                      fmnmm.mn             10
+                                          11710      1           117117
+
+
+
+
+                                       B c of linearity this determines the
+                                      action on any state
+         4        a 010    b 01 clue 111,1          a 0,0     blenltclltdll.tl
+
+     Letegae                                       10110
+                                                   10711
+                                                                taste
+
+                                                                10111
+
+                                   T               11710141172101 117 0
+              00 011011
+         00                                                     mm        mm
+     a
+              ftp fi
+ Eleuntary                                        1071074107101
+
+                                   f               10711741011
+              0                    E               intestinates
+in                                                  intimidal
+              a
+
+                                   i unitary
+        RotationGatese              Ryle         E          rotation around x axis byangled
+
+                                    Ryle E                 rotation aroundY axisbyangle 0
+
+                          x̅            Rz d      Et       rotationaroundZ axisby angle 0
+
+
+                                                     em            m    matrix exponential
+                               __   9      sy
+
+                119
+            e
+
+
+
+
+                          é X           at iExt
+
+
+            iinrt i                                        E
+        i        hn
+                          alhq I
+                               i                                  tii
+                                        tmepmma                 E itnmieimtii it
+  ill        z        k   o
+                                                 F
+                                               tip     i    i
+                                                                              i      1
+
+                                                                   1   k l
+tip                   i        i heel
+                                               tilt lift
+            Eg                                                         4 2
+
+
+                                               t.fi p                  my
+11 p
+                                              Eifici
+                    cos    E 1 isin E X
+            Similar argument to show Rylo          é   cos   E A isinE Y
+                                         Rzlol é       cos   E 1 isin E Z
+  I    tarirtmanteso
+      U                                 UELed unitary Ineed arbitrary
+               iepevnorm.fr
+        ITS am             1115742
+                                     21YIFVE.nu
+                                                       to     last causst
+                                     1mMatt matmt                  Cult
+
+      Unlipreservstates let p be a density operator representing a
+      mixed quantum state Then the transformed state is givenby
+
+                    This is still a density matrix
+       J Uput
+            Chec       i   pit   uputt lattptat uput
+        t
+                                 w̅           II
+1mmam       mtmtm.tl
+                       2 Tr
+                              p Tr uput Tolutup top I
+                                               Tr MzMMil Tr mmam
+              kiityftrace.ir M.MM
+

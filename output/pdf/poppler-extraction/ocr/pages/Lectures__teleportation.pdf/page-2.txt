@@ -1,0 +1,34 @@
+(b) How to extract information from a qubit | Measurements |
+Coe 77 (POM)
+
++A measurement (aka " positive operatir Valued measur" is defined by
+a Set C operatoct Me) cy (Some finite set Y ), Such that:
+
+(1) M70 ¥ xe Y. | MyeL(G*) dro mapriy for arbitrary dimension d..)
+0) £ m= dl
+xey
+
+* For any State ¢, the outcome prebabilitia are given by
+Pr(x) = Tr [meg] ¥ xeX.
+
+* Exam les ef meadurements : Mm, nt, __ £10) lo)
+ZA tye -W
+(1) Pauly? | Computation, baais : fayXol, xi) 10X04 WXi= 4.
+Q Powti-y : { leXel, eX}, Is Alien) Ke) = £149
+(3) Any basis: for any unitary U, F yboxowut, wixauth
+
+( Check: uleKorut + uliyatut = u[10Xol + ixujuf = nut = 4 /}
+—
+
+=
+(c) Entonalement : One of the bey distinguishing Characteristics of quantum vt. clasicel.
+“A State vector [Aygo entangled if it Connot be Written ad I¥ lg =1F) 0 14%,
+* Every Stele vectue IF )yp hos @ Schmidt decomposition : phi
+| 5 | If State
+HL Mhag = Aol Hie LF) = [Isler 010).
+() $,: Schmidt coefficients (5, x0)
+
+Slee ond {Miyh., art ofthondrmal vectors.
+(tule diy = $0 if kee
+
+fel

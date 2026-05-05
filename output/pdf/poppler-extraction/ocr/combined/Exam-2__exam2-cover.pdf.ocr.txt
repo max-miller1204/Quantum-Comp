@@ -1,0 +1,50 @@
+--- OCR page 1: Exam-2/exam2-cover.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Exam 2
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Name:
+
+Date: Thursday, March 5, 2026
+Number of problems: 8
+Time allowed: 75 minutes
+
+Instructions: Please show all of your work. Your grade will be based not only on writing down the correct answer,
+but having a complete solution.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and mistake,
+you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted problems result in a
+10-point deduction.
+
+Potentially helpful definitions
+
+e Pauli matrices:
+
+e Bell state vectors:
+
+1 1
+
+5 (10,0) + 11, 1)), }@) = F5(10,0) ~ |1,1),
+
+1
+
+|*) =
+
+al
+
+jw) = ([0,1) +|1.0)), >) = ((0.1) — |1,0)).
+
+al
+al
+
+2 2
+
+e Swap operator:
+
+100 0
+0 0 1:0
+R= 0 1 0 0
+000 1

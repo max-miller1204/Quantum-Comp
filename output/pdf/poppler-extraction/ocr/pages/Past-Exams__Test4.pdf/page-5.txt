@@ -1,0 +1,12 @@
+5. Let us use the following notation for the swap gate:
+
+Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+a
+
+YL
+
+Jovy > | 607
+
+cnet 2 CNoF 3
+

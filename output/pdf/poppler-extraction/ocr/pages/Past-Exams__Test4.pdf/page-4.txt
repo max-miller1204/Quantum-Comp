@@ -1,0 +1,20 @@
+4
+
+Consider
+
+a probability distribution with two outcomes defined as follows
+
+Pri] (
+
+|
+a), Pril ~(L+a).
+2
+
+. repeatedly sé i fr this
+Suppose that the value of a is unknown. Describe a real-life procedure, based on repeatedly sampling Irom =
+probability distr
+
+tition, that can be used to estimate the value of a
+
+—
+

@@ -1,0 +1,16 @@
+TOTALIER16 ]
+
+: bea g 's about
+Mp € ( 5) N L( ) ( ) be arbitrary linear operators. Prove the following facts t
+h partial trace, ype! we the f fi
+
+(b) Tra|Pa ® Mp] = TyMp|Pa. |
+(c) Tral(1a @ Mp)Hap(1a @ Np)| = Mp TralHan|Nn. bg M, ;
+
+l 6 6
+} Vea © My) = Tn |e
+
+) ae Re ls
+\ \ 0 *[a\
+(2)
+

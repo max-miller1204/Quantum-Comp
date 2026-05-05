@@ -1,0 +1,40 @@
+13.
+
+14.
+
+15.
+
+(d) CNOT(1 @ Z) = (Z® Z)CNOT.
+
+[2}—-
+Ze = (86)
+Consider the following circuit:
+°
+\0) kK—_|[ A= _
+
+The final measurement is in the Pauli-Z basis. What is the probability of obtaining each outcome?
+
+Consider the following circuit:
+
+0) i
+0) i S
+
+I) 6—|s|4
+
+WY
+
+The final measurement is in the Pauli-Z basis.
+(a) Show that the probability of both measurement outcomes being 0 is 2.
+(b) Show that the circuit applies the gate R,(@) to the third qubit if the measurement outcomes
+are both 0, where @ is given by cos(@) = 3; otherwise, the circuit applies Z to the third
+qubit.
+
+Recall the following circuit for the Hadamard test:
+
+I)
+Here, U is an arbitrary unitary and can act on an arbitrary number of qubits. Using this circuit,
+it is possible to determine the real part of (~|U|W), ie., Re((v|U|v)).
+
+Now, show that by adding the S' gate as follows, it is possible to also calculate the imaginary
+part of the inner product, namely, Im((q|U|w)).
+

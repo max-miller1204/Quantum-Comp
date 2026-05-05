@@ -1,0 +1,73 @@
+ToTac:E2]
+
+5. (a) Two qubits are in the
+
+state given by the vector
+
+1-2 in /100 V3
+—— 1,0) + ell)
+
+aT \0,1) + |1,0) a!
+
+i
+vn” 0 Vio Vio
+
+in the two-qubit Z-basis {]0, 0), 0,1), |1,0)
+
+1 probabilities? What are the possible me
+two-qubit X-basis {|+, +), /+,-)
+
+1,1) } what are the possible measurement
+
+es and their associated
+
+asurement outcom
+
+[etl dP?
+
+If we measure the qubits
+outcomes and their associatec
+probabilities if instead we measure in the
+
+(b) Consider the following two state vectors:
+
+jn) = poy + 51 I) = x0) +I)
+
+i. Prove that |v) and |v2) are orthonormal, and thus that they define a measurement.
+
+ii, Consider a qubit in the state given by
+
+fi
+
+1 3
+= 4)0) — = |1).
+w= 5-5 |)
+respect to the measurement defined by {|v1Xvils Jva){v2|}, then
+
+If we measure the state given by ju) with
+associated probabilities?
+
+what are the possible outcomes and their
+
+a}o,o7.t 3] 17 + cjjoy +4 ]1,17
+
+4 2 Go
+= | eee
+10! ess)
+\2 t | t z {
+r, = [hl i Il-#)s | 8 a ee,
+= Th lo lo ln Clos | Jo)
+cle] = le lee 9 =f]
+—— | ee ey
+Oe | 10 10 lo
+1 my
+yo ivf WE YX bass ete loc an
+a ¥ n—wN d more
+\ \
+b) irhnangl 7 otbsyunal SY NMe>= 0 A) first omen o (1B 2) fo |
+Nutiael Cy, }\> > | es z} | df f
+i) w= lor eb) Gun [vy >!
+
+ae '
+1a] 4 E2) 6
+

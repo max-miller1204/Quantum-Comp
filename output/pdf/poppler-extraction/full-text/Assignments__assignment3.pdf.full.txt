@@ -1,0 +1,234 @@
+# Assignments/assignment3.pdf
+
+Pages: 2
+Embedded text lines: 88
+Tesseract OCR lines: 115
+
+## Poppler embedded text (`pdftotext -layout`)
+
+CS 4134 – Quantum Computation and Information Processing
+                                               Assignment 3
+                        Virginia Tech Department of Computer Science, Spring 2026
+                                        Instructor: Sumeet Khatri
+Issue date: Tuesday, February 17, 2026
+Due date: Tuesday, February 24, 2026 (Submit by this date to ensure it is graded and returned to you
+before the next exam.)
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit a physical copy in class or an electronic
+copy via Canvas.
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a 10-point deduction. You must submit the assignment with at least one problem attempted
+in order to get a grade. Blank submissions will receive a grade of zero.
+
+1. Two qubits are in the state given by the vector
+                                                                     √
+                                i         1 − 2i    eiπ/100            3
+                               √ |0, 0⟩ + √ |0, 1⟩ + √      |1, 0⟩ + √ |1, 1⟩.                                  (1)
+                                10           10        10             10
+  If we measure the qubits in the two-qubit Z-basis {|0, 0⟩, |0, 1⟩, |1, 0⟩, |1, 1⟩}, what are the possible measure-
+  ment outcomes and their associated probabilities? What are the possible measurement outcomes and their
+  associated probabilities if instead we measure in the two-qubit X-basis {|+, +⟩, |+, −⟩, |−, +⟩, |−, −⟩}?
+
+2. Consider the following two state vectors:
+                                                         √
+                                                         3        i
+                                               |v1 ⟩ =     |0⟩ + |1⟩,                                           (2)
+                                                        2      √ 2
+                                                      i          3
+                                               |v2 ⟩ = |0⟩ +        |1⟩                                         (3)
+                                                      2         2
+   (a) Prove that |v1 ⟩ and |v2 ⟩ are orthonormal.
+   (b) Show that |v1 ⟩⟨v1 | + |v2 ⟩⟨v2 | = 1.
+   (c) Consider a qubit in the state given by
+                                                                     √
+                                                             1         3
+                                                  |u⟩ =        |0⟩ −     |1⟩.                                   (4)
+                                                             2        2
+       Write this state vector in terms of |v1 ⟩ and |v2 ⟩.
+   (d) If we measure the state given by |u⟩ with respect to the measurement {|v1 ⟩⟨v1 |, |v2 ⟩⟨v2 |}, then what
+       are the possible outcomes and their associated probabilities?
+
+3. Let X, Y , and Z be three discrete random variables for which we have the following probabilities:
+
+                                       Pr[X = 1, Y = 1, Z = 0] = p,                                             (5)
+
+
+                                                          1
+                                                               1
+                                      Pr[X = 1, Y = 0, Z = 1] =  (1 − p),                                             (6)
+                                                               2
+                                                               1
+                                      Pr[X = 0, Y = 1, Z = 1] = (1 − p),                                              (7)
+                                                               2
+  where p ∈ (0, 1).
+   (a) What is the joint probability mass function of X and Y ?
+   (b) Determine the covariance matrix for X and Y .
+
+
+4. Given any orthonormal basis {|ek ⟩}dk=1 for Cd , prove that 1d =
+                                                                        Pd
+                                                                            k=1 |ek ⟩⟨ek |.
+
+
+                                                                                              Pd
+5. Let {|ek ⟩}dk=1 and {|fk ⟩}dk=1 be two orthonormal bases for Cd . Prove that U =            k=1 |ek ⟩⟨fk | is a unitary
+   operator.
+
+6. Consider the following quantum circuit:
+
+                                       |a⟩     H                        H
+
+                                       |b⟩     H                        H                                             (8)
+
+                                       |0⟩
+
+   (a) If |a⟩ = |+⟩ and |b⟩ = |+⟩, then find the resulting state at the end of the circuit.
+   (b) If |a⟩ = |+⟩ and |b⟩ = |−⟩, then find the resulting state at the end of the circuit.
+   (c) If |a⟩ = |−⟩ and |b⟩ = |+⟩, then find the resulting state at the end of the circuit.
+   (d) If |a⟩ = |−⟩ and |b⟩ = |−⟩, then find the resulting state at the end of the circuit.
+   (e) Using your answers to the previous parts, explain why this circuit calculates the parity of the first
+       two qubits in the X basis.
+
+7. Consider an operator U that performs the following mapping on the Z-basis state vectors:
+                                        1                             1
+                               U |0⟩ = √ (|0⟩ − i|1⟩),       U |1⟩ = √ (−i|0⟩ + |1⟩).                                 (9)
+                                         2                             2
+   (a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+   (b) For arbitrary α, β ∈ C, what is U (α|0⟩ + β|1⟩)?
+   (c) Does U represent a valid quantum gate? Explain your reasoning.
+
+8. Let HAB ∈ L(CdA ⊗ CdB ), MB ∈ L(CdB ), NB ∈ L(CdB ), and PA ∈ L(CdA ) be arbitrary linear operators.
+   Prove the following facts about the partial trace.
+   (a) TrA [PA ⊗ MB ] = Tr[PA ]MB .
+   (b) TrB [PA ⊗ MB ] = Tr[MB ]PA .
+   (c) TrA [(1A ⊗ MB )HAB (1A ⊗ NB )] = MB TrA [HAB ]NB .
+
+9. Consider an arbitrary linear operator MAB ∈ L(CdA ⊗CdB ) and an arbitrary density operator ρA ∈ L(CdA ).
+   Prove that
+                  Tr[MAB (ρA ⊗ |0⟩⟨0|B )] = Tr[MA′ ρA ],      MA′ = (1A ⊗ ⟨0|B )MAB (1A ⊗ |0⟩B ).                    (10)
+
+
+                                                         2
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Assignments/assignment3.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Assignment 3
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Issue date: Tuesday, February 17, 2026
+
+Due date: Tuesday, February 24, 2026 (Submit by this date to ensure it is graded and returned to you
+before the next exam.)
+
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit a physical copy in class or an electronic
+copy via Canvas.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a 10-point deduction. You must submit the assignment with at least one problem attempted
+in order to get a grade. Blank submissions will receive a grade of zero.
+
+1. Two qubits are in the state given by the vector
+
+i 1-24 eit /100 v3
+='0,0) + —|0,1) + ——|1,0) + —S|1, 1). 1
+ap loo) + Fay oD) + ae HO) + Ser td) (
+
+If we measure the qubits in the two-qubit Z-basis {|0,0), |0, 1), |1,0),|1,1)}, what are the possible measure-
+ment outcomes and their associated probabilities? What are the possible measurement outcomes and their
+associated probabilities if instead we measure in the two-qubit X-basis {|+,+),|+,—),|-,+),|-,—-)}?
+
+2. Consider the following two state vectors:
+
+v3
+
+jor) = jo) + Sin, (2)
+jv) = 410) + 2 (3
+
+(a) Prove that |v;) and |vz) are orthonormal.
+(b) Show that |v1)(v1| + |ve)(ve| = 1.
+(c) Consider a qubit in the state given by
+
+3
+
+Iu) = 510) - “in. (4)
+
+Write this state vector in terms of |v,) and |v2).
+(d) If we measure the state given by |u) with respect to the measurement {|v1)(v1], |v2)(v2|}, then what
+are the possible outcomes and their associated probabilities?
+
+3. Let X, Y, and Z be three discrete random variables for which we have the following probabilities:
+
+Pr[X =1,Y =1,Z=0] =p, (5)
+
+--- OCR page 2: Assignments/assignment3.pdf ---
+Pr[X = LY =0,2=1)=5(1-p), (6)
+Pr[X =0,Y =1,2=1)=5(1-p), (7)
+
+where p € (0,1).
+(a) What is the joint probability mass function of X and Y?
+(b) Determine the covariance matrix for X and Y.
+
+Given any orthonormal basis {|e,)}¢_, for C¢, prove that 1g = an lex ex|-
+
+Let {|ex)}¢_, and {|f;)}2_, be two orthonormal bases for C¢. Prove that U = an lex fe| is a unitary
+operator.
+
+Consider the following quantum circuit:
+
+7
+0» [i o
+
+|0) © D
+
+(a) If |a) = |+) and |b) = |+), then find the resulting state at the end of the circuit.
+
+(b) If |a) = |+) and |b) = |—), then find the resulting state at the end of the circuit.
+
+(c) If |a) = |—) and |b) = |+), then find the resulting state at the end of the circuit.
+
+(d) If |a) = |—) and |b) = |—), then find the resulting state at the end of the circuit.
+
+(e) Using your answers to the previous parts, explain why this circuit calculates the parity of the first
+two qubits in the X basis.
+
+Consider an operator U that performs the following mapping on the Z-basis state vectors:
+
+1 1
+= —z=(-i0) + |1)). 9
+A val 0) + |1)) (9)
+(a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+(b) For arbitrary a, 8 € C, what is U(a|0) + 6|1))?
+
+(c) Does U represent a valid quantum gate? Explain your reasoning.
+
+U|0) = (10) —if1)), UL) =
+
+Let Hap € L(C% @ C4), Mg € L(C%”), Ng € L(C4*), and Py € L(C%4) be arbitrary linear operators.
+Prove the following facts about the partial trace.
+
+(a) Tra[Pa ® Mg] = Tr[P4]Mp.-
+
+(b) Trp[P4 @ Mg] = Tr[Mp]Pa.
+
+(c) Tra[(la ® Mg)Hap(la ® Nzg)| = Me Tra[HaplNo.-
+
+Consider an arbitrary linear operator Map € L(C44 @C?@*) and an arbitrary density operator pa € L(C%).
+Prove that
+
+Tr{Maz(oa ® |0X0|z)] =TLM4pal, Mi = (La ® (O|n)Man(La ® [0)2). (10)

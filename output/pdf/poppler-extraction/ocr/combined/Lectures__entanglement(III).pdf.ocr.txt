@@ -1,0 +1,459 @@
+--- OCR page 1: Lectures/entanglement(III).pdf ---
+() Detennini lemeat.
+
+U o
+
+(a) Given a Stope vere LY), how to determine if it is entanag (ed ac not
+
+7
+
+Precitely: 3 14), IAQ St In)> (4.28 (KD q
+
+@ Theorem _[Schmidtt Decomposition): Every State vector [Wag Con be written as
+
+t at
+L# lag =o 5 lev, a Ifudy. ca “£5 li), 9 lise
+
+or: Schmidt ronk
+
+. bol : Schmidt coefficients S70 Vk
+
+. ; lend ds ard, fist, Art orthonormal, vector.
+
+| Asut (recatl) : Write the vector (¥ep ad a moti, then oo the
+Fingulas yalue decomposition af the matriy.}
+
+= The Schmiolt rank if bnigus, — $0 we get the fallaving crifercon :
+
+© TF rel, then I¥)= lere lf) > nok tatangied!
+i.
+
+I
+¢ rol, then Catarglca! [g0< Ad hl
+
+(b) What about mixed, states? Mor complicated:
+"Exomole: conver mixture of Bell States. (iea=A [o.0)* 11,0), =a wre ua)
+
+tna = pi By * bh bat pot + fy dae) pr0 bobilities Pry Par fy € C2)
+Ge = (EXEL, By = (DOE yg. Ath py =!
+
+--- OCR page 2: Lectures/entanglement(III).pdf ---
+- PEL, AEG? Pye 9 =? fag = he 2 entangled !
+A=0, Rel, R=p,=0 - fag = Bon > entangled -
+~ A= h=0, R= A=os Bg = Lee = entang led:
+te a al pe lS aad 2 janiiiate He ae vale
+
+> re enttangled !
+
+“General cciterion: Positive Partiol Tonapese, [PPT) criterion
+
+Recall: Trompe 2 O marx [Si rows ad Columad ).
+
+Jn Bra- ket notation: Me -§ Mis KY; il
+
+ne
+
+iy) 20
+
+dol dz!
+
+fac Mes et(oct®) a Mag = = J ts rues
+
+ii/t0 4! ba} ye
+
+det da!
+
+fartiak. tranapase on A: mit = 2 LZ Mi; bYXily @ bX; ‘Ig.
+ite 45/20 at
+dort de!
+
+Paria tranapase oa B: Mie = SZ mgs Xl @ Xl.
+ii! 29 dy! =o fy yt
+
+Full traeapone : Mpg = Mall => Me = (ms)
+pcrarnaceed
+
+--- OCR page 3: Lectures/entanglement(III).pdf ---
+f
+C Mig = 92 fm Ai) My \
+LA24 fh) \\
+a4 on) n CMs 8
+Cree
+He Ze) — My Zy
+Ae Ap)
+ul (m7 r] mM;
+v oe t To
+oo 0 oe Ul
+f \
+
+aa
+
+my
+to M%
+il m
+
+25 November 1996
+
+PHYSICS LETTERS A
+
+PHYSICAL REVIEW
+
+Physies Levers A 223 (1996) 1-8
+
+LETTERS
+
+VOLUME 77 19 AUGUST 1996 NUMBER 8
+
+Separability of mixed states: necessary and sufficient conditions
+
+ywel Horodecki, Ryszard Horodecki®
+iy of Gas, 80-952 Garis, Poland
+
+Separability Criterion for Density Matrices sity of Gdarisk, 80-952 Gdavsk, Poland
+
+Asher Peres* ptember 1996
+Department of Physics, Technion—Israel Institute of Technology, 32000, Haifa, Israel Communicated by VM. Agranovich
+(Received 8 April 1996)
+A a) « ‘If - Tp
+eoremr | PPT Criterion): Aig arable <= 20. he 20.
+t | FN
+
+Ys Y
+=) 1
+
+7
+
+ed
+
+%
+(SE
+Ja
+>
+exe
+S
+— A
+=
+\i
+=
+S
+
+x
+
+BN
+=
+
+iaenvalue |
+
+wb
+—
+ra)
+ry
+as
+=>
+=]
+S
+=
+a
+
+>
+|
+
+| Kom)
+a
+3
+ek
+A
+=z
+-y
+v
+\
+I
+ro)
+tf
+\
+=
+So
+>
+S
+S
+
+¢
+
+--- OCR page 4: Lectures/entanglement(III).pdf ---
+Q 4 August 1997
+PHYSICS LETTERS A
+
+ELSEVIER Physics Letters A 232 (1997) 333-339 ————
+
+Separability criterion and inseparable mixed states
+
+with positive partial transposition
+
+Pawet Horodecki
+Faculty of Applied Physics and Mathematics, Technical University of Gdarsk, 80-952 Gdarsk, Poland
+
+Received 26 March 1997; revised manuscript received 5 June 1997; accepted for publication 5 June 1997
+Communicated by V.M. Agranovich
+
+r aK om VA x XY
+Proo faa Separab le~> & =/2 plt) ty @ We
+Ta Vol / \T
+
+wv
+°
+v
+cc)
+
+= p82 te. (h¥. Full « da4zo. DB
+7 (a8 ‘ AB ~ (Ab, 3 Fu | : (48
+
+> Examalea PPT criterion: — (E*) = tz (lod(o) + ny).
+
+Qo 0
+—- pet = it} 0 0 0 0| sptel 0 |
+LAB 6 ] - ea] |
+o o 9 Y | 0
+leon n | \ on n |
+q U U 7] VU U Uy
+po Esgenvoluca Fog are +1. ~ Fag — Swap_operator.
+
+Jo) = ]0 210)
+
+eS
+~\
+s
+~. |
+<>
+<=:
+<=
+7
+a
+=
+dl
+=
+ast!
+
+et
+a
+c,
+—/
+
+Na?
+
+piGac = bale XI
+
+: . IIe? h
+
+a
+Ss
+
+a
+
+IV.
+
+--- OCR page 5: Lectures/entanglement(III).pdf ---
+— TT _———
+a ays
+oS = S&S
+it
+aiae’ m=) ~~ a GS
+hea! =
+_ Q wee
+aS =) ales ‘ S
+call ~ \c
+* \ ehn
+loa | = al” ~
+- AY —)
+= ae v~ 2x8) 4 v\"
+-— Kan _ “sf ~ a
+a =? .
+S/F ot
+>< — re = o> —T 2 -~ ° =
+— Ss ) a + ° Ss — =
+= |] a ~~ <= iN)
+7S re et ml > Kot aT pe
+=, 25 = > Se Sia S=
+ca ’ a - So = <=
+we SS S o n ai +
+w LSS Fn Be a ee
+aad — oc WN y) —
+e iY) )) v p r << —,
+S — -— {SP \ ~
+a ~ \ \
+s&s a3 ay Sta \ N \
+) Tee! WS wR \Q&
+= y ° \ NN
+ss 7 Ww — a v ‘\
+: Ss > el) 2)
+ai — aS yy, YS
+@ Qa
+-= 7 = jG (SN
+to - es \O ahr (=> \=
+= r= KA \ we \
+? a cry aya Y \O YEN
+v € 2 ~ \o\ a\
+¢ FS AN AY \ate
+‘= 1
+7 ~—___
+\ ~ ° —
+a=) ~ o =
+ra se
+_— a v
+ae ay
+aS an =
+Qs
+
+--- OCR page 6: Lectures/entanglement(III).pdf ---
+v 4 \
+iqenvo. lum :)8 ,= b (3-do}] [multiplicity 3)
+€ need a negative \ \, e4(1+ ) { ultiplicity }).
+acWvolue tye entarsleneat!
+J U
+— 1(-2p)
+— 3(-1+2p)
+() <4 a) es
+Oe: | ‘Bha| = Cet lat et)
+ian 7 7 \ f) ry)
+ay |? 5) ef le | EAE) + (BH IE) ¢¢ A
+I Hn 7 yr aie
+Zip => pe l- Eleaf) es.
+Ly Thit if called the. ridelity .
+(a A lo n
+bY tog i$ entangled iF and only if EA’ |E*? > 7
+LY) Clase; tlation’ : Be ICHSH Ines lity
+t criteria for dete ‘ing entanglement re partly athematical
+pr tice, WE neeol tH) of0 me 4 oletermine whether or n
+bits Ore entangled
+UJ
+
+--- OCR page 7: Lectures/entanglement(III).pdf ---
+* Recall example from. befart : fy = 2 (loXel,9 UX + LXilg 8 lo%iy]
+
+— This state if Separable (not entang led)
+— Tf Alice and Bob bath meadurt, in i 119} basil, heh:
+» They both get © 0" and nn Ww! probabity i.
+(i ity locally, if looms completely Fandom , b{c = Tals] = 24
+
+and. fy = = Tyltn) = 2%. |
+
+* But if Hey Compare their measurement outcomes, they Will al
+be the opposite! ( Whenever Alice got 0 "o" or "|", Bob got "[  "ot)
+So their outcome art perfectly anti—carrelated.
+
++ Bur the Same thing happens with the maxima [ly “entangled State!
+
+[Fy = fy LUO II - ~ lilo, J —in the $103,t} bast$ the outcomes art
+
+) hey ity
+
+perfectly anti-cofrelated.;
+Sd how to distinguish He toa? What maker the entangled State Special:
+“Th See the difference, measure in a different basit.! Say in the $14, -x} bonis.
+— far baa = 4 (loxay a [Kng +lXllg # LoYdly } :
+
+p- (+, += Te ( LtX+ly @ Xp ) Oye | 24 [uererercen [47-+4LXtl XoXo)
+
+sae
+
+[ u2=A w+) | 3 +
+et{tyt 1
+=3( 47 i) 4 -
+Sint lad ty : At) -] = Pe{-)+) = p[-)-] =}
+So the outcomen are Completely uncorrelated |
+
+Why Ble the joint distriloution if @ praduct f. the marginal. distribution.
+
+--- OCR page 8: Lectures/entanglement(III).pdf ---
+- Motyinal oli tributionA are girca by the partial trace :
+* Marginal fic Alice 4-2 = fl*]=A,(-12
++ Marginal for Bab: p= 4M = frl-e]= Rgl-1~
+
+“Product of the maryinaln: Ayl+)-fel+ #55, ® [+)-fe (-) = 4
+
+= hy ty eel] fe) =4 =4) A{-)-Agl-Te 4.
+
+This 18 the Some on the joint distribution Calculated above!
+So Mice and Bob$ random variable Or independent =¥ no Gorrelation.
+
+L
+L
+L
+ra
+
+— but for F-yp=tl lag LI ~ (1410p » the outcomes art Stil) perfectly
+anti- correlated !
+
+» (dj, 9 Gla) dog = =a (aeN0- aiyirla)) = =0 3 hl+)+]=0
+“hi a
+
+_-
+=
+
+=) Pel +)-] arenas (5 %ma| = 3
+
++ (Ly a Gl) le tgg =A (Cloyetiy-Cueinn) = 4 [a+t) =a
+pata
+
+=) Pele )= | (Cpa Cr) Eel =
+
+ol. K £
+
+--- OCR page 9: Lectures/entanglement(III).pdf ---
+— The anti-correlation exith far day basis meaaurment |
++ Foct: Let W be an arbitrary Ly unitary matrix. Then
+
+( ue u) exg1 (uoult = EXEL.
+(Ee & [ Lo) L1d16r)
+Prout: Fit Consider an atbitrary 1x2 matriy M= (* 3); a,b,c) A €C.
+
+Mlo) = glo? echy
+
+= &( (am+cin)e blo)+d liv) - [biy+a00) 0 Lale)ren)}
+=i | abfony + adf0t?+ chile) + cart
+- ab Jo/6) ~ cblis) - adlio)~ cdi}
+= [ad-be}in - [ad -be)i10)
+2h (ad~be) (Io, - 110%)
+= (od ~ be) a [10,1)- 11,09).
+
+2 AED» determinant ef M:
+
+So far aay matrix m: (Mam) 1g-Xe|(me mn)! = [det onl? EXE,
+
+Determinant is product 4 He eigenvalues.
+Le Us J Ath YA be the Spectral decomposition f a unitary,
+
+key
+if
+
+Then ut = $7, LAY%| <7 dull = 5 lat (AX = (by unitarity) Ayre
+Also, bial 12 Ad '= =|] ¥k 2? Ae Phan eigenvonlnee of
+
+--- OCR page 10: Lectures/entanglement(III).pdf ---
+Q@ unitary are Complex Numbers With unit modula.
+
+~> det lu\= AAJ, if complex number with unit modulud.
+= |detla) = |
+> (ueu) [-Xe| (youll = [det O) EXEL = EXE. B
+
+The vectd fio), uin} define a meaauremen ) With meagurtmert
+operator m= Wloxou , My= Uhixilu
+
+M,tM.= ullo¥oru + NIN = ull toxor mxil}u =< min =4, /
+a
+
+=y
+Probability distribution if :
+
+Pelsj) = Tel (Mi 9m )IE-XE gg] = Tel [WEleXel outty XIU )1EYErps)
+(xoy,) (Kax)= Kya
+
+ot (ubut) [1ijytagl) (wou) EXE og]
+
+= Te [iy XiyI (ueu)IP-NE- (usul*]
+ON Rm
+= (EXE (From abore}
+2 Til iy Xig EXE]
+
+27 Same distibution ad the Sin, 195 basis! $0 Shill_anti- correlated |
+
+(%) We con formalize thi idea inte an experimental test for entanglement.

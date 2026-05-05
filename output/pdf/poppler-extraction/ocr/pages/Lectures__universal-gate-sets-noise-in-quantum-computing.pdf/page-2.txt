@@ -1,0 +1,32 @@
+0, = (at 0 \- [e 0
+
+0 conlf) 0 ~ghl4)
+i?
+= iauaunk 0 C= Cos(4) eSial?)
+0 cas(3) +ifinld|
++o
+v
+
+0 e
+®So awry Gingle-aubit gate can be decomposed into. rotating gaten:
+
+U> k (a) B,(o) Aa(o) , for appropriate angles dp, 0
+
+Lemma 5.]. For a unitary 2X2 matrix W, a /\,(W) gate
+can be simulated by a network of the form
+
+where A, B, and Ce SU(2) if and only if We SU(2).
+
+(b} Apacoximat, cans + frites whea he Bd alt in the Sef it finite
+
+(Ble the Set 4 usitoriea i UncoUntably infinite, while the Set of Sequencey
+of ant fon O ffoite Set wil) be Cowntally infinite)
+
+Theorem : ChiPford qo + ON Single-quait non Chiferd gate, iS vaiyersal |
+" ba.
+Lr gate T= (, Mh]
+— flecat Pouti operotuy on A qubits : Ye ITY, y2yers P=TeX oyokat
+
+sy
+a ke an
+Loe MIT eluate the identity gate.

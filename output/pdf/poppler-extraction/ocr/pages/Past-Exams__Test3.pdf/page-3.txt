@@ -1,0 +1,9 @@
+. A ar a known as a “positive operator-valued
+8. (a) State the mathematical definition of a quantum measurement, also known as a “positive Of
+measure” (POVM).
+(b) Write down an example of a POVM, with justification.
+
+M
+
+isin
+

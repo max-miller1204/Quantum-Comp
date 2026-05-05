@@ -1,0 +1,9 @@
+6. (a) State the definition of a separable state and an entangled state.
+(b) State the definition of the Schmidt decomposition of a bipartite state vector |v) ap.
+(c) Under what condition(s), based on the Schmidt decomposition, is |th) 47 entangled?
+(d) Based on the Schmidt decomposition, determine (with justification) whether or not the following state vectors
+are entangled.
+i. Jal0)|+) 4 V3).
+
+ii, (310, 0) — ¥3\0, 1) + V3\1,0) — 1,1).
+

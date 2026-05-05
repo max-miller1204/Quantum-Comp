@@ -1,0 +1,43 @@
+Q Notation: L(ct) = set of all mutricar[linear operates acting ba CF (ie, dual matrictr)
+(dimension od )
+
+— Ft ony Vector yee Welle) ig a ded matrix.
+
+da 4
+
+wt a7'
+We£4 IK) a IX] 2 (¢ Me 1) [s% <i! ) = g Var LEXK'L
+
+k’=o ku'sp
+
+- Tdenhty matrix: 2 > Anyzw fir at lect
+
+hzo
+
+Le L 0 =f [kXkl <> Foc any Ortho Normal
+" ol
+! | banis { lea) See) * aes lepreal.
+
+— Trace of 8 Matrix: Sum t the diagonal tlemeats.
+
+n= (a | > Trim) = ard = ColMboy +<iM 10.
+
+ca
+
+d= ol‘ a-\
+
+Tn general: Meo mie UX =? tlm] =. mis = S GlMlid
+ijz¢ p t) 7=0
+
+12
+@ Consider a State vectr Ix9= 10+ 61 <7 Ge dol teu , lal" pel
+
+2 Ll = (aed+@ 12] [ado + pa) = ded [0Xol + MB 101 + ek Lindel + pp LI
+
+Lo
+= lal’ loYo1 + afi 1X1) + Ba (Nol t pl UXI = (i ie)
+> [els Fe[o
+
+Now fake the trace: Te[ WY] = [als pel. ip\> P(t
+
+Tn generat : Te (Iva) = ly lv) for all wed,

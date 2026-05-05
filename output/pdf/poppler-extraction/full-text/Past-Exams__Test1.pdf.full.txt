@@ -1,0 +1,129 @@
+# Past-Exams/Test1.pdf
+
+Pages: 6
+Embedded text lines: 0
+Tesseract OCR lines: 117
+
+## Poppler embedded text (`pdftotext -layout`)
+
+[No embedded text extracted by Poppler.]
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Past-Exams/Test1.pdf ---
+1. Consider the complex mumber 2 = 1 + 2i.
+(a) Find Re(z).
+(b) Find Im(z).
+(c) Plot 2 as a point in the complex plane.
+(d) Write 2 in polar form, z = re,
+(e) Find 2.
+(f) Find {2},
+(g) Find |2)?,
+
+b) tm (2) x Q
+
+y
+
+f
+
+6 hale |< 6349:
+
+Beit would be better.
+
+es
+peorioua
+mw (
+"
+t+
+So
+el
+¢
+pS)
+
+--- OCR page 2: Past-Exams/Test1.pdf ---
+2. (a) State the definition of a d x d Hermitian matrix, d € {2,3,...}.
+(b) Write down the most general form of a 2x 2 Hermitian matrix.
+
+7 We INR] evo ev
+
+A Wermition Matrck as nude vf of Mel Bra
+
+oy Xo| | [tpl lay cil, fy
+
+# x2 Hermitian Malt ¥
+
+Wwhun boing ut - bya shel o& bra - ket ;
+
+: ashi
+Oia ie (4-b: c-di )
+
+er)
+awh 2
+ee)
+
+Lx¥Q
+
+--- OCR page 3: Past-Exams/Test1.pdf ---
+3. Draw a Bloch sphere and label the following locations.
+(a) Where a qubit is {0) and |1).
+(b) Where a qubit is |+) and |-).
+(c) Where a qubit is |+ i) and |— i).
+
+--- OCR page 4: Past-Exams/Test1.pdf ---
+£
+
+" : Fi ‘Tity ion is given as
+4, Let X be a random variable, taking values in {1,2,3,... }, whose probability mass function is g
+
+(a) What is the value of a?
+(b) Compute Pr[X = 4).
+(c) Compute PrLX < 2.
+
+\
+
+fav? re {1,2,3,4},
+Px(t) = 0 otherwise.
+
+--- OCR page 5: Past-Exams/Test1.pdf ---
+ental sart of the definitj
+5. (a) State the three-part mathematical definition of a density operator, and eae an emsted on
+(b) State the mathematical definition of the purity of a quantum state. € MH) NO P
+
+(c) Write down an example of a pure quantum state for one qubit.
+
+; jte Shy Opened x / "2 S a, b, re)
+Lx
+
+}
+
+J
+
+. LK
+>
+u orm. | KrK
+]
+ST hasdpe é y= ; 4 f
+yen \ VY U + K-=k
+/ Atk
+
+--- OCR page 6: Past-Exams/Test1.pdf ---
+&
+
+Let |e1),[2) © C1 be arbitrary vectors, and let M € L(C4) be an arbitrary linear operator (i.e., d x d matrix).
+# Using the definition of the trace of a linear operator, pr
+
+ove the following identities.
+(a) Tr{lr eel] = (vole)
+(b) Tr[Mjrnyval] = (vat }ny)
+
+e|2 WW) <¥a) Je.) U1, 22 Celeey G4)
+
+Mey
+Comment
+
+F Ati
+| a1
+
+(2) Need to show for
+
+) Trim) Cull = elalyy Saget

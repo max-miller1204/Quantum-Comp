@@ -1,0 +1,306 @@
+Retumtellpertatin
+ A method to send arbitrary quantum information using entanglement
+ andtwo bits of classical information
+
+
+                                     0       É
+
+
+                                                        It ted do nothing
+                                                        if t 1 apply Z
+                                   Fishing
+                                   if k l applyX
+   Teleportation is not instantaneous faster than light            it only works if Bob
+    gets Alice's measurement outtomes        this takes time
+
+ TheLeasurment is a critical component
+  It is given by the Porm It I It It         It 1813611 It L KEY
+    1        11071011117117
+                              Et     10711     lilies
+
+ Cirtuit implementation                                   1011074101105
+                               off
+
+                                   If
+                                                          10 1 510 1
+                                                             int
+                                                   measuremint       11 10
+                                         Pauli t
+ Eet LetPao bethe initialstate
+        Let U                 be the snotgateand He              i i the
+                          p              Hit
+                                                              Hadamard
+                                                                         gate
+                                                        in   tolerant
+         f f Tf
+                                  in       upauti                       hat
+  a
+                                                     stp.net
+                                                          statejustbefore
+                  Pauli t measurement                     measurement
+
+
+
+Nowdo a Pauli t measurement on each qubit
+
+The poem is   10,076101 1915614     ok
+Outcome probabilities
+                                                        to LEMME
+
+Prltic   trllt.xkzmlarMPHITAEKABI.ir BCA
+         To Intoa lankala Hoa uparut                 cyclicity of trace
+
+         TrlU
+                 e klahaupa                         cyclicity of trace again
+
+
+
+
+ut u b c NOT is Hermitian
+Ht H bc Hadamard is also Hermitian                 Me     eLnt        eelu
+111 UHea
+           111     Not4,0         not      10110    lilies
+
+                            Italenotions
+                                                   tiff
+                                    lobe    1in
+                               It
+                                                        4 Aliest11s
+         LEE
+ 2 U H 1 10,1     NOT   1     NOT        10147 117117
+
+                                    NOTe 117       NOT1711
+                                   101117   117107
+
+
+
+                                 It
+
+         LEE
+  3 U HeD 11,0       Nott 0      NOT     10110       117107
+
+
+
+
+                                      not 0710       Noth le
+
+                                  10710     117117
+
+
+
+                                  7
+
+
+ militating
+                    cnortinenottli.sn mm
+                                  NOT10711       NOT1 IS
+
+
+                                  107114    111107
+
+
+
+                                117
+
+        LEE
+Also   It I    It    I    1
+
+Proof Goto the matrix representation
+
+
+       114    1107101 1111131
+               K                   00
+
+
+
+
+     1161   1101101 1111111
+
+
+
+
+              a        on
+
+
+
+
+ I
+            Ecmo                        set
+                              if
+     in tallen most                 E
+                              g
+Addup             It      E
+
+
+
+
+                              T         it    It   mm
+                                                        it
+Seemed
+    Teleportation using entanglement    classical informationto transmit quantum
+                  information
+
+    Wecan also use entanglement to transmit classical information
+
+                                                I qubit to transmit 2classicalbits
+Sorcoding              using entanglement
+
+
+                                                      Encoding bits2 x
+                                                       into one qubit
+
+
+
+
+1                      1    011 this      this         Alice does nothing
+     theffel
+       Tendell              o 1 11th        1       lo alob 1141113
+                       1                   107,10     Xlia 1 a
+       Alice applies   to
+       herqubit                          1110        10a 1 B
+
+                                       L AB
+
+        Iredell              1 I A      to 1        10a eis 1ha  list
+                       1
+     Alice applies to
+                                          Zte lots Zillalib
+     her qubit
+
+                                                    1dam
+       2 1
+                                         totaled
+
+
+                                        II AB
+
+       Ieee                   111 A      2 01      lasalots halls
+                     2
+                                      Hiiiii iii
+                                            11all     e all
+                                                           B
+
+                                          TAB
+
+
+   Cervation These encodedStates arethe same as the measurementoperatorsof
+   the Bell measurement
+121After encoding Alice sends her
+                                    qubit to Bob
+3 Then Bob does a Bell measurement on both qubits
+
+     Real the outcomeof the Bellmeasurement is two bits of information
+      Outcome  It      10,01
+
+     Outlome It       10,11
+
+     Outcome I       11,0
+      Outcome I      111
+     Each one of these outcomes occurs withsome probability dependingon
+
+     the state    if the state being measured is p then
+      PrlE   Tr pet Pr E        Tr pE     Pr Et Topet P.LI1 tripE
+The state encodedby Alice is
+
+ Ezra      Ex ok let             taxesen are the bitsshe wants to
+                                 sendto Bob
+
+ 119,7   It
+ 16      1117       Bob measures one of thesestates
+  Eno181            but he does not know which one it is
+ 14,1 E             He has to figurethat outfromthe Bell
+                    measurement
+
+
+What is the probability that Bob retrieves the bitsAlice sent
+
+We need to determine Pr Bobgetsoutcome limitgiven Alice encoded lein
+
+This is given by                             It      It It
+                    their Enlace's    encodedstate
+                     Bob's
+                     measurement            dam         if
+We will showthat til          Iti     end
+This means      if Alice sends bits t x then Bob's measurement outcome
+ itz.si with probability one          he successfully gets Alice's bits
+
+Root Trl        E     T.CL alleteyettoallfalle
+                         i              effed
+                    titiitititute.it ie
+monument
+ M M 11                      scalar                    eiT
+ valve        X tt 1 Ex a let            II X z Ex 0111ft
+             I tit                     elitist
+                 Kafka X Z Ex 1 in'shis
+                                                Momain'sin's
+                 É     X   Ex
+                                catchy          kMilk k Math
+
+
+
+                 EChix Ex in         Chlmind trim
+
+
+
+0
+    11
+                   t.IT
+                   zf
+                                ttrlkx t       Levi
+
+
+                  iiiiiiIi limner
+             Samefor   Ett 210 2 0 A
+                                                           iii
+                           EE.fi     ttitt ti
+         Now we use the factthat Z andX are orthogonal
+
+         2                          TAX     Trt O and
+             1             9
+                                    Tr Ex                 Tr        0
+                                                    9          ff
+     Therefore      TrExt      2da dbor   a befall
+
+
+     Elek a o b o           Tr 1 2
+                 a 0b 1     Tr X D
+                 a 1b o     Tr E 0
+                 a 1 b 1     Tr x   0
+
+                             XTEEE Ea.ioGaz
+     Finally
+                 Let
+     But xox D             k x and z tot o      z
+
+        diloni
+               o day      and dotzo dziz
+
+
+     so rival finddazi
+
+     Similarly Valve   Titre
+
+     danidzzt
+      Tr It It In se         day Be
+
+
+Recap Superdense coding allows Alice to send two bits to Bob using only
+
+The
+  qubit        aslong as the qubit is already entangled with Bob's qubit
+
+This worked bc the 4 BellStates were used to encode the information
+anddo the measurement          and b c the BellStates are orthogonal they
+are perfectly distinguishable
+
+
+
+Lethisinteresting
+With just a single unentangled qubit we cannot successfully w prob 1
+transmit more than one bit of information
+In dimension d we can transmit w prob I at most logeldt bits
+So d 2    log 2 1 bit
+
+With entanglement the dimension effectively increases to 4    log141 2
+                                                             bc 4 2
+

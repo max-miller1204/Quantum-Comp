@@ -1,0 +1,49 @@
+Problem Bank
+
+CS4134 — Quantum Computation and
+Information Processing
+
+Sumecet Khatri, Virginia Tech Department of Computer Science, Spring 2026
+
+Table of Contents
+
+Linear algebra 1
+Probability and statistics 8
+Quantum mechanics 11
+Entanglement 16
+Quantum circuits 18
+Quantum error correction 22
+
+e Questions marked with a * are challenging problems that may appear in the exams as bonus
+questions, i.e., they need not be attempted in order to get a full score on the exams.
+
+e You may go the instructor and TA office hours to discuss solutions to the problems.
+
+Linear algebra
+
+1. Consider the complex number z = 1 + 2i.
+(a) Find Re(z).
+(b) Find Im(z).
+
+(c) Plot z as a point in the complex plane.
+(d i0
+e
+
+(
+(f
+(g
+
+Write z in polar form, z = re
+Find 2.
+
+Find |z].
+
+Find |2|?.
+
+VoewomYSY wa
+
+2. Prove the following facts:
+
+(a) For complex numbers 21, z2 € C, 7 +22 =" +72
+
+(b) If Juz), }ve) € C4, for any d € {2,3,...}, then (v1|v2) = (valv1).

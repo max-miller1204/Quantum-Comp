@@ -1,0 +1,13 @@
+4. (BONUS, 10 points) Let p be an arbitrary single-qubit density operator, and let X, Y, Z denote the Pauli operators.
+Prove that
+
+1 1 1
+
+4 4 4
+
+In other words, apply the gates 1, X,Y, Z uniformly at random to any state makes the state maximally mixed.
+
+(Hint: What happens to the coordinates of the state in the Bloch sphere? Use the results of Problem 3.)
+
+1 1
+yet XpX+-YpY + ZpZ= 51.

@@ -1,0 +1,48 @@
+Entanglement
+
+1. Do each of the following state vectors represent a product state or an entangled state? If it
+represents a product state, give the factorization.
+
+(a) Elo)l+) + \/311)|-).
+(b) $(3]0,0) — V3|0, 1) + V3)1,0) — |1,1)).
+(c) 45(/1,0) +i/1,1)).
+(a) 45((0,1) + |1,0)).
+
+2. Let |®qz) be the state vector
+
+d-1
+
+iba) = Ih (69)
+For every unitary operator U, prove that
+
+(U ®U)|®q) = |), (70)
+where U denotes the complex conjugate of U.
+
+3. Consider the state vector |W~) defined in (64). Prove that
+(U @U)|WYKU|(U @U) = |W Kw (71)
+
+for every single-qubit unitary U.
+
+4. Consider the Bell state vectors as follows:
+
+|@*) = ae ,0) +|1,1)), (72)
+|®°) = ae ,0) —|1,1)), (73)
+\wr) = ae 1) + |1,0)), (74)
+|v) = 5 1) — |1,0)). (75)
+
+(a) Show that when the X gate is applied to either qubit of |W*), the result is |®*) up toa
+global phase.
+
+(b) Show that when the X gate is applied to either qubit of |®+), the result is |W*) up toa
+global phase.
+
+(c) Show that when the X gate is applied to either qubit of |W~), the result is |®~) up toa
+global phase.
+
+(d) Show that when the X gate is applied to either qubit of |®~), the result is |¥~) up to a
+global phase.
+
+5. By calculating the Schmidt decomposition, and explicitly stating the Schmidt rank, determine
+whether the following state vectors are entangled.
+
+16

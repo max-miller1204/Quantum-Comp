@@ -1,0 +1,52 @@
+8. Let X, Y, and Z be three discrete random variables for which we have the following probabilities:
+
+Pr[X =0,¥ =0,2=0)= 5, (35)
+Pr[X =0,¥ =1,2=0)= 5, (36)
+PrX =0,¥ =1,2=1)= 5, (37)
+PrX =LY =0,2=-1)= 5, (38)
+PrX = LY =0,2=1)= 5, (39)
+PrX =LY =1,2=0)=5 (40)
+
+Let S be a new random variable for which S = X +Y+Z.
+(a
+(b
+(c
+(d
+
+Find the marginal probability mass function of X.
+Are X and Y independent?
+Are X and Z independent?
+
+NaN Na
+
+Find the marginal probability mass function of S.
+
+9. Let X, Y, and Z be three discrete random variables for which we have the following probabilities:
+
+Pr[X =1,Y =1,Z=0]=p, (41)
+Pr(X = LY =0,2=1)=5(1—p), (42)
+Pr(X =0,¥ = 1,2 = 1)=5(1-p), (43)
+
+where p € (0, 1).
+(a) What is the joint probability mass function of X and Y?
+
+(b) Determine the covariance matrix for X and Y.
+
+10. The probabilty mass function of a discrete random variable X is as follows:
+
+02 2=-2,
+0.3 «2=-1,
+
+px(z)=4 04 v=1, (44)
+0.1 x=2,
+
+0 otherwise
+
+Find the expectation values of the following functions of X:
+
+(a) Y=3x-1
+(b) Z=—X
+(c) W=|X|
+
+11. A coin is tossed 400 times and the number of heads that appear is equal to 225. What is the
+probability that this coin is biased?

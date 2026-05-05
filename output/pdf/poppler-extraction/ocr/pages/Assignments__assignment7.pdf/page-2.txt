@@ -1,0 +1,3 @@
+1. Show that the controlled-Z gate can be written in terms of the Hadamard gate and the CNOT gate as follows:
+
+4 mee

@@ -1,0 +1,45 @@
+©) Recap: Hadamard, Test.
+
+Estimating CAIUI¥), wert Wit a Unitary ant 12 16 0. State vecte.
+
+10) —[H]}4 fu} tae
+
+Ke
+1) ——J U }——— toto
+
+——"
+
+yt
+
+r{o)= t (I+ Re(caiulr)) pr{t} =4(I- ke (enuiy>))
+
+- |! °\ 3 ote! ?
+| eles} e ela
+For the imaginary part:
+
+Eee | A t (1+ bal@atuy))
+P(t] = 4 (I+ Jn(Celul»))}
+
+In) a
+@ In both cones, we have Prfo)=t (ie), Pli\=4li-a), where a is
+Unknow. To estimate wwe do the Fallowing procedure
+
+/
+
+for i=t,d,...,N (Need Samplea | # d times we run Hie gudntum Gireuit)
+
++ Each Hime We gh Ovfcome "0! 9 record = AB thit defines a random
+* Each time we get outcome "I" rtd x; = =I Variable _y
+Do tht N times, thea faut the Samale
+mean / average ‘es ql Loy sie
+aay
+Thib define? a random variable Xy= ah: Xe if an unbiated estimator of X:
+
+vey
+
+E(%= v2 ly] ¢ reel = lx].
+/\ “EELy) Vi,ble all Samplea art independent and identical
+
+Aye
+
+P{x=#\) 2a [lea]

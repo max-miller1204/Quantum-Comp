@@ -1,0 +1,46 @@
+16. The Mglmer—Sgrensen (MS) gate is a two-qubit gate that can be naturally implemented on
+
+trapped-ion quantum computers. It transforms Z-basis states as follows:
+
+|0, 0) +
+\0, 1)
+{1,0)
+\l,1pwH
+
+Write the MS gate as a matrix.
+
+1 ({0,0) +4J1,1)),
+
+al
+
+2
+
+1 ({0,1) —iJ1,1)),
+
+al
+
+2
+
+1 ({1,0) — iO, 1)),
+
+al
+
+2
+
+(1,1) +il0,0)).
+
+al
+
+2
+
+(91)
+(92)
+(93)
+
+(94)
+
+17. The Clifford group generating set, {CNOT, H, S} is not universal for quantum computation. Give
+
+three ways to modify the set so that it is universal for quantum computation.
+
+21

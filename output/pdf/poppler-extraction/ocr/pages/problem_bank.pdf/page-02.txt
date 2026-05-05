@@ -1,0 +1,54 @@
+3. Consider the following two-dimensional vector |v) € C?, written with respect to the standard
+
+basis {|0), |1)}:
+
+(a) Determine the values (0|v) and (1|v).
+
+(b) Write the vector |v) in the abstract form |v) = a|0) + b|1), with the appropriate values of a
+and b.
+
+(c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+4. Consider the following three-dimensional vector |v) € C?, written with respect to the standard
+basis {|0), |1),|2)}:
+
+5-i
+jv) = | 643i]. (2)
+7-4i
+
+(a) Determine the values (0|v), (1|v), and (2|v).
+
+(b) Write the vector |v) in the abstract form |v) = a|0) + 6/1) + c|2), with the appropriate values
+of a, b, and c.
+
+(c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+5. Calculate the inner products (vj|v2) and (vp|v1) of the following two vectors:
+
+. . 3 Qi 7 i
+lor) = B+ 4i)|0) + (2 — 5i)|1), Juz) = | 7+] I+) + | -e +9) I) (3)
+4 5 6 3
+where |+) = (10) + |1)). Also calculate the norm of |v) and |vz), and then normalize both
+vectors.
+
+6. Consider the vectors |v;) and |v2) from (3). Verify that
+
+344i
+v1) 2— 5i
+|0) ® |vr) + |1) ® v2) = =| 4(-5 4 uy |- (4)
+|v2) Va\ 12 7 5
+1 (23 i
+wala + ts)
+
+7. Let |vi),|v2) € C? be arbitrary vectors, and let M € L(C2%) be an arbitrary linear operator (i.e.,
+d x d matrix). Using the definition of the trace of a linear operator, prove the following identities.
+
+(a) Tr[lv1(v2|] = (vale)
+(b) Tr[M|v1Xve|] = (v2|M|v1)
+
+8. Consider the following two state vectors:
+
+jn) = “Bio + 2, 6)
+jv) = $0) + YS iy (6)
+
+2

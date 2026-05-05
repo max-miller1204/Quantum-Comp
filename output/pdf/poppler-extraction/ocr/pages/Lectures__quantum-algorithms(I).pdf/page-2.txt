@@ -1,0 +1,27 @@
+(a) 5 lexe1, a- lave) it a meanurement that fell wo whetner or nok a
+givin State if equal te [+Xél.
+
+It has two outcomes (ble the set has two aperajort).
+HX = “yes, the State is Xe]
+
+Q-l¢X6l = “no, the State if not exe!
+Born Rule: fr} Pow
+
+lx) For 0 given Stode é, p[¢) 2 Tr[l4Xélp) Stafe p> Ptx)= Telex).
+Pr{ not +) = wl (1 -14x4)} 9]. =T(p) Lexy) = [- ple).
+
+Of eel itself, then Pr[t) = TH{lexel¢yel ) = T[l4Xel] = dled = 1,
+=|
+Prlaot 4) = I~ Prl4) <0
+Tf p= lYXHl, then Bele) = Tel lao yyol) = [Xél9)]* > fidelity!
+(+) So the Swap tett allow ws fr do the measurement flsxel 14X41]
+
+and, ettimate the fidelity — without ewn kndwing whot |¢) if!
+
+Q Statiicol Estimation from a Quantum Computer.
+
+When We fun a quantum algeritho and dg the measurement at the end,
+the outcome will generally be probabilistic.
+
+*To extract the relevant information, We have to fun the algorithin many
+times.

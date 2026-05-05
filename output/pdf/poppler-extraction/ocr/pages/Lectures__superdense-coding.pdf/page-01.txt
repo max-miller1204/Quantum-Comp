@@ -1,0 +1,36 @@
+© Recap: Quantum teleportation
+
++A methool to Send arbitrary quantum information using entanglement
+dnd +Wo_ bits u claKicod information.
+
+€ f0,1)
+2é fo]
+
+|W)p
+
+Xx* LZ?
+4 Ag z20, do nothing;
+ftx=0 if t=, apply 4.
+olo nothin j
+iFxet, apply X
+@ Telepor-atinn W pot inttantaneows | faster than light — it only works if Bob
+f fay iy y
+eis Mice's meadurtment Oufcomen—>thit taker time!
+
+«The Gell_ measurement if a critical compa nent
+Tt it givtn by the Porm [84 3-H 04} SF <1BNE] YING,
+
+[62 =12 (myo iyty), 1844 (Ine We)
+
+Circuit implementation: | (910) eo\(e5
+| NSS)
+
+[Yl lOIS
+
+{ LYS EY LI II92
+Pouli-t meaourement.
+
+Proof; Let yg he he initial state =
+lee Us= ; | oe be the COT gate, and He (i; 1} the
+d00 | Hie) = I+) Hadamard. gate.
+1019 Hy = b- y= £ ers 0p

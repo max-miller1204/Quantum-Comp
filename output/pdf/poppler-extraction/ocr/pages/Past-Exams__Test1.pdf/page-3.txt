@@ -1,0 +1,5 @@
+3. Draw a Bloch sphere and label the following locations.
+(a) Where a qubit is {0) and |1).
+(b) Where a qubit is |+) and |-).
+(c) Where a qubit is |+ i) and |— i).
+

@@ -1,0 +1,316 @@
+--- OCR page 1: Lectures/linear-algebra.pdf ---
+QO Whot ig a gubit %
+
+, " |W) = a0) + Bll),
+
+e
+ape,
+lel? +|eP =1
+|-i) +i)
+
+a
+|) = J5(I0) = |)
+
+e . 1 .
+1 \1) |+t) = J5(|0) + i1))
+Bit Qubit
+
+0 or 1; \0) or |1);
+
+or probabilistic a
+ee or superposition
+mixture
+
+Qo bit too 0 value either 0 gr | —or dry point in between
+
+—7 ProhalilisHe bit :* Value is 0 wit probability fo:
+“Value it | with probability py.
+
+Op +piFl
+
+—7 So the Stote of © (probabilistic) bit if jyat o number b[w O aad | |
+block sphere
+@) The stale Ha qubif iS a point on the’ Spher, — Or any point inside the
+Cohert. (We will undentond the reatond far His later...
+
+~y We hove tO dercribe thif Wing vector d Comélex number.
+
+7 |e (;) 1 a pec [ comptey numbers ).
+hn [ul'= oF Probability 4 0
+
+Bn quantum mechanics
+
+PObabiliticn art
+las @-f + probability t | inna 4
+ears compley Conjugate. y }
+
+--- OCR page 2: Lectures/linear-algebra.pdf ---
+Q) Compley _Num
+
+ae coma ley nuniher’,
+A complex number if a fumther 2<¢¢ With a real art and.
+
+Imag nary pact
+
+textyi , qt: -| Example: 2=3+2i
+Tmaai art:
+i pact smaginar P
+
+@ Initially Conceive in the [500s Frc Salving polynomial eaurat cad.
+
+"Con be represented in a 2D plane. [the "complex plane! )
+
+Sinte) & Imaginary avis Example: ¢=3+2i
+
+j
+yhenigY lelel=3, Inle)=2.
+| @ We can represent this an a
+> real ay’ = vectors,
+% 7 he) N= i)
+
++ Compley Con juaore lip +he Sian if He imaginary pat:
+ae
+z=xtyi > Ee x-yi Example : t=3eh | Z=3-li
+
++ Modulus (or magnitude) : Piers Ayah)
+
+«2
+== xyi+yxi ty lid) =~
+= +4]
+
+= lel (xy?
+
+--- OCR page 3: Lectures/linear-algebra.pdf ---
+—
+—
+a o°
++ —
+— =
+<b
+ls ON
+wt. i 2
+_ 3 r9
+qe
+< a Tyr u Ale
+— ~~ i —s -
+= = %
+[8] ~ - rm. 4
+— = " a rT} 7
+= arent; é 2 aS ar]
+s S " . * s 5 i ‘3 _—s =
+Sl ~~
+at % 2 my ee TS lS
+= — = c
+y) av 3) ” + kas] e + a] a
+4 C xy, — _ 7
+— = wn \ > ? 5 TT
+i S 4 \ = + v u“ — ‘ )
+= = x y Ss aS + + &
+x [_] Ss a fa y ~~ ~ >
+al : re ee as J SS a en oY)
+~
+= = \ kacy A) \ u
+= \ Ty » —_L a ,
+mn i " =
+, >a = ) cal * ale
+= ; a = nee:
+\ § = =~ Gs <} = eet is
+~ 2 =] =
+V¥j> 3 Far > > om S 3 ba re
+3 SL " = y 7 = s
+= ‘so > “\ a ae 42 ~— 7 b-A
+=~ s ey Sy w » rt + -_— tl
+yy .— .
+3 — SB Is Ts a “e
+—2 “ \r — st S ‘s >= oy ~*~ N
+Lc = Zs =) 3 = + La Re a
+= 4 | = ~ = al Ty ‘Ty
+4 . ae eee ee
+s u y = Ww ai _ "
+a = = + Px) ry
+me — al — ay
+oe .
+
+--- OCR page 4: Lectures/linear-algebra.pdf ---
+(3) Complex Yechr Spacea
+
+— Recon 20 and 3) vector from linear algebra
+
+aml ‘-{f) a, bé R
+
+t 7% We write Wek 7 all 1D weetors 4 real numbers.
+ole: this it basically the Same ab Hoe Complex plane! }
+
+© Jn 30, vectos hav tree
+Compo nents.
+
+Ve i 7 Abc eh.
+
+A
+
+We write 1¢ x
+
+Q
+— re day dimenaion de{2)3,...4, We have Y= a , Aye R.
+
+Of,
+ond ve write eA", The orm [magnituste| KV it WM arr e~+ay
+
+— We dad (and Cuichract) vector companentwise
+A, bi Q, +h
+
+i * tf | BP AE Poort
+
+b :
+
+ay L ae by |.
+
+--- OCR page 5: Lectures/linear-algebra.pdf ---
+~ Ne can take the dot product of two vected.
+
+A, bi a y
+7, - | m Le by = an Ae Ab, tg #0yby.= Z Obs
+
+ny K] Qbveere: We ovap tag =I
+
+@eomedic intel prctatioa in 2D:
+Y
+
+6 * So the dot product fells ut how
+1% Much the two vectod overlap.
+
+~ Gompley vectwrd dre Similar!
+
+= et Yet
+a C
+V= / | —7 but now each a,e€ | [ Eock O, if & Comalex
+num ber. )
+
+a id
+4° @We write Tec.
+
+a, bi Q, +
+
+“Addition on befarc: ¥, = i T= b 2 U+i,= ao b
+Dy by ab
++ But dot preanot dhanye And we can it “inner product" instead:
+
+A, bi
+Ve on T= by =] WDE Gb + Ab + 4a by.
+
+Ay by
+
+--- OCR page 6: Lectures/linear-algebra.pdf ---
+, Conjugate trand p04e d a vectr : £
+\ = (ay Ay -** ay |
+
+=_
+
+Y= ot > V= [a a, - a,)
+
+LS Tb, + a, b, te +Oyby = ¢(4,7,).
+
+We will use this fact atl the time in quantum Computing |
+
+Q Norm da comgley vec it (vl ={Jal*eloght~¢ lag = [>
+ly 4A,
+
+— Poait i w_vectw space.
+
+“Ne can write a vec ad
+
+A, a 0 H
+hy 0 0 Oy
+y | p 0
+=a {0|4af'\ +--+ t
+0 " |
+el Us in
+e G ty,
+¥)
+=f ae
+we The “Stunde a” baais
+
+® 1a, b,--;8) ort, badis vec. Every vector Gon be written 04 4
+
+linear Combination d thane bayit rected.
+
+--- OCR page 7: Lectures/linear-algebra.pdf ---
+Q There basis vected ore olthonormal
+
+°
+qz is ge 0 2.
+Two pot te This tem: 3 @, (°\, (i)
+Or phagana: mT Hed “°(°)
+0 Ff iy
+
+24 —7*Kronecner dette!
+
+0)
+L. Normalised: (2ll=[CB, BY =I far all b. av8.)* [1 eal['}-
+4@,2)= (109)/5\ =!
+QWe can extmd the Components of a vechr ia this havit wing ’
+
+the inner product: n .
+f d d (4, 0% 40,2, )
+(6,12 =e, 2% ) -s (a, Gy ) Oy = a, = My Go “aCe?
+det =O,
+
+— Bro~ket notation : very important, weed Hhroughout quantum infarnetion
+
+ond Guarino Com putting, 1 U
+w al a 2 =F O|8)  1e= | |
+
+| hy 5 clave ut (i) a it "bra"
+
+relavel ay [iY 7 all it a ket”
+
+“Then the inner produ i$ Gey = Wy = Sulu
+T
+
+ pro- ket” aa
+
+--- OCR page 8: Lectures/linear-algebra.pdf ---
+J
+x}
+Lt Wad _
+Ss pan
+=. im
+are 4 .
+) am nnd
+yy s 3 =
+E wa
+a v =~ S14
+~ =a —
+NIE : = =
+2
+7 x & 5
+oo WN =
+aS \
+ae ~ |
+is) “S .
+Ss NNS_S 2 s
+‘ wr
++ es
+q —
+Par “sa 2S sp
+SS, N =<|—~
+= —|—
+<s
+x-) = _ & Bw
+.~$ a —
+Vy So
+nS) ~~“ r
+=> t = wis
+= Sl pe
+Uu—
+Ss 4 £ =
+ia n =
+s 3
+WN 3 , by;
+Fl PH) <= 7 CV]
+rot J~ Tie &
+>
+=. > = §
+A So
+Zz J => oO >
+: @

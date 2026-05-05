@@ -1,0 +1,358 @@
+   11        mar
+
+Quantum gates describe how the states
+                                         ofqubits evolve        similarto
+classical logicgates like AND OR NOT
+
+Composing gates    leads to circuits which are used to describe
+quantum computations
+
+                  114                            Duxi
+                                                 Dris
+                  tis                            D as
+                  174                            DNkg
+                  14                             Dry
+                                                 D if
+                   I    ThayerThayerThayer
+                                  9916
+                                                         measurementread out
+             174 1317171715   6
+                                                  time
+
+Mathematically quantum gates are described by Unitarymaticeloperators
+
+utu uut                                               they describe basis
+       a.theyary1ffiafi.gg
+Examples                   1st                                               Inga
+                        p upat trepat trips
+                                                        Xies in XD les
+    Parts                                    9
+
+                                         4                 lo    ill   411    ites
+                                              9
+
+                                         2              2101 101 2111        111
+                                             19
+    Idgate                  A               H
+                                                 t.li
+                                           Hla       4       101 113
+                                           H1        1        101 111
+
+                                     5
+ Reae                                       16
+
+
+ Ige                                         tetra
+                      control
+
+
+
+
+  t.li i           target
+                                  e.I
+                                  10710          10710
+
+                                  107117     7 10711
+
+
+        foffff
+  Not                             171074115 107 117117
+                                   1 11          1       1   17107
+
+
+
+
+RotationGatese
+
+
+Rxd     é    sos  E 1 isinE X             rotation around x axis byangled
+
+
+Ry9          car E 1 isinEly         rotation aroundY axisbyangle 0
+
+         Et cos
+Rz d               E 1 isin E 2     rotationaroundZ axisby angle 0
+T
+atingblwcircuitdiagramandmath it
+                              um
+
+
+
+                 teem
+    stattipresenting
+                   state
+
+
+
+
+                              aput                  unsent
+    p                                  p xxx
+        density operator
+
+         representing mixedstate
+
+
+
+
+        e         tie                amputant
+
+
+                   put
+
+
+            It
+                                     U.eu
+              a                        tensor productof matrices
+
+    Tatsonqubit
+        U acts on qubit2
+can.int              tail
+
+
+
+           me               mome              il        1
+                       l
+                                          l             at
+           i                         tr men        Trent.cm
+
+
+                in     1 9             mom.me
+                                                    hmscm.n
+                                MN7 Tr MtN
+     It
+                           4042043
+ 2
+     111
+
+     17
+
+ HIT
+                            4104043 14701410141
+ ME
+                                4,14    4214,7 431437
+
+14 Aug
+Trackingthestatefgubitsthroughacircuit                    it tallestis
+                                                        1 510         105 114 10
+
+
+                                               moles 4 lot                testostines
+
+
+
+               fff
+ 1
+                                                key 107101 111117
+
+                                                                      a         lies 1
+                                   11710     411710    1410 521010 111101
+ 1         fEf                                 crotesies snottiest
+
+                                                10110     lists
+
+
+
+
+ if
+                                                                    101 1111121101 11710
+                        ttII
+                                                                L
+           I
+                                                                    107107102    10917102
+
+                                                                     111107101    117117107
+
+                                                                107107102    102111107
+
+                                                                 117107111    117117111
+     10717102   102111117      11110711    1111am
+
+     171110 1111111 1 sits is 1 st.sn
+                                                         lalt ldldtl              hxel hilil
+                                                                    10110 101117 14107 111111
+
+
+
+
+Theft.int fealnl m 1b1t
+                                                                  mes
+                                                                            14111 4 101 111117
+                                                                  107101
+
+                                                                    107107 107117 1 10        111ns
+
+  Italterhi.lt                            ednl               iesies     imn
+  Moments
+   To extract classical information from a qubit we must mare it
+
+               in 210                                       0    1212   Axiom of
+   Recall                  β117          Probability
+                                                       of
+               1014        2114         Probability of 1
+                      p                                          112    quantum mechanics
+
+                   1212 4014711 1112        114712                       aka Born Rule
+            Note
+
+            Also                  101 74101 tillexolysm
+                    1 41                      r Mins        Tr
+
+
+                 mivekrill
+            trllisanxxil Check
+                              IE   axns
+
+                    Prlo     prlil tr
+                                     Lexi tilkel
+r MitMa TrMi toMa
+                                    Trefethen
+lo 014741 115114441                 Tr Ix H
+                                    4147
+
+
+            This is often called a computational basis measurement
+            or a    107117    basis measurement
+
+            Recall that 107,117        is also the eigenvectors of Pauli Z
+
+        210 101 2117 117                 So wealso sometimes say            Pault
+                                           rement
+
+            Ectymnbel             14
+          Cerve If 147 107 then Pilot 1 Pr 1            0
+                If 147 117 then Prlet 0 Pr 1              1
+
+
+  We can measure with respect to other Pauli operators too
+
+              µ               Panitmeaurment measure along a axis
+                              equivalent to measuring in basis 17 1 1
+
+                                  Recall 1 7 4107             4117 H Hadamardgate
+                          y
+                                  H unitary     it is is                1
+                                              a basis
+                                 For a state vector 147
+Xlt         X15     13                        14712
+                                  Pr t                  14km t      Tr Itk Xxxi
+
+                                  Prf 1 414712 4 145241 7 Tr 1 4 14141
+
+ checks   Pr t    Pr a   To 4 4147141 To 1 414741
+
+                                                trlixxxll
+4 HIM                         ftp.elitkxl
+  H1                           Hlovoltt HillilHT Hloke H HilkiH
+                                                  H                1H
+
+                                                 HH A
+
+
+
+                               fe Prl
+   Eve P.lt        Tr Hktlxkx11 TrlHlokolHlxkxll trllokolt
+
+                 1 Tr 17114741     Tr Hitchhiker      To incitement
+
+      Apply H gate to 1 7 then measure in 101,117 basis
+   Eltymnbel            147
+                               1717                           is       10111113
+
+
+            µ                      Payment                 measure along y axis
+
+                              equivalent to measuring in basis Hi l is
+
+                                   Recall His 8H10 1 is Still HEHadamardgate
+                         y
+                                   SHunitary       his _is is              1
+                                                  a basis              S phasegate
+                                   For a state vector 1 7
+
+                                    Pr i        tilt      Gilyka til TrHittite x1
+                                    Prf i    f i 4712     filth    i   Trtistixkxl
+checks   Pr i   Prf i   Tr Iti Gix x1 Tellill ill YI
+
+                        Trl            il ltkx1         tr ixkxl
+
+ i Stiles
+                              ftp.ik
+         stllokeltisttstllikilhs  t.is
+                               SHlokothsttstlikilhst
+    5H11
+                               SH                                       Hst
+
+                                                       t.sk
+                                                            EA
+                                                          1st SSt 1
+   Querve   P.fi    Tr ltikilxsx1 TrlsHlokolHstxkxl Trllokoltk            dest
+            Prf i   Tr titi      41 Trstanchristincy           Tilinillenest
+     ApplyStthenH gate to 1 7 then measure in 101,117 basis
+
+
+
+   Entymnbel            147    115 1717
+Meringmultiplequbits
+
+ Consider state vector 147                      147 04
+                             of n qubits
+ Computational basis measurement is a           101,117   measurement on
+
+ each qubit
+
+ Outcome probabilities    p.la o i      ÉiÉ                   threequbits
+
+                          Pr x x2         74,112,34712 741712,213    en
+
+ What is the probability that the first qubit is 0
+
+  Pr 1ˢᵗqubit o    Pr 0 0,0 Pr0,01 Pr 0,1e Pr10.1.11
+
+                  Pr2ⁿᵈqubit 1   Pr 0.1.0        Polo i i
+
+                                     Pill tie      Pr lil i
+
+
+ We can simultaneously measure eachqubit in a different basis
+
+ Example measure 1ˢᵗ 3ʳᵈ qubit in Z basis 2ⁿᵈ in X basis
+
+       Pr O t 1    120 114312
+
+                      T    2010410211
+    bles
+  Observa
+
+    In quantum mechanics measurement outcomes are notdeterministic they
+   occur with some probability
+
+   What is the expected outcome of a measurement
+
+   Real For a probability massfunction                     plateoil   at X
+                                              141
+                                                           Ex
+    the expected value is                      Randrable     Pr x a
+
+         X     pxla k       pxlil IE
+   We can measure wrt any orthonormal basis       consider basis leash
+
+    Outcomes are labeled
+                           by k
+    Outcome   k is associated with value in       random variable X
+
+    For a state vector 14 Eed the probability distribution is
+
+    Pr k      enly   Pr X In
+                                                    Vi mins Tr minstrel
+   The expected value of X is
+
+    E x       Pr xnnl.tn      kenlxst.dn      cenlxxxlenl.x
+
+
+
+
+             Hnnmn
+Hien's
+           intently lifii
+                        Arlen's
+

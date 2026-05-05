@@ -1,0 +1,2204 @@
+# problem_bank.pdf
+
+Pages: 22
+Embedded text lines: 913
+Tesseract OCR lines: 1064
+
+## Poppler embedded text (`pdftotext -layout`)
+
+Problem Bank
+                  CS4134 – Quantum Computation and
+                        Information Processing
+        Sumeet Khatri, Virginia Tech Department of Computer Science, Spring 2026
+
+
+Table of Contents
+Linear algebra                                                                           1
+
+Probability and statistics                                                              8
+
+Quantum mechanics                                                                       11
+
+Entanglement                                                                            16
+
+Quantum circuits                                                                        18
+
+Quantum error correction                                                                22
+
+
+
+• Questions marked with a ⋆ are challenging problems that may appear in the exams as bonus
+  questions, i.e., they need not be attempted in order to get a full score on the exams.
+
+• You may go the instructor and TA office hours to discuss solutions to the problems.
+
+
+
+Linear algebra
+
+1. Consider the complex number z = 1 + 2i.
+   (a) Find Re(z).
+   (b) Find Im(z).
+   (c) Plot z as a point in the complex plane.
+   (d) Write z in polar form, z = r eiθ .
+   (e) Find z.
+   (f) Find |z|.
+   (g) Find |z|2 .
+
+2. Prove the following facts:
+    (a) For complex numbers z1 , z2 ∈ C, z1 + z2 = z1 + z2
+   (b) If |v1 ⟩, |v2 ⟩ ∈ Cd , for any d ∈ {2, 3, . . . }, then ⟨v1 |v2 ⟩ = ⟨v2 |v1 ⟩.
+
+
+
+                                                          1
+3. Consider the following two-dimensional vector |v⟩ ∈ C2 , written with respect to the standard
+   basis {|0⟩, |1⟩}:                                  
+                                                3 + 2i
+                                        |v⟩ =            .                                    (1)
+                                                4 + 5i
+    (a) Determine the values ⟨0|v⟩ and ⟨1|v⟩.
+    (b) Write the vector |v⟩ in the abstract form |v⟩ = a|0⟩ + b|1⟩, with the appropriate values of a
+        and b.
+    (c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+4. Consider the following three-dimensional vector |v⟩ ∈ C3 , written with respect to the standard
+   basis {|0⟩, |1⟩, |2⟩}:                              
+                                                  5−i
+                                         |v⟩ = 6 + 3i .                                       (2)
+                                                 7 − 4i
+    (a) Determine the values ⟨0|v⟩, ⟨1|v⟩, and ⟨2|v⟩.
+    (b) Write the vector |v⟩ in the abstract form |v⟩ = a|0⟩ + b|1⟩ + c|2⟩, with the appropriate values
+        of a, b, and c.
+    (c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+5. Calculate the inner products ⟨v1 |v2 ⟩ and ⟨v2 |v1 ⟩ of the following two vectors:
+                                                                                    
+                                                             3 2i               7    i
+               |v1 ⟩ = (3 + 4i)|0⟩ + (2 − 5i)|1⟩, |v2 ⟩ =      +       |+⟩ + − +         |−⟩,        (3)
+                                                             4     5            6 3
+
+   where |±⟩ = √12 (|0⟩ ± |1⟩). Also calculate the norm of |v1 ⟩ and |v2 ⟩, and then normalize both
+   vectors.
+
+6. Consider the vectors |v1 ⟩ and |v2 ⟩ from (3). Verify that
+                                                                              
+                                                                    3 + 4i
+                                                                    2 − 5i
+                                                           
+                                                      |v1 ⟩
+                                                                               
+                         |0⟩ ⊗ |v1 ⟩ + |1⟩ ⊗ |v2 ⟩ =        =  √1 (− 5 + 11i ) .                   (4)
+                                                                              
+                                                      |v2 ⟩    2 12        15 
+                                                                 √1 ( 23 + i )
+                                                                   2 12    15
+
+
+7. Let |v1 ⟩, |v2 ⟩ ∈ Cd be arbitrary vectors, and let M ∈ L(Cd ) be an arbitrary linear operator (i.e.,
+   d × d matrix). Using the definition of the trace of a linear operator, prove the following identities.
+                     
+    (a) Tr |v1 ⟩⟨v2 | = ⟨v2 |v1 ⟩
+                       
+    (b) Tr M |v1 ⟩⟨v2 | = ⟨v2 |M |v1 ⟩
+
+8. Consider the following two state vectors:
+                                                     √
+                                                     3        i
+                                           |v1 ⟩ =     |0⟩ + |1⟩,                                    (5)
+                                                    2      √2
+                                                  i          3
+                                           |v2 ⟩ = |0⟩ +        |1⟩                                  (6)
+                                                  2         2
+
+                                                     2
+     (a) Prove that |v1 ⟩ and |v2 ⟩ are orthonormal.
+     (b) Show that |v1 ⟩⟨v1 | + |v2 ⟩⟨v2 | = 1.
+     (c) Consider a qubit in the state given by
+                                                         √
+                                                  1       3
+                                             |u⟩ = |0⟩ −    |1⟩.                                   (7)
+                                                  2      2
+         Write this state in terms of |v1 ⟩ and |v2 ⟩.
+     (d) If we measure the state given by |u⟩ with respect to the measurement {|v1 ⟩⟨v1 |, |v2 ⟩⟨v2 |},
+         then what are the possible outcomes and their associated probabilities?
+
+ 9. Consider the vectors
+                                                    √
+                                                3+i 3       1
+                                        |v1 ⟩ =        |0⟩ + |1⟩,                                  (8)
+                                                  4         2
+                                                1
+                                        |v2 ⟩ = |0⟩ + x|1⟩.                                        (9)
+                                                4
+    (a) Find the value of x so that |v1 ⟩ and |v2 ⟩ are orthogonal.
+    (b) Find the value of x so that |v2 ⟩ is normalized.
+    (c) For what values of x (if any) are |v1 ⟩ and |v2 ⟩ orthonormal?
+                                               
+                                     1   1 1
+10. (a) Consider the matrix H = 2   √             .
+                                         1 −1
+                                               √ 
+                                            1+ 2
+          i. Verify that the vector |v⟩ =             is an eigenvector of H with associated eigenvalue
+                                               1
+             1.                      √ 
+                                 1− 2
+         ii. Verify that |v⟩ =             is an eigenvector of H with associated eigenvalue −1.
+                                    1
+    (b) Consider the matrix
+                                                                       
+                                                 1     0     1      0
+                                            1 0 eiπ/4 0          eiπ/4 
+                                      U=√                              .                         (10)
+                                             2 1
+                                                      0    −1      0 
+                                                 0 eiπ/4 0 − eiπ/4
+             i. Verify that U is aunitary 
+                                           matrix.
+                                       0
+                                   1                                                     iπ/4 .
+            ii. Verify that |v⟩ = 
+                                   0  is an eigenvector of U with associated eigenvalue e
+                                           
+                                    √
+                                      2−1
+
+11. Let M ∈ L(Cd ) be an arbitrary linear operator. Prove that the conjugate transpose of M , i.e.,
+    M † , satisfies the following identity:
+
+                                         ⟨v2 |M v1 ⟩ = ⟨M † v2 |v1 ⟩,                             (11)
+
+    for all |v1 ⟩, |v2 ⟩ ∈ Cd .
+
+
+
+                                                    3
+12. Let M ∈ L(Cd ) be an arbitrary linear operator. Define the vector |M ⟩⟩ as follows:
+                                         |M ⟩⟩ ≡ vec(M ) := (1d ⊗ M )|Γd ⟩,                                    (12)
+    where
+                                                           d−1
+                                                           X
+                                                |Γd ⟩ :=         |k⟩ ⊗ |k⟩.                                    (13)
+                                                           k=0
+
+     (a) Prove that
+                                                vec(|v1 ⟩⟨v2 |) = |v2 ⟩ ⊗ |v1 ⟩,                               (14)
+         where |v1 ⟩, |v2 ⟩ ∈ Cd are arbitrary and |v2 ⟩ denotes the complex conjugate of |v2 ⟩ with
+         respect to the basis {|k⟩}d−1
+                                    k=0 .
+                      2
+     (b) If M ∈ L(C ) is the 2 × 2 matrix given by
+                                                      
+                                                  p q
+                                              M=         ,            p, q, r, s ∈ C,                          (15)
+                                                   r s
+          then show that |M ⟩⟩ is the column vector defined by stacking the columns of M :
+                                                         
+                                                          p
+                                                        r 
+                                                |M ⟩⟩ = 
+                                                        q  .
+                                                                                                              (16)
+                                                          s
+
+      (c) For M ∈ L(Cd ) prove that
+                                            (1d ⊗ M )|Γd ⟩ = (M T ⊗ 1d )|Γd ⟩,                                 (17)
+         where M T is the transpose of M .
+     (d) For M ∈ L(Cd ), prove that
+                                        Tr[M ] = ⟨Γd |(1d ⊗ M )|Γd ⟩.                                          (18)
+      (e) For K, M, L ∈ L(Cd ), prove that
+                                            vec(KM L† ) = (L ⊗ K)vec(M ).                                      (19)
+13. Let M ∈ L(Cd ) be an arbitrary linear operator. Prove that M † M is positive semi-definite.
+14. ⋆ Prove that a linear operator M ∈ L(Cd ), with d ∈ {1, 2, . . . }, is injective if and only if it is
+    surjective.
+15. ⋆ Let {|ψj ⟩}d−1                                                      d
+                 j=0 be a set of d linearly independent vectors in C , with d ∈ {2, 3, . . . }. By definition,
+    this means that, for all c0 , c1 , . . . , cd−1 ∈ C, the equation c0 |ψ0 ⟩ + c1 |ψ1 ⟩ + · · · + cd−1 |ψd−1 ⟩ = 0
+    implies c0 = c1 = · · · = cd−1 = 0.
+     (a) Let
+                                                               d−1
+                                                               X
+                                                      T :=           |ψj ⟩⟨j|.                                 (20)
+                                                               j=0
+          The operator T can be thought of as a d × d matrix whose columns are given by the vectors
+          |ψj ⟩. Prove that T is invertible. (Hint: First prove that T is injective, by showing that its
+          kernel contains only the zero vector. Then use the result of the previous problem.)
+
+                                                           4
+     (b) Using (a), prove that {|ψj ⟩}dj=1 is a basis for Cd . In other words, prove that every vector
+         |ϕ⟩ ∈ Cd can be written as a unique linear combination of the vectors |ψj ⟩. We thus have
+         that every set of d linearly independent vectors in Cd is a basis for Cd .
+     (c) Prove that if dj=1 |ψj ⟩⟨ψj | = 1d , then {|ψ⟩j }dj=1 is an orthonormal basis for Cd .
+                       P
+
+         By combining this result with (57), we have that a linearly independent set {|ψj ⟩}dj=1 of
+         vectors in Cd is an orthonormal basis if and only if dj=1 |ψj ⟩⟨ψj | = 1d .
+                                                             P
+
+
+16. ⋆ Let {Bj }dj=1 be an orthonormal basis for L(Cd ), with d ∈ {2, 3, . . . }.
+                 2
+
+
+
+     (a) Prove that
+                                                       d2
+                                                       X
+                                                             Bj ⊗ Bj = Γd ,                         (21)
+                                                       j=1
+                                    Pd−1
+         where Γd = |Γd ⟩⟨Γd | =       i,j=0 |i, i⟩⟨j, j|. Similarly, prove that
+
+                                                       d2
+
+                                                             Bj† ⊗ Bj = F,
+                                                       X
+                                                                                                    (22)
+                                                       j=1
+
+                      Pd−1
+         where F =      i,j=0 |i, j⟩⟨j, i|.
+                                                   2
+         (Hint: Start by verifying that {Bj }dj=1 is an orthonormal basis for L(Cd ). Then, use the fact
+                                                                                P2
+         that every linear operator Z ∈ L(Cd ⊗ Cd ) can be written as Z = dj,k=1 cj,k Bj ⊗ Bk for
+         some coefficients cj,k ∈ C.)
+     (b) Prove that for M ∈ L(Cd ),
+                                                d 2
+
+                                                       Bj M Bj† = Tr[M ]1d .
+                                                X
+                                                                                                    (23)
+                                                j=1
+
+         (Hint: Use (18), (19), and (21).)
+                            d2
+     (c) Prove that |Bj ⟩⟩ j=1 is an orthonormal basis for Cd ⊗ Cd .
+                    
+
+
+17. ⋆ Let {|ψj ⟩}d−1   j=0 be a set of linearly independent, normalized, but non-orthogonal vectors in
+    C , with d ∈ {2, 3, . . . }. We would like to transform these vectors into a new set {|ϕj ⟩}d−1
+      d
+                                                                                                   j=0
+    of orthonormal vectors via an invertible linear operator Q, such that |ϕj ⟩ = Q|ψj ⟩ for all
+    j ∈ {0, 1, . . . , d − 1}.
+
+     (a) Prove that the operator S defined as
+                                                                 d−1
+                                                                 X
+                                                       S :=            |ψj ⟩⟨ψj |                   (24)
+                                                                 j=0
+
+         is invertible and positive definite. (Hint: Write S in terms of the operator T defined in (20).)
+
+
+
+
+                                                             5
+     (b) Let
+                                                                          1
+                                                             |ϕj ⟩ := S − 2 |ψj ⟩                              (25)
+         for all j ∈ {0, 1, . . . , d − 1}. Prove that {|ϕj ⟩}d−1                                   d
+                                                                  j=0 is an orthonormal basis for C . Also, prove
+                                  1
+         that ⟨ϕi |ψj ⟩ = ⟨i|G 2 |j⟩ for all i, j ∈ {0, 1, . . . , d − 1}, where G := T † T and T := d−1
+                                                                                                      P
+                                                                                                       j=0 |ψj ⟩⟨j|.
+
+
+     (c) Let us now show that the vectors defined in (25) are optimal with respect to the Euclidean
+         norm, in the following sense:
+                                                                                                         
+                     Xd−1                                                                                
+                 inf       ∥|ψj ⟩ − |ϕj ⟩∥22 : |ϕj ⟩ = Q|ψj ⟩, ⟨ϕi |ϕj ⟩ = δi,j ∀ j ∈ {0, 1 . . . , d − 1}  (26)
+                  Q                                                                                      
+                        j=0
+                           d−1
+                           X                   1
+                       =         ∥|ψj ⟩ − S − 2 |ψj ⟩∥22 ,                                                     (27)
+                           j=0
+
+         where the optimization in (26) is with respect to every invertible linear operator Q.
+           i. Prove that solving the optimization problem given by (26) can be reduced to solving
+              the optimization problem given by
+                                          n                           o
+                                       sup Tr[(Q + Q† )S] : QSQ† = 1d .                      (28)
+                                                   Q
+
+
+           ii. Prove that the constraint QSQ† = 1d in (28) implies that Q = U S − 2 , where U is a
+                                                                                                 1
+
+
+               unitary operator. (Hint: Consider a polar decomposition of Q.)
+               Hence, show that the optimization problem given by (28) is equivalent to
+                                                             1
+                                                                
+                                               sup Re Tr[U S 2 ] ,                            (29)
+                                                              U
+
+               where the optimization is with respect to unitary operators U acting on Cd .
+
+         iii. Prove that the solution to the optimization problem given by (29) is U = 1d , implying
+                                                       1
+              that the optimal Q in (26) is indeed S − 2 .
+                                                                 √
+18. Prove that the trace norm can be calculated as ∥M ∥1 = Tr[ M † M ]. (Hint: Start by writing
+    M in terms of its singular-value decomposition. Then recall how we define the square root of
+    Hermitian operators.)
+19. Prove that ∥P ∥1 = Tr[P ] for every (Hermitian) positive semi-definite operator P .
+20. ⋆ Let |u⟩, |v⟩ ∈ Cd , with d ∈ {2, 3, . . . }, be arbitrary vectors (not necessarily unit/state vectors).
+    Prove that
+                              ∥|u⟩⟨u| − |v⟩⟨v|∥21 = (⟨u|u⟩ + ⟨v|v⟩)2 − 4|⟨u|v⟩|2 .                      (30)
+
+21. Let |ψ⟩ ∈ Cd be a state vector, with d ∈ {2, 3, . . . }. Prove that
+                                               1          1d                1
+                                                 |ψ⟩⟨ψ| −                =1− .                                 (31)
+                                               2          d            1    d
+    In other words, every pure state is the same trace distance away from the maximally-mixed state.
+
+                                                                  6
+22. Let ρ be a density operator in dimension d ∈ {2, 3, . . . }. Prove that
+
+                               1    1d             1X
+                                                     r
+                                                           1   1    r
+                                 ρ−            =      λk −   +    1−    ,                            (32)
+                               2    d      1       2       d   2     d
+                                                    k=1
+
+    where r ∈ {1, 2, . . . , d} is the rank of ρ and {λk }rk=1 is the set of non-zero eigenvalues of ρ. If
+    λk ≥ d1 for all k ∈ {1, 2, . . . , r}, then conclude that 12 ∥ρ − 1dd ∥1 = 1 − dr .
+                             p
+23. Prove that ∥M ∥∞ = λmax (M † M ), where λmax (M † M ) denotes the largest eigenvalue of M † M .
+
+24. Prove that ∥U ∥∞ = 1 for every unitary operator U .
+
+
+
+
+                                                         7
+Probability and statistics
+
+1. Fifty teams compete in a student programming competition. It has been observed that 60% of
+   the teams use the programming language C while the others use C++, and experience has shown
+   that teams who program in C are twice as likely to win as those who use C++. Furthermore, ten
+   teams who use C++ include a graduate student, while only four of those who use C include a
+   graduate student.
+   (a) What is the probability that the winning team programs in C?
+   (b) What is the probability that the winning team programs in C and includes a graduate
+       student?
+   (c) What is the probability that the winning team includes a graduate student?
+   (d) Given that the winning team includes a graduate student, what is the probability that team
+       programmed in C?
+
+2. Let A be the event that an odd number of spots comes up when a fair die is thrown, and let B
+   be the event that the number of spots is a prime number. What is Pr[A|B] and Pr[B|A]?
+
+3. A family has three children. What is the probability that all three children are boys? What is the
+   probability that there are two girls and one boy? Given that at least one of the three is a boy, what
+   is the probability that all three children are boys. You should assume that Pr[boy] = Pr[girl] = 12 .
+
+4. Three cards are placed in a box; one is white on both sides, one is black on both sides, and the
+   third is white on one side and black on the other. One card is chosen at random from the box
+   and placed on a table. The (uppermost) face that shows is white. Explain why the probability
+   that the hidden face is black is equal to 13 and not 21 .
+
+5. If Pr[A|B] = Pr[B] = Pr[A ∪ B] = 12 , are A and B independent?
+
+6. Let X be a random variable, taking values in {1, 2, 3, . . . }, whose probability mass function is
+   given as
+                                           αx2 x ∈ {1, 2, 3, 4},
+                                         
+                                pX (x) =                                                         (33)
+                                           0     otherwise.
+   (a) What is the value of α?
+   (b) Compute Pr[X = 4].
+   (c) Compute Pr[X ≤ 2].
+
+7. Let X be a random variable, taking values in {1, 2, 3, . . . }, whose probability masss function is
+   given as                              
+                                            α/x x ∈ {1, 2, 3, 4}
+                                pX (x) =                                                          (34)
+                                            0     otherwise
+   (a) What is the value of α?
+   (b) Compute Pr[X is odd].
+   (c) Compute Pr[X > 2].
+
+
+
+
+                                                   8
+ 8. Let X, Y , and Z be three discrete random variables for which we have the following probabilities:
+                                                                6
+                                      Pr[X = 0, Y = 0, Z = 0] =   ,                              (35)
+                                                               24
+                                                                8
+                                     Pr[X = 0, Y = 1, Z = 0] = ,                                 (36)
+                                                               24
+                                                                6
+                                     Pr[X = 0, Y = 1, Z = 1] = ,                                 (37)
+                                                               24
+                                                                1
+                                    Pr[X = 1, Y = 0, Z = −1] = ,                                 (38)
+                                                               24
+                                                                1
+                                     Pr[X = 1, Y = 0, Z = 1] = ,                                 (39)
+                                                               24
+                                                                2
+                                     Pr[X = 1, Y = 1, Z = 0] =                                   (40)
+                                                               24
+    Let S be a new random variable for which S = X + Y + Z.
+    (a) Find the marginal probability mass function of X.
+    (b) Are X and Y independent?
+    (c) Are X and Z independent?
+    (d) Find the marginal probability mass function of S.
+
+ 9. Let X, Y , and Z be three discrete random variables for which we have the following probabilities:
+
+                                  Pr[X = 1, Y = 1, Z = 0] = p,                                   (41)
+                                                            1
+                                  Pr[X = 1, Y = 0, Z = 1] = (1 − p),                             (42)
+                                                            2
+                                                            1
+                                  Pr[X = 0, Y = 1, Z = 1] = (1 − p),                             (43)
+                                                            2
+   where p ∈ (0, 1).
+    (a) What is the joint probability mass function of X and Y ?
+    (b) Determine the covariance matrix for X and Y .
+
+10. The probabilty mass function of a discrete random variable X is as follows:
+                                               
+                                               
+                                                 0.2 x = −2,
+                                                0.3 x = −1,
+                                               
+                                               
+                                     pX (x) =     0.4 x = 1,                                     (44)
+                                                  0.1 x = 2,
+                                               
+                                               
+                                               
+                                               
+                                                  0   otherwise
+                                               
+
+    Find the expectation values of the following functions of X:
+    (a) Y = 3X − 1
+    (b) Z = −X
+    (c) W = |X|
+
+11. A coin is tossed 400 times and the number of heads that appear is equal to 225. What is the
+    probability that this coin is biased?
+
+                                                  9
+12. Messages relayed over a communication channel have probability p of being received correctly. A
+    message that is not received correctly is retransmitted until it is. What value should p have so
+    that the probability of more than one retransmission is less than 0.05?
+
+13. ⋆ Consider a discrete-time Markov chain consisting of four states, a, b, c, and d, whose transition
+    probability matrix is given by                            
+                                             0 0 0.8 0.2
+                                           0 0.4 0 0.3
+                                      P = 1 0.6 0.2 0 
+                                                                                                  (45)
+                                             0 0       0 0.5
+    Compute the following probabilities.
+     (a) Pr[X4 = c, X3 = c, X2 = c, X1 = c|X0 = a]
+     (b) Pr[X6 = d, X5 = c, X4 = b|X3 = a]
+     (c) Pr[X5 = c, X6 = a, X7 = c, X8 = c|X4 = b, X3 = d].
+
+14. ⋆ A Markov chain with two states, a and b, has the following conditional probabilities: if it is in
+    state a at time step t, t ∈ {0, 1, 2, . . . }, then it stays in state a with probability 12 ( 12 )t . If it is in
+    state b at time step t, then it stays in state b with probability 34 ( 14 )t .
+     (a) Determine the transition probability matrix of the Markov chain.
+     (b) If the Markov chain begins in state a at time step t = 0, then compute the probabilities of
+         the following sample paths:
+
+                                        a → b → a → b and a → a → b → b.                                        (46)
+
+
+
+
+                                                         10
+Quantum mechanics
+1. Draw a Bloch sphere and label the following locations:
+   (a) Where a qubit is exactly |0⟩.
+   (b) Where a qubit is exactly |1⟩.
+   (c) Where a qubit is half |0⟩ and half |1⟩.
+   (d) Where a qubit is more |0⟩ than |1⟩.
+   (e) Where a qubit is more |1⟩ then |0⟩.
+2. Prove that the Pauli operators are orthogonal to each other; specifically, Tr[XY ] = 0, Tr[XZ] = 0,
+   and Tr[Y Z] = 0, where we recall that the Pauli operators are
+                                                                        
+                                 0 1              0 −i               1 0
+                          X=            , Y =             , Z=                 .                  (47)
+                                 1 0              i 0                0 −1
+
+3. Define the Bell state vector
+                                                                    1 
+                                                                     √
+                                                                2
+                                          1                 0
+                                                                  
+                                    |Φ⟩ = √ |0, 0⟩ + |1, 1⟩ =   .                                     (48)
+                                           2                  0
+                                                                     √1
+                                                                       2
+
+   Prove that
+                                                                            1
+                                                                                          0 12
+                                                                                               
+                                                                  0              2
+                 1                                              0 0                       0 0
+                   12 ⊗ 12 + X ⊗ X − Y ⊗ Y + Z ⊗ Z = |Φ⟩⟨Φ| = 
+                                                             
+                                                                                               .       (49)
+                 4                                            0 0                        0 0
+                                                                1
+                                                                2 0                       0 12
+
+4. Prove that                                                                            
+                                                            1                0       0   0
+                      1                                     0                0       1   0
+                        12 ⊗ 12 + X ⊗ X + Y ⊗ Y + Z ⊗ Z = 
+                                                         
+                                                                                          .            (50)
+                      2                                   0                 1       0   0
+                                                            0                0       0   1
+
+5. Consider an operator M ∈ L(C2 ) decomposed in the Pauli basis as M = 12 (c0 1 + c1 X + c2 Y + c3 Z).
+    (a) Verify that
+                       c0 = Tr[M ],     c1 = Tr[XM ],
+                                                   c2 = Tr[Y M ], c3 = Tr[ZM ].                  (51)
+                                                              q
+   (b) Verify that the Hilbert–Schmidt norm of M is ∥M ∥HS = 12 |c0 |2 + |c1 |2 + |c2 |2 + |c3 |2 .
+                                                                                                  
+
+6. Consider an arbitrary 2 × 2 matrix as follows:
+                                              
+                                           p q
+                                   M=             ,       p, q, r, s ∈ C.                               (52)
+                                           r s
+   Show that
+             Tr[M ] = p + s,      Tr[XM ] = q + r,    Tr[Y M ] = i(q − r),           Tr[ZM ] = p − s.   (53)
+
+                                                     11
+ 7. Consider the following state vectors. Determine the probabilities for obtaining the outcomes “0”
+    and “1”.
+
+     (a) |ψ⟩ = 15 + 2i3 |0⟩ + 15  4
+                                    + 2i3 |1⟩
+                                        
+
+     (b) |ψ⟩ = 31 + 2i5 |0⟩ + 15  8
+                                    + 2i3 |1⟩
+                                        
+
+                2      8i
+                            |0⟩ + 13 + 14i
+                                          
+     (c) |ψ⟩ = 25  + 75                 15 |1⟩
+                3
+                   + 38i            8    2i
+                                           
+     (d) |ψ⟩ = 25      75 |0⟩ + 15 + 3 |1⟩
+
+ 8. Two qubits are in the state given by the vector
+                                                                     √
+                                i        1 − 2i     eiπ/100            3
+                               √ |0, 0⟩ + √ |0, 1⟩ + √      |1, 0⟩ + √ |1, 1⟩.                          (54)
+                                10          10         10             10
+    If we measure the qubits in the two-qubit Z-basis {|0, 0⟩, |0, 1⟩, |1, 0⟩, |1, 1⟩}, what are the possible
+    measurement outcomes and their associated probabilities?
+
+ 9. Determine whether or not the following density matrices represent pure states. Then, write each
+    density matrix with respect to the Pauli basis, i.e., determine the coefficients rX , rY , rZ ∈ R such
+    that ρ = 21 (1 + rX X + rY Y + rZ Z).
+                  5    3+2i
+                            !
+                 13       13
+     (a) ρ =
+                3−2i      8
+                 13       13
+                   109         112   2i
+                                          !
+                   225         225 + 45
+     (b) ρ =
+                112     2i       116
+                225 − 45         225
+                    377        2422+824i
+                                         !
+                   1125           5625
+     (c) ρ =
+                2422−824i      748
+                   5625        1125
+                   4      142−44i
+                                  !
+                  225       1125
+     (d) ρ =
+                142+44i        221
+                  1125         225
+
+10. Prove that every Hermitian operator has real eigenvalues.
+
+11. Prove that a linear operator M ∈ L(C2 ), decomposed as M = 12 (c0 1 + c1 X + c2 Y + c3 Z) in the
+    Pauli basis, is Hermitian if and only if the coefficients c0 , c1 , c2 , c3 are all real-valued.
+
+12. Let M ∈ L(Cd ) be an arbitrary linear operator. Prove that M can be decomposed as follows:
+
+                                                M = H1 + iH2 ,                                          (55)
+
+    where
+                                   1                             1
+                              H1 = (M + M † ),            H2 =      (M − M † ).                         (56)
+                                   2                             2i
+    Verify that H1 and H2 are Hermitian.
+
+13. Let U ∈ L(Cd ) be a unitary operator, and let |v1 ⟩, |v2 ⟩ ∈ Cd be arbitrary vectors. Prove that
+    ⟨U v1 |U v2 ⟩ = ⟨v1 |v2 ⟩.
+
+
+                                                     12
+14. Given any orthonormal basis {|ek ⟩}dk=1 for Cd , prove that
+
+                                                              d
+                                                       1d =
+                                                              X
+                                                                    |ek ⟩⟨ek |.            (57)
+                                                              k=1
+
+
+15. Let {|ek ⟩}dk=1 and {|fk ⟩}dk=1 be two orthonormal bases for Cd . Prove that
+
+                                                              d
+                                                              X
+                                                       U=           |ek ⟩⟨fk |             (58)
+                                                              k=1
+
+    is a unitary operator.
+
+16. Verify that the following 2 × 2 matrices are unitary matrices.
+                 3   4i
+                        !
+                   5     5
+     (a) U =
+                4i  3
+                5   5
+                2+i   2i
+                         !
+                 3    3
+     (b) U =
+                   2i        2−i
+                   3          3
+                             2    i      4
+                                           + 2i3
+                                                   !
+               q
+                             15 + 5   − 15
+                   75
+     (c) U =       43    4    2i       2     i
+                         15 + 3        15 − 5
+                          1    2i
+                                       − 61 + 5i
+                                                 !
+                          10 + 15
+               q
+                   450
+     (d) U =       43         1   i    1    2i
+                              6 + 5    10 − 15
+
+17. Calculate the partial trace TrB [MAB ] for the following two-qubit linear operators.
+                 1 2                                                
+                   3 + 5i          0             0             0
+                  0          − 74 − 19 i        0             0 
+     (a) MAB =   0                         5       3
+                                                                     
+                                   0         2 + 2i            0 
+                      0            0             0        − 27 + 18 i
+                 1 1 2 3
+                                            − 75           1     
+                   2 − 3i 3 + 4i                           2i
+                  −4         7      2    1      2
+     (b) MAB =         3     5 − 5i 9 + 3i                 0   
+                  1             4
+                                           − 112        6     3 
+                      8          5i                     7 + 8i
+                      2           1
+                      9i          6         − 71 i      3
+                                                        2 − 6i
+                                                              1
+                  3          1      1                         1     
+                      5       2 − 4i           0               3i
+                 1 + 1i          2            4
+     (c) MAB =    2      4       3            7i              0    
+                                   4
+                  0            −7i            1          − 9 + 12 i
+                                                             2
+
+                     − 31 i       0       − 29 − 21 i           4
+                                                                9
+                                5      3        1      2       2     1 
+                        0        7 + 11 i        6 − 5i         3 + 4i
+                 − 3 + 2 i           1
+                                                   − 61 i       1     1 
+     (d) MAB =      4      7         4                         9 + 7 i
+                        2
+                 
+                        5          − 32 i        3
+                                                 8 + 9i
+                                                        2
+                                                                  0 
+                        1            5             3      2       1
+                       10            8i       − 11 + 3 i          2
+
+
+
+
+                                                              13
+18. Consider the three-qubit state vectors
+                                      1
+                          |ψ1 ⟩ABC = √ (|0, 0, 0⟩ABC + |1, 1, 1⟩ABC ),                              (59)
+                                       2
+                                      1
+                          |ψ2 ⟩ABC = √ (|0, 0, 1⟩ABC + |0, 1, 0⟩ABC + |1, 0, 0⟩ABC ).               (60)
+                                       3
+    Determine the following partial traces.
+                         
+     (a) TrB |ψ1 ⟩⟨ψ1 |ABC .
+                         
+    (b) TrB |ψ2 ⟩⟨ψ2 |ABC .
+                                                 
+     (c) TrA p|ψ1 ⟩⟨ψ1 |ABC + (1 − p)|ψ2 ⟩⟨ψ2 |ABC , where p ∈ [0, 1].
+                                                 
+    (d) TrC p|ψ1 ⟩⟨ψ2 |ABC + (1 − p)|ψ2 ⟩⟨ψ1 |ABC , where p ∈ [0, 1].
+
+19. Prove the following identity:
+
+                               TrE [(1E ⊗ MS )HES (1E ⊗ NS )] = MS TrE [HES ]NS ,                   (61)
+
+    where HES , MS , and NS are arbitrary linear operators.
+
+20. Consider the following two-qubit density operator ρAB of Alice and Bob:
+                                                p
+              ρAB = (1 − p)|Φ+ ⟩⟨Φ+ |AB +         |Φ− ⟩⟨Φ− |AB + |Ψ+ ⟩⟨Ψ+ |AB + |Ψ− ⟩⟨Ψ− |AB ,
+                                                                                            
+                                                                                                    (62)
+                                                3
+    where we recall the two-qubit Bell state vectors:
+                                                    1
+                                           |Φ± ⟩ = √ (|0, 0⟩ ± |1, 1⟩),                             (63)
+                                                     2
+                                                    1
+                                           |Ψ± ⟩ = √ (|0, 1⟩ ± |1, 0⟩).                             (64)
+                                                     2
+    Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i.e.,
+    the POVM is {|0⟩⟨0|, |1⟩⟨1|}. What is the probability that they obtain different measurement
+    outcomes?
+
+21. Consider the qubit state vectors
+                                                      
+                                   2πk               2πk
+                      |ψk ⟩ = cos        |0⟩ + sin         |1⟩,      k ∈ {0, 1, 2, 3, 4}.           (65)
+                                     5                5
+                          2            4
+    Verify that the set    5 |ψk ⟩⟨ψk | k=0 is a POVM.
+
+22. Consider the three-qubit state vector |ψ1 ⟩ in (59), known as the GHZ state vector, and define the
+    following set of eight state vectors:
+
+                    |ψz,x1 ,x2 ⟩ABC := (Z z ⊗ X x1 ⊗ X x2 )|ψ1 ⟩ABC ,     z, x1 , x2 ∈ {0, 1}.      (66)
+
+    Prove that the set {|ψz,x1 ,x2 ⟩}z,x1 ,x2 ∈{0,1} is an orthonormal basis for C2 ⊗ C2 ⊗ C2 . Conclude
+    that the set {|ψz,x1 ,x2 ⟩⟨ψz,x1 ,x2 |}z,x1 ,x2 ∈{0,1} is a POVM.
+
+                                                      14
+23. Define the n-qubit GHZ state vector as follows:
+                                                      1
+                                           |GHZn ⟩ := √ (|0⟩⊗n + |1⟩⊗n ),                               (67)
+                                                       2
+    for n ∈ {1, 2, . . . }. Then, define
+
+                                           |GHZz,⃗x ⟩ := (Z z ⊗ X ⃗x )|GHZn ⟩,                          (68)
+
+    for z ∈ {0, 1} and ⃗x ∈ {0, 1}n−1 . Prove that the set {|GHZz,⃗x ⟩}z∈{0,1}, ⃗x∈{0,1}n−1 is an orthonormal
+    basis for (C2 )⊗n , and thereby conclude that the set {|GHZz,⃗x ⟩⟨GHZz,⃗x |}z∈{0,1}, ⃗x∈{0,1}n−1 is a
+    POVM.
+
+24. ⋆ Fusing two GHZ state vectors. Consider a GHZ state of three qubits and a GHZ state of four
+    qubits. We can merge these to create a larger GHZ state of six qubits using the following protocol,
+    which is similar to the teleportation protocol.
+
+    Step 1 Apply the CNOT gate to the third qubit of the first GHZ state (which is the control
+           qubit) and the first qubit of the second GHZ state (which is the target qubit).
+    Step 2 Then, measure the target qubit in the {|0⟩, |1⟩} basis.
+    Step 3 If the measurement outcome is “0”, do nothing; if the outcome is “1”, then apply the
+           Pauli-X gate to all of the remaining qubits of the second GHZ state.
+
+    Prove that, with probability one, this procedure results in the larger GHZ state of six qubits.
+
+25. ⋆ Let ρ and σ be quantum states. Consider a very simple hypothesis testing strategy for guessing
+    whether a given quantum system is in state ρ or σ: Bob discards the state of the system and
+    guesses “ρ” with probability q and “σ” with probability 1 − q.
+     (a) What is the POVM corresponding to this strategy?
+     (b) Evaluate the type-I and type-II error probabilities for this strategy.
+     (c) If, in the symmetric setting, the prior probability for being given the state ρ is p ∈ [0, 1],
+         then evaluate the expected error probability for this strategy.
+
+26. ⋆ Consider states ρ and σ along with a POVM {M0 , M1 } representing a strategy for hypothesis
+    testing of a single copy of the quantum system, where the outcome “0” corresponds to ρ and the
+    outcome “1” corresponds to σ. Let p ∈ [0, 1] be the prior probability of being given ρ, and let
+                                                (n)    (n)
+    n ∈ {2, 3, . . . }. Construct the POVM {Mρ , Mσ } and evaluate the type-I and type-II error
+    probabilities for the following two strategies for hypothesis testing of n copies of the quantum
+    system.
+     (a) The majority-vote strategy: (1) Measure each system according to the POVM {M0 , M1 },
+         and let Nx be the number of times the outcome x ∈ {0, 1} occurs; (2) If N0 > N1 , guess
+         “ρ”, and if N1 > N0 , guess “σ”. If n is even and N0 = N1 , then guess “ρ” with probability
+         q ∈ [0, 1] and “σ” with probability 1 − q.
+     (b) The unanimous-vote strategy: (1) Measure each system according to the POVM {M0 , M1 },
+         and let Nx be the number of times the outcome x ∈ {0, 1} occurs. (2) If N0 = n, then guess
+         “ρ”; otherwise, guess “σ”.
+
+
+                                                         15
+Entanglement
+1. Do each of the following state vectors represent a product state or an entangled state? If it
+   represents a product state, give the factorization.
+                      q
+    (a) √13 |0⟩|+⟩ + 23 |1⟩|−⟩.
+                      √         √
+    (b) 41 3|0, 0⟩ − 3|0, 1⟩ + 3|1, 0⟩ − |1, 1⟩ .
+                                               
+
+    (c) √12 (|1, 0⟩ + i|1, 1⟩).
+   (d) √12 (|0, 1⟩ + |1, 0⟩).
+
+2. Let |Φd ⟩ be the state vector
+                                                          d−1
+                                                      1 X
+                                            |Φd ⟩ := √       |k, k⟩.                         (69)
+                                                       d k=0
+   For every unitary operator U , prove that
+
+                                            (U ⊗ U )|Φd ⟩ = |Φd ⟩,                           (70)
+
+  where U denotes the complex conjugate of U .
+
+3. Consider the state vector |Ψ− ⟩ defined in (64). Prove that
+
+                                   (U ⊗ U )|Ψ− ⟩⟨Ψ− |(U ⊗ U )† = |Ψ− ⟩⟨Ψ− |                  (71)
+
+   for every single-qubit unitary U .
+
+4. Consider the Bell state vectors as follows:
+                                                  1
+                                         |Φ+ ⟩ = √ |0, 0⟩ + |1, 1⟩ ,
+                                                                  
+                                                                                             (72)
+                                                   2
+                                                  1
+                                         |Φ− ⟩ = √ |0, 0⟩ − |1, 1⟩ ,
+                                                                  
+                                                                                             (73)
+                                                   2
+                                           +      1               
+                                         |Ψ ⟩ = √ |0, 1⟩ + |1, 0⟩ ,                          (74)
+                                                   2
+                                           −      1               
+                                         |Ψ ⟩ = √ |0, 1⟩ − |1, 0⟩ .                          (75)
+                                                   2
+   (a) Show that when the X gate is applied to either qubit of |Ψ+ ⟩, the result is |Φ+ ⟩ up to a
+       global phase.
+   (b) Show that when the X gate is applied to either qubit of |Φ+ ⟩, the result is |Ψ+ ⟩ up to a
+       global phase.
+   (c) Show that when the X gate is applied to either qubit of |Ψ− ⟩, the result is |Φ− ⟩ up to a
+       global phase.
+   (d) Show that when the X gate is applied to either qubit of |Φ− ⟩, the result is |Ψ− ⟩ up to a
+       global phase.
+
+5. By calculating the Schmidt decomposition, and explicitly stating the Schmidt rank, determine
+   whether the following state vectors are entangled.
+
+                                                     16
+   (a) |ψ⟩AB = √ 1          |0, 0⟩ + i|0, 1⟩ + ( 12 − i)|0, 2⟩ + (1 + i)|1, 0⟩ + 2|1, 1⟩ + 12 i|2, 0⟩ + (1 + 1i)|2, 2⟩ .
+                                                                                                                      
+                     23/2
+
+   (b) |ψ⟩AB = √170     |0, 0⟩ + 2|0, 1⟩ + 3|0, 2⟩ + i|1, 0⟩ + (1 + 2i)|1, 1⟩ + (1 + 3i)|1, 2⟩ + (1 + i)|2, 0⟩ +
+                                        
+        (3 + 2i)|2, 1⟩ + (4 + 3i)|2, 2⟩ .
+    (c) |ψ⟩AB = √198 |0, 0⟩ + 2|0, 1⟩ + 3|0, 2⟩ + i|1, 0⟩ + 2i|1, 1⟩ + 3i|1, 2⟩ + (2 + i)|2, 0⟩ + (4 + 2i)|2, 1⟩ +
+                      
+        (6 + 3i)|2, 2⟩ .
+
+6. Prove that in the teleportation protocol, every outcome of Alice’s measurement occurs with
+   probability 14 , and carry out the calculation to determine the conditional state achieved by Bob
+   (before his correction operation) for each of these measurement outcomes.
+
+
+
+
+                                                         17
+Quantum circuits
+
+1. Let α, β ∈ C. Prove that:
+   (a) XZXZ(α|0⟩ + β|1⟩) = −(α|0⟩ + β|1⟩).
+   (b) ZXZX(α|0⟩ + β|1⟩) = −(α|0⟩ + β|1⟩).
+                                                                                     
+                                               2         2                       1 1
+2. Let |ψ⟩ = α|0⟩ + β|1⟩, with α, β ∈ C and |α| + |β|        = 1. Let H = √12           be the Hadamard
+                                                                                 1 −1
+  gate. Calculate the following vectors.
+   (a) H|ψ⟩.
+   (b) H|−⟩ = |1⟩.
+                    π
+   (c) H|− i⟩ = e−i 4 |+ i⟩.
+                        
+                 1 0
+   (d) Let T =         π   be the T gate. Calculate HT HT H|0⟩.
+                 0 ei 4
+
+3. Draw the state vector HY T HX|0⟩ as a quantum circuit.
+
+4. Consider an operator U that performs the following mapping on the Z-basis state vectors:
+                                   1                            1
+                          U |0⟩ = √ (|0⟩ − i|1⟩),       U |1⟩ = √ (−i|0⟩ + |1⟩).                   (76)
+                                    2                            2
+   (a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+   (b) For arbitrary α, β ∈ C, what is U (α|0⟩ + β|1⟩)?
+   (c) Does U represent a valid quantum gate? Explain your reasoning.
+                            
+                      1 i
+5. (a) Does U = √12             represent a valid quantum gate? If so, what is U |0⟩ and U |1⟩?
+                       i −1
+                            
+                   1  1    1
+   (b) Does U = √2             represent a valid quantum gate? If so, what is U |0⟩ and U |1⟩?
+                       i −i
+
+6. Let ⃗n ∈ R3 be a unit vector, let ⃗σ = (X, Y, Z) be the vector of Pauli operators, and let φ ∈ R.
+   Prove that
+                                  eiφ(⃗n·⃗σ) = cos(φ)1 + i sin(φ)(⃗n · ⃗σ ).                    (77)
+
+7. Consider the following quantum circuit:
+
+                                   |a⟩     H                        H
+
+                                   |b⟩     H                        H                              (78)
+
+                                   |0⟩
+
+   (a) If |a⟩ = |+⟩ and |b⟩ = |+⟩, then find the resulting state at the end of the circuit.
+   (b) If |a⟩ = |+⟩ and |b⟩ = |−⟩, then find the resulting state at the end of the circuit.
+   (c) If |a⟩ = |−⟩ and |b⟩ = |+⟩, then find the resulting state at the end of the circuit.
+
+                                                   18
+     (d) If |a⟩ = |−⟩ and |b⟩ = |−⟩, then find the resulting state at the end of the circuit.
+     (e) Using your answers to the previous parts, explain why this circuit calculates the parity of
+         the first two qubits in the X basis.
+ 8. Prove that U1 := Z −1/4 X 1/4 and U       −1/2 −1/4 X 1/4 H 1/2 can be written solely as a product
+                                      2 := H  Z                 
+                                    1   1 1                1 0
+    of H and T . Recall that H = 2 √            and T =          π   .
+                                        1 −1               0 ei 4
+ 9. Let us use the following notation for the swap gate:
+
+                                                                                                  (79)
+
+    Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+
+                                              =                                                   (80)
+
+
+10. Show that the controlled-Z gate can be written in terms of the Hadamard gate and the CNOT
+    gate as follows:
+
+                                                  =                                               (81)
+                                     Z                         H   H
+
+11. Show that the control and target qubits of the CNOT gate can be changed by adding Hadamard
+    gates before and after as follows:
+
+                                                           H       H
+                                                  =                                               (82)
+                                                           H       H
+
+12. Prove the following circuit identities.
+     (a) CNOT(X ⊗ 1) = (X ⊗ X)CNOT.
+
+                                         X                             X
+                                                           =                                      (83)
+                                                                       X
+
+     (b) CNOT(1 ⊗ X) = (1 ⊗ X)CNOT.
+
+
+                                                           =                                      (84)
+                                         X                             X
+
+     (c) CNOT(Z ⊗ 1) = (Z ⊗ 1)CNOT.
+
+                                         Z                             Z
+                                                           =                                      (85)
+
+
+
+                                                      19
+     (d) CNOT(1 ⊗ Z) = (Z ⊗ Z)CNOT.
+
+                                                                          Z
+                                                              =                                  (86)
+                                         Z
+                                                                          Z
+
+13. Consider the following circuit:
+
+                                |0⟩          H
+                                                                                                 (87)
+                                |0⟩                  S        H
+
+    The final measurement is in the Pauli-Z basis. What is the probability of obtaining each outcome?
+
+14. Consider the following circuit:
+
+                               |0⟩       H                            H
+
+                               |0⟩       H                            H                          (88)
+
+                              |ψ⟩                        S
+
+    The final measurement is in the Pauli-Z basis.
+     (a) Show that the probability of both measurement outcomes being 0 is 85 .
+     (b) Show that the circuit applies the gate Rz (θ) to the third qubit if the measurement outcomes
+         are both 0, where θ is given by cos(θ) = 35 ; otherwise, the circuit applies Z to the third
+         qubit.
+
+15. Recall the following circuit for the Hadamard test:
+
+                                       |0⟩       H                H
+                                                                                                 (89)
+                                      |ψ⟩                U
+
+    Here, U is an arbitrary unitary and can act on an arbitrary number of qubits. Using this circuit,
+    it is possible to determine the real part of ⟨ψ|U |ψ⟩, i.e., Re(⟨ψ|U |ψ⟩).
+    Now, show that by adding the S gate as follows, it is possible to also calculate the imaginary
+    part of the inner product, namely, Im(⟨ψ|U |ψ⟩).
+
+
+                                 |0⟩         H       S                H
+                                                                                                 (90)
+                                |ψ⟩                           U
+
+                                                         20
+16. The Mølmer–Sørensen (MS) gate is a two-qubit gate that can be naturally implemented on
+    trapped-ion quantum computers. It transforms Z-basis states as follows:
+                                                1                
+                                     |0, 0⟩ 7→ √ |0, 0⟩ + i|1, 1⟩ ,                           (91)
+                                                 2
+                                                1                
+                                     |0, 1⟩ 7→ √ |0, 1⟩ − i|1, 1⟩ ,                           (92)
+                                                 2
+                                                1                
+                                     |1, 0⟩ 7→ √ |1, 0⟩ − i|0, 1⟩ ,                           (93)
+                                                 2
+                                                1                
+                                     |1, 1⟩ 7→ √ |1, 1⟩ + i|0, 0⟩ .                           (94)
+                                                 2
+   Write the MS gate as a matrix.
+
+17. The Clifford group generating set, {CNOT, H, S} is not universal for quantum computation. Give
+    three ways to modify the set so that it is universal for quantum computation.
+
+
+
+
+                                                 21
+Quantum error correction
+                                                                √
+1. A logical qubit is in the state given by the vector |ψ⟩ = 23 |0L ⟩ + 12 |1L ⟩. We encode the logical
+   qubit into three physical qubits according to |0L ⟩ = |0, 0, 0⟩ and |1L ⟩ = |1, 1, 1⟩. You suspect that
+   a partial bit flip has occurred to one of the qubits, so you measure the parity of adjacent qubits.
+    (a) If parity(q1 , q2 ) = 0 and parity(q0 , q1 ) = 0, what quantum gate(s), if any, should you apply
+        to fix the error?
+    (b) If parity(q1 , q2 ) = 0 and parity(q0 , q1 ) = 1, what quantum gate(s), if any, should you apply
+        to fix the error?
+    (c) If parity(q1 , q2 ) = 1 and parity(q0 , q1 ) = 0, what quantum gate(s), if any, should you apply
+        to fix the error? If parity(q1 , q2 ) = 1 and parity(q0 , q1 ) = 1, what quantum gate(s), if any,
+        should you apply to fix the error?
+
+
+
+
+                                                   22
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: problem_bank.pdf ---
+Problem Bank
+
+CS4134 — Quantum Computation and
+Information Processing
+
+Sumecet Khatri, Virginia Tech Department of Computer Science, Spring 2026
+
+Table of Contents
+
+Linear algebra 1
+Probability and statistics 8
+Quantum mechanics 11
+Entanglement 16
+Quantum circuits 18
+Quantum error correction 22
+
+e Questions marked with a * are challenging problems that may appear in the exams as bonus
+questions, i.e., they need not be attempted in order to get a full score on the exams.
+
+e You may go the instructor and TA office hours to discuss solutions to the problems.
+
+Linear algebra
+
+1. Consider the complex number z = 1 + 2i.
+(a) Find Re(z).
+(b) Find Im(z).
+
+(c) Plot z as a point in the complex plane.
+(d i0
+e
+
+(
+(f
+(g
+
+Write z in polar form, z = re
+Find 2.
+
+Find |z].
+
+Find |2|?.
+
+VoewomYSY wa
+
+2. Prove the following facts:
+
+(a) For complex numbers 21, z2 € C, 7 +22 =" +72
+
+(b) If Juz), }ve) € C4, for any d € {2,3,...}, then (v1|v2) = (valv1).
+
+--- OCR page 2: problem_bank.pdf ---
+3. Consider the following two-dimensional vector |v) € C?, written with respect to the standard
+
+basis {|0), |1)}:
+
+(a) Determine the values (0|v) and (1|v).
+
+(b) Write the vector |v) in the abstract form |v) = a|0) + b|1), with the appropriate values of a
+and b.
+
+(c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+4. Consider the following three-dimensional vector |v) € C?, written with respect to the standard
+basis {|0), |1),|2)}:
+
+5-i
+jv) = | 643i]. (2)
+7-4i
+
+(a) Determine the values (0|v), (1|v), and (2|v).
+
+(b) Write the vector |v) in the abstract form |v) = a|0) + 6/1) + c|2), with the appropriate values
+of a, b, and c.
+
+(c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+5. Calculate the inner products (vj|v2) and (vp|v1) of the following two vectors:
+
+. . 3 Qi 7 i
+lor) = B+ 4i)|0) + (2 — 5i)|1), Juz) = | 7+] I+) + | -e +9) I) (3)
+4 5 6 3
+where |+) = (10) + |1)). Also calculate the norm of |v) and |vz), and then normalize both
+vectors.
+
+6. Consider the vectors |v;) and |v2) from (3). Verify that
+
+344i
+v1) 2— 5i
+|0) ® |vr) + |1) ® v2) = =| 4(-5 4 uy |- (4)
+|v2) Va\ 12 7 5
+1 (23 i
+wala + ts)
+
+7. Let |vi),|v2) € C? be arbitrary vectors, and let M € L(C2%) be an arbitrary linear operator (i.e.,
+d x d matrix). Using the definition of the trace of a linear operator, prove the following identities.
+
+(a) Tr[lv1(v2|] = (vale)
+(b) Tr[M|v1Xve|] = (v2|M|v1)
+
+8. Consider the following two state vectors:
+
+jn) = “Bio + 2, 6)
+jv) = $0) + YS iy (6)
+
+2
+
+--- OCR page 3: problem_bank.pdf ---
+(a) Prove that |v1) and |v) are orthonormal.
+(b) Show that |v1)(v1| + |ve)(ve| = 1.
+(c) Consider a qubit in the state given by
+
+jw) = 410) - Bh, (7)
+
+Write this state in terms of |v1) and |v2).
+(d) If we measure the state given by |u) with respect to the measurement {|v1)(v1], |v2)(val},
+then what are the possible outcomes and their associated probabilities?
+
+9. Consider the vectors
+
+3+iv3
+ln) = —|
+
+jve) = F10) +e). (9)
+
+(0) + 510) (8)
+
+(a) Find the value of x so that |v1) and |v) are orthogonal.
+(b) Find the value of x so that |vg) is normalized.
+(c) For what values of x (if any) are |v,) and |v2) orthonormal?
+10. (a) Consider the matrix H = +, tol
+: a onsider the Matrix = Va 1-1 :
+i. Verify that the vector |v) = 1 is an eigenvector of H with associated eigenvalue
+1.
+
+ii. Verify that |v) = (’ ) is an eigenvector of H with associated eigenvalue —1.
+
+(b) Consider the matrix
+
+1 0 1 0
+1 in /4 in/4
+y-t]|®°¢ Qe (10)
+v2|1 0 -1 0
+
+0 eit/4 0 _ eit /4
+
+i. Verify that U is a unitary matrix.
+0
+ii. Verify that |v) = F is an eigenvector of U with associated eigenvalue e'7/4,
+V2-1
+
+11. Let M € L(C%) be an arbitrary linear operator. Prove that the conjugate transpose of M, i.e.,
+M1, satisfies the following identity:
+
+(va|Mv,) = (Mt vol01), (11)
+
+for all |v1), |ve) € C4.
+
+--- OCR page 4: problem_bank.pdf ---
+12. Let M € L(C%) be an arbitrary linear operator. Define the vector |//)) as follows:
+
+|M)) = vec(M) := (1a @ M)|Ta), (12)
+where
+d-1
+[Pa) = > Ik) ® |). (13)
+k=0
+(a) Prove that —_
+vec(|v1)(v2|) = |v) ® |v1), (14)
+
+where |v1),|v2) € C®% are arbitrary and |v) denotes the complex conjugate of |v2) with
+respect to the basis {|k) oo:
+(b) If M € L(C?) is the 2 x 2 matrix given by
+
+M= (° ‘) , parse, (15)
+then show that |M)) is the column vector defined by stacking the columns of M:
+Pp
+r
+|M)) = (16)
+qd
+Ss
+(c) For M € L(C2) prove that
+(1a @ M)|Pa) = (M" ® 1a)|Pa), (17)
+where M™ is the transpose of M.
+(d) For M € L(C2), prove that
+Tr[M] = (Ta|(1a ® M)|Pu). (18)
+(e) For K,M,L € L(C%), prove that
+vec(K ML") = (IZ @ K)vec(M). (19)
+
+13. Let M € L(C2) be an arbitrary linear operator. Prove that M1M is positive semi-definite.
+14. * Prove that a linear operator M € L(C%), with d € {1,2,...}, is injective if and only if it is
+surjective.
+
+15. * Let {ls 3929 be a set of d linearly independent vectors in C4, with d € {2,3,...}. By definition,
+this means that, for all cg,¢1,---,ca—1 € C, the equation co|v%o) + c1|\1) +++ + ca-1|Va-1) = 0
+implies cg = cy = ++: = cg_-1 = 0.
+
+(a) Let
+d-1
+T= 0 ly. (20)
+j=0
+
+The operator T can be thought of as a d x d matrix whose columns are given by the vectors
+|bj). Prove that T is invertible. (Hint: First prove that T is injective, by showing that its
+kernel contains only the zero vector. Then use the result of the previous problem.)
+
+--- OCR page 5: problem_bank.pdf ---
+b) Using (a), prove that {|;)}¢_, is a basis for C%. In other words, prove that every vector
+g (a), P i) bj=1 +P y
+€ C¢ can be written as a unique linear combination of the vectors |y;). We thus have
+q Pj
+that every set of d linearly independent vectors in C? is a basis for C7.
+
+(c) Prove that if an || = La, then {|w); G4 is an orthonormal basis for C¢.
+
+By combining this result with (57), we have that a linearly independent set {lby)} 94 of
+vectors in C4 is an orthonormal basis if and only if vi \by vy] = La.
+16. * Let {By} ey be an orthonormal basis for L(C4), with d € {2,3,...}.
+(a) Prove that
+
+d2
+SOB =a 1)
+j=l
+
+where lg = |T'a)(Pal = v0 |i, 29, 9|. Similarly, prove that
+d2
+SOB aB =F, (22)
+j=l
+
+where F = S0{515 |i, 93,4).
+(Hint: Start by verifying that {By ey is an orthonormal basis for L(C“). Then, use the fact
+that every linear operator Z ¢ L(C4 @ C2) can be written as Z = wit Cj,¢By ® Br for
+some coefficients cj, € C.)
+(b) Prove that for M € L(C%),
+da?
+So Bj) MB! = Tr[M] a. (23)
+j=l
+(Hint: Use (18), (19), and (21).)
+
+(c) Prove that {|B;)) ye
+
+_, isan orthonormal basis for C4 @ C4.
+
+17. * Let {ls) 3929 be a set of linearly independent, normalized, but non-orthogonal vectors in
+
+C4, with d € {2,3,...}. We would like to transform these vectors into a new set {|@;) a
+of orthonormal vectors via an invertible linear operator Q, such that |¢;) = Q|;) for all
+j€{01,...,d—1}.
+
+(a) Prove that the operator S defined as
+
+ay
+
+i
+a
+L
+
+ly vy (24)
+
+B
+ll
+fo)
+
+is invertible and positive definite. (Hint: Write S' in terms of the operator T defined in (20).)
+
+--- OCR page 6: problem_bank.pdf ---
+18.
+
+19.
+20.
+
+21.
+
+(b) Let
+|0;) = S~2|yy) (25)
+for all j € {0,1,...,d—1}. Prove that {165 }=5 is an orthonormal basis for C%. Also, prove
+that (di|~;)
+
+= (i|G2|7) for all i,j € {0,1,...,d—1}, where G:= TIT and T = esr baal:
+
+(c) Let us now show that the vectors defined in (25) are optimal with respect to the Euclidean
+norm, in the following sense:
+
+d-1
+inf Dll) — |i) |13 = 185) = Qld), (ily) = 41,5 VI € {0,1...,d- 1} (26)
+j=
+
+d-1 1
+= Elles) — $2 ley), (27)
+j=0
+
+where the optimization in (26) is with respect to every invertible linear operator Q.
+
+i. Prove that solving the optimization problem given by (26) can be reduced to solving
+the optimization problem given by
+
+sup {TH{(Q + Q'S]: QSQt = 1a}. (28)
+Q
+
+ii. Prove that the constraint QSQ* = 1g in (28) implies that Q = US™2, where U isa
+unitary operator. (Hint: Consider a polar decomposition of Q.)
+Hence, show that the optimization problem given by (28) is equivalent to
+
+1
+sup Re (mUs?]), (29)
+U
+where the optimization is with respect to unitary operators U acting on C?.
+iii. Prove that the solution to the optimization problem given by (29) is U = 14, implying
+that the optimal Q in (26) is indeed Soa,
+
+Prove that the trace norm can be calculated as ||M||1 = Tr[VMtM]. (Hint: Start by writing
+M in terms of its singular-value decomposition. Then recall how we define the square root of
+Hermitian operators.)
+
+Prove that ||P||1 = Tr[P] for every (Hermitian) positive semi-definite operator P.
+
+* Let |u), |v) € C4, with d€ {2,3,...}, be arbitrary vectors (not necessarily unit /state vectors).
+Prove that
+
+[lu] — JoXv|[lt = (ule) + (vle))? ~ 4|(ulo)/?. (30)
+Let |b) € C7 be a state vector, with d € {2,3,...}. Prove that
+Ly, la 1
+= |\juyy| — <2) =1--. 31
+5 |e = 3 (31)
+
+In other words, every pure state is the same trace distance away from the maximally-mixed state.
+
+--- OCR page 7: problem_bank.pdf ---
+22.
+
+23.
+
+24.
+
+Let p be a density operator in dimension d € {2,3,...}. Prove that
+1 r
+
+“35
+
+1 k=1
+
+where r € {1,2,...,d} is the rank of p and {A,};_, is the set of non-zero eigenvalues of p. If
+Ax > 4 for all k € {1,2,...,r}, then conclude that 4||p — 44|],; =1—- 5.
+
+1 lg
+1|_ da
+2 ||P a
+
+Prove that ||M||oo = VAmax(MTM), where \max(MtM) denotes the largest eigenvalue of Mi M.
+
+Prove that ||U||.o = 1 for every unitary operator U.
+
+--- OCR page 8: problem_bank.pdf ---
+Probability and statistics
+
+Fifty teams compete in a student programming competition. It has been observed that 60% of
+the teams use the programming language C while the others use C++, and experience has shown
+that teams who program in C are twice as likely to win as those who use C++. Furthermore, ten
+teams who use C++ include a graduate student, while only four of those who use C include a
+graduate student.
+
+(a) What is the probability that the winning team programs in C?
+
+(b) What is the probability that the winning team programs in C and includes a graduate
+student?
+
+(c) What is the probability that the winning team includes a graduate student?
+
+(d) Given that the winning team includes a graduate student, what is the probability that team
+programmed in C?
+
+Let A be the event that an odd number of spots comes up when a fair die is thrown, and let B
+be the event that the number of spots is a prime number. What is Pr[A|B] and Pr[B|A]?
+
+A family has three children. What is the probability that all three children are boys? What is the
+probability that there are two girls and one boy? Given that at least one of the three is a boy, what
+is the probability that all three children are boys. You should assume that Pr[boy] = Pr[girl] = 3.
+
+Three cards are placed in a box; one is white on both sides, one is black on both sides, and the
+third is white on one side and black on the other. One card is chosen at random from the box
+and placed on a table. The (uppermost) face that shows is white. Explain why the probability
+that the hidden face is black is equal to 4 and not 3
+
+. If Pr[A|B] = Pr[B] = Pr[AU B] = 3, are A and B independent?
+
+Let X be a random variable, taking values in {1,2,3,...}, whose probability mass function is
+given as
+aa? «x € {1,2,3,4},
+px(#) = { 0 otherwise. (33)
+(a) What is the value of a?
+(b) Compute Pr[X = 4].
+(c) Compute Pr[X < 2].
+
+Let X be a random variable, taking values in {1,2,3,...}, whose probability masss function is
+given as
+of a/x« « € {1,2,3,4}
+px(w) = { 0 otherwise (34)
+(a) What is the value of a?
+(b) Compute Pr[X is odd].
+(c) Compute Pr[X > 2].
+
+--- OCR page 9: problem_bank.pdf ---
+8. Let X, Y, and Z be three discrete random variables for which we have the following probabilities:
+
+Pr[X =0,¥ =0,2=0)= 5, (35)
+Pr[X =0,¥ =1,2=0)= 5, (36)
+PrX =0,¥ =1,2=1)= 5, (37)
+PrX =LY =0,2=-1)= 5, (38)
+PrX = LY =0,2=1)= 5, (39)
+PrX =LY =1,2=0)=5 (40)
+
+Let S be a new random variable for which S = X +Y+Z.
+(a
+(b
+(c
+(d
+
+Find the marginal probability mass function of X.
+Are X and Y independent?
+Are X and Z independent?
+
+NaN Na
+
+Find the marginal probability mass function of S.
+
+9. Let X, Y, and Z be three discrete random variables for which we have the following probabilities:
+
+Pr[X =1,Y =1,Z=0]=p, (41)
+Pr(X = LY =0,2=1)=5(1—p), (42)
+Pr(X =0,¥ = 1,2 = 1)=5(1-p), (43)
+
+where p € (0, 1).
+(a) What is the joint probability mass function of X and Y?
+
+(b) Determine the covariance matrix for X and Y.
+
+10. The probabilty mass function of a discrete random variable X is as follows:
+
+02 2=-2,
+0.3 «2=-1,
+
+px(z)=4 04 v=1, (44)
+0.1 x=2,
+
+0 otherwise
+
+Find the expectation values of the following functions of X:
+
+(a) Y=3x-1
+(b) Z=—X
+(c) W=|X|
+
+11. A coin is tossed 400 times and the number of heads that appear is equal to 225. What is the
+probability that this coin is biased?
+
+--- OCR page 10: problem_bank.pdf ---
+12.
+
+13.
+
+14.
+
+Messages relayed over a communication channel have probability p of being received correctly. A
+message that is not received correctly is retransmitted until it is. What value should p have so
+that the probability of more than one retransmission is less than 0.05?
+
+* Consider a discrete-time Markov chain consisting of four states, a, b, c, and d, whose transition
+probability matrix is given by
+
+0 0 08 0.2
+
+{0 04 0 03 -
+
+P=11 06 02 0 (45)
+0 0 0 05
+
+Compute the following probabilities.
+(a) Pr[X4 =c,X3 =c,X_ =c, X1 =¢|Xo =a]
+(b) Pr[X6 = d,X5 =c,X4 = b|X3 =a]
+(c) Pr[X5 =c,X6 =a, X7 =c,Xg=c
+
+X4 = b,X3 = dl.
+
+* A Markov chain with two states, a and b, has the following conditional probabilities: if it is in
+
+state a at time step t, t € {0,1,2,...}, then it stays in state a with probability 3(4)'. If it is in
+
+state b at time step t, then it stays in state b with probability 3g).
+
+(a) Determine the transition probability matrix of the Markov chain.
+
+(b) If the Markov chain begins in state a at time step t = 0, then compute the probabilities of
+the following sample paths:
+
+a>b->a>b and am~a>b->b. (46)
+
+10
+
+--- OCR page 11: problem_bank.pdf ---
+Quantum mechanics
+
+1. Draw a Bloch sphere and label the following locations:
+(a) Where a qubit is exactly |0).
+(b) Where a qubit is exactly |1).
+
+(c) Where a qubit is half |0) and half |1).
+
+(d) Where a qubit is more |0) than |1).
+
+(e) Where a qubit is more |1) then |0).
+
+2. Prove that the Pauli operators are orthogonal to each other; specifically, TrLXY] = 0, Tr_XZ] = 0,
+and Tr[Y Z] = 0, where we recall that the Pauli operators are
+
+3. Define the Bell state vector
+
+1
+va
+\®) = +((0.0) +11.) =|? (48)
+ail ; 0
+4
+Prove that
+; 3 00 3
+000 0
+qe @b+X@X-V@Y+Z@Z) =|®KO|= 0000 (49)
+3 00 5
+4. Prove that
+1000
+1 {0010 -
+p(k @b+X@X+V@Y+4+Z@Z) = 0100 (50)
+0001
+
+5. Consider an operator M € L(C?) decomposed in the Pauli basis as M = $(col +c,X +e2Y +03Z).
+(a) Verify that
+o=Tr{M], a =TrXM], c=TrfYM], c3 = Tr[ZM]. (51)
+
+(b) Verify that the Hilbert-Schmidt norm of M is ||M||ys = V3 (leol? + |e1|? + |e2|? + |es|?).
+
+6. Consider an arbitrary 2 x 2 matrix as follows:
+M= (? “) > BarsEeC. (52)
+
+Show that
+Tr[M])=pt+s, Tr[XM])=q+r, Tr[YM]=i(qg-r), TrlZM]=p--s. (53)
+
+11
+
+--- OCR page 12: problem_bank.pdf ---
+10.
+11.
+
+12.
+
+13.
+
+Consider the following state vectors. Determine the probabilities for obtaining the outcomes “0”
+and “1”.
+
+(a) |v) = (§ + 3) 10) + (5 + 2) 1)
+(b) |) = (5 + 2) [O) + (G5 + 3) I)
+(c) 1) = (a5 + 75) 10) + (3 + 95) ID)
+(@) 18) = (H+ BIO + (+B)
+Two qubits are in the state given by the vector
+: : im /100
+0.0) + 2, 4 1,0) + Ein). (54)
+
+If we measure the qubits in the two-qubit Z-basis {|0,0),|0,1),|1,0),|1,1)}, what are the possible
+measurement outcomes and their associated probabilities?
+
+Determine whether or not the following density matrices represent pure states. Then, write each
+density matrix with respect to the Pauli basis, i-e., determine the coefficients rx,ry,rz € R such
+that p= $(l+rxX +ryY +1rzZ).
+
+5 342i
+(a) p= 13 13
+P= \ 3-93 8
+13 13
+
+109 112 4 2
+(b) p= 225 225 1 45
+P\i a 6
+225 45 225
+377 242248241
+(c) p= 1125 O25
+P= \ 2499-g04i 748
+5625 1125
+4 142—44i
+(d) p= 325 TI25
+p 1424.44i 221
+T125 225
+
+Prove that every Hermitian operator has real eigenvalues.
+
+Prove that a linear operator M € L(C?), decomposed as M = 5(col +c,X + cY +c3Z) in the
+Pauli basis, is Hermitian if and only if the coefficients co, c1, c2, c3 are all real-valued.
+
+Let M € L(C%) be an arbitrary linear operator. Prove that M can be decomposed as follows:
+M=H,+ ilo, (55)
+
+where : :
+H,= (M+ M"), Hy = 3M - M!). (56)
+1
+
+Verify that Hy, and H2 are Hermitian.
+
+Let U € L(C%) be a unitary operator, and let |v1),|v2) € C4 be arbitrary vectors. Prove that
+(Uv |Uv2) = (v1 |v2).
+
+12
+
+--- OCR page 13: problem_bank.pdf ---
+14. Given any orthonormal basis {|e,)}¢_, for C4, prove that
+d
+1a=>_ lexerl- (57)
+k=1
+
+15. Let {
+
+ex) }¢_, and {|fx)}4_, be two orthonormal bases for C4. Prove that
+
+d
+U= > lex) Fa (58)
+k=l
+
+is a unitary operator.
+
+16. Verify that the following 2 x 2 matrices are unitary matrices.
+
+17. Calculate the partial trace Trg[M 4g] for the following two-qubit linear operators.
+
+$+2i 0 0 0
+0 -2-H 0 0
+a) Map = 4.9 ‘
+(2) Mas 0 0 343 0
+0 0 0 -24+4i
+11; 2,3: 5 1;
+(b) Map=|] PB > 4 oF 3! 6 : 3;
+£ 4 ~ oF
+9} 6 77 97 Gl
+3 §7ai 0 3i
+by 7 2 4; 0
+(c) Map=]? 4 Fr 7 2.1:
+0 qi 1 gta
+1; 2 1; “4
+—3l 0 573i 3
+5 3 1 2: 2 1;
+(2) Map=] 427 4, 36, 977
+; —3i gt gi 0
+5 3 2 1
+i0 gi wt3i 3
+
+13
+
+--- OCR page 14: problem_bank.pdf ---
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+Consider the three-qubit state vectors
+
+lv1)aBo = a" 0,0) ape + |1,1,1)4zc), (59)
+
+|¥2)aBo = Salls0. 1)aBc +|0,1,0)4Bc + |1,0,0) zc). (60)
+
+Determine the following partial traces.
+
+(a) Tra[\viXvilasc]-
+(b) Tra[|b2)(v2|aBc]-
+(c) Tra[pld)vlase + (1 — p)|2)(b2| 4Bc], where p € [0,1].
+(4) Tre [pldi\Xb2lase + (1 — p)|v2vilazc], where p € [0, 1].
+
+Prove the following identity:
+Tra[(le ® Ms)Hes(1e ® Ns)| = Ms Tre[Hes|Ns, (61)
+where Hes, Msg, and Ng are arbitrary linear operators.
+
+Consider the following two-qubit density operator 4g of Alice and Bob:
+pap = (1—p)|®TXO* lap + 5 § (|e X®" lap + |W Xt ae + |[Y- XY 4B), (62)
+where we recall the two-qubit Bell state vectors:
+
+\®*) = 7 ((0,0) + (1,1), (63)
+ve
+B
+Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i-e.,
+
+the POVM is {|0)OJ,|1)(1|}. What is the probability that they obtain different measurement
+outcomes?
+
+|W*) = (0, 1) + |1,0)). (64)
+
+Consider the qubit state vectors
+2nk 2nk
+|vp) = cos |O) + sin |1), ke {0,1,2,3, 4}. (65)
+
+Verify that the set dimou, is a POVM.
+
+Consider the three-qubit state vector |) in (59), known as the GHZ state vector, and define the
+following set of eight state vectors:
+
+|Pz,01,02) ABC = (Z7@ X*1@X™)\di)aBe, 2,21, v2 € {0,1}. (66)
+
+Prove that the set {| z,21,2) }ze1,¢2¢{0,1} iS an orthonormal basis for C? @ C? @ C?. Conclude
+that the set {|Qz,0y arXVz,01 02} z,c1,a2€{0,1} 8 a POVM.
+
+14
+
+--- OCR page 15: problem_bank.pdf ---
+23.
+
+24.
+
+25.
+
+26.
+
+Define the n-qubit GHZ state vector as follows:
+1 |
+|GHZ,) = allo) +|1)°"), (67)
+
+for n € {1,2,...}. Then, define
+|GHZ, z) = (Z* @ X*)|GHZ,), (68)
+
+for z € {0,1} and @ € {0,1}"7!. Prove that the set {|GHZ, #) }2€40,1}, ¢e{0,1}"—1 is an orthonormal
+basis for (C?)®", and thereby conclude that the set {|GHZz,7(GHZ.,7|} ef0,1},ge{o1yr-1_ is a
+POVM.
+
+* Fusing two GHZ state vectors. Consider a GHZ state of three qubits and a GHZ state of four
+qubits. We can merge these to create a larger GHZ state of six qubits using the following protocol,
+which is similar to the teleportation protocol.
+
+Step 1 Apply the CNOT gate to the third qubit of the first GHZ state (which is the control
+qubit) and the first qubit of the second GHZ state (which is the target qubit).
+
+Step 2 Then, measure the target qubit in the {|0),|1)} basis.
+
+Step 3 If the measurement outcome is “0”, do nothing; if the outcome is “1”, then apply the
+Pauli-X gate to all of the remaining qubits of the second GHZ state.
+
+Prove that, with probability one, this procedure results in the larger GHZ state of six qubits.
+
+* Let p and o be quantum states. Consider a very simple hypothesis testing strategy for guessing
+whether a given quantum system is in state p or a: Bob discards the state of the system and
+guesses “p” with probability g and “o” with probability 1— q.
+(a) What is the POVM corresponding to this strategy?
+(b) Evaluate the type-I and type-II error probabilities for this strategy.
+(c) If, in the symmetric setting, the prior probability for being given the state p is p € [0,1],
+then evaluate the expected error probability for this strategy.
+
+* Consider states p and o along with a POVM {Mo, M1} representing a strategy for hypothesis
+testing of a single copy of the quantum system, where the outcome “0” corresponds to p and the
+outcome “1” corresponds to a. Let p € [0,1] be the prior probability of being given p, and let
+n € {2,3,...}. Construct the POVM (mM, Ms} and evaluate the type-I and type-II error
+probabilities for the following two strategies for hypothesis testing of n copies of the quantum
+system.
+
+(a) The majority-vote strategy: (1) Measure each system according to the POVM {Mo, Mi},
+and let Nz be the number of times the outcome x € {0,1} occurs; (2) If No > Ni, guess
+“op”, and if N; > No, guess “o”. If n is even and No = Nj, then guess “p” with probability
+q € [0,1] and “o” with probability 1 — q.
+
+(b) The unanimous-vote strategy: (1) Measure each system according to the POVM {Mo, M4},
+and let N, be the number of times the outcome x € {0,1} occurs. (2) If No = n, then guess
+“op”; otherwise, guess “oa”.
+
+15
+
+--- OCR page 16: problem_bank.pdf ---
+Entanglement
+
+1. Do each of the following state vectors represent a product state or an entangled state? If it
+represents a product state, give the factorization.
+
+(a) Elo)l+) + \/311)|-).
+(b) $(3]0,0) — V3|0, 1) + V3)1,0) — |1,1)).
+(c) 45(/1,0) +i/1,1)).
+(a) 45((0,1) + |1,0)).
+
+2. Let |®qz) be the state vector
+
+d-1
+
+iba) = Ih (69)
+For every unitary operator U, prove that
+
+(U ®U)|®q) = |), (70)
+where U denotes the complex conjugate of U.
+
+3. Consider the state vector |W~) defined in (64). Prove that
+(U @U)|WYKU|(U @U) = |W Kw (71)
+
+for every single-qubit unitary U.
+
+4. Consider the Bell state vectors as follows:
+
+|@*) = ae ,0) +|1,1)), (72)
+|®°) = ae ,0) —|1,1)), (73)
+\wr) = ae 1) + |1,0)), (74)
+|v) = 5 1) — |1,0)). (75)
+
+(a) Show that when the X gate is applied to either qubit of |W*), the result is |®*) up toa
+global phase.
+
+(b) Show that when the X gate is applied to either qubit of |®+), the result is |W*) up toa
+global phase.
+
+(c) Show that when the X gate is applied to either qubit of |W~), the result is |®~) up toa
+global phase.
+
+(d) Show that when the X gate is applied to either qubit of |®~), the result is |¥~) up to a
+global phase.
+
+5. By calculating the Schmidt decomposition, and explicitly stating the Schmidt rank, determine
+whether the following state vectors are entangled.
+
+16
+
+--- OCR page 17: problem_bank.pdf ---
+(a) |b)aB = 79 (|0, 0) +iJ0, 1) + (5 —i)|0, 2) + (1 + i)|1, 0) + 2], 1) + 5i]2,0) + (1 + 12, 2)).
+
+(b) |2) w= "b(0.0 ) + 2/0, 1) + 3]/0, 2) +i]1,0) + (1 + 2i)|1, 1) + (1 + 3i)|1, 2) + (1 +i)|2,0) +
+(3 + 2i)|2, 1) + (4 + 3i)|2, 2)).
+
+(c) \b)aBp = Jo (10,0 ) + 2|0, 1) +30, 2) +i]1,0) + 2i]1, 1) + 3i]1, 2) + (2+ i)|2, 0) + (4+ 2i)|2, 1) +
+(6 + 3i)|2, 2).
+
+6. Prove that in the teleportation protocol, every outcome of Alice’s measurement occurs with
+probability i, and carry out the calculation to determine the conditional state achieved by Bob
+(before his correction operation) for each of these measurement outcomes.
+
+17
+
+--- OCR page 18: problem_bank.pdf ---
+Quantum circuits
+
+1. Let a, 8 € C. Prove that:
+(a) XZXZ(a0) + [1)) = —(al0) + Bl).
+(b) ZXZX(al0) + B[1)) = —(al0) + B|1)).
+
+B
+
+2. Let |y) = a|0) + B|1), with a, 8 € C and Ja|? +8)? =1. Let H= 4 (; _
+
+l ') be the Hadamard
+
+gate. Calculate the following vectors.
+
+(a) Aly).
+
+(b) HI-) = 1).
+
+(c) H|—i) =e |+)).
+
+(d) Let T = (; J) be the T gate. Calculate HTHTH|0).
+
+3. Draw the state vector HYTHX|0) as a quantum circuit.
+
+4. Consider an operator U that performs the following mapping on the Z-basis state vectors:
+
+1 . 1.
+yall — il); U|1) = gil) +10). (76)
+
+(a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+(b) For arbitrary a, 8 € C, what is U(a|0) + B|1))?
+(c) Does U represent a valid quantum gate? Explain your reasoning.
+
+U|0) =
+
+5. (a) Does U = Fa (; ‘) represent a valid quantum gate? If so, what is U|0) and U|1)?
+
+(b) Does U = a (; *) represent a valid quantum gate? If so, what is U|0) and U|1)?
+6. Let 7 € R® be a unit vector, let ¢ = (X,Y, Z) be the vector of Pauli operators, and let y € R.
+Prove that
+
+el?) — cos(y)1 + isin(y)(*- &). (77)
+
+7. Consider the following quantum circuit:
+la
+» [Z}- 8
+
+mY rant
+vy
+
+S
+a
+
+©
+ae
+a
+m
+£
+ll
+a
+2
+i=}
+Q
+=
+ll
+
+| |+), then find the resulting state at the end of the circuit.
+(b) If Ja) = |+) and |b) = |—), then find the resulting state at the end of the circuit.
+(c) If ja) = |—) and |b) = |+), then find the resulting state at the end of the circuit.
+
+18
+
+--- OCR page 19: problem_bank.pdf ---
+10.
+
+11.
+
+12.
+
+(d) If |a) = |—) and |b) = |—), then find the resulting state at the end of the circuit.
+(e) Using your answers to the previous parts, explain why this circuit calculates the parity of
+the first two qubits in the X basis.
+
+Prove that Uy = Z~/4X1/4 and Up = H7V/2Z-/4X1/4 71/2 can be written solely as a product
+of H and T. Recall that H = 4
+
+11 1 0
+(i ‘) and P= (5 a)
+
+Let us use the following notation for the swap gate:
+
+Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+rany
+q
+
+Show that the controlled-Z gate can be written in terms of the Hadamard gate and the CNOT
+gate as follows:
+
+(81)
+
+“a m+
+
+Show that the control and target qubits of the CNOT gate can be changed by adding Hadamard
+gates before and after as follows:
+
+—o— es
+—
+Prove the following circuit identities.
+(a) CNOT(X @ 1) = (X ® X)CNOT.
+4- | bh «
+© ox;
+(b) CNOT(1 ®@ X) = (1 @ X)CNOT.
+= 84
+x}-e ex} _
+(c) CNOT(Z ® 1) = (Z @ 1)CNOT.
+12} [Z}—-
+= (85)
+D €
+
+19
+
+--- OCR page 20: problem_bank.pdf ---
+13.
+
+14.
+
+15.
+
+(d) CNOT(1 @ Z) = (Z® Z)CNOT.
+
+[2}—-
+Ze = (86)
+Consider the following circuit:
+°
+\0) kK—_|[ A= _
+
+The final measurement is in the Pauli-Z basis. What is the probability of obtaining each outcome?
+
+Consider the following circuit:
+
+0) i
+0) i S
+
+I) 6—|s|4
+
+WY
+
+The final measurement is in the Pauli-Z basis.
+(a) Show that the probability of both measurement outcomes being 0 is 2.
+(b) Show that the circuit applies the gate R,(@) to the third qubit if the measurement outcomes
+are both 0, where @ is given by cos(@) = 3; otherwise, the circuit applies Z to the third
+qubit.
+
+Recall the following circuit for the Hadamard test:
+
+I)
+Here, U is an arbitrary unitary and can act on an arbitrary number of qubits. Using this circuit,
+it is possible to determine the real part of (~|U|W), ie., Re((v|U|v)).
+
+Now, show that by adding the S' gate as follows, it is possible to also calculate the imaginary
+part of the inner product, namely, Im((q|U|w)).
+
+--- OCR page 21: problem_bank.pdf ---
+16. The Mglmer—Sgrensen (MS) gate is a two-qubit gate that can be naturally implemented on
+
+trapped-ion quantum computers. It transforms Z-basis states as follows:
+
+|0, 0) +
+\0, 1)
+{1,0)
+\l,1pwH
+
+Write the MS gate as a matrix.
+
+1 ({0,0) +4J1,1)),
+
+al
+
+2
+
+1 ({0,1) —iJ1,1)),
+
+al
+
+2
+
+1 ({1,0) — iO, 1)),
+
+al
+
+2
+
+(1,1) +il0,0)).
+
+al
+
+2
+
+(91)
+(92)
+(93)
+
+(94)
+
+17. The Clifford group generating set, {CNOT, H, S} is not universal for quantum computation. Give
+
+three ways to modify the set so that it is universal for quantum computation.
+
+21
+
+--- OCR page 22: problem_bank.pdf ---
+Quantum error correction
+
+1. A logical qubit is in the state given by the vector |) = 3107) + 3|11). We encode the logical
+qubit into three physical qubits according to |0;) = |0,0,0) and |1,) = |1,1,1). You suspect that
+a partial bit flip has occurred to one of the qubits, so you measure the parity of adjacent qubits.
+(a) If parity(q, q2) = 0 and parity(go, qi) = 0, what quantum gate(s), if any, should you apply
+
+to fix the error?
+(b) If parity(qi,q2) = 0 and parity(qo,q) = 1, what quantum gate(s), if any, should you apply
+
+to fix the error?
+(c) If parity(q1, q2) = 1 and parity(qo,q) = 0, what quantum gate(s), if any, should you apply
+to fix the error? If parity(q1, q2) = 1 and parity(qo,q) = 1, what quantum gate(s), if any,
+
+should you apply to fix the error?
+
+22

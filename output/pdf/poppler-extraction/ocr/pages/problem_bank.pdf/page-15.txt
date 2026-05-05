@@ -1,0 +1,58 @@
+23.
+
+24.
+
+25.
+
+26.
+
+Define the n-qubit GHZ state vector as follows:
+1 |
+|GHZ,) = allo) +|1)°"), (67)
+
+for n € {1,2,...}. Then, define
+|GHZ, z) = (Z* @ X*)|GHZ,), (68)
+
+for z € {0,1} and @ € {0,1}"7!. Prove that the set {|GHZ, #) }2€40,1}, ¢e{0,1}"—1 is an orthonormal
+basis for (C?)®", and thereby conclude that the set {|GHZz,7(GHZ.,7|} ef0,1},ge{o1yr-1_ is a
+POVM.
+
+* Fusing two GHZ state vectors. Consider a GHZ state of three qubits and a GHZ state of four
+qubits. We can merge these to create a larger GHZ state of six qubits using the following protocol,
+which is similar to the teleportation protocol.
+
+Step 1 Apply the CNOT gate to the third qubit of the first GHZ state (which is the control
+qubit) and the first qubit of the second GHZ state (which is the target qubit).
+
+Step 2 Then, measure the target qubit in the {|0),|1)} basis.
+
+Step 3 If the measurement outcome is “0”, do nothing; if the outcome is “1”, then apply the
+Pauli-X gate to all of the remaining qubits of the second GHZ state.
+
+Prove that, with probability one, this procedure results in the larger GHZ state of six qubits.
+
+* Let p and o be quantum states. Consider a very simple hypothesis testing strategy for guessing
+whether a given quantum system is in state p or a: Bob discards the state of the system and
+guesses “p” with probability g and “o” with probability 1— q.
+(a) What is the POVM corresponding to this strategy?
+(b) Evaluate the type-I and type-II error probabilities for this strategy.
+(c) If, in the symmetric setting, the prior probability for being given the state p is p € [0,1],
+then evaluate the expected error probability for this strategy.
+
+* Consider states p and o along with a POVM {Mo, M1} representing a strategy for hypothesis
+testing of a single copy of the quantum system, where the outcome “0” corresponds to p and the
+outcome “1” corresponds to a. Let p € [0,1] be the prior probability of being given p, and let
+n € {2,3,...}. Construct the POVM (mM, Ms} and evaluate the type-I and type-II error
+probabilities for the following two strategies for hypothesis testing of n copies of the quantum
+system.
+
+(a) The majority-vote strategy: (1) Measure each system according to the POVM {Mo, Mi},
+and let Nz be the number of times the outcome x € {0,1} occurs; (2) If No > Ni, guess
+“op”, and if N; > No, guess “o”. If n is even and No = Nj, then guess “p” with probability
+q € [0,1] and “o” with probability 1 — q.
+
+(b) The unanimous-vote strategy: (1) Measure each system according to the POVM {Mo, M4},
+and let N, be the number of times the outcome x € {0,1} occurs. (2) If No = n, then guess
+“op”; otherwise, guess “oa”.
+
+15

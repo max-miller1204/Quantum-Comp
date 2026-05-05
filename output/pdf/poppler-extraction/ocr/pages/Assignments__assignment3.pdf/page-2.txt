@@ -1,0 +1,55 @@
+Pr[X = LY =0,2=1)=5(1-p), (6)
+Pr[X =0,Y =1,2=1)=5(1-p), (7)
+
+where p € (0,1).
+(a) What is the joint probability mass function of X and Y?
+(b) Determine the covariance matrix for X and Y.
+
+Given any orthonormal basis {|e,)}¢_, for C¢, prove that 1g = an lex ex|-
+
+Let {|ex)}¢_, and {|f;)}2_, be two orthonormal bases for C¢. Prove that U = an lex fe| is a unitary
+operator.
+
+Consider the following quantum circuit:
+
+7
+0» [i o
+
+|0) © D
+
+(a) If |a) = |+) and |b) = |+), then find the resulting state at the end of the circuit.
+
+(b) If |a) = |+) and |b) = |—), then find the resulting state at the end of the circuit.
+
+(c) If |a) = |—) and |b) = |+), then find the resulting state at the end of the circuit.
+
+(d) If |a) = |—) and |b) = |—), then find the resulting state at the end of the circuit.
+
+(e) Using your answers to the previous parts, explain why this circuit calculates the parity of the first
+two qubits in the X basis.
+
+Consider an operator U that performs the following mapping on the Z-basis state vectors:
+
+1 1
+= —z=(-i0) + |1)). 9
+A val 0) + |1)) (9)
+(a) Express U as a linear operator both in abstract bra-ket notation and as a matrix.
+(b) For arbitrary a, 8 € C, what is U(a|0) + 6|1))?
+
+(c) Does U represent a valid quantum gate? Explain your reasoning.
+
+U|0) = (10) —if1)), UL) =
+
+Let Hap € L(C% @ C4), Mg € L(C%”), Ng € L(C4*), and Py € L(C%4) be arbitrary linear operators.
+Prove the following facts about the partial trace.
+
+(a) Tra[Pa ® Mg] = Tr[P4]Mp.-
+
+(b) Trp[P4 @ Mg] = Tr[Mp]Pa.
+
+(c) Tra[(la ® Mg)Hap(la ® Nzg)| = Me Tra[HaplNo.-
+
+Consider an arbitrary linear operator Map € L(C44 @C?@*) and an arbitrary density operator pa € L(C%).
+Prove that
+
+Tr{Maz(oa ® |0X0|z)] =TLM4pal, Mi = (La ® (O|n)Man(La ® [0)2). (10)

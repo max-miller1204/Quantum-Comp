@@ -1,0 +1,88 @@
+--- OCR page 1: Assignments/assignment8.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Assignment 8
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Name:
+
+Date: Thursday, April 23, 2026 (in class)
+Due: End of class!
+Number of problems: 3
+
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer, but
+having a complete solution. You may work in collaboration with others and ask the instructor for help. Use of AT
+tools is not prohibited, but remember that the assignments are preparation for the exam — so if you use AI, use it
+wisely! Use it to learn.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and mistake,
+you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted problems result in a
+10-point deduction. You must submit the assignment with at least one problem attempted in order to get a grade.
+Blank submissions will receive a grade of zero.
+
+For the grader only
+
+Problem 1 2 3 Final Score
+
+Score
+
+--- OCR page 2: Assignments/assignment8.pdf ---
+1. Consider the following circuit:
+
+|) a {s| bh
+
+The state vector |7) is arbitrary, and the final measurement is in the Pauli-Z basis.
+(a) Show that the probability of both measurement outcomes being 0 is 3.
+
+(b) Calculate the state of the third qubit conditioned on each of the four measurement outcomes.
+
+--- OCR page 3: Assignments/assignment8.pdf ---
+
+
+--- OCR page 4: Assignments/assignment8.pdf ---
+2. Prove the following circuit identities.
+
+(a) CNOT(X @ 1) = (X ® X)CNOT.
+
+Ey
+
+d
+u
+
+(b) CNOT(1 ® Z) = (Z@ Z)CNOT.
+
+—{z}-o—
+
+aq oo
+
+--- OCR page 5: Assignments/assignment8.pdf ---
+3. Staring from the |0) state vector, describe what gate(s) we would need to apply in order to generate the following
+state vectors. Provide justification. (Hint: Hadamard, rotation gates, and phase gates of the form S(@) = () i)
+6 ER, are sufficient.)
+
+(a) Yq ((0) + i
+
+(b) J (10) — 11))-
+
+(©) ya (l0) ~ in).
+
+(d) cos(
+) al
+
+al al
+
+°
+B
+
+[OS
+
+d 6/2)|0) + sin(@/2)|1), for an arbitrary @ € R.
+1
+
+(e |0) + el 1) ), for an arbitrary 0 € R.
+
+al
+
+ot

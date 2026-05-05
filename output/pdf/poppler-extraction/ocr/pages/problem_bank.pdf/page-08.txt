@@ -1,0 +1,47 @@
+Probability and statistics
+
+Fifty teams compete in a student programming competition. It has been observed that 60% of
+the teams use the programming language C while the others use C++, and experience has shown
+that teams who program in C are twice as likely to win as those who use C++. Furthermore, ten
+teams who use C++ include a graduate student, while only four of those who use C include a
+graduate student.
+
+(a) What is the probability that the winning team programs in C?
+
+(b) What is the probability that the winning team programs in C and includes a graduate
+student?
+
+(c) What is the probability that the winning team includes a graduate student?
+
+(d) Given that the winning team includes a graduate student, what is the probability that team
+programmed in C?
+
+Let A be the event that an odd number of spots comes up when a fair die is thrown, and let B
+be the event that the number of spots is a prime number. What is Pr[A|B] and Pr[B|A]?
+
+A family has three children. What is the probability that all three children are boys? What is the
+probability that there are two girls and one boy? Given that at least one of the three is a boy, what
+is the probability that all three children are boys. You should assume that Pr[boy] = Pr[girl] = 3.
+
+Three cards are placed in a box; one is white on both sides, one is black on both sides, and the
+third is white on one side and black on the other. One card is chosen at random from the box
+and placed on a table. The (uppermost) face that shows is white. Explain why the probability
+that the hidden face is black is equal to 4 and not 3
+
+. If Pr[A|B] = Pr[B] = Pr[AU B] = 3, are A and B independent?
+
+Let X be a random variable, taking values in {1,2,3,...}, whose probability mass function is
+given as
+aa? «x € {1,2,3,4},
+px(#) = { 0 otherwise. (33)
+(a) What is the value of a?
+(b) Compute Pr[X = 4].
+(c) Compute Pr[X < 2].
+
+Let X be a random variable, taking values in {1,2,3,...}, whose probability masss function is
+given as
+of a/x« « € {1,2,3,4}
+px(w) = { 0 otherwise (34)
+(a) What is the value of a?
+(b) Compute Pr[X is odd].
+(c) Compute Pr[X > 2].

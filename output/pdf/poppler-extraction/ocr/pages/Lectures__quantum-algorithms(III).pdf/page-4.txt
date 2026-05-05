@@ -1,0 +1,41 @@
+@)Guantwn Fourier Transfer
+
+(a) Recay : ditcrete fourier transform (per),
+
+— Wed in a lot d place:
+. Signal pnacending — identifying Frequency Com ponents u a Sunah.
+(andio and video praceatina
+
+* Machine leatniny — feature eebracton
+© Scientific Computing — Solving differcatial Heaton numerically.
+— Defintim : far a Signed fyin,, it DFT if
+
+Ns dikk f Omix
+WE ef é = Cos(an) + isin (2nx)
+
+~ Eromgle = Connider a rignal of tno Sing Worel piak Hgether
+
+le) = Sin (2th) +£¢in (Inf t)
+K _f
+Frequencied
++f25 He
+
+of <5 te
+* Sampling. rate : f= loo He = 100 Samples total (in [sec-)
+
+Time-Domain Signal Time-Domain Signal (sampled) Frequency-Domain Spectrum (vel)
+
+HH
+
+0.6
+0.0 =
+2 e
+7 = 04
+0.5
+0.2
+bb
+ma i ! f 0.0 | eum
+:
+00 0.25 0.50 075 1.00 0 ¢ 40
+s] Hz]
+

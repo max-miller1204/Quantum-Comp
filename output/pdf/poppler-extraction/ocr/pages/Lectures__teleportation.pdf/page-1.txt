@@ -1,0 +1,45 @@
+Q Recap of the coure so far.
+
+(a) What ig 0 aubit f
+
+0 |0)
+
+e |) = a0) + Bl),
+
+ape,
+lol? +18 =1
+-i) j+ipY
+VA |+) = Jy(|0) + |1))
+e
+
+1 xy |i) = 4,((0) + i)1))
+
+Bit Qubit
+0 or 1;
+
+or probabilistic
+mixture
+
+|0) or |1);
+
+or superposition
+
+» The State @ gubit iS given by a demity matrix | operator :
+l" CE (Hemita) oul tronpage
+(1) p20 (puitive Semi-definite & non-negative eigenvalues)
+
+(3) tele) =| Sum q the dingona element?
+
+~~
+
++ Points on the Suiface ¢ the Bloch Sphere art given by State vectors;
+they art called purt stata: = 19X#, Nee [lh = 1.
+
+Sen
+» Points ingide the Bloch Sphere art mixed States: — State vector,
+c ,
+key pure =|
+Sree
+
++ Quantum gates ort wheol + dencribe opevahon computation on gubits.
+They art defined by unitary Matric: nelle’), utu= uut= 2.

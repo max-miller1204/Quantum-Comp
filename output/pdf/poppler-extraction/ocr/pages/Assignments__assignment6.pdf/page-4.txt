@@ -1,0 +1,11 @@
+3. Let us use the following notation for the swap gate:
+
+Ee
+
+Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+am =
+
+fant
+Y
+fant

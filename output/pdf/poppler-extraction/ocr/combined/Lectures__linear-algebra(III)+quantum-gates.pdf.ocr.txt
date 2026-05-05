@@ -1,0 +1,374 @@
+--- OCR page 1: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+() Quantum State
+
+|W) = 0) + BI1),
+
+e
+ape,
+lel? + |BP =1
+|-i) |+i)
+6 Noee, |) = z (10) + |1))
+
+1 I1) |i) = Z(l0) + il1))
+
+Bit Qubit
+Oor 1;
+
+or probabilistic
+mixture
+
+|0) or |1);
+or superposition
+
+G)Staten ef live on the Surface the Bloch Sphest. — they arv
+dercrived by -dimensisnal Stabe vicd. Fini Sieh
+k=9
+
+ke,
+
+ol
+m=(") Wace, lal + Isr =I, [F2= lop gli7, [9)= (52, ise[")
+
+(Stats indide the Sphert art aloo pribie — they Ot alercribed by
+density maricen. Ne Will See this today!)
+
+@ matrices [aka * linear species" [o)=(+), [\): [°) ) Xe (UJtee) )
+
+= l °
+on ? Column indices. (; 4
++e | 5 Abed, —> Mz alpXol + blOXN + cliXel + dlUXu
+to ad
+n A=ColMI0), b= <olmli), C=C),
+fond d= CMY
+Indices
+
+dt
+~ General dvd matrix: MeL my KYL, mi; = GIMlj>
+
+3 59
+
+motrin. elements.
+
+--- OCR page 2: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+Q Notation: L(ct) = set of all mutricar[linear operates acting ba CF (ie, dual matrictr)
+(dimension od )
+
+— Ft ony Vector yee Welle) ig a ded matrix.
+
+da 4
+
+wt a7'
+We£4 IK) a IX] 2 (¢ Me 1) [s% <i! ) = g Var LEXK'L
+
+k’=o ku'sp
+
+- Tdenhty matrix: 2 > Anyzw fir at lect
+
+hzo
+
+Le L 0 =f [kXkl <> Foc any Ortho Normal
+" ol
+! | banis { lea) See) * aes lepreal.
+
+— Trace of 8 Matrix: Sum t the diagonal tlemeats.
+
+n= (a | > Trim) = ard = ColMboy +<iM 10.
+
+ca
+
+d= ol‘ a-\
+
+Tn general: Meo mie UX =? tlm] =. mis = S GlMlid
+ijz¢ p t) 7=0
+
+12
+@ Consider a State vectr Ix9= 10+ 61 <7 Ge dol teu , lal" pel
+
+2 Ll = (aed+@ 12] [ado + pa) = ded [0Xol + MB 101 + ek Lindel + pp LI
+
+Lo
+= lal’ loYo1 + afi 1X1) + Ba (Nol t pl UXI = (i ie)
+> [els Fe[o
+
+Now fake the trace: Te[ WY] = [als pel. ip\> P(t
+
+Tn generat : Te (Iva) = ly lv) for all wed,
+
+--- OCR page 3: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+Proof: Juat we the definition:
+
+ae) ae da
+Te Xul) = £ Gav ey =f du laXthlvd = dul [Z Ux } = Wily). B
+
+“ 7. 1a 7 iF
+Iv)
+
+Similacty: TE MINI] = Soll? for all ud, ludect, meLle*),
+a a a-! a
+to: TeLmleXul] La aly =$ duu xela) nly (fe) MiK?
+
+guar rceeceraeea cata
+
+Pal SO oa
+LW)= Ivy, 1:m=2a
+
+~ Trondpae ¢ a matrix: flip the rovlt and calumms.
+
+nn "| r ian
+e Pod —> =
+M (to, ji lt d
+
+@ Mots : (oe IXil [m+ m,\" = me Ht
+
+at act ( T
+‘ : Ms i LX a7 MT Hj a Vs eX;
+Tn general: Mm Zi XG -7 mM £m tpe M £ Mii i)
+
+ay T
+= ey li [
+Qa matrix M is called Symmetric if uT= Mm. Zo xi!
+
+MIE M7 ms = Mii
+
+--- OCR page 4: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+— Conjugate Trans pose ef o Matrix:
+
+Vo
++ Recall fir Wectod : m[' > Gl= ly rf Yh]
+: HI hi
+
+Mal Ds Wwy= Lub) al “SUG
+
+a b ace
+Similar fir matrica! Me = M E _
+c 4 t ai.
+
+Ta gener: m= Z mi, KGL uh IX
+
+@ Note : (iy) = WXil i -[f a sa Tid
+
+bd
+
+_. ladelk
+
+® 4 matrix Mig Called He if Wem, —> Mig = Mj. ( )
+————
+
+—
+
+~ Inner Product and Orthonormat Bases [ Matrices.
+
+a! cl
+* fecal! vector ianer produc: \u)=2 Welk, Woe £ vl)
+d-! d-! a
+= duly = [ meu) Lat) = 4M
+
+bro
+
+*Matiy innec product : Cru, m> = Tefal M). (M,, M,) = CM, ,)
+
+From thie, we define a norm foc matrices: ll mil, =/ dm, m> =,/T[m'm)
+“Matrices MW, are ot Hheoonad if (my, Wy) =0.
+
+--- OCR page 5: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+| 2 9
+‘We hove aoe fr matic ad well | (0 ) (*}, 0]
+
+romple: 422, recall M= (* Hey teary tee
+[7 a 0
+cal (15) (20) (7) 03)
+The fet lool, 1eXi) 11), ux} i$ on orHronormal basis to Lc’),
+
+L onsen: Ther ane hel clement |
+
+Check: take inner proclucts!
+
+Cloxol, pur = Tr [ine (iox)| = Tel toxalaxn] = te toyit) = ile) =9.
+cd |
+(lox, not) = Ti (1oXsi)! LXer) = Te[txeliXol] =a
+=0
+
+(LoXe), [ayfol Y= Tr{ Lioxo1)* loxoi] = Tr{ Joo oI) = Te( e¥el] = ola) =|
+
+uw
+=l
+
+Ta general: C1aXjL, IHREN) = Tel Cuaxgil luxe] = qe iranewel)
+Bi,
+
+= dha TLUXLN) = din Ul) = bin da
+
+QHaldg fre arbitrary dimension : f LeXjL: fe Whang d tH) i an
+othonocmel band for L(c2),
+
+‘Special basit for d=2 : Rawbi Mairicer (ako Pauli aatt
+
+ifs ree “pe! A wil=t(y)= 11) =0
+
+1 0 “| cert
+Bit-Flip matrix : Xl= 117, K)2= 102. def, Yea be.
+
+witulen= Tf yty) Wee]
+
+Samat
+
+--- OCR page 6: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+They ar Herwition: vey, Yoy, 2d,
+
+~~
+1, uy, 2} Rema orthogonal baait fr Le*) |
+
+| Tey =te(() }{f s}}=n{ 2) =2
+
+=? Frny M<L(C) can he writen aa M=t(o%egktqy +2),
+6,4,9,5 €€.
+
+@ Quontunl States as Density Matrices
+
+|W) = 0) + BI1),
+
+~We hore Seen State vechr ax coepeet
+-i i+)
+A<and ep ld, pee, fale ple,
+|+) = a) 1)
+— Comider the matrix p= 9X71
+
+\1) |i) = Z(|0) + i|1))
+Qubit
+|0} or |1);
+
+(1) ( bad at (Hermitian), or superposition
+
+Tt hav the fillowing pro pertiee:
+
+[*Xal= (4 le) 4p >) [2 dolypdil)
+= [all loXol + af loXil + ad LiXol + fal 1X [m+ a, = wt em!
+(inxnn\!
+
+[el LoKol + Zp liXol + Ba [exit + lal 1X
+
+Be P (love! + ag a (iovul+ pa ( [1%) ie Isl” uxui)*
+
+--- OCR page 7: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+Q) Tle) =1 {unit trace),
+
+Tefen] = CyleY = Lal's [pl= /
+
+Ft
+abo!)
+
+(3) p70 ( Positive Ceni—definite’)
+
+@ A Hermition Matti Me Llc! } if Called padi tive Semi definite
+
+(denoted. M0) if Wim? 20 ¥ wee.
+
+This i$ equivalent 19: all eigenvalues ort non negahve
+Oo U
+
+d (aqonak motr'y.
+& fecal eingavalue and eingnvected : MIV?= IN), M= Ou ud.
+\ unitary
+
+Eigenvalue,
+Eigennectn eo
+
+Eigenvalue (Saectrad) Aecompot ition : M=f A, |v. Xv
+=I
+
+& Fie R=lAXA —7 Cela) = Ocl AeA) = [wlvol'o0 ¥ lav.
+
+= Piny matrix Satitbying (1), (2), 18) is called a. deity matriy operator
+
+BD fc dus 1 1 cf; The State of any gudecuen Syfttn
+
+i$ mafhermatcally by Oo, olengity mattiy. (arhitraty dimension }.
+
+~The denity matrix p= lrrl dercerbea fuse tate. [on the
+Surface of +4 Bloc Sphect.)
+
+--- OCR page 8: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+—
+c =
+ns x
+— Vv = \= 4
+¢ ry a
+— +
+na
+< SF s\
+‘ . ny = ¢
+* “| 2 o> " me TA
+N - Ly.
+aS s 3 = Sos
+fw) > a NY = n~ — 7~ A
+S » TS Fa ¢ 8 5
+' . > wv & YC = 5
+PN —_) = $y v ra) Q "eS —\c-2 \
+Pd | - § joy >< 1=5
++= — = wo 4 a
+a RV} fe) ym a
+~ Fs => + + ft Wl
+DP iY} mT as =>, 3
+— A\\e _ a
+£ os ts 0) FS Zs 5 <>
+>) > — Ys ec IN =
+s y+ s = a < . = aS
++ - rd SF Ss . = he x y
++ 7 fa v y+ aA — { AN > 4 ‘=
++ * nd
+s + . * .
+om a Sa Se >< e — a oe
+. =5 »
+e 2 F y| + x + =
+“ey > = Cc Ce an wa
+Aad = 2 +> Qo]
+as + = Ww ) IN) i 1 (
+=
+= \ £ vy —
+— q = —\ \ — i= = Cl
+< Ss |’ _ 4- = —|-
+‘
+_— — _—
+2 o = =
+)
+
+--- OCR page 9: Lectures/linear-algebra(III)+quantum-gates.pdf ---
+ey is ity) dyed (le (pepe) 20.
+
+fy tify l-
+Need A>0 => gll-Vigaeg) 20 > Key te sl
+
+i
+
+he F= (Gy, G) ER inside He voit sphere!
+
+ae +7 -L 1 2 2),
+ff aby Observe : lll, Sess tiie < |
+4
+SY Geo
+X 1)
+Faro pure Shake f= UAXL, p> PXALAXAL = rex =P]
+
+<r (=e
+>) nhery4g = 1 <P pure Stak are on He surface of the vit Spee
+
+@® we cail Ti{p') the purity ¢ @ 7p pure iF + only f THE) =I
+
+||| Lit | |
+@© Orig , F= (0,0,0) Contains He maxima lly—miyed, Stale : £
+| | °
+
+# © 5 (loXo1 + 0X1)
+@ Points on the X-ayit: Fz (+1, 0,0) pe (eX) = = |EX4, le 24 |\0 £10)
+
+Thee art cigtnStates of Xt Xlye +2), “4 UL)
+
+& Points on the Y-axis : f= (1,41, 0)-¥ peal127) = [2i24il,
+Iti) = ~ Allo) 4i 3) - “al 7
+
+These art cigenstates ¢ yi Viti) |e 2%),
+
+- OL 0X0 [9 )= (3
+@ Points oe the 2-oyit: T= (0,021) > p=r(te ENG ilk =(4))
+
+These are eigeratatea 4 z! Eby= lo), 21 =~).

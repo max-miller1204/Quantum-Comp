@@ -1,0 +1,365 @@
+ ftp.t
+  Itwe                      quite belongs tothe tensorproductspace      dad
+
+la     A
+           prenatal               has the form
+
+
+     Statevector 14         1412014        14,7Eddi    1 7 Ed
+                        5
+                              TB AEL A and to L 4
+     Density operator
+                        By To                                     are demifferators
+
+
+
+
+       A                    has the form              plotof ftp
+            statue                          Pas
+
+             Also called classically correlated       Esprobabilities
+          An                      is Not a separable state
+               Estate
+
+
+
+
+           The Bellstates
+
+                              1        1 1           le e 11,1s
+          Puffy      It       LIKE 1 1              10.17111,07
+
+
+
+
+               if
+                                        f
+
+
+
+
+      observe that        1   1,1117                             areas
+                                                444,4
+                                                             90      It
+      2                                7 1,2 Z
+          1               9
+                                            1 X X            9      It
+
+1          2 1 111                                           1
+111       4 1 Et
+II        EX 1 111
+  Diligence
+    Given a state vector 141 how to determine if it is entangled or not
+    Precisely   7 14 14 s t 147 14 a 1k
+
+
+a 14me dad         142m
+                                my
+                                  sizes               f             f
+                                 two index quantity        matrix
+
+
+    Let m EImFi                  Ld
+                                               1 2 11        107107 117117
+
+
+
+       Mifftivitis was                       g
+ lemma                                moms
+
+ Proof Dom a       Aom Elisalis       E.li aMlil          mi.jli7x1j7
+
+        1xlpp.D veclml
+            10Mllra       1ms     Stacking the columns into
+                                  a vector
+
+  Example   d 2 M
+
+
+
+
+                           fpf
+                 H m.lt               cenltbllie2 d
+
+
+
+
+    For every 14    doed        MEL ad suchthat 14 realm Hom i
+ b Every Melled has a Servaluedecomposition
+
+                                 matrixofsingularvalues
+                 M
+                     YEHI                             values
+                                                                70
+                                                                      k
+                                             Singular            to
+                     unitaries
+                                                         uniqueup
+                                                          ordering
+      In bra ket notation
+                                 G
+                                 rank
+                                           tnfrkenl
+                                            ofsingularvalues        unique
+
+       In n lens            are orthonormal     left andrightsingularvectors
+
+       14h
+                                       E
+                     tmall.ES lfaketsnTenho1ful lek
+                                                                    citis
+             111 a Hasseal inolis
+                                             into Hakeehy
+                                                                  ej
+                          iofn     lenolful
+             II.gg                                                   Elis
+
+      147A       sneilaalfu is called the               Levitin           of Mab
+
+
+      sy i            Ifficient
+           are called                               sometimes   a
+             f
+      Nelation         14147 1
+                                   E.si 1
+414    Sutena Ital
+                          sales
+                                 olfa.tl      es EEisfnfi
+                                                          Es
+     If   r 1 then 14         19 0 If     notentangled
+
+     If rst then entangled              receive
+
+c Observe IMAP       Suter fu B
+
+               Tris 1474an     Try   Eu Susatenkela fulfills
+
+                         1
+                         Einsatenstein.IE l
+
+
+                         EsiTenktnla         Diagonal
+
+
+            Also Tra 1474as          shifukful
+
+          Tra tar andTrp Yas have the same non zero eigenvalues
+
+
+
+d Suppose r d Sh to           he91,2 d
+
+   We call 147                              notethat the marginals are
+                     Minella                maximally mixed
+
+
+
+let Gerve     to   lead lets             Elixir lens     exalted
+           f               r
+                          1k Éi.li       ales jleneeyEales        enle
+           a
+        tail.mil              ta
+                                     i
+iialesiitenkeale kleesthas
+                          ttafiinolekilkfh.it
+
+ itiiitit tk
+                                                         sienhisonis
+
+                                   iliies ile
+
+                              athist
+                               III
+ If
+      keizedunitariearmaximallyentagle ixb.tt
+               11 1    tdÉi
+            1
+          unitary
+                              en     1
+                                                aEda
+                                                         Manan
+       mata.li                                               DONKMONI
+
+
+
+                      aliftiiiiiiiiit i.to memmii
+                         hunt                    ÉU Klaerstasks UnstraEast
+                              1B         similarfor Tra 1444as
+    Proffk         TraEas       Tra    kalkle Ella hb
+
+Martina                     ttaki.to
+
+                                        iiiiiiiil
+                            I           duni thatis
+
+                                      HLB
+
+                             ftp
+g Mixed state entanglement is much harder to characterize     More onthis later
+
+
+
+Purifitionfmixedstates
+
+a Recall   Forqubits pure states are on the surface ofthe Blocksphere
+  mixedStates are inside               It
+
+
+
+
+                                                         estates
+ General mixedStates have the form
+                                        p    pygmy
+                                              probabilities
+  b Howdo mixedStates arise in nature
+
+   1 lack of knowledge of state preparation
+
+
+
+                    El              14 irob.pe
+                                       w prob Pe
+
+                                   14N   w prob
+                                                Pn
+
+        Now someone uses the source to
+                                              prepare a state but   tenttell
+        you which one it is Howdo you
+                                               describe
+                                                       your knowledge of the system
+               They                don'tmentionthelabel
+
+Pius                                               this is a
+                               x   initials                         cuneate
+pygno     Yes          Patty
+
+                                    Tofigure out whatstatethesystem is
+text    clayrikelregister
+                                    prepared in we measure the classicalregister X
+          wh.isftatT                 Inert Perm insulin
+
+
+                            Tr lushly AsPxe To 1441 0As                 kuly0thiklls
+                                                                E.PH
+
+
+                                     E.to pa.lh      Kilya1YalYuils
+
+
+                                     pad      as expected
+
+
+
+
+         staldiifotoeleuhnowwhathelabeli.se
+          1           1,1
+                              144
+                                     1
+
+                 Trx 1471410As Pw
+                                     1217141   14mi   tails   instalxons
+
+
+
+
+               I ut
+                       ifiiiiemn
+              Ippultial
+              MnWal         as expected
+
+
+
+     Butif youdon't knowthe outcome label
+                                                       Iethergisterx
+      Trx Px    Try     Pa1k kly014kYals
+
+
+
+
+               finfiii ii
+               Eke
+2 Measurement on one part of a purestate
+
+   147A    Elena lful             Measure A wrt Poum makex
+
+
+   Conditioned on outcome x state on B is       Tra Ma As 1444labMaAp
+   ps to Maeda 1441am
+                                 Trimitifeld                Ér elal
+                                         Tris      Fudaiteaenla Ifn fail
+
+
+                                         Enrautenke.at
+                                                                 ffl
+                                         E.xulenkenla
+
+
+
+ Tra Ma 0As 14514labMa 1B         Tra      Malenkew.laMa t 1fulfils
+
+                                      to rMnttenKewlarmillfukfal
+
+
+                                  En TrMa'lenKewla lfukfu.li       Not a purestate
+                                                                   in general
+
+3 Entanglement with an   unknown environment
+
+
+   Consider a mixed state                               decomposition
+                            ps
+                                  pygiffypental
+                                                eigenvectors orthonormal
+
+
+    Note Trips   1    Tr
+                                 Antigen         E  An I        eigenvaluessumtoone
+
+
+    Note Pss 0       dad          k       OfAn I        k
+                 purestate 14es such that Tre 14 4es Ps
+There exists a
+
+                            Environment
+
+
+
+Roof by explicit construction consider Ps    E F 14 Yul
+                                                    a
+
+
+
+
+             it              it     iEnaalsti
+                                                         ll tfiea
+
+                                    nations
+     Ealififfin
+   This is a state vector     414         An tile Yale
+                                                         E Flamealtals
+
+
+
+
+                          firm.ee E
+                               in
+
+
+
+   Tre 14k41g       Trel HE Ps INTI DE Ps
+
+
+                     resected
+                                     in     this
+    t.fi
+            eliakatleo1kkkls
+
+
+
+     Ethniki's
+
+           lk's   As
+
+p          rp 15ps Ps
+

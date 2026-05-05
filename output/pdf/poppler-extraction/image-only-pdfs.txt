@@ -1,0 +1,6 @@
+Lectures/quantum-algorithms(I).pdf
+Lectures/quantum-algorithms(II).pdf
+Past-Exams/Test1.pdf
+Past-Exams/Test2.pdf
+Past-Exams/Test3.pdf
+Past-Exams/Test4.pdf

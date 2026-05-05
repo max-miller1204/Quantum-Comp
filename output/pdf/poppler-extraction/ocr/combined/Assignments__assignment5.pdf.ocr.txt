@@ -1,0 +1,54 @@
+--- OCR page 1: Assignments/assignment5.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Assignment 5
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Issue date: Monday, March 16, 2026
+Due date: Tuesday, March 24, 2026
+
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit a physical copy in class or an electronic
+copy via Canvas.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a 10-point deduction. You must submit the assignment with at least one problem attempted
+in order to get a grade. Blank submissions will receive a grade of zero.
+
+1. Calculate both Tr4[M,pg] and Trg[M,p] for the following two-qubit matrix.
+
+1-i 243i -5 i
+
+, _{ -4 7-2 142 0
+
+Map=| 4 4i -2 643i (1)
+2i 1 -i3-i
+
+2. Let 4, = |®-)®-|4z. Prove that Trg[®4,] = $14 and Tr4[®4p] = $1z.
+
+3. (a) Describe in words what the quantum teleportation protocol is, i.e., its purpose, what it achieves, and
+how.
+
+(b) Draw the quantum circuit for the quantum teleportation protocol. State the definition of every gate
+and/or measurement you draw in the circuit.
+
+4. (a) State the mathematical definition of a quantum measurement, also known as a “positive operator-
+valued measure” (POVM).
+
+(b) Write down an example of a POVM, with justification.
+
+5. (a) State the definition of the Schmidt decomposition of a bipartite state vector |~) 4p.
+(b) Under what condition(s), based on the Schmidt decomposition, is |7) 4g entangled?
+(c) Based on the Schmidt decomposition, determine (with justification) whether or not the following
+state vectors are entangled.
+
+i. SglO)+) + 21) I-)-
+ii, $(3]0,0) — V3]0, 1) + V3/1,0) — |1,1)).
+iii. J5(l1,0) +i], 1).

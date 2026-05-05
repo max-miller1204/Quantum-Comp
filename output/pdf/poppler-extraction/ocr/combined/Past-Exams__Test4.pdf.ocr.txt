@@ -1,0 +1,94 @@
+--- OCR page 1: Past-Exams/Test4.pdf ---
+
+
+--- OCR page 2: Past-Exams/Test4.pdf ---
+initi avery gate and/or
+i ¥ 5 sfinition of every ga
+oo quantum circuit for the quantum teleportation protocol. State the defi
+measurement you draw in the circuit.
+
+}
+
+aru
+
+--- OCR page 3: Past-Exams/Test4.pdf ---
+3. Consider the following two state vectors, |v) = x30) + 5\1) and |v2) = 4{0) + x31),
+(a) Prove that |v) and |v) are orthonormal.
+(b) Show that |v) vr| + Jv2Xv2| = 1.
+
+(c) Consider a qubit in the state given by |u) = 4/0) — “2{1), If we measure this state with respect to the
+measurement {v1 Xv, |v2)(v2|}, then what are the possible outcomes and their associated probabilities?
+
+5 | ) ) |
+D { |
+' ( ‘ All
+\ Zz
+\
+\ : . \| \
+qc y | }
+i \
+\/_\z \
+Regex }/ a) 3 \ |
+CM T\ = |] — |
+\q¥ I} 7 ) | l
+j i
+{ L
+\
+4 at ‘
+\ Woe | V3 \ | y :
+LN, \N2 = \ |
+
+--- OCR page 4: Past-Exams/Test4.pdf ---
+4
+
+Consider
+
+a probability distribution with two outcomes defined as follows
+
+Pri] (
+
+|
+a), Pril ~(L+a).
+2
+
+. repeatedly sé i fr this
+Suppose that the value of a is unknown. Describe a real-life procedure, based on repeatedly sampling Irom =
+probability distr
+
+tition, that can be used to estimate the value of a
+
+—
+
+--- OCR page 5: Past-Exams/Test4.pdf ---
+5. Let us use the following notation for the swap gate:
+
+Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+a
+
+YL
+
+Jovy > | 607
+
+cnet 2 CNoF 3
+
+--- OCR page 6: Past-Exams/Test4.pdf ---
+6. Consider the cirenit below. Prove state
+(WU ja), namely, ‘ ett Prove that this cirenit can be used to calenlate the imaginary part of the inner product
+vector. Here H } saa \U|w)), where U is an arbitrary single-qubit gate and |y)) is an arbitrary single-qubit state
+; e, H denotes the Hadamard gate and 9 denotes the phase gate.
+
+0)
+\) U
+
+Dake Fe
+
+2 + ( \) i ; i . i
+[ eoputry) sfi7s wae 1)
+Pr Squavtd : a ey)
+
+7
+Sok bs fa
+I, Rie 7410 this buf w/ minus sigu)
+
+siete { os i

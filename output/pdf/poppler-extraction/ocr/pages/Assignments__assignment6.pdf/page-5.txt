@@ -1,0 +1,8 @@
+4. Consider the following circuit:
+
+Measurement
+
+What is the probability of obtaining each outcome when doing the following measurements.
+(a) Pauli-Z measurement on each qubit.
+(b) Pauli-X measurement on each qubit.
+(c) The two-qubit Bell measurement on both qubits.

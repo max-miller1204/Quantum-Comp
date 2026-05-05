@@ -1,0 +1,47 @@
+WER
+Sen the bipartite quantum state jue we show that Alice and
+ODS vi re) > % % ,
+measurement outcomes are always anti-corre sgardless of the
+
+and Bob. In this problem,
+in the same basis, 1
+
+\W- lap of Alice
+
+Jated when they measure
+
+chosen basis.
+? Justify that their
+
+(a) : eae and Bob both measure in the {/0), |1)} basis, what is the distribution 0!
+
+c " comes are anti-correlated: whenever Alice gets 0/1, Bob gets 1/0.
+
+(b) —— Alice and Bob measure in the {|+), |—)} basis, then show that the
+whenever Alice gets +/-, Bob gets - /+
+
+aia pean BA D natany mats, Prove that (U @ U))O-XO~(U @ 0)! = [XT
+
+fe et U be an a itrarv 2x 5 =, . . 2
+
+(e) Using tl a ae ary 2 2 unitary matrix. Prove that the vectors Ut|0) and Ut {1) define a measurement.
+
+Ms ne Tes r : cove that if Ali
+U being a saary : }s prow that if Alice and Bob both measure with respect to {U'|0), Vili) }, with
+8 x 2 unitary matrix, then their measurement outcomes are anti-correlated. Thus,
+
+regardless o! » basis choice. i
+ga of the basis choice, their measurement outcomes are anti-correlated.
+
+f outcomes
+
+ir outcomes are still anti-correlated:
+
+a
+a
+~\
+“N
+rc
+—~
+Cc
+

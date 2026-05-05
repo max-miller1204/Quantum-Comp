@@ -1,0 +1,17 @@
+Producer:        iOS Version 18.7.7 (Build 22H340) Quartz PDFContext
+CreationDate:    Wed Apr 15 02:40:30 2026 EDT
+ModDate:         Wed Apr 15 02:40:30 2026 EDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           6
+Encrypted:       no
+Page size:       1787.3 x 2542.84 pts
+Page rot:        0
+File size:       26304654 bytes
+Optimized:       no
+PDF version:     1.3

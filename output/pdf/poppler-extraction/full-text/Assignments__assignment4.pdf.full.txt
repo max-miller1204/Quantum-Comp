@@ -1,0 +1,187 @@
+# Assignments/assignment4.pdf
+
+Pages: 2
+Embedded text lines: 69
+Tesseract OCR lines: 84
+
+## Poppler embedded text (`pdftotext -layout`)
+
+CS 4134 – Quantum Computation and Information Processing
+                                                 Assignment 4
+                         Virginia Tech Department of Computer Science, Spring 2026
+                                         Instructor: Sumeet Khatri
+
+Issue date: Tuesday, February 24, 2026
+Due date: Tuesday, March 3, 2026
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit a physical copy in class or an electronic
+copy via Canvas.
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a 10-point deduction. You must submit the assignment with at least one problem attempted
+in order to get a grade. Blank submissions will receive a grade of zero.
+
+
+1. Consider the bipartite state ρAB = 12 |0, 0⟩⟨0, 0|AB + |1, 1⟩⟨1, 1|AB of Alice (A) and Bob (B).
+                                                                        
+
+    (a) If Alice and Bob both measure in the {|0⟩, |1⟩} basis, then prove that their outcomes are correlated,
+        i.e., Pr[0, 0] = Pr[1, 1] = 12 and Pr[0, 1] = Pr[1, 0] = 0. Calculate the post-measurement states of
+        Bob’s qubit conditioned on Alice’s two outcomes, and demonstrate that Bob always gets the same
+        outcome as Alice.
+    (b) Now suppose that Alice and Bob both measure in the {|+⟩, |−⟩} basis. Prove that their measurement
+        outcomes are now completely uncorrelated: regardless of what outcome Alice gets, Bob’s outcomes
+        are completely random.
+
+
+2. Consider two arbitrary state vectors, |ψ1 ⟩ = α1 |0⟩+β1 |1⟩ and |ψ2 ⟩ = α2 |0⟩+β2 |1⟩, where α1 , β1 , α2 , β2 ∈ C.
+   Prove that there does not exist any choices of α1 , β1 , α2 , β2 such that |ψ1 ⟩⊗|ψ2 ⟩ = |Φ+ ⟩ = √12 (|0, 0⟩+|1, 1⟩).
+   Hence |Φ+ ⟩ is an entangled state vector.
+
+
+3. For a density operator ρ ∈ L(Cd ), consider a spectral/eigenvalue decomposition as follows: ρ =
+   Pd
+     k=1 λk |ψk ⟩⟨ψk |, where λk are the eigenvalues and |ψk ⟩ are the associated eigenvectors.
+    (a) What properties do the eigenvectors and eigenvalues have based on the definition of eignenval-
+        ues/eigenvectors and the three-part definition of a density operator?
+                                                   √
+    (b) Write down the square root of ρ, denoted ρ or ρ1/2 , in terms of the spectral decomposition given
+        above.
+                                √          √
+    (c) Prove that |ψρ ⟩ := vec( ρ) = (1 ⊗ ρ)|Γ⟩ is a purification of ρ.
+                           Pd √
+    (d) Show that |ψρ ⟩ = k=1 λk |ψk ⟩ ⊗ |ψk ⟩.
+
+
+4. Let X, Y, Z denote the Pauli operators. Prove the following identities.
+    (a) 14 12 ⊗ 12 + X ⊗ X − Y ⊗ Y + Z ⊗ Z = |Φ+ ⟩⟨Φ+ |.
+                                             
+
+
+
+
+                                                           1
+                                                                      
+                                             1               0   0   0
+                                         0                 0   1   0
+   (b) 2 12 ⊗ 12 + X ⊗ X + Y ⊗ Y + Z ⊗ Z = 
+       1                                                              .
+                                             0               1   0   0
+                                             0               0   0   1
+
+5. Consider the following two-qubit density operator ρAB of Alice and Bob:
+
+                   ρAB = p1 |Φ+ ⟩⟨Φ+ |AB + p2 |Φ− ⟩⟨Φ− |AB + p3 |Ψ+ ⟩⟨Ψ+ |AB + p4 |Ψ− ⟩⟨Ψ− |AB ,                 (1)
+
+  where p1 , p2 , p3 , p4 are probabilities (p1 , p2 , p3 , p4 ∈ [0, 1] and p1 + p2 + p3 + p4 = 1) and we recall the
+  two-qubit Bell state vectors:
+                                     1                                1
+                            |Φ± ⟩ = √ (|0, 0⟩ ± |1, 1⟩),     |Ψ± ⟩ = √ (|0, 1⟩ ± |1, 0⟩).                        (2)
+                                      2                                2
+  Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i.e., the POVM
+  is {|0⟩⟨0|, |1⟩⟨1|}. What is the probability that they obtain different measurement outcomes?
+
+
+6. Consider the state vector |Ψ− ⟩AB of Alice and Bob, defined in (2).
+   (a) If Alice and Bob both measure in the computational basis, then how are their outcomes correlated?
+   (b) For every measurement outcome of Alice, calculate the corresponding post-measurement state of Bob.
+   (c) Let U ∈ L(C2 ) be an arbitrary 2×2 unitary matrix. Prove that (U ⊗U )|Ψ− ⟩⟨Ψ− |(U ⊗U )† = |Ψ− ⟩⟨Ψ− |.
+   (d) Conclude that if Alice and Bob both do a measurement with respect to the same but arbitrary
+       basis, then their outcomes are always correlated in the same way as in the computational-basis
+       measurement.
+
+
+
+
+                                                         2
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Assignments/assignment4.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Assignment 4
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Issue date: Tuesday, February 24, 2026
+Due date: Tuesday, March 3, 2026
+
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit a physical copy in class or an electronic
+copy via Canvas.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a 10-point deduction. You must submit the assignment with at least one problem attempted
+in order to get a grade. Blank submissions will receive a grade of zero.
+
+1. Consider the bipartite state p4p = $(|0,0)(0, 0B + |1,1)(1,1|4z) of Alice (A) and Bob (B).
+
+(a) If Alice and Bob both measure in the {|0),|1)} basis, then prove that their outcomes are correlated,
+ie., Pr[0,0] = Pr[l,1] = 5 and Pr(0,1] = Pr[1,0] = 0. Calculate the post-measurement states of
+Bob’s qubit conditioned on Alice’s two outcomes, and demonstrate that Bob always gets the same
+outcome as Alice.
+
+(b) Now suppose that Alice and Bob both measure in the {|+), |—)} basis. Prove that their measurement
+outcomes are now completely uncorrelated: regardless of what outcome Alice gets, Bob’s outcomes
+are completely random.
+
+2. Consider two arbitrary state vectors, |71) = a1|0)+4|1) and |y2) = a2|0) +821), where a1, 31, a2, 82 € C.
+Prove that there does not exist any choices of a1, 81, a2, 82 such that |y1)@|y2) = |@+) = ya (0, 0)+{1,1)).
+
+Hence |@+) is an entangled state vector.
+
+3. For a density operator p € L(C4), consider a spectral/eigenvalue decomposition as follows: p =
+ry Ak|Wx)(we|, where Ax are the eigenvalues and |7,) are the associated eigenvectors.
+(a) What properties do the eigenvectors and eigenvalues have based on the definition of eignenval-
+ues/eigenvectors and the three-part definition of a density operator?
+(b) Write down the square root of p, denoted \/p or pil
+above.
+
+(c) Prove that |p) = vec(,/p) = (1 @ \/p)|L) is a purification of p.
+(d) Show that |2,) = °¢_, Xe [bx) @ |e).
+
+; in terms of the spectral decomposition given
+
+4. Let X,Y,Z denote the Pauli operators. Prove the following identities.
+(a) F(12 @12+-X@X-Y@V4+Z@Z) =|Ot Vor].
+
+--- OCR page 2: Assignments/assignment4.pdf ---
+(b) $2 @lga t+ X@X+VOQV+4+Z@Z)=
+
+ooor
+orooe
+coors
+i)
+
+Consider the following two-qubit density operator pag of Alice and Bob:
+Pap = Pil®*\®* | 4B + pal® XO ap + p3l¥T XU ap + pal YX ap, (1)
+
+where pi, p2,p3,p4 are probabilities (p1,p2,p3,pa € [0,1] and p; + pp + p3 + pa = 1) and we recall the
+two-qubit Bell state vectors:
+
+1
+V2
+
+Suppose that Alice and Bob both measure their qubits with respect to the Pauli-z basis; i.e., the POVM
+is {|0)(0|, |1)(1|}. What is the probability that they obtain different measurement outcomes?
+
+|*) = (10,0) |1.1)), |W) = ((0,1) + |1,0)). (2)
+
+Consider the state vector |Y~) 4g of Alice and Bob, defined in (2).
+(a) If Alice and Bob both measure in the computational basis, then how are their outcomes correlated?
+(b) For every measurement outcome of Alice, calculate the corresponding post-measurement state of Bob.
+(c) Let U € L(C?) be an arbitrary 2x 2 unitary matrix. Prove that (U@U)|W~\(W-|(U@U)t = |W- wr].
+(d) Conclude that if Alice and Bob both do a measurement with respect to the same but arbitrary
+basis, then their outcomes are always correlated in the same way as in the computational-basis
+measurement.

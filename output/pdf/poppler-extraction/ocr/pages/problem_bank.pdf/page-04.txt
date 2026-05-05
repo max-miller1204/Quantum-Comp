@@ -1,0 +1,45 @@
+12. Let M € L(C%) be an arbitrary linear operator. Define the vector |//)) as follows:
+
+|M)) = vec(M) := (1a @ M)|Ta), (12)
+where
+d-1
+[Pa) = > Ik) ® |). (13)
+k=0
+(a) Prove that —_
+vec(|v1)(v2|) = |v) ® |v1), (14)
+
+where |v1),|v2) € C®% are arbitrary and |v) denotes the complex conjugate of |v2) with
+respect to the basis {|k) oo:
+(b) If M € L(C?) is the 2 x 2 matrix given by
+
+M= (° ‘) , parse, (15)
+then show that |M)) is the column vector defined by stacking the columns of M:
+Pp
+r
+|M)) = (16)
+qd
+Ss
+(c) For M € L(C2) prove that
+(1a @ M)|Pa) = (M" ® 1a)|Pa), (17)
+where M™ is the transpose of M.
+(d) For M € L(C2), prove that
+Tr[M] = (Ta|(1a ® M)|Pu). (18)
+(e) For K,M,L € L(C%), prove that
+vec(K ML") = (IZ @ K)vec(M). (19)
+
+13. Let M € L(C2) be an arbitrary linear operator. Prove that M1M is positive semi-definite.
+14. * Prove that a linear operator M € L(C%), with d € {1,2,...}, is injective if and only if it is
+surjective.
+
+15. * Let {ls 3929 be a set of d linearly independent vectors in C4, with d € {2,3,...}. By definition,
+this means that, for all cg,¢1,---,ca—1 € C, the equation co|v%o) + c1|\1) +++ + ca-1|Va-1) = 0
+implies cg = cy = ++: = cg_-1 = 0.
+
+(a) Let
+d-1
+T= 0 ly. (20)
+j=0
+
+The operator T can be thought of as a d x d matrix whose columns are given by the vectors
+|bj). Prove that T is invertible. (Hint: First prove that T is injective, by showing that its
+kernel contains only the zero vector. Then use the result of the previous problem.)

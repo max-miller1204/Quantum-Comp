@@ -1,0 +1,48 @@
+10.
+
+11.
+
+12.
+
+(d) If |a) = |—) and |b) = |—), then find the resulting state at the end of the circuit.
+(e) Using your answers to the previous parts, explain why this circuit calculates the parity of
+the first two qubits in the X basis.
+
+Prove that Uy = Z~/4X1/4 and Up = H7V/2Z-/4X1/4 71/2 can be written solely as a product
+of H and T. Recall that H = 4
+
+11 1 0
+(i ‘) and P= (5 a)
+
+Let us use the following notation for the swap gate:
+
+Show that the swap gate can be written in terms of three CNOT gates as follows:
+
+rany
+q
+
+Show that the controlled-Z gate can be written in terms of the Hadamard gate and the CNOT
+gate as follows:
+
+(81)
+
+“a m+
+
+Show that the control and target qubits of the CNOT gate can be changed by adding Hadamard
+gates before and after as follows:
+
+—o— es
+—
+Prove the following circuit identities.
+(a) CNOT(X @ 1) = (X ® X)CNOT.
+4- | bh «
+© ox;
+(b) CNOT(1 ®@ X) = (1 @ X)CNOT.
+= 84
+x}-e ex} _
+(c) CNOT(Z ® 1) = (Z @ 1)CNOT.
+12} [Z}—-
+= (85)
+D €
+
+19

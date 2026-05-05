@@ -1,0 +1,276 @@
+# Past-Exams/Test2.pdf
+
+Pages: 8
+Embedded text lines: 0
+Tesseract OCR lines: 264
+
+## Poppler embedded text (`pdftotext -layout`)
+
+[No embedded text extracted by Poppler.]
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Past-Exams/Test2.pdf ---
+‘ fee ann TRTAEY rices.
+1. (a) Determine whether the guile 9 x 2 matrices are unitary mat
+
+3
+
+(b) Calculate the partial trace iH) of the-following two-qubit matric es. ;
+lode 243 5 iF 1
+ah gcalgtal oF al 3 / ase
+M ) -
+-1 3 E cg (Meg) =
+1 Aa 4 i. Map = -
+| é 8 ‘
+@ 2 J
+gi
+3 ol ji;
+5 gq 0 sl
+1 :
+i ie: re 0 Jin
+ii, Map = [ale 5
+aay Vo Lal
+\ 0
+\
+5 |
+
+--- OCR page 2: Past-Exams/Test2.pdf ---
+TOTAL (= |
+2. Let X,Y, Z denote the Pauli operators and let 1) denote the 2 x 2 identity matrix. Prove the following identities.
+st i(l2@le4+X @X-V eV +202) =|btYOr|,
+b) $(le@1g4X OX C19
++Y@Y+4+2@2Z) =F.
+De Matrix
+
+I :
+ne + Vex - yar: . - 1h<4*]
+
+bo ek
+
+a d cae a : :
+GRE (1)
+
+f = intl Jo). + ; (Io) + | es
+
+Tx a-h au g00 0) |
+
+~ f—
+Pree TTR
+=
+fu
+So One
+—-Cfe
+Co, CF oS
+—ecc
+
+--- OCR page 3: Past-Exams/Test2.pdf ---
+ToTAL: fo}
+
+ad Vp,
+Ys M j ¢ ~cd 1 9 = ER CKI +
+3, (a) Given any orthonormal basis {Je,)}¢_, for C4, prove that Ma = Diet| ye eddy oNfyl ine etter
+lena d smal bases for C4. Prove that U = Likes |°#”.
+(b) Let {Jex)}f, and {|f,)}f-1 be two orthonormal bases Cc".
+operator,
+
+wails)
+vey
+\ s | . Ty [ ley (Cis
+} ( CV IV, 2 = 0 |
+Arnal QV Ivy =] yas
+Ls : |Z
+<va | >= I / oe
+ly \ }
+P yo) | h f
+(6 47 0] } 6)
+yd zy |
+4 ey | }¥ L
+C4117 25 fp 1) 1
+} Drei Mies ee p )4 \
+De la? y= 2b k
+re
+
+--- OCR page 4: Past-Exams/Test2.pdf ---
+TOTALIER16 ]
+
+: bea g 's about
+Mp € ( 5) N L( ) ( ) be arbitrary linear operators. Prove the following facts t
+h partial trace, ype! we the f fi
+
+(b) Tra|Pa ® Mp] = TyMp|Pa. |
+(c) Tral(1a @ Mp)Hap(1a @ Np)| = Mp TralHan|Nn. bg M, ;
+
+l 6 6
+} Vea © My) = Tn |e
+
+) ae Re ls
+\ \ 0 *[a\
+(2)
+
+--- OCR page 5: Past-Exams/Test2.pdf ---
+ToTac:E2]
+
+5. (a) Two qubits are in the
+
+state given by the vector
+
+1-2 in /100 V3
+—— 1,0) + ell)
+
+aT \0,1) + |1,0) a!
+
+i
+vn” 0 Vio Vio
+
+in the two-qubit Z-basis {]0, 0), 0,1), |1,0)
+
+1 probabilities? What are the possible me
+two-qubit X-basis {|+, +), /+,-)
+
+1,1) } what are the possible measurement
+
+es and their associated
+
+asurement outcom
+
+[etl dP?
+
+If we measure the qubits
+outcomes and their associatec
+probabilities if instead we measure in the
+
+(b) Consider the following two state vectors:
+
+jn) = poy + 51 I) = x0) +I)
+
+i. Prove that |v) and |v2) are orthonormal, and thus that they define a measurement.
+
+ii, Consider a qubit in the state given by
+
+fi
+
+1 3
+= 4)0) — = |1).
+w= 5-5 |)
+respect to the measurement defined by {|v1Xvils Jva){v2|}, then
+
+If we measure the state given by ju) with
+associated probabilities?
+
+what are the possible outcomes and their
+
+a}o,o7.t 3] 17 + cjjoy +4 ]1,17
+
+4 2 Go
+= | eee
+10! ess)
+\2 t | t z {
+r, = [hl i Il-#)s | 8 a ee,
+= Th lo lo ln Clos | Jo)
+cle] = le lee 9 =f]
+—— | ee ey
+Oe | 10 10 lo
+1 my
+yo ivf WE YX bass ete loc an
+a ¥ n—wN d more
+\ \
+b) irhnangl 7 otbsyunal SY NMe>= 0 A) first omen o (1B 2) fo |
+Nutiael Cy, }\> > | es z} | df f
+i) w= lor eb) Gun [vy >!
+
+ae '
+1a] 4 E2) 6
+
+--- OCR page 6: Past-Exams/Test2.pdf ---
+ToTted: IS]
+6. Consider the bipartite state pay = 4(\0, 1)(0, Nan + |1,0)(1,0].41) of Alice (A) and Bob (B).
+(a) Suppose Alice and Bob both measure in the {|0),|1}} basis.
+i, Prove that their outcomes are anti-correlated, ie., Pr{0,0] = Pr{1, 1] = 0 and Pr, 1] = Pr({1, 0] = 3
+
+ii, Calculate the post-measurement states of Bob’s qubit conditioned on Alice’s two outcomes, and demon-
+strate that Bob always gets the opposite outcome as Alice,
+
+(b) Now suppose that Alice and Bob both measure in the {|-+),|—)} basis.
+i, Calculate the probabilities of the possible outcomes: Pr[+, +], Pr[+,—], Pr[-, +, Pr[-, -}.
+
+ii. Prove that their measurement outcomes are now completely uncorrelated: regardless of what outcome
+Alice gets, Bob’s outcomes are completely random.
+
+~
+
+\
+: ') 5 Joy (ial) =o - |oy 18) Ca] ;
+
+nNi—
+
+SS [ 1e> <0) ~ 4
+
+i)
+
+--- OCR page 7: Past-Exams/Test2.pdf ---
+WER
+Sen the bipartite quantum state jue we show that Alice and
+ODS vi re) > % % ,
+measurement outcomes are always anti-corre sgardless of the
+
+and Bob. In this problem,
+in the same basis, 1
+
+\W- lap of Alice
+
+Jated when they measure
+
+chosen basis.
+? Justify that their
+
+(a) : eae and Bob both measure in the {/0), |1)} basis, what is the distribution 0!
+
+c " comes are anti-correlated: whenever Alice gets 0/1, Bob gets 1/0.
+
+(b) —— Alice and Bob measure in the {|+), |—)} basis, then show that the
+whenever Alice gets +/-, Bob gets - /+
+
+aia pean BA D natany mats, Prove that (U @ U))O-XO~(U @ 0)! = [XT
+
+fe et U be an a itrarv 2x 5 =, . . 2
+
+(e) Using tl a ae ary 2 2 unitary matrix. Prove that the vectors Ut|0) and Ut {1) define a measurement.
+
+Ms ne Tes r : cove that if Ali
+U being a saary : }s prow that if Alice and Bob both measure with respect to {U'|0), Vili) }, with
+8 x 2 unitary matrix, then their measurement outcomes are anti-correlated. Thus,
+
+regardless o! » basis choice. i
+ga of the basis choice, their measurement outcomes are anti-correlated.
+
+f outcomes
+
+ir outcomes are still anti-correlated:
+
+a
+a
+~\
+“N
+rc
+—~
+Cc
+
+--- OCR page 8: Past-Exams/Test2.pdf ---
+“(OTA
+
+8. Consider the following two-qubit density operator pap of Alice and Bob:
+
+Pap = (1 p)\@t bt] yp + F(\O XP Lan + [PTW Lae + [EXE Lap),
+
+where p € (0,1). Suppose Alice and Bob both measure their qubits with respect to the | auli-z basis: i
+
+7 1?
+POVM is {|0X0\,|1)1\}. What is the probability that they obtain the same measurement outcome:
+
+r4N \ An. { } an
+i if) owe Ble Vy<t L PM [ag JEN
+A een | y)
+Cig reece eee bee
+=6 {4 ]
+ea

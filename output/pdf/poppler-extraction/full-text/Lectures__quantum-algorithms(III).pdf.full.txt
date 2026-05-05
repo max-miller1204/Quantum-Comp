@@ -1,0 +1,1265 @@
+# Lectures/quantum-algorithms(III).pdf
+
+Pages: 9
+Embedded text lines: 785
+Tesseract OCR lines: 317
+
+## Poppler embedded text (`pdftotext -layout`)
+
+Recap HadamardTest
+
+
+Estimating     Xu 4       where a is a unitary and14 is a state vector
+
+                          H       x
+ 10       H
+                                      Pauli t
+                                        measurement
+ 147             u
+
+
+
+                          rangle
+                          langle
+                           right
+                           frac
+                            left
+                             Pr
+                             R
+                             2
+                             u
+                             1yxe
+
+
+                                           begin
+                                           langle
+                                           rangle
+                                           matrix
+Forthe imaginary part
+
+ H10          St              H        x   Rightarrow         right
+                                                              end
+                                                              frac
+                                                               left
+                                                                Pr
+                                                                m
+                                                                S
+                                                                u
+                                                                2
+                                                                0
+                                                                x
+                                                                yI
+                                                                i1
+
+
+
+
+147                   u
+
+
+  In bothcases we have                alpha
+                                      right
+                                       frac
+                                       left
+                                        Pr
+                                         0
+                                         2
+                                         1            Prlalpha
+                                                         right
+                                                          frac where
+                                                          left
+                                                            2
+                                                            1                 alpha
+                                                                                      is
+  unknown To estimate         alpha
+                                      we do thefollowing procedure
+
+  For i    1,2       equiv ofsamples oftimes we run the quantum circuit
+                       N
+   Eachtime we get outcome O                 record     i1x               This defines a random
+      Eachtime we get outcome I               record    ix 1              variable X
+      Do this N times thentakethe sample
+                                                                      p     alpha
+                                                                            right
+                                                                             frac
+                                                                             pm
+                                                                             left
+                                                                               2
+                                                                               1x
+                                                                                r
+      mean average
+                          frac
+                           hat
+                            N
+                            1x
+                             i
+                          sum_
+        meanThis1
+                                           Sample
+
+
+
+             sum_
+              cdot
+              frac
+               hat
+                Ni
+                X
+        defines a random variable                             is an unbiasedestimatorofX
+
+               sum_
+               right
+                frac
+                hat
+                left
+                 Ni
+                  XI
+                  1E
+       mean          forall
+                     right allsamplesareindependentand
+                      left
+                       X
+                       b
+                       E
+                       ik
+ I
+                            alpha
+                            right
+                            cdot
+                             frac
+                             left
+                              Pr
+                               X
+                               2
+                               1E
+                                I
+     AS     rightarrow
+               alpha
+               right
+               infty
+                hat
+                left
+                 N
+                 X
+                 E
+                 x                      lawof large numbers
+
+      So the sample average approaches the true unknown valueof    alpha
+
+
+
+
+Motivation Expectation values
+
+
+
+ Why do we careabout quantities of the form 41414
+
+ B c they can be used to compute expectation values of observables
+
+ Observable      Any Hermitian operator       recall M Hermitian           M
+
+          Factfrom linear algebra Every Hermitian operator can be diagonalized
+
+
+           sum_
+            right
+             left
+              M
+              d
+              v
+              1i
+           langle
+           rangle
+           lambda where                i eigenvalues realnumbers
+                                     lambda
+
+                                                                           right
+                                                                            end
+                                                                            left
+                                                                             Z
+                                                                             0
+                                                                             1
+                                                                           begin
+                                                                           matrix
+                                       iV
+                                     rangle orthonormal
+                                                        eigenvectors           rangle
+                                                                               langle
+                                                                                right
+                                                                                 left
+                                                                                  0
+                                                                                  1
+                right
+                 sum
+                 left
+                  d
+                  v
+                  1i
+                rangle
+          Axiom ofquantum mechanics every physical quantity corresponds to
+
+
+          a Hermitian operator e.g position momentum energy
+
+        The eigenvalues are the possible values of the quantity
+
+        We get the value of the quantity through measurement
+
+ Foran observable Hermitian operator M the corresponding measurement
+     is given by the eigenvectors     Wikrill is the Porm
+
+ For a state
+                 p the probability that it has value di is
+    rangle
+     right
+      left
+       Pr
+       p
+       v
+       riT                 Born rule
+                                         rangle
+                                         langle
+                                          right
+                                           rho
+                                           left
+                                            vi
+The expected value of the observable is
+
+
+                               lambda
+                                rangle
+                                langle
+                                sum_
+                                 right
+                                  rho
+                                  left
+                                   Pr
+                                   M
+                                   V
+                                   T
+                                   nv
+                                   1p
+                                    ri
+                                                M
+      Definition
+
+     ofexpectationvalue
+If we don't know the eigenvectors b c they are hardtogetforlargematriles
+butwe know that M can be written as
+
+            Mu
+             c
+             1jh
+           sum_  I then                rangle
+                                       langle
+                                        right
+                                         left
+                                          M
+                                          Yr
+                                          T
+                   unitaries
+                                        sum_
+                                         right
+                                          left
+                                             U
+                                             T
+                                             c
+                                             xrjh
+                                             1y
+                                        right
+                                         left
+                                           U
+                                           c
+                                           xjh
+                                           1
+                                        sum_ i
+                                        langle
+                                        rangle
+                                           Estimate using
+                                          Hadamardtest
+
+
+
+       Sowe estimateeach termindividually using theHadamard test
+       and then add to get an overall estimate of the expectation
+       value
+Quantum Fourier Transform
+
+
+
+a Recap discrete Fourier transform DFT
+
+     Used in a lot of places
+
+         Signal processing    identifying frequency components of a signal
+             audioand video processing
+
+         Machine learning        feature extraction
+
+         Scientific computing             solving differential equations numerically
+
+      Definition
+                                       left
+                                        N
+                                        0
+                                        1kx
+                   for a signal right its DFT is
+
+
+                             sum_
+                             right
+                              sqrt
+                              frac
+                              cos
+                              left
+                               p
+                               N0
+                                2
+                                hi
+                                e
+                                1kyxi                                    x
+                                                                       1left
+                                                                    sin2right
+                                                                         I
+
+
+
+      Example consider a signal of the sine waves put together
+
+                    right
+                    frac
+                     left
+                     sin
+                      pi
+                      2
+                      xtf
+                      s1             in 2nFt   1
+                                   backslash
+
+
+
+
+                             frequencies
+
+          f 5Mt
+            H
+            5f
+            zl1
+         Sampling rate       fs 100Ht              101samples total in 1sec
+
+
+
+
+                                                              9
+                                                              51
+                                                             frac
+b The Quantum version   Quantum FourierTransform QFT
+
+
+
+
+   sum_
+    sqrt
+    frac
+     p
+     N0
+      2
+      hi
+      e
+      1kyxi
+                                         2aikk
+
+                             right
+                              sqrt
+                              frac
+                              left
+                               Qd
+                                h
+                                1ke
+                             sum_              k
+                                           d left
+                                             right
+                                                          actionon basis
+                                                              vectors
+
+                                 OFTmatrix
+
+
+                                                     2nith
+
+              Rightarrow
+                rangle
+                 sum_
+                 right
+                  sqrt
+                  frac
+                  left
+                   psi
+                   Q0
+                    d
+                    h
+                    1kxe                              d rangle
+                                                              h
+
+
+
+                         rangle
+                         sum_
+                          right
+                          sqrt
+                          frac
+                           sim
+                           left
+                           psi
+                            p
+                            0
+                            2
+                            d
+                            hi
+                            1kei
+                                        h
+                                        y
+                                       equiv
+
+
+                                        2
+                                        d
+                                        n
+  The QFTmatrix is unitary Let
+                                    overline
+                                      frac
+                                       pii
+                                       w2
+                                        d
+                                        e
+                                        1
+                                     right
+                                     frac
+                                      cos
+                                      left
+                                      sin
+                                       2
+                                       d1
+                                       ipi
+      rangle
+      langle
+      sum_
+       right
+       sqrt
+       frac
+        left
+         w
+         U
+         0
+         d
+         h
+         1
+          rangle
+          langle
+          sum_
+           right
+            sqrt
+            frac
+             left
+              Q
+              w
+              U
+              0
+              d
+              1k
+              jh
+                                        right
+                                        overline      frac
+                                                      cos
+                                                       left
+                                                       sin
+                                                        pi
+                                                        e
+                                                        2
+                                                        a
+                                                        d
+                                                        1
+                                                        iw
+
+
+
+
+         langle
+          sum_
+          delta
+          right
+           frac
+           left
+              w0
+               d
+               1k
+               jhi
+        right
+         frac
+         left
+           wjhi
+           0
+           d
+        sum_1k
+        langle
+        rangle
+        frac
+         left
+          0
+          d
+          1kejhi2
+        right
+        sum_
+        hslash             x
+                         equiv
+                                            pi   pi
+                                                 2
+
+
+      sum_
+       right
+        frac
+        left
+          0
+          d
+          h1x
+ It rightarrow
+
+
+     sum_1k
+         x
+         h
+         d
+         0
+         w
+       neq
+       frac
+ It rightarrow                    right
+                                    w7
+                                     n
+                                     xe
+                                     d
+                                     2i
+                                    p1k
+                                    W
+                                   sini 1x
+                                   left
+                                   cos
+                                  frac
+                                  cdot  forall        forall
+                                                        0
+                                                        x
+                                      2n
+
+
+
+
+        sum_
+         right
+          frac
+          left
+           p0
+           w2
+            di
+            hi
+            xe
+             1k
+                                  w
+                                  e
+
+        omega
+                                       d         1
+
+
+
+         inFinite
+                                      wid    pi
+                                             2
+                                             e
+                                             k
+                                             i
+
+                     geometric
+
+
+                          frac
+                            0
+                            d
+                            1rh
+            Series
+                         sum_
+So
+       sum_
+       delta
+       right
+        frac
+        left
+          wjh
+          0
+          d1i
+       rangle
+        sum_
+        right
+         frac
+         left
+         eta
+          psi
+            Q
+            w
+            0
+            dh
+             1k
+              j
+                hj
+             delta
+
+
+Similarly Utd    1
+
+
+
+
+                matrix
+                begin
+                vdots
+                ldots
+                right
+                 end
+                 frac
+                 sqrt
+                  left
+                  psi
+                   w
+                   1
+                   d
+                   2
+                   4
+Note for   d
+           2                Rightarrow
+                              matrix
+                              varphi
+                               begin
+                               right
+                                sqrt
+                                frac
+                                end
+                                left
+                                 pi
+                                 w2
+                                  e
+                                  1
+                                  i                           Hadamard
+
+
+
+Let n
+    d
+    2      frac
+            pii2
+             n
+             e
+           omega         Whatis a circuitrepresentation
+                                                          ofQFT
+ Use the binary representation
+                                 of   ldots
+                                        0
+                                        2
+                                        n1
+  eg n 3       0          0
+
+
+
+
+                                       left
+                                        in
+                                        H
+                                        4
+                                        3
+                                        2
+                                        h1k
+                                      right
+                                      cdot
+                                      ldots
+                1        001
+                    20010             rightarrow
+                3        011
+                4        100
+
+
+                6
+                    54   101
+                         110
+                                        In general
+                                                       2
+                                                       n
+                                                       1kl
+                                                     sum_
+                rightarrow
+                     7
+                     1
+
+
+    rangle
+    sum_
+     right
+     sqrt
+     frac
+      left
+       p
+       Q
+       0
+       2
+       n
+       1kejii
+
+
+                                  Rightarrow
+                                    rangle
+                                     sum_
+                                     ldots
+                                      right
+                                      frac
+                                      sqrt
+                                       left
+                                        in
+                                        pi
+                                        Q
+                                        0
+                                        4
+                                        e
+                                        h
+                                        n
+                                        2k
+                                        jil1
+Consider      3
+              n
+                                                     rangle
+                                                     sum_
+                                                      right
+                                                      sqrt
+                                                      frac
+                                                       left
+                                                        p
+                                                        0
+                                                        K
+                                                        3
+                                                        2
+                                                        n
+                                                        1kejhii
+
+   Rightarrow                     frac
+                                    8
+                                    3
+                                    2
+                                    1
+                                    j4
+
+
+
+
+              Rightarrow
+                 right
+                 frac
+                  left
+                   p1kejhi i
+                    3
+                    2             1
+
+                          right
+                          frac
+                           left
+                            4
+                            3
+                            2
+                            1kejpii
+                      1
+                                  right
+                                   left
+                                    L
+                                    k1j          frac
+                                                   4
+                                                  3jipi
+                                                   2
+                                                   e
+                                                   k
+
+                      right
+                      frac
+                        left
+                          p
+                          8
+                          3
+                          2
+                          h
+                          e
+                          y
+                          k
+                          1i
+                           j i
+      Lailly
+      e
+                                                                        hL
+
+
+
+                                  rangle
+                                  sum_
+                                   right
+                                   sqrt
+                                   frac
+                                    left
+                                     0
+                                     3
+                                     2
+                                     1
+                                     jh  frac
+                                         end
+                                          pkyejhi2
+                                           8
+                                           3      i
+ Therefore
+                  jQ I t
+                       2j
+                                                                         3jbegin
+                                                                         e rangle
+                                                                           matrix
+                                                                         end
+                                                                         begin
+                                                                         matrix
+
+                                                                       hii l im
+
+
+
+
+                                right
+                                 sqrt
+                                 frac
+                                 left
+                                  i3n
+                                   2
+                                   7
+                                   1lh
+                                sum_             I                 right
+                                                                   frac
+                                                                    left
+                                                                     p4
+                                                                      8i
+                                                                      3
+                                                                      1kejhi2
+                                rangle
+                                  Q
+                                  3
+                                  1j2
+                              overrightharpoon
+
+
+
+
+                                                 right
+                                                  frac
+                                                  end
+                                                  left
+                                                   p0
+                                                    R
+                                                    2
+                                                    1ke
+                                                 begini
+                                                 matrix i sigma
+                                                               end
+                                                               frac
+                                                               right
+                                                               theta
+                                                               begin
+            Define the rotation
+
+                                                          matrix
+                                         gate                                 left
+                                                                               pi
+                                                                               Rie
+                                                                               4
+                                                                               0
+                                                                               1
+                                                                               2
+                                                                               z
+
+     153
+                            R
+                            3            R
+                                         2       H
+      2j
+       1j
+     rangle       H
+                      R
+                      L           H
+                                                           0
+                                                           1i
+                                                          left
+                                                          end
+                                                          right
+                                                          begin
+                                                          matrix
+
+
+                            Q
+                            sim
+So Qlinjingoverrightharpoon Is ji juj
+                 rangle
+                   3
+                   1ja
+                                 Permutation
+                                               of thequbits
+
+ In general I is given by the following circuit
+     hj
+   rangle
+                             R
+                             n               R
+                                             n
+                                             1                R
+                                                              2   H
+      nj
+      1
+   rangle
+
+     vdots
+
+
+
+
+     4j
+    rangle
+                         R
+                         4               R
+                                         3
+      j
+   rangle
+                     R
+                     3               R
+                                     2                 H
+     j2
+    rangle       R
+                 2               H
+
+    Iii      H
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Lectures/quantum-algorithms(III).pdf ---
+©) Recap: Hadamard, Test.
+
+Estimating CAIUI¥), wert Wit a Unitary ant 12 16 0. State vecte.
+
+10) —[H]}4 fu} tae
+
+Ke
+1) ——J U }——— toto
+
+——"
+
+yt
+
+r{o)= t (I+ Re(caiulr)) pr{t} =4(I- ke (enuiy>))
+
+- |! °\ 3 ote! ?
+| eles} e ela
+For the imaginary part:
+
+Eee | A t (1+ bal@atuy))
+P(t] = 4 (I+ Jn(Celul»))}
+
+In) a
+@ In both cones, we have Prfo)=t (ie), Pli\=4li-a), where a is
+Unknow. To estimate wwe do the Fallowing procedure
+
+/
+
+for i=t,d,...,N (Need Samplea | # d times we run Hie gudntum Gireuit)
+
++ Each Hime We gh Ovfcome "0! 9 record = AB thit defines a random
+* Each time we get outcome "I" rtd x; = =I Variable _y
+Do tht N times, thea faut the Samale
+mean / average ‘es ql Loy sie
+aay
+Thib define? a random variable Xy= ah: Xe if an unbiated estimator of X:
+
+vey
+
+E(%= v2 ly] ¢ reel = lx].
+/\ “EELy) Vi,ble all Samplea art independent and identical
+
+Aye
+
+P{x=#\) 2a [lea]
+
+--- OCR page 2: Lectures/quantum-algorithms(III).pdf ---
+elu) = (+: AL yet) + Ci)-Plxe-1]=t [te @)- F(a} <a.
+
++B Now, Yoke d [ law 4 large nies?)
+
+@5o the sample arte approach He true lunkntwa) value Wd!
+
+Q) Motivation : Expectation values
+
++ Why do we corte about quantities Yi the fom vlulyy?
+
+Bjc they can be used 1 compute expectation values of Observanler.
+
+Observable : Any Hermitian operatr [ recat: M Hermitian e mtem)
+
+@ Fact from lineac alae bra: Extry Hermitian operatir Can be diagonalized,
+
+d im
+M=S ). IviXvil where : A; : cigeavaluca (real number). Pe (o-)
+
+4 Yil=4 vss orthonormal eigenvecten. = (oxol — (Xi!
+iil =
+WI
+
+ka
+
+® Axio wnAntum Mechanics every physical quantity Copeeaponds 1
+a Hermitian operate (es, position, momentum , entry.)
+The eigenvalua are the pumible value the quantity
+We get the value i the guaatity through medaurement.
+
+Foc an obgervable [Hermitian operat M, the Corresponding meadurtareat
+is given hy the eigenvector Uf bavvil] if the Pove.)
+
++ For a State p; the probability that it hod Volue dj if
+
+--- OCR page 3: Lectures/quantum-algorithms(III).pdf ---
+Peli) =Te[IviXvilp] [Born tule}. 55 = (vile led
+lhe expected valw P ¢ observable is:
+i py, ya , iD 7
+\Mh = fli) = 2 A. TreilMXyle] = Tr Ah “il}p = Tri M
+MA, itl t Laz!
+! ce
+Mm
+Definition
+df eupect tion Value!
+we don't WwW th cigenver (ble they art ard 8 get fw large m
+UY
+f we know + Can be Write
+k, A 5
+=2¢.U, then 4M, = Trl MYX?)
+jz9 TL.
+” vk
+an 22GTr| UTX
+nltatie jt / P 1
+N k,
+=2.G (AIUD
+“3 Vos
+: i
+]
+EStimate wing
+( Hodamard teat!
+o we eAtimgte €ach term indi idwally i ig The Hadamard. te,
+and then add get an overall eatimate of the expectation
+alue.
+
+--- OCR page 4: Lectures/quantum-algorithms(III).pdf ---
+@)Guantwn Fourier Transfer
+
+(a) Recay : ditcrete fourier transform (per),
+
+— Wed in a lot d place:
+. Signal pnacending — identifying Frequency Com ponents u a Sunah.
+(andio and video praceatina
+
+* Machine leatniny — feature eebracton
+© Scientific Computing — Solving differcatial Heaton numerically.
+— Defintim : far a Signed fyin,, it DFT if
+
+Ns dikk f Omix
+WE ef é = Cos(an) + isin (2nx)
+
+~ Eromgle = Connider a rignal of tno Sing Worel piak Hgether
+
+le) = Sin (2th) +£¢in (Inf t)
+K _f
+Frequencied
++f25 He
+
+of <5 te
+* Sampling. rate : f= loo He = 100 Samples total (in [sec-)
+
+Time-Domain Signal Time-Domain Signal (sampled) Frequency-Domain Spectrum (vel)
+
+HH
+
+0.6
+0.0 =
+2 e
+7 = 04
+0.5
+0.2
+bb
+ma i ! f 0.0 | eum
+:
+00 0.25 0.50 075 1.00 0 ¢ 40
+s] Hz]
+
+--- OCR page 5: Lectures/quantum-algorithms(III).pdf ---
+lb) The Quantum Ver ion! (Quantuwn Fourier Trantfinn 2 af),
+
+on del Lniby'
+!
+- YF hex a ale “ae e* [k) [activa on bas is
+Veet).
+WET _matriy
+det d|
+
+j & dniht
+[¥)e Lr l0 => Wine= £34 ky = Lyake I")
+
+8 (bP SE) woes
+
+(ae eel
+= Wy
+gi dz ni
+— The FT matriy if Unitary | Let wees, Deetep
+d= “a! wrk Lu cas (2) + isin 2)
+<0 i
+w=et= ia +igiel)
+Ta uy
+“i' Lo = -18inlZ
+2, cm a
+=e wt.
+, “ kw eget =
+te 5" PTE LG
+14 ar AnD
+= a watt ik [kX
+hiblzo yee
+det pa!
+- if wr le-j)} ny
+flat } il
+
+--- OCR page 6: Lectures/quantum-algorithms(III).pdf ---
+rs
+
+&
+=\|a
+LVN
+=
+x)
+&| >
+— | —
+Pr
+x S30
+me ~ iy) Nn '&
+i v
+C wa are ~ '
+py 2h
+~) “eo 3
+Sy \ “
+al* 3 >
+>\
+! —~
+n\s = if x *
+~< w ra Boye — RA iy
+KO a 3 3 1) ”
+=f =
+- cS — jj— —
+lL — ye 5S
+A. - > \ —!-3 wal ; = :
+Tin - LN \ 7) = : 3 7 7
+s 5" _ ~~ \ “_ oS) = a =
+a= S = “QV ic => SS” te _ nw, "
+q ~ a aL >) Zz Py ” > 3
+a ee eee ’ = e eo “2 |
+=- x 4 gt) -' —yniec 7 Se ,
+=< = 3 —-e a we? uw Ss = ~I-< al [ Q- &
+Binia. r >™ > =e “ te
+N ) | ” 3 4 yk
+bd . 1 ~~ = =
+» 7 w=.
+~ ~ —!| - 3 — -
+7) ‘ NX
+
+v
+
+--- OCR page 7: Lectures/quantum-algorithms(III).pdf ---
+Note: for a=2, peObec™e-| => a4 (i a) =a (| |) Hadamed
+
+ni
+— Let d=1",) wee" —> What if a circuit representation pf OFT:
+Use. the binary neprtaen tacioa ¢ D,1,)..., 28-1
+
+tg, n=3: 0 -» 000 | cat)
+1 —? ool eat
+
+2-4 0 10
+34 o11 ke kg thle |
+4 -7 100 I
+ser tet | @In quent: ke J Phy
+
+> J19
+
+ral |
+
+Lf ee
+
+ectanen' eed (He tha -+hy) Veasbay on by 2
+
+hisha). aahnt {41
+Y ast acd di 7
+ud a bdo} rs i
+
+\
+
+helt} késo,
+
+9 at top gar dx:
+
+V
+
+[ad hy wo) Md che hg | - (nee a)
+
+beta laGui}
+
+--- OCR page 8: Lectures/quantum-algorithms(III).pdf ---
+. ; oe ky nih, tril,
+Conoides n=}: Wj. jug? = (age e t (ag. 1) (4,2 b i)
+
+dob et hee
+oh i or
+py tt a ty
+=) brits L pri (24) Faia Pars = otihijs = [18
+ea Oe
+=( =
+
+griht brid prikl By rts (B)
+e_ fos
+
+Ls if
+
+athe = Pb Sh 4
+
+ici +
+therefare + & Uji, jig? = [aZ,, [-1) Ts) (ag. Lib e 7M Io)
+——~. A]
+[-7 Sign PEL i)
+l kei tiles bla
+TE as [-he cry (ex) Pa tt his A 4 kj @ Fh Tasha, by)
+= Bhaja? pide = (1 2)
+Defia H bef! © | 9
+lis? = uL—[a}at- 1 0 a
+
+A A FS FF
+
+--- OCR page 9: Lectures/quantum-algorithms(III).pdf ---
+C
+Ww
+
+~r
+
+~~
+
+Q In aeneral, Gif b
+in a, Be -(@.|—[x
+M" iH
+lia? %
+1. ta
+yu —+—

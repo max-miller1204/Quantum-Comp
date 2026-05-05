@@ -1,0 +1,21 @@
+&
+
+Let |e1),[2) © C1 be arbitrary vectors, and let M € L(C4) be an arbitrary linear operator (i.e., d x d matrix).
+# Using the definition of the trace of a linear operator, pr
+
+ove the following identities.
+(a) Tr{lr eel] = (vole)
+(b) Tr[Mjrnyval] = (vat }ny)
+
+e|2 WW) <¥a) Je.) U1, 22 Celeey G4)
+
+Mey
+Comment
+
+F Ati
+| a1
+
+(2) Need to show for
+
+) Trim) Cull = elalyy Saget
+

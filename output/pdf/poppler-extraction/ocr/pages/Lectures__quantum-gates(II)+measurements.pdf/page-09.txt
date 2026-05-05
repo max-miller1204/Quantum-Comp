@@ -1,0 +1,19 @@
+- Measuring Multiple _4ubits.
+
+* Comider State vector (7? of A qubilt ( ie(e)").
+
+* Computational - basit measurement is @ $102,119} meaoureenent OA
+Coch 4wbit jp kel dele
+
+Outcome probaviliticn > Pr{ 2,0,1) = | <0,0 MENG (fe three gublia)
+Pel x, 20,49) 2 (doa xay xg] 421° 5 Xp %aitg € Loud.
+“What is the probability that the Fit qubit it 0 7
+P( I out 0) = tr{0, 0,0)+A(0,9,1) + &(o,,0) + Alo,t.t).
+
+; Pe(U* subi )=P(o,1o] + koi)
+: +P 11,9) + e(i ii.
+
+“We Gn Simultaneously measur each guoit in a diPferent baaid.
+Exougle: measure (77 ¥3 pat in 2-basit, 1M jn X- bani
+p-(0,+, 1) = [41 in”
+Geasatoa

@@ -1,0 +1,3 @@
+3. Consider the circuit below. Prove that this circuit can be used to calculate the imaginary part of the inner product
+(||), namely, Im((|U]~)).
+

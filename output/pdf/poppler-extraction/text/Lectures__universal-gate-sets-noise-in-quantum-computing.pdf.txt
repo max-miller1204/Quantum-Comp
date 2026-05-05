@@ -1,0 +1,660 @@
+Universal Gate sets
+
+
+   We want to use a set of elementary gates to execute arbitrary
+   unitaries on n
+
+
+
+
+                      qubits.Relevant
+
+                                                         when wewantthesettobefini
+  Two versions                      Approximate     we canallow forsome error devial
+             ExactRequires                          in the implementation
+                    uncoutably infinite   ofgates
+             in the set
+
+  a Exact case     NOT all single qubit gates are universal                   This
+                                                                             setis
+                                                                              notfinite
+
+                                               Recall the rotation
+                                                                     gates
+
+
+                                                       theta
+                                                       right
+                                                        frac
+                                                         cos
+                                                         left
+                                                         eta
+                                                         sin
+                                                           X
+                                                           Ri
+                                                           2
+                                                           e
+                                                      Delta
+                                                      theta
+                                                      right
+                                                       frac
+                                                       cos
+                                                        left
+                                                        sin
+                                                          R
+                                                          ye
+                                                          i2
+                                                       theta
+                                                       right
+                                                        frac
+                                                        cos
+                                                        left
+                                                         sin
+                                                          R
+                                                          2
+                                                          z
+                                                          1te
+                                                            i
+                                                      matrix
+                                                      begin
+                                                      right
+                                                       end
+                                                       left
+                                                        X
+                                                        Yti
+                                                        01
+   Observe
+
+
+                                 matrix
+                                 begin
+                                 theta
+                                 right
+                                  frac
+                                  end
+                                  cos
+                                  left
+                                   sin
+                                    0
+                                    R
+                                    y
+                                    i2
+                     matrix
+                     begin
+                     theta
+                       right
+                       frac
+                        end
+                        cos
+                        left
+                         sin
+                          0
+                          Ri
+                          2
+                          z
+                                                       varphi
+                                                        right
+                                                         cos
+                                                         left
+                                                         sin
+                                                          ei
+                     matrix
+                      begin
+                       theta
+                        right
+                        frac
+                         end
+                         cos
+                         left
+                         sin
+                           0
+                           2i
+                  right
+                   frac
+                   end
+                   left
+                     0
+                     2
+                     i
+                  theta
+                  begin
+                  matrix
+      Soevery single qubitgate can be decomposed into rotation gates
+
+               alpha
+               theta
+               right
+               beta
+                left
+                 U
+                 R
+                 y
+                 z             for appropriate angles dp 0
+
+
+
+
+b Approximate case Arises whenthe of gates in the set is finite
+
+   Ba the set of unitaries is uncountably infinite while thesetof sequences
+  ofgates from a finitesetwill be countably infinite
+    Theorem Clifford
+                    gates      one single qubitnon Clifford gate is universal
+
+                                        gate    begin
+                                                right
+                                                 end
+                                                 left
+                                                  0
+                                                  4
+                                                  Tipi
+                                                  1e
+                                                matrix
+   Recall Paulioperators on n qubits               rightarrow
+                                                     otimes
+                                                      right
+                                                       left
+                                                        X
+                                                        Z
+                                                        Y
+                                                        P
+                                                        nI
+                                                             4
+                                                             n
+            Let    theta
+                   right
+                    left
+                     PI
+                     n            excludethe identity gate
+                                                                modoutglobalphase
+   Define the       n qubit Clifford group as
+
+                       Rightarrow
+                          right
+                           pm
+                           left
+                            iU
+                             T
+                             Pn
+                             n                             11       Transforms PaulistoPaulis
+
+
+        rightarrow
+           matrix
+           begin
+           right
+            sqrt
+            frac
+            end
+            left
+              X
+              Z
+              2
+             1tH                                                     upto sign
+    Theorem
+                  langle
+                    tau and iTjin
+                     H
+                     S
+                     ni                       1,2 n       447
+
+                 H S NOT are generators ofthe Clifford group
+                  Take all pensible products of H S CNOT andignoreglobal
+                  phase
+
+     Corollary       HSCNOT t          is universal       H CNOT T is universal
+                                                  S T
+
+
+2 Noise and Errors in Quantum computing
+
+   In quantum computing we care about precisecontrol of qubits butthey
+   they inevitably interact withtheir environment This evolution is
+
+
+        ideal case                10         unitary.G  Glo
+
+                                                Unitary
+
+        reality
+                     gate.gate
+                          noise
+
+                                  to                  Wlevel
+                                                                 quantum
+                                                                   channel
+
+                    System.U
+                   Environment    e
+       decoherencereality
+                                                              Origin maximally mixed
+                                                                     state
+                 Qubitstatedrifts
+                                                                                2
+                over time
+
+
+ a Any unwanted gate applied to thequbit can bethought of as noise
+
+
+            Bitflip    Pauli X gate
+                                      right
+                                       end
+                                       left
+                                        X
+                                        0
+                                        1
+  Example
+                                      begin
+                                      matrix
+        0 I left
+      rangle
+        X1   rangle
+              right
+                0
+                1               opposite ends of the Blochsphere
+
+
+            rightarrow
+               rangle
+               alpha
+                beta
+                 psi
+                  X
+                  1
+        measurement probabilities
+
+        getflipped
+
+  Example Rotations     Rx101 Ryd Rtd
+
+  Recall teleportation The state before Bob's correction is precisely a noisy
+  version of the true state Alice wants to send
+
+
+b Different gates can also beapplied randomly to the state
+
+  Example   Apply     with probability α do nothing with probability 1 2
+If the qubit state is given by a density operator p then afterthe
+noise it is
+                    alpha
+                    right
+                     left
+                      X
+                      1p                 Bit flip channel
+
+                                Apply the Xgate with probability
+                   nothing           α.Do
+              withprobability
+              12
+                                             rho
+
+
+
+
+                             rangle
+                             matrix
+                             begin
+                             alpha
+                              right
+                               end
+                               left
+                                X
+                                0
+                                1
+  If we measured the initial noiseless              end
+                                                     left
+                                                      0
+                                                      1
+                                                    right
+                                                    alpha
+                                                    begin
+                                                    matrix
+ State then we wouldget the outcome                      rangle
+                                                         langle
+                                                          alpha
+                                                          right
+                                                           left
+                                                            0
+                                                            1
+  O with probability I    after noise
+ the state belomes mixed with probability 1 α we get o
+ andwith probability α we get l
+
+ So α quantifies the amount of noise            0
+                                              alpha    ne noise
+                                                   Rightarrow
+                                                     rangle
+                                                      alpha
+                                                      right
+                                                       frac
+                                                       left
+                                                         0
+                                                         2
+                                                         1
+  For a general density matrix recall the form               right
+                                                             frac
+                                                              rho
+                                                              left
+                                                              eta
+                                                               X
+                                                               Ytx
+                                                               2
+                                                               z
+                                                               1yr
+                                     z
+                                                            Coordinates inthe
+                                                            Blocksphere
+                                                   Y
+
+
+                                X
+
+
+Howdothose coordinates transform afterthe noise
+
+   Irx ry f is k ry f
+                                                        rho
+
+
+
+                                alpha
+                                right
+                                 frac
+                                 left
+                                 eta
+                                   X
+                                   Ytx
+                                   2
+                                   p
+                                   z
+                                   1yr
+                       X
+                       Y                          Delta
+                                                  right
+                                                  frac
+                                                   left
+                                                    X
+                                                    Z
+                                                    Yr
+                                                    21
+                        z
+                        x                2x
+                                         eta
+                                                        cdot
+                                                         X
+                                                         Z
+                                                         Y
+                                                         2
+                                                         y
+                                                         x
+                                                         z
+                                      alpha
+                                      right
+                                       frac
+                                       left
+                                       eta
+                                         X
+                                         Y
+                                         2
+                                         x
+                                         z
+                                         1y
+                                          r
+
+
+                     alpha
+                     right
+                      frac
+                      left
+                        Ar2
+                        Xz
+                        1y
+                           alpha
+                           xr 1
+                            right
+                             frac
+                             left
+                             eta
+                               X
+                               Zr
+                               Y
+                               2
+                               y
+                               x
+                               zyr
+                                                1
+                                               alpha
+    Check If
+               rangle then
+               right
+                left
+                 0
+                 P                     rightarrow
+                                            0
+                                            z
+                                            1yxrV
+Example Phase flip dephasing channel
+
+
+    P          alpha
+               right
+                rho
+                left
+                 pt
+                 1
+                        Apply Pauli t withprobability
+
+           nothing          α.Do
+        with probability 1 2
+
+
+  Nowhow do the coordinates transform
+
+
+                  rightarrow
+                     right
+                     frac
+                      rho
+                      left
+                      eta
+                       X
+                       Y
+                       2
+                       xr
+                       z
+                       1y
+                       alpha
+                       right
+                        left
+                         2
+                         z
+                         1yxr
+  Forthis channel it is useful to see the transformation in the
+  standard basis
+
+
+
+
+     mathbb
+     matrix
+      begin
+      alpha
+      right
+      beta
+       frac
+       end
+       left
+        in
+         C
+         cz
+         1pt overline
+              matrix
+              begin
+              alpha
+              right
+               frac
+               end
+               left
+                 0
+                 a
+                 c
+                 1
+
+                                                             right
+                                                              end
+                                                              left
+                                                               a
+                                                               c1
+                                                             begin
+                                                             matrix
+                                                             overline
+
+
+                            overline
+                             matrix
+                             begin
+                             alpha
+                             right
+                              end
+                              tau
+                              left
+                               a
+                               2
+                               1
+                               0
+                               c
+                                                       0
+                                                     alpha   no noise
+
+                                                         frac
+                                                           2
+                                                           1
+                                                         alpha     max noise
+
+
+
+
+          Off diagonal terms are suppressed
+
+              2
+              1
+         Forfrac
+            alpha the
+                      off diagonalterms vanish       superposition is gone
+
+
+
+Example Depolarizing channel
+                                  alpha
+                                   right
+                                    rho
+                                    left
+                                     1
+                                rightarrow
+                                        ftp.xtfypytjtptWith
+                                              prob I α do nothing
+                                       withprob α apply a Pauli
+                                       operatoruniformly at random
+
+
+            4
+            3
+    For αnicefrac
+                            right
+                            frac
+                             rho
+                             left
+                              X
+                              Z
+                              Yr
+                              4
+                              T
+                              2
+                              p
+                              1y               1
+                                                      Assignment
+
+
+
+    Using this we canwrite the depolarizing channel in an alternative way
+                  Rightarrow
+                     right
+                     frac
+                      rho
+                      left
+                       X
+                       Z
+                       Yr
+                       4
+                       T
+                       2
+                       p
+                       n
+                       z
+                       1y
+   Rightarrow
+      alpha
+      right
+       frac
+       rho
+       left
+         p
+         H
+         4
+         3
+         2
+         1ri
+        alpha
+        right
+         frac
+         rho
+         left
+           4
+           3
+           2
+           prT
+           1y
+       alpha
+        right
+        frac
+         rho
+         left
+         eta
+           4
+           3
+           21
+           rT
+      alpha
+      right
+       frac
+       rho
+       left
+         H
+         4
+         3
+         21
+         rT                  all or nothing
+        all       nothing
+      State
+      perfectly
+                  allinformation
+      intact
+                   aboutstateis
+                    lost
+
+
+rightarrow
+   alpha
+   right
+   cdot
+   beta
+    frac
+    rho
+    left
+    eta
+      4
+      3
+      2
+      1
+

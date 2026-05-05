@@ -1,0 +1,41 @@
+12.
+
+13.
+
+14.
+
+Messages relayed over a communication channel have probability p of being received correctly. A
+message that is not received correctly is retransmitted until it is. What value should p have so
+that the probability of more than one retransmission is less than 0.05?
+
+* Consider a discrete-time Markov chain consisting of four states, a, b, c, and d, whose transition
+probability matrix is given by
+
+0 0 08 0.2
+
+{0 04 0 03 -
+
+P=11 06 02 0 (45)
+0 0 0 05
+
+Compute the following probabilities.
+(a) Pr[X4 =c,X3 =c,X_ =c, X1 =¢|Xo =a]
+(b) Pr[X6 = d,X5 =c,X4 = b|X3 =a]
+(c) Pr[X5 =c,X6 =a, X7 =c,Xg=c
+
+X4 = b,X3 = dl.
+
+* A Markov chain with two states, a and b, has the following conditional probabilities: if it is in
+
+state a at time step t, t € {0,1,2,...}, then it stays in state a with probability 3(4)'. If it is in
+
+state b at time step t, then it stays in state b with probability 3g).
+
+(a) Determine the transition probability matrix of the Markov chain.
+
+(b) If the Markov chain begins in state a at time step t = 0, then compute the probabilities of
+the following sample paths:
+
+a>b->a>b and am~a>b->b. (46)
+
+10

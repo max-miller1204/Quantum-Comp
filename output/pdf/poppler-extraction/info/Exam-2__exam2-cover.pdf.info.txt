@@ -1,0 +1,18 @@
+Creator:         pdftk-java 3.3.3
+Producer:        itext-paulo-155 (itextpdf.sf.net - lowagie.com)
+CreationDate:    Tue Mar  3 20:25:28 2026 EST
+ModDate:         Tue Mar  3 20:25:28 2026 EST
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       149903 bytes
+Optimized:       no
+PDF version:     1.5

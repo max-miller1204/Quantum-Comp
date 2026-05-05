@@ -1,0 +1,49 @@
+    CS 4134 – Quantum Computation and Information Processing
+                                                     Assignment 1
+                          Virginia Tech Department of Computer Science, Spring 2026
+                                          Instructor: Sumeet Khatri
+Issue date: Thursday, January 29, 2026
+Due date: Thursday, February 5, 2026
+Instructions: Please show all of your work. Your grade will be based not only on getting the correct answer,
+but having a complete solution. You may work in collaboration with others, but you must write your own
+solutions, in your own words. Use of AI tools is not prohibited, but be prepared to explain your solutions
+and demonstrate your understanding to me on the board upon request at any time. Sticking to the deadline
+is to your benefit, but there is no late penalty. If you would like the assignment to count towards your final
+grade, then submit it before the final day of class in May. Submit in class or via email.
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and
+mistake, you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted
+problems result in a four-point deduction.
+
+1. Prove the following facts:
+    (a) For complex numbers z1 , z2 ∈ C, z1 + z2 = z1 + z2
+   (b) If |v1 ⟩, |v2 ⟩ ∈ Cd , for any d ∈ {2, 3, . . . }, then ⟨v1 |v2 ⟩ = ⟨v2 |v1 ⟩.
+
+2. Consider the following two-dimensional vector |v⟩ ∈ C2 , written with respect to the standard basis
+   {|0⟩, |1⟩}:                                            
+                                                    3 + 2i
+                                            |v⟩ =            .                                     (1)
+                                                    4 + 5i
+    (a) Determine the values ⟨0|v⟩ and ⟨1|v⟩.
+   (b) Write the vector |v⟩ in the abstract form |v⟩ = a|0⟩ + b|1⟩, with the appropriate values of a and b.
+    (c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+3. Consider the following three-dimensional vector |v⟩ ∈ C3 , written with respect to the standard basis
+   {|0⟩, |1⟩, |2⟩}:                                        
+                                                     5−i
+                                             |v⟩ = 6 + 3i .                                        (2)
+                                                     7 − 4i
+    (a) Determine the values ⟨0|v⟩, ⟨1|v⟩, and ⟨2|v⟩.
+   (b) Write the vector |v⟩ in the abstract form |v⟩ = a|0⟩ + b|1⟩ + c|2⟩, with the appropriate values of a, b,
+       and c.
+    (c) Is the vector normalized? Say why or why not. If not normalized, then normalize it.
+
+4. Calculate the inner products ⟨v1 |v2 ⟩ and ⟨v2 |v1 ⟩ of the following two vectors:
+                                                                                     
+                                                                  3 2i              7 i
+                   |v1 ⟩ = (3 + 4i)|0⟩ + (2 − 5i)|1⟩, |v2 ⟩ =       +      |+⟩ + − +      |−⟩,                (3)
+                                                                  4    5            6 3
+  where |±⟩ = √12 (|0⟩ ± |1⟩). Also calculate the norm of |v1 ⟩ and |v2 ⟩, and then normalize both vectors.
+
+
+                                                               1
+

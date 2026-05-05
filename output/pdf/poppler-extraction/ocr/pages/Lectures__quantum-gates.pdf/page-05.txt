@@ -1,0 +1,32 @@
+‘Quantum Ciraits anol Gates : very Similat! But the gute act on the
+
+Compley vechir Space (c)?" ul n qubil —?) they are repridented by
+
+“unibarg matrices, —> mairiy ue Lic’) Satisfying Uu= wha.
+a
+
+hp | | : Dw* @ Each box represents o
+be) | | | Dr gai Junitary matrix
+bs? Sy ps
+tay) 7 7 pvxt Multiply the gate tr
+bg) | poe get a unitary matrix fc
+1) ! EH 7 = x! te fall ciccuit.
+vt ro la ae
+
+lye 7 a ee ‘CEs Mednurement{ rad- out
+
+(x, Xy) Meg As ) Xu) 24 } —_———-> time
+
+Qwhy unitary matrix: Comes from quantunt physic (Gehring equation),
+
+Bo undeatand whut the circuit dots, we just have to know how # act aa
+baat vectwn !
+
+Pecoll : Ony Ctafe Veet d h Aubits con be represented, a0
+
+I= 3 Cz |¥?, cr EC, g gl =|. LE (x7... xa), 4 ela]
+set} eh) Ix) : lx, Xj)
+input State of the ghantum Circuit. = [490 by 20-8 fan?
+x = z Ute?
+
+(@ Linearity matriced: m[ bsesnatentent

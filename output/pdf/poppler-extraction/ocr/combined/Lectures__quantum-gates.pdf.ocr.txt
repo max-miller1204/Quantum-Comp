@@ -1,0 +1,532 @@
+--- OCR page 1: Lectures/quantum-gates.pdf ---
+() Pecap : Density Matrices
+
+"A denity madriy in dimenoion déf2,3..) it 0 dyd natix peLlet)
+Satitfying the fillowing properties:
+
+(1) Het ition : pte T= Conjugate franap ase.
+
+() Unit Trace : Tr{p) = | Recall: Tr = trace = Sum af diagonal elements
+if a Motriy,
+3): Positive (pmi-definite : p70
+
+Qty meas Het dlelvd20 ¥ wrect
+
+Equivalent: all +ht cident eg dp are non-negatir.
+l miv)=Alv?
+i | “Tt
+
+fic tf dudntum Mechanict The Stake of any guindun syften
+
+i$ mathematically olescriped by Ov dlendity mattiv. (arbitrary dimension).
+State vector: 1¥) > [w= | > = ext
+* Far det Caubit) , density Matrices are Cynonymaua with point? on and,
+
+QB
+
+ingide the Unit Saher. TeCpx] STS Ct Kanye, a E
+= tnt J SARK
+ft ; 3 L ‘
+Te % Point Felt? (real 30 Space) ans
+lo}
+
+Cf Ts (Ty fy, f2) , Qe a1 ry Xty¥+G2).
+Y ye ee EL, Cet (pxd, ry = HlpY], Getta),
+
+|
+
+( Bloch Sphere), » Tt VtQ+ee L, then p if a pure § He : it
+Can he written ad p=lYXHl , whet
+
+Ine if A State vector; IF) = 102+ piv.
+
+--- OCR page 2: Lectures/quantum-gates.pdf ---
+© Origin » Fe (t,0,0)—> p=t( intent the maximally - mixed. Stare a (pst
+(A Completely fandom Cate) =£
+@ Points on the X-axit: + (+1, 0,0) > p2a[De) = 1X4, [9 t,o) +10)
+
+These are tigtnvectors bX! Xie t1t2 > YL ele
+(Ciena 4 YX art +.) Xia 2 <b?
+
+@ Points on the Y-axis : f= (0, 41, 0) pealtey) =12ixsil, 11) = illo) £i 19)
+
+These are cigenvected tf ys Yitiyes tet). | Yitid = 142)
+
+(Cigerodan 4 ¥ are 41.) YI-i2 = -1-ip
+@ Poin o« the 2-oyie: T=(0, 0,41) > or ye
+
+; -rayid: T= =
+
+nig on the r=(0, 0,41) > @=1 ane WIL
+
+These art eigenvector ¢ 2! £lo)= 0), 21) =~li, (Eigenvaluea ef é at 41)
+* For highec dimensions, we don't have (uch a nice representation.
+
+We Gn Still neck if a State is pure wing the purity
+For demity matrix p in dimention a, TtLp']= purity
+The stale pif pure if and only if Tp) =
+
+& Every pur State iS represented by a defuity matrix f the form p> InXt),
+whee (A <C% ik a Ctate veer ( Hira|l =).
+
+Tf State is not purt, thea we call it a mixed
+
+i
+
+Q Important Fact: Every mixed State GA be Written af @ convex combination
+ut put States :
+
+ny)
+
+f “3 peltaxt, A<lai], x A, =.
+° i
+
+| & probabilities.
+
+--- OCR page 3: Lectures/quantum-gates.pdf ---
+\ rly "A oars WA
+heck: Trlal=2. p TrLIMXhl] =2 9 =|
+“A k= me Uo a ea, TK
+=\
+, NM eat hyde Va
+tM Qh pL» IMXKL) = 2) p XK =e
+y) he fe \ ba I ‘
++ . t
+' =X Wixal) = lyXul
+Check le Y Yen blo we Sum over PSD elements
+: Gf (M,+m@,\ Ie)
+(1) Wuartu ircuits anol 0 ’
+=(v[a(v) + Calmly) 79
+UA mal
+eC lawical Computation: Manipulation ¢ bits Wa agic gate.
+( AND, 02, NOT,
+Foc input xefort®, Calculate f(x) for Som
+{ A 4
+(How tO realize +) with @ Cirewt: How m og | depth ig
+, >\\ “og
+necemary ond/Or Sufficient *)
+AD We ratty think about Comput ayn, in fhene termd Omy more !
+fe program in Some igh= lev language (C#t, pyihon, julia) and
+Hen the Code gels Compiled info tae Machine - levt] lang a
+Q Quantum ca puting is Still thought about at He gale lereh-
+Althosh “quantum programming langyonta" Are being dercloned —
+U ’) re? oy, Yu J r
+iSkit if oa mole examale.
+
+--- OCR page 4: Lectures/quantum-gates.pdf ---
+=" = x
+Q > ~*~ =
+Zs ¢ Ss
+§ = o <i =
+5
+Lo -  —  ee
+L<
+s | co — | Zl > =
++ xo © S A ,
+= is 4 d= _ <= =>
+> te = Ss * =
+E 4 =| 2 — =i
+J —/ = xs ped S
+= |) a l. A_+=|e © * -
+= J “Ss a Ss a]
+3
+\ ‘) |
+mi < ol < =
+<= —_ fae Q S a
+| Ly s x \ /o\ a CT
+_ i ic—s LVL
+\ {lik * Aa < rc
+iz yi’ } oo 2 | ~
+ram Oz» +| me S
+“ oS aN =| o> © Re
+2 > a ao \
+3 < ~s
+Peal Tl — =
+a 7 9 <[ a 2 2
+~ =. = a v 2
+o ~ eS CO C ~
+_ = +5 A ‘= °o—
+3 bs (/S\ (oe \ “| eo cs 2
+2 s 2 \ 2 \ =
+z ES qa ian -<faec se
+WO ) |
+a
+
+--- OCR page 5: Lectures/quantum-gates.pdf ---
+‘Quantum Ciraits anol Gates : very Similat! But the gute act on the
+
+Compley vechir Space (c)?" ul n qubil —?) they are repridented by
+
+“unibarg matrices, —> mairiy ue Lic’) Satisfying Uu= wha.
+a
+
+hp | | : Dw* @ Each box represents o
+be) | | | Dr gai Junitary matrix
+bs? Sy ps
+tay) 7 7 pvxt Multiply the gate tr
+bg) | poe get a unitary matrix fc
+1) ! EH 7 = x! te fall ciccuit.
+vt ro la ae
+
+lye 7 a ee ‘CEs Mednurement{ rad- out
+
+(x, Xy) Meg As ) Xu) 24 } —_———-> time
+
+Qwhy unitary matrix: Comes from quantunt physic (Gehring equation),
+
+Bo undeatand whut the circuit dots, we just have to know how # act aa
+baat vectwn !
+
+Pecoll : Ony Ctafe Veet d h Aubits con be represented, a0
+
+I= 3 Cz |¥?, cr EC, g gl =|. LE (x7... xa), 4 ela]
+set} eh) Ix) : lx, Xj)
+input State of the ghantum Circuit. = [490 by 20-8 fan?
+x = z Ute?
+
+(@ Linearity matriced: m[ bsesnatentent
+
+--- OCR page 6: Lectures/quantum-gates.pdf ---
+¥ rm
+= = -
+S. i fC =
+le > “ T
+= i “> . Tr —
+- Ss > & a = oy AIS
+P Ps ~*~ a — 9 &
+wy ~ “~> ~ ~~ f—] =
+= a4 = pe = od ALL —_
+wd <2 " nv ji — oA 4? ws aba >
+= Fe) Ss 2 as ’ = ou rn oe *
+=~ 3 > aw) ou rl. ~ ~~ : Tle ) hits
+= 2 sc oh ‘ss % =
++ <> _ mt ol > U—FE .
+= Ss —s oe y On -o Le
+= oo - o'~ ~ oy a a ~
+{ —e mM
+> \ NY ™ wy —
+Y <— Se >
+aw
+— 4 =) }
+F | c\ ~)
+r~ raat ) yy
+car x! ©
+s 5 -
++ hae -
+$ => "
+= s 2 * + x2”
+| ss S| S c S \.
+s= a ( S + 2)
+~ 2 ES a =|
+= =} 7 3S) 3) =>
+P) z =S is 4 = ? ) ?
+aw Ss = ¢ ye \ Kl
+\ PEN ! ~ on ) | \
+¢ 4a >
+>< Se
+
+--- OCR page 7: Lectures/quantum-gates.pdf ---
+aad
+
+0
+
+the
+
+~“~_—“_
+
+lon + clity+ alto)
+
+\
+
+5
+
+lt) = lo?
+
+NY
+
+[O? (1)
+
+\)
+
+Joyo) > 0910
+1o){c) + fh
+
+Wh) Lo) Ey NEL) = NY (0)
+
+ny EF IEh) = -lreI)
+
+> |opI9)
+
+> hy yloy = ler
+
+ity. ThiS Aetermin:
+
+07 [07 +? |o) In?
+
+lod hh) He fo? lt?
+Lilo) 7 119 Whe)
+
+Way INYley
+
+1. s
+
+lin
+
+on any State!
+
+6c”
+
+[0) [o)¢
+
+lool)
+
+11219) t
+
+DYE
+
+gi
+
+yy we
+
+J
+ok
+
+fK v
+
+xX
+
+\
+
+17,
+(I
+
+0
+
+0 |o °\
+
+, Conttal
+
+4
+
+o
+
+(9 II
+
+a
+
+0
+
+0 Dio
+
+fay
+
+09
+
+tom
+
+0
+
+oan
+
+A
+
+ame :
+
+Oo/ |
+
+fo
+
+(17 = alayo) + blo,1)4011,0)4 LUI) Hy ole.) +
+
+Ol
+
+lled-t | Ct
+
+W controlled -\"
+
+be,
+
+—_—_
+
+~- (No
+
+— (on
+
+— Coatrellet Uni
+
+--- OCR page 8: Lectures/quantum-gates.pdf ---
+ss 3
+re —
+cS a a ZS
+a 2
+s <
+_= =_ => o _ =
+= S a
+2 3 8&8 14 e
+\ 1 — +r -—7 —
+ay +.
+>< ja Sos
+5 é 5 Als , rr rape
+b rs nS —
+Z | , E +
+ned —
+§ Ss \— = | a =
+-— a 7 —| x ( = atv) Dy
+2 o£ Ss) r
+i C e v ass r q =
+' ay 4 - + =| os — )
+; y »
+— ra¥ ry
+Sa aa st a a Ty , 5
+Ya ‘4 oe > 4 f a J a =a
+« « — 7 ~ Te aan
+vn B ify \e amr ‘§ was
+> hi D» 9 + q —
+x cS Pils =
+— . - i> —_—
+Eta =~ 3 —) a) > ta a
+‘ : eo 2 a rw
+oe SrA aN ry) — \
+a = \ v = 4
+SY] > = _ ' =
+3 4 “ ie
+§ “ ~ “Ss ' —z
+5 . |* od coy — T
+E art =
+¥ em r "ql \
+1 r in \
++ , ‘ 3 >< ‘> l ~ -_ 1
+= 2 no Se 4 LL
+\ " rt io, Po
+> at ay 2 7" ra 7 r
+wad _—— L “7 if
+
+--- OCR page 9: Lectures/quantum-gates.pdf ---
+F
+=>
+; z= = +
+st i= o *3
+SZ mn = [Ss €& =
+= = = ty [v =
+mall c 2 WV =,
+v = = t =
+~— q ‘ *, > = > =
+SS \ ~ => —~
+Aa =r ‘~~ “~~ a
+AA ala > > ! = Ww
+\ 3 | Ss = 2 2.
+~ = % \ co
+rs . o oOo > ™ Z Ss > La
+= N n Z n = = »— rf) =
+\ = S ya TS - =
+= ~~ 4 2 = x =~ ao
+Pe . ney a) 4 = * a = i
+~ TT Ty ) = eg +
+| if — 2 a= rai n
+-~ “a —_ > iS = an = = | ="
+q Aims = = ~ z | ~~ 4 )) s
+_ qn ~_ ) —
+= >< (~"4 a w = = =
+im _ —} i> = S a =|
+se 3s = Ss
+== ws = - Sz s
+= = —— pa oe = -— 2 = —-
+< ™ =
+: T = = - 5 = ence
+? : a § = = = iw
+b = = oa] ‘= - La s
+— G) — _ ro a = —* ==
+— ~ a\c> Oo = —— | Ke 7a. "
+e 3° = n by _
+: eS 2 < +S = =
+a Ly — ps y lc s F z
+M — ce had 3 y { =
+2 - 4 = ' “ = =
+‘ - og
+Ss ha = = = ¥
+= Ss Baa \ x a) al ~ = Ss
+= _ = ~~ Ss = Ss C
+— = p= > a " n
+22 = Ss —_— = as taal
+c =S = ty
+— ) ) =
+=
+.
+
+--- OCR page 10: Lectures/quantum-gates.pdf ---
+y
+
+WwW
+
+Wi
+
+|e p20
+
+ADAUMp tion,
+
+wo hu
+
+CVU p uly)
+
+afl
+
+nitariea, 1
+
+"
+
+Ht
+
+ec
+
+Wie lwe
+=(lp1P) vo
+
+)
+
+if ny a
+
+UW Uy 4,
+
+/
+
+—
+=
+
+ty NEC
+
+/
+
+p
+
+athi
+
+if A unitary:
+
+(UU, }-
+
+TS
+
+o a Unitary
+
+[3\ For
+
+<
+
+U
+
+Uni
+
+uy i
+
+.
+
+Check :
+
+U
+
+— Produc _
+
+Li—
+UW
+
+a |

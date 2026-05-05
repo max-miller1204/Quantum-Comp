@@ -1,0 +1,325 @@
+Meets
+Every orthonormal basis     leash in dimension d defines a mcement
+operators    tenkenhi such that
+                                      leakent Ha
+
+
+For a state                               Bornrule
+              p Pr Tr leakenly Lenpleas
+                  k
+
+                  rent                  tret l
+                       t.CL
+                                  finlel
+  Examples   Forthe state
+                            p      the maximally mixed state the outcomes
+  are completely random in every basis         i.e Prk       k
+
+For a bipartite state Pap       measuring A only   Pr k Tr lenkala APa
+
+This is equal to Pr k
+                            Tollenkerlatfast
+
+                                          Partite
+    For an operator MAB
+                            É         Majike likila lkKelB
+
+                                                     Trp Xa YB XpTrly
+     Tip Man             minisie likila
+                                       Eyes
+                         mini lista
+
+
+     TraMA
+                         mijiuetrfylallkkelB       f.it miniie lkkllB
+   For a two qubit operator                   Mars
+                                                                a    a
+                                                     10   931   932 933 934
+
+                                                     11   941 942 943 944
+
+
+
+
+                            aiiaii.at                                         1
+
+
+                                                                    li
+                                t.tl
+
+
+
+                                               E
+   inmate                                                                 aiiail
+
+
+                            aiiaii.at                                         1
+                      01   92   922 923 924
+
+      matt                                                           iii iii it
+
+The most general form
+                           of a measurement is given by a
+
+reifffemenum                                         alfinitelsetsmiim.ae
+
+  2    Me       1
+
+   Probabilities are given by          Pr x    Tr Map
+
+       Checks       Pr 1     Trmap Tr                m.ly trlpl 1
+Measurements
+                    of the form       leaked         for an orthonormal basis leave
+are known as projectivmeaurments                      b c Mr leakent are projectors
+
+
+    A projector is an operator matrix satisfying PEP
+
+   Check           leaked      ten                tenkent
+                                   Ekkeal
+    A generalprojectivemeaurment has the form Isley
+
+     1 ThsO          HEX
+
+    12    Ti The net
+    131     the      1
+
+Theorems Every general Perm measurement can be written as a
+
+projective measurement on a larger system
+
+Proof Consider a system S we want to measure it via a probe P
+
+
+
+
+            10      77FEE                      projective measurementof theprobe
+
+                         Unitary interaction
+
+                         of systemandprobe
+          lesson
+    e
+                      ulpsoexalathirt.li             iiffflIfeformtr               maps
+    Tr As T.lupsolokolp ut            psolexol   Ut1satalU
+                              fTrl
+Tr ABCJ Tr BCA Tr AB
+                                   Tr p Ap Asolokelp ut1,0Talk
+Xa B    Xa B 1470413           tiles.to
+                                                    utasotl
+Tr Pa04MaBJ Tr PaTrisMABI                           gf
+     Letus show that      Malice    is a Porm
+
+     11 Checkthat Masio             VMalr so       Iv
+
+        For an arbitrary vector r
+
+          v Malu   Lv Top As lokelp UtAgoTulu in
+                   Tr Irkutolove1 utAsa Alu
+Tr MIND
+tramins                                t.lu
+               flygluttas                     iypl
+                     V1 As Hall's
+                   0 bc     I so and 1,70           Ago      0
+
+       So make        x
+
+     12 Check that     Ma D
+
+
+          My_ftd               plutasotu Tp
+                                                        lasoloxetrlutmsfff.ly
+
+            ETrpllasolokolplutg.gl utu a                              assumption
+            Trp agolokolp As Apl
+
+            Tip As 1070p
+
+            Is
+
+Wealso prove the converse given a Porm Mickey the measurementcanbe
+realised by a unitary blwsystem and probe and measurementofthe probe
+
+Define V    Ma0
+                  Hyp                 Nate Ma is Hermitian so it
+                  some
+                                      has spectral decomposition
+                   orthicist
+
+   is an Emetry     it satisfies
+                                          Me   Matkal Then thesquare root
+ TV A but notnecessarilyout D             is far   TnMakal
+check VTV        Vm0411 thana 1 1
+
+
+           t.E.mn.EE               ExMa
+
+a Nownotethattp
+                          ontrvt Trp As lakal ya hp May2nd
+
+                 YE.to mrmenkty
+
+                 Eexmrmndn.li
+                                          i
+                  Mx
+                     p Tr Map Tr Trp 1 hikulp p
+ Sofor any state                             VVT
+
+                                1Tr AseluxalpVvtpsoAp
+                                ttrlvtlesoaplvlasolh.tl
+                                                        defines
+                                                                  a projective
+                                                    measurement b c     1117   isanON
+                                          East for every isometry
+                                                                                 us
+
+                                          ypyygpygygggyp.gg
+                                   up
+         E
+      meaurmentstateafterapartilmeaurmnt.it we have a bipartite
+state Pap and we measure the A part whatis the resulting state onthe Bpart
+
+ Consider measurement POVM
+                           Ma       key
+ The probabilities are Pr a    Trl Ma AB Par
+ Conditioned on the outcome is the state
+                                             of B is
+
+                      titiitibina
+      Checkthat
+                  p has all ofthe required properties of a densitymatrix
+                                                           ir
+             Initial.tl iitat
+The
+Entanglement
+
+ State vectors of two qubits belongs tothe tensorproductspace           at
+
+
+la     A
+           prenatal              has the form
+
+
+     Statevector 14         1412014       14,7Eddi    1 7 Ed
+                        5
+                               TB JAEL A and to L d are demifferators
+     Density operator
+                        By for
+
+
+
+
+       A     stare          at the form    Pas       plotof t to
+
+             Also called classically correlated      Es probabilities
+Example      Pars        lakea loxels       liklaelikilis          le enoffthikillar
+
+This state is diagonal inthe tensor product basis
+
+  1070101      107A 1113 117A     10      1170 1 B
+
+                                                       If Aliceand Bob both measure in
+ Pas                          0                      the 107,117 basis then theiroutcomes
+                                                     will be correlated
+                    00   01   10 11
+
+   If Alice gets outcome O then so will BobSamewith outcome I
+   Tra 10340A 0As Par             10401
+                                             ppl     10k01g Also
+                                                                   p   likil
+
+       Fal
+             lakota 1,3       10ka lokelist 1 i a likip
+
+
+          tral aol.seaolokelsll tralloxfaonsiil
+
+       ttrallox.la 1011013
+
+          1070113
+              iiI              IiY E            instead
+                                                          then the outcomes
+   are completely uncorrelated
+    Pr        Pr t 1 Pr t t   Pr
+
+    If Alice gets outcome      happens with probability then
+    Bob's state is
+                          Tra 1 7 1 ABPm          completely randomforBob
+                    β
+   So inthiscase the correlations dependon the basischoice
+
+Aside All States of two probabilistic bits can be expressed as diagonal density
+         matrices in the computational basis
+
+
+              Poop    0
+
+                                   iii
+  Pan
+                                         P
+                                    p        Imran
+                                             p    p
+                                                   lesser paliki
+
+
+              p                                      statement
+     An                    is Not a separable state
+           Estate
+
+
+
+
+                                                                 In     in
+b   Eml                                                        tiene   this
+                                    11    Et   tot E
+    1 The Bettstates                                      4211010      11.17
+
+                                set            iii semis
+                E      I    Ken          imitated
+          observe that          1    1,1117                         zedo.it
+                                                 Effgale
+                                                e       ez
+                 apg                     qp         1 X X
+                                                                 g
+                                                                 9    It
+                                                                 lets E
+                                                                        I
+     Indemnon left États last                         lesion
+                                                               if
+               see later for theother d dimensional BellStates
+
+
+
+
+     if
+                            f
+  1 let        let         lines resin   let
+             41      11s
+
+2 01 I   I                     imost ions      Es
+             ftp      y
+14,2 2,1074 112
+             β      14     date Balls
+
+14 0 4      2,41907 d p210,17 p4211107 βpallit         lie e this
+There does not exist values of 21.22
+                                     pip Suchthat 14,10147 It
+
+
+    Ezin    are 0,13 is an ONB for e e
+
+           Ulz a     Ezn
+                                              a   uatesut n t
+                       ftptaitu
+       EzmkEzal t.az x'esai       is an ONB for L 92 42
+
+    Pan
+                            its
+            itpEli
+
+
+  Ey Eth Has             Bell States form a   meet         Perm
+
+                                              Important ingredient
+                                              in teleportation
+

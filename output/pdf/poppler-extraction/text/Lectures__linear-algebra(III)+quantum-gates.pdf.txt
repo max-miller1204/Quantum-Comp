@@ -1,0 +1,308 @@
+    Best
+
+
+
+
+ States
+            of live on the surface of thechsphere             they are
+  described by 2 dimensional staterects
+                                                        14s        least
+
+    14               α
+                         pet 1 1 112 1          1452107 plis 101       b as Y
+
+      Iride the sphere are also possible
+  States                                                 they are describedby
+  demmatrices We will see this today
+
+                                            101 1             1    1
+Matrices aka linearoperators                        11                 1111   o
+                  column indices
+             o
+                      a b c dec         M           blokil clike dilki
+                                              all
+   mY
+            9
+                                         a 01m10    b    01m11 c   11m10
+
+  indices                               d cumin
+
+
+    cematrix             m
+                                   ae
+                                        imaiiiii
+  Notation    1141 setof all matrices linear operators actingoned i.e dxdmatrices
+              dimensionis d
+
+
+
+For any vector Ined           Invielled is a dxdmatrix
+Iv     rains         irkul         rules Ethical                     vntwinkh't
+
+
+Identitymatrix       A        Hiv IV for all Iv ted
+
+                          last
+          f
+  a                                     Forany orthonormal
+
+                                              basis lens         1     A       tenkent
+
+
+                     Sum
+ Ifamatrix                 of thediagonal elements
+
+  M                      Tr M      at d        elmies            11min
+
+
+  In general M            Mig   likil       TrMl           min       cilmlis
+
+      Consider a state vector 1 7            107
+                                                   β
+                                                       1     441 240147211         KitIp12 1
+        141          a
+                                  itp              d Ilkel           aplokltpalicoltp.pk
+
+
+               at laker afloat police tipinal
+                                                                         1h11
+                                                                                  ypep.ge
+     Nowtake the trace        Tr 1   7441    1 1411 1
+                                                                                 Ip12 Po i
+  Igeneral Tr Luri               Lulu for all trsed
+    Proof Just use the definition
+
+    trlinsuil
+                E.eety jInschlE iuilffe imgur.lk
+1                                                               11
+Similarly Tr Mlu v21              v21Mlr   for all 14 tested Melled
+                        d          M        of
+    Proof trlmiviaal
+                            E.FI                                        min
+
+                            y
+                                            f.d1fntfffl
+1                                Lm        Bh               6211114
+                                                     query a.im
+
+Trampesefamatrix                flip the rows and columns
+
+    m                       mi
+
+
+      Note      likjlt ljkil.fm                   tmttmt
+    Ingeneral M Émi                it      MT    mi 1111   Mt     mu likil
+
+
+      A matrix M is calledsymmetric if MIM                       milis51
+
+     MT M        mi j   Mji
+Kugatetrampesefamatrix
+
+ Recall for vectors    Iv            v1    To T          Ta
+                                   OR Iv        unlies   cvl E.tncal
+
+                                            6 dagger
+                                          Mt
+Similar for matrices    M      9
+
+In general M      Imi likil Mt       Mi likil
+
+Note     likjit Ijkil                           M             a a d d
+                                                               19
+        1ixmicm_iff                                 my mi
+
+
+
+  iii iii.ir iiiii ii
+       Culus   Eiichi Evans         vn
+
+Matrix inner product        MiMa TrMtMz     MaMi         MTM
+
+ From this we define a
+                            Informatics     11m11
+                                                    Tm VtrlmtmT
+Matrices M M are orthogonal if M1 Mg        D
+We have bases for matrices as well
+
+
+
+
+                                             1 514,1 4
+exemption recall            me
+                                 19 1
+The set
+                  11141,111 is an orthonormal basisfor 144
+          11     bserve there are 4 22 elements        Pi B dig
+
+Check take inner products
+
+
+   level 1014117 To aka          leal             kill titlekill file 0
+                                         trlleke.to
+
+   lakil likot    to 10 1 11401     Tr        cell o
+                                         likely
+
+   10401 107017    Tr tokai 10101 Tr 1071901 Tr lake1 2010 1
+
+
+
+
+            iiiiiiii iii
+  Holds for arbitrary dimension          likil i.ge 0,1 doll is an
+  orthonormal basis for L ed
+
+Special basis for d 2        Dimes           aka Pauligates
+
+                                   2                  text try title
+        9               9                1
+    Biffipmatrix X e 117           1 102
+                                                       it iiiiiiata
+ They are Hermitian          Xt x Yt Y Zᵗ t
+  They are orthogonal          X Y7 0           1 127 0 12 47 0
+
+fayyhfCfal                            basis for 414
+
+ trixtyl           till                    ti
+
+
+    Any Melle can be written as M                   c1 4       EYtest
+                                                   10,4 GGEC
+
+
+
+
+    eitI.it
+         ii
+14 xle1 pl1 d pet 1212 111 1
+
+       the matrix p 145141
+Consider
+
+It has the following properties
+   Ithermitian
+   index ale
+                     pli Ile plil
+           latlokeltaflokiltpalikoltlpllikllm.tn t mt
+           t
+               lat lexel  mIx̅ lixxxi
+                                 Elliott
+                                  result int            1m
+
+
+
+
+               I   121okel
+                               2.5 21           JI pa
+                             Iplistel p2loki Iptlikil
+                                                               Et   EE
+
+
+
+                   MY
+  2 Tr p         I   unittrace
+
+       1       411     414 1214 pt
+
+               above
+
+
+
+
+  3
+                 1Emi         definite
+
+
+      A Hermitian matrix Melled is called                  feeemidefinite
+      denoted Mao        if    rimir so       weed
+   This is equivalent to all eigenvaluesa
+                                                         egatie          diagonalmatrix
+
+      recall                                                                       t
+                 eigenvectors
+                                               ftp.t fIgeiaiihta
+      Eigenvalue spectral decomposition       M
+                                                   E   inlunkval
+
+           For
+                 p 14741       r plus      river       yrs so       in
+
+
+Any matrix satisfying 111 121,13 is called a demity matrixoperator
+
+                                         the state of any quantumsystem
+           Acumen
+  is mathematically by a density matrix arbitrary dimension
+
+The density matrix p 147141 describes a estate                     on the
+surface
+           ofthe Block sphere
+What about more general density matrices        Consider d 2
+
+We can write       CoA ax     exist        b c 1 XYZ is a basis
+               p
+We want this to satisfy       1 pt p 2 Trip 1 131
+
+
+                   pso li1t xt
+     pt flGatgxt Eyt gzt                    1         x yt y zt z
+
+           Ga EX 54 52
+           CoA a     Y Gt            co to 4 9 9 5 9 5 b c a X.Y.tl
+                                                        is a basis
+
+
+       thanks yeah mm
+     irlpl tlr.ieltritiYItratffltrtiEl            I
+                                                          It
+
+13
+     p f 1 nX my     r t          Findthe eigenvalues
+
+
+
+                                         Effi               then
+                                                                    ratify
+                    Y
+                         p 12
+                     t       13
+                         p
+                                            iterations e
+       Eli        Iii
+     Need 1.30      Ill       Fitri         so
+                                                              Leaf
+  Z
+                   Ilyizer                inside theunitsphere
+
+                 observe
+                              Ipl         Is            height
+                 pLA
+ 1
+       For a pure state
+                                       p 147141141,214441 Tr p 1
+                              147141
+                          p
+       ritrytry I         purestates are onthe surface oftheunitsphere
+
+We call Trlp the
+                    ptry of p             p pure if only if tip              1
+
+
+Origin F 1,0e contains the           maimallee
+  1 1 10401411741
+      Pconthe axis F 11,0e                     p        a x 11741 1              1101111
+
+
+ These are eigenstates
+                           of X       X                                     Felt
+  Pointontheaxis F             0 11,0
+                                               p        a y        tiktil
+                                                              is    1104111
+  These are eigenstates of y         Y Ii          Ii
+                                                                                     Ii
+Points on the z axis r        aa 1
+                                            p           a            1 1,1
+ These are eigenstates              101 1072111         117
+                         of
+

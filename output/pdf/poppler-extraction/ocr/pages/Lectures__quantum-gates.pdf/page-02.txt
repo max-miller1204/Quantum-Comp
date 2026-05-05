@@ -1,0 +1,42 @@
+© Origin » Fe (t,0,0)—> p=t( intent the maximally - mixed. Stare a (pst
+(A Completely fandom Cate) =£
+@ Points on the X-axit: + (+1, 0,0) > p2a[De) = 1X4, [9 t,o) +10)
+
+These are tigtnvectors bX! Xie t1t2 > YL ele
+(Ciena 4 YX art +.) Xia 2 <b?
+
+@ Points on the Y-axis : f= (0, 41, 0) pealtey) =12ixsil, 11) = illo) £i 19)
+
+These are cigenvected tf ys Yitiyes tet). | Yitid = 142)
+
+(Cigerodan 4 ¥ are 41.) YI-i2 = -1-ip
+@ Poin o« the 2-oyie: T=(0, 0,41) > or ye
+
+; -rayid: T= =
+
+nig on the r=(0, 0,41) > @=1 ane WIL
+
+These art eigenvector ¢ 2! £lo)= 0), 21) =~li, (Eigenvaluea ef é at 41)
+* For highec dimensions, we don't have (uch a nice representation.
+
+We Gn Still neck if a State is pure wing the purity
+For demity matrix p in dimention a, TtLp']= purity
+The stale pif pure if and only if Tp) =
+
+& Every pur State iS represented by a defuity matrix f the form p> InXt),
+whee (A <C% ik a Ctate veer ( Hira|l =).
+
+Tf State is not purt, thea we call it a mixed
+
+i
+
+Q Important Fact: Every mixed State GA be Written af @ convex combination
+ut put States :
+
+ny)
+
+f “3 peltaxt, A<lai], x A, =.
+° i
+
+| & probabilities.
+

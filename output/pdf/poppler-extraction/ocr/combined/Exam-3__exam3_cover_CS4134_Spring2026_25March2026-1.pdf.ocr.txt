@@ -1,0 +1,52 @@
+--- OCR page 1: Exam-3/exam3_cover_CS4134_Spring2026_25March2026-1.pdf ---
+CS 4134 — Quantum Computation and Information Processing
+
+Exam 3
+
+Virginia Tech Department of Computer Science, Spring 2026
+Instructor: Sumeet Khatri
+
+Name:
+
+Date: Thursday, March 26, 2026
+Number of problems: 6
+
+Time allowed: 75 minutes
+
+Instructions: Please show all of your work. Your grade will be based not only on writing down the correct answer,
+
+but having a complete solution.
+
+Grading: You will start from a grade of 100%. For every missed step, unclear or unexplained step, and mistake,
+you will lose two points, with a maximum of 10 points of deduction per problem. Unattempted problems result in a
+
+10-point deduction.
+
+Potentially helpful definitions
+
+e Pauli matrices:
+
+0 1 0 -i
+x0 a) v= (0 o):
+e Pauli-X basis vectors: |) = ya (10) + |1)).
+e Bell state vectors:
+1
+ot) = — (0,0) +|1,1)), |®7) =
+|e") val :0)+|1,1)), |®>)
++ 1 -
+|W) = (0,1) +|1,0)), |W) =
+
+al
+
+2
+
+(|0,0) — |1,1)),
+
+alr
+
+(|O,1) — |1,0)).
+
+1
+2
+
+Sl

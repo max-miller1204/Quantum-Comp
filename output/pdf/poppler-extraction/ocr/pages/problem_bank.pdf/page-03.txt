@@ -1,0 +1,49 @@
+(a) Prove that |v1) and |v) are orthonormal.
+(b) Show that |v1)(v1| + |ve)(ve| = 1.
+(c) Consider a qubit in the state given by
+
+jw) = 410) - Bh, (7)
+
+Write this state in terms of |v1) and |v2).
+(d) If we measure the state given by |u) with respect to the measurement {|v1)(v1], |v2)(val},
+then what are the possible outcomes and their associated probabilities?
+
+9. Consider the vectors
+
+3+iv3
+ln) = —|
+
+jve) = F10) +e). (9)
+
+(0) + 510) (8)
+
+(a) Find the value of x so that |v1) and |v) are orthogonal.
+(b) Find the value of x so that |vg) is normalized.
+(c) For what values of x (if any) are |v,) and |v2) orthonormal?
+10. (a) Consider the matrix H = +, tol
+: a onsider the Matrix = Va 1-1 :
+i. Verify that the vector |v) = 1 is an eigenvector of H with associated eigenvalue
+1.
+
+ii. Verify that |v) = (’ ) is an eigenvector of H with associated eigenvalue —1.
+
+(b) Consider the matrix
+
+1 0 1 0
+1 in /4 in/4
+y-t]|®°¢ Qe (10)
+v2|1 0 -1 0
+
+0 eit/4 0 _ eit /4
+
+i. Verify that U is a unitary matrix.
+0
+ii. Verify that |v) = F is an eigenvector of U with associated eigenvalue e'7/4,
+V2-1
+
+11. Let M € L(C%) be an arbitrary linear operator. Prove that the conjugate transpose of M, i.e.,
+M1, satisfies the following identity:
+
+(va|Mv,) = (Mt vol01), (11)
+
+for all |v1), |ve) € C4.

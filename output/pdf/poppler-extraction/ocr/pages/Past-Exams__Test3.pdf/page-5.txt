@@ -1,0 +1,9 @@
+\O
+
+5. Consider the following two-qubit density operator p4y of Alice and Bob:
+
+Pap = (1—p)|®*VO*| 4p 4 5 (i YO- lap t([WtXYt lag + [UY XY Laz),
+
+where p € [0,1]. Suppose Alice and Bob both measure theit qubits with respect to the Pauli-Z basis; 1.e., the
+POVM is {|0)0), |1)(1|}. What is the probability that they obtain the same measurement outcome?
+

@@ -1,0 +1,3 @@
+2. Does U = + (; ‘) represent a valid quantum gate? State why or why not. What is U|0) and U|1)?
+
+al

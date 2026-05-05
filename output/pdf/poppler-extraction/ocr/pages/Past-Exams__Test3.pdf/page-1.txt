@@ -1,0 +1,26 @@
+neem
+
+Oe
+=
+
+1. Consider t} i Ss S|
+vt the following ree-climensi mia ; i i i
+ three-dimensional vector Cc, written with re: pect to the $ tandard basis
+
+{10), |1), {2)}:
+
+5=i }
+|v) = [643i
+7-4i ea
+(a) Write the vector |v) j )
+») in the ¢ act form |v) i
+| he abstract form |v) = a|0) + b[L) + ¢|2), with the appropriate values of a, 6, and e.
+
+(b) Is the vector i . ;
+« 1 normalized? oay Why P Why 7
+Say why or why not. If not normalized, then normalize it.
+
+\ \, \ le \ | \ | ys ) ) / | + '
+{ | v) ~ {5-1} I + | b Ly } } t | 7 APD
+\ / i
+

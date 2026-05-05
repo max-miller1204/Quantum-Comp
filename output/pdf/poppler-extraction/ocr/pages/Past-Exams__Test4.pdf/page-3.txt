@@ -1,0 +1,26 @@
+3. Consider the following two state vectors, |v) = x30) + 5\1) and |v2) = 4{0) + x31),
+(a) Prove that |v) and |v) are orthonormal.
+(b) Show that |v) vr| + Jv2Xv2| = 1.
+
+(c) Consider a qubit in the state given by |u) = 4/0) — “2{1), If we measure this state with respect to the
+measurement {v1 Xv, |v2)(v2|}, then what are the possible outcomes and their associated probabilities?
+
+5 | ) ) |
+D { |
+' ( ‘ All
+\ Zz
+\
+\ : . \| \
+qc y | }
+i \
+\/_\z \
+Regex }/ a) 3 \ |
+CM T\ = |] — |
+\q¥ I} 7 ) | l
+j i
+{ L
+\
+4 at ‘
+\ Woe | V3 \ | y :
+LN, \N2 = \ |
+

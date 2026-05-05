@@ -1,0 +1,17 @@
+y
+
+4, Consider the bipartite quantum state | )(W>|43 of Alice and Bob.
+
+(a) If Alice and Bob both measure in the {\0),{1)} basis, what is the distribution of outcomes? Justify that their
+outcomes are anti-correlated: whenever Alice gets 0/1, Bob gets 1/0.
+
+(b) If instead Alice and Bob measure in the {|+-),|—)} basis, then show that their outcomes are still anti-correlated:
+
+whenever Alice gets +/—, Bob gets —/+.
+
+PERO
+
+- \
+
+CV] = | cal ~20)]
+

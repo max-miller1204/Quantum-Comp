@@ -1,0 +1,312 @@
+Lumens
+To extract classical information from a qubit we must mare it
+
+           in 210                                        1212
+Recall               β117           Probability
+                                                  of 0             Not
+                                    Probability of 1
+                                                         p
+         Note 1212 4014711 1112        114712                                  i
+         Also               41 74101 Tillotson
+                1 41                                         measurementoperators
+
+                                mens trimatical
+                Egg
+                Famine
+                                     mail.tiiiiiiii.it    tiiiipi
+         This is often called a computational basis measurement
+         or a   les117 basis measurement
+         Recall that 107,117      is also the eigenvectors of Pauli Z
+
+     210 101 2117 117               So wealso sometimes say           Pault
+                                            ment
+         Eitymbal           1
+                                                                          At
+                                easure along a axis
+E.int Eaturiingin basis in it
+                                                         left
+     Recall 1 7 4107             4117 H Hadamardgate
+
+     H unitary       1 1 this            1h11                       E
+                    a basis
+                                                                          I
+        For a state vector 147 Pr t                14712         14km t     Truthxxxi
+                                       Prf 1 414712 4 145241 7 Tr 1 4 14141
+
+        Edensityoperatorp Pr t Tillelp Prl1 trlep
+                  Measurementoperators It
+                                                                                 it
+        Eutymboli 14                   DHI
+    Palimeurment              measure along y axis
+
+   equivalent to measuring in basis Hi l is
+
+      Recall His 5H10 1 is_still H Hadamardgate
+                                                                 s phasegatel
+      SH is unitary       hi tist is            it
+                        a basis
+        For a state vector 147 Pr ti            tilt        Gilyka til      trhtikti.ly
+
+                ik il 1         xllPrfHiktiltl
+                                       f i      i 4712
+                                            filth                    i    Trt illinyl
+
+        Edmisten ifeng.tleIrteltitd
+  M      ngmultiplegubits
+    Consider state vector 147
+                                   of n qubits 14 5 04                    or densitymatrix
+                                                                                             p
+    Computational basis measurement is a               101,117   measurement on
+
+   each qubit
+
+    Outcome probabilities      poloo 1                            for threequbits
+                               Pr x x2 4        74,112,34712 741712,213         en
+14742974741142 31 14641 14
+                             1king            Tr 124,12ps 14,112,41441
+                      Fora density operator
+                                             p Tr 114,4 sKant p
+Expectationevaluefanobservable
+
+
+   ElfQuantum           Mechanics observables are described mathematically by
+
+                                      Hermitianoperators      Ht H
+
+   Recall Hermitian operators have a spectreleigenvaluedecomposition
+                     HYn An14
+                                                       the Pauli operators
+       I.tk lelgenreag                    Examples
+
+                                                              1 41 1 41
+           eigenvalues real numbers                9
+
+   Eigenvectors are orthonormal basis        Y                 Hiktil tik il
+     they define a measurement                          f
+          EMaktal 1                          Z
+                                                     f9
+                                                                10701 11411
+
+
+   For a density operator
+                                p
+   Pr k Tr aka p                The associated   observed value is in
+
+
+    Example     k energy level of a molecule in the energyvalue
+
+       ir us    trlixasctalpl                    trlp1 1
+                                 trlLEsal p
+   The expected aka mean or average                 value
+                                                            of an observable given a
+    state pi is
+                       p.lu in        trlasapl.in
+
+     Efi           mex
+                                    t.liIuleallel             e
+     EX        Prix x x
+P                lring.ly
+     MeaurmnSomefI
+      114
+                                                       Suppose weonly measure
+
+                                                       the 1ˢᵗ 3ʳᵈ and5ᵗʰqubits
+      ms
+      174
+
+                                        D
+                                   e
+      mail.ti.in i                       time
+To get the measurement outcome probabilities weapply the measurement
+operators only on the relevant qubits
+
+
+
+NLation States andoperators for multiple qubits and quoits
+
+
+    Fortwo qubits the standard basis is        Édis           if.it
+                                          in iqFunitT2qbit
+    We often labelm thequbits by A BC
+
+    So we write 10,0AB 107A 10            For State vector 147am
+                                                                        01
+                           g it quit                            quit qubit
+
+    147A    910,0as   b 01AB Cll ead d lilab
+                                                           74,14 BABC
+
+    Similar for threeor more qubits    4ABC        GETMAN
+                                               gangs
+    Fernqubits 1ha
+                 Aian
+                                         Ilana palateAn
+                                           4A 1247A      1inAn
+
+    Wedo thesame for linear operators including density operators
+
+         MABEL da 1dB
+MELLEE
+                                 dadis x ldadis matrix
+
+     System A has dimension da     B has dimension dis
+
+
+      Ma               mimii.sk
+                                   EInaelncelp
+                                                      Theseform a basis
+
+                                                      for L 4ᵈA 4dB
+
+      MaAg A E L 4ᵗʰa 4 2 a      04dam      dada dan x daday dan matrix
+
+
+ Suppose we have     a two qubit density operator par and we measure
+ thequbit A in the computational basis
+ Measurement operators are lokol and 11111
+
+ Probabilities are     Pr o Tr 10701 Ap Pan
+
+                       Pr 1                part
+                              trifles
+                                We measurequbitA only so we
+                                applythe measurement operatoronly
+                                on A weapply identity donothing on B
+ If we measure only B then Pr x           Tr Aa takeB pad retail
+
+
+ If we measure both A B then Prana                    t.tl              lal
+Suppose weonly measure the      1ˢᵗ 3ʳᵈ and5ᵗʰqubits
+                                                             fff f
+  114
+                                               Letthestate before
+  14                                           measurement be given
+                                                                    by
+  my                                               the density operator Paara
+  174
+
+                                     D
+
+              Fetter Tager
+                  9136
+  4111 4 715 76
+                                   time
+        The probability distribution is given by
+
+              Pr24,712,74 Tr Miktila HA 171274121A Day 1131113A Aab Para
+
+          74 h k f 0,1
+
+
+        Ill
+When we only measure parts of a quantum system we only need to knowthe
+state of that subsystems        we can    ignore    the restof the system
+
+The partial trace describes how mathematically to describe ignoring
+discarding parts of a system
+For a linear operator MABE L 4     odis    the full trace is
+
+  Tr Mais     É hillasMar 1killar         sum of thediagonal elements
+
+
+   Recall that 16,17 kebe.lada 1     It 0,1 dis t is a basis
+                                       TrM      KIMIN
+
+  Tr Mail     É kla dB       MAB 1ha   11113
+
+
+
+
+Partiatraceovis Tris MAB         É             dB MAB            111
+
+   Nate the outcome is
+   an operator Nota
+  scalar likethefulltrace
+                               tfd.fm                   aolll
+
+
+ Partitaceova         Tra Ma     IE CkIaa iIMAs ina i
+   Note the outcome is
+  an operator Nota
+  scalar likethefulltrace      Li kA AB        MAB 1ka       A
+
+
+                         tariiiiiitiiitiT
+Some Properties
+
+
+     talma.nl
+                    fickleMalulaNB
+                                                Property
+                                                           of tensorproduct
+                                               M me N oN2          MIN MINI
+                    Tr MA NB
+                                    ulama Np ima AB KIMAN NB
+  2TrisMA 0NB     Tr NB MA
+Marelli 4                             ii
+                                                l
+                     Mars
+
+
+
+
+                 1
+
+
+
+
+                        Minijelikila theB
+
+
+  Tilman
+             E   mini.at                    e
+                                                miniinlikila
+
+                              iffffjl
+                 1913
+TrigMar
+                 9140
+            fa
+           1 9420
+             931
+                  9441
+                  933
+Recall for a computational basis measurement on qubit A
+                                                          oftwo gudit
+system AB in State Pap     Pra Trl 144 Ap Pal
+                        It 0,1 dis h is a basis
+ 16,12 kehe.lada 11
+                                                              atrb
+     Tr lakala As Pa           É hilla lakala As Par killar
+                                             This is a sumoverthe
+                                             diagonal elements
+
+
+                  Indeterminate
+                                               Property
+                                                          of tensorproduct
+                                              Miami N oNz MN OMN
+
+
+                        hla Aao 1B hikula ABPas Aa 1dB 1ha
+
+
+
+                    1                       qygyypyppyypp
+                                                               p
+                            man.mg
+               Ef hlahikula Dao l B Pas AA 1dB MA
+
+
+                                iiitiiii ii
+                                 I
+                                compare with thefull trace
+
+
+                               Tr Pas     É Kla l B Pas 1ha 11B
+
+          It.li latift
+
+For measurement of B instead    Pr a Tr Daolakhs Paid
+                                                        trlbkilisfeg.tl
+

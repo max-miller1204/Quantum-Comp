@@ -1,0 +1,28 @@
+3. Staring from the |0) state vector, describe what gate(s) we would need to apply in order to generate the following
+state vectors. Provide justification. (Hint: Hadamard, rotation gates, and phase gates of the form S(@) = () i)
+6 ER, are sufficient.)
+
+(a) Yq ((0) + i
+
+(b) J (10) — 11))-
+
+(©) ya (l0) ~ in).
+
+(d) cos(
+) al
+
+al al
+
+°
+B
+
+[OS
+
+d 6/2)|0) + sin(@/2)|1), for an arbitrary @ € R.
+1
+
+(e |0) + el 1) ), for an arbitrary 0 € R.
+
+al
+
+ot

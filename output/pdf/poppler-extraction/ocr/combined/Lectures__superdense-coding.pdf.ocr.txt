@@ -1,0 +1,362 @@
+--- OCR page 1: Lectures/superdense-coding.pdf ---
+© Recap: Quantum teleportation
+
++A methool to Send arbitrary quantum information using entanglement
+dnd +Wo_ bits u claKicod information.
+
+€ f0,1)
+2é fo]
+
+|W)p
+
+Xx* LZ?
+4 Ag z20, do nothing;
+ftx=0 if t=, apply 4.
+olo nothin j
+iFxet, apply X
+@ Telepor-atinn W pot inttantaneows | faster than light — it only works if Bob
+f fay iy y
+eis Mice's meadurtment Oufcomen—>thit taker time!
+
+«The Gell_ measurement if a critical compa nent
+Tt it givtn by the Porm [84 3-H 04} SF <1BNE] YING,
+
+[62 =12 (myo iyty), 1844 (Ine We)
+
+Circuit implementation: | (910) eo\(e5
+| NSS)
+
+[Yl lOIS
+
+{ LYS EY LI II92
+Pouli-t meaourement.
+
+Proof; Let yg he he initial state =
+lee Us= ; | oe be the COT gate, and He (i; 1} the
+d00 | Hie) = I+) Hadamard. gate.
+1019 Hy = b- y= £ ers 0p
+
+--- OCR page 2: Lectures/superdense-coding.pdf ---
+,
+fy? Wag lt > (HOD) U pag lt Ht B)
+bos .
+4 B
+r State. juat before
+Pouli-2 meaourement, Measurement.
+
+Now d0 & Pawi-t meadurement on each qubit:
+The Pov is { 10,0X0,0l, 10,1X0,11, [19X00 HAXL IS,
+
+l le
+Outcome fro baloilitied Ti saa s|
+
+=e
+Pela) = Tr(la,xXeales Hom) U peut (Hton)] Tr (agc]=te(c4g] = Trleca]
+< Te{ [rfod )aaXenl,, (Hf ott) Upp lt) ( Cyclicity of trace }
+
+= THU (Hod aXe lyg (8 2) Uf ( cyclicity f trace again).
+M3 x
+
+Weu (ble CvoT i Hermition)
+wen (ble Hadamard if alae Hermitian). => M,.= (Hon) aX! (Hod)u
+
+i) wlHo-n) tye) = caer L4,a) = cwor (10910140)
+=i ( cwor ny) + CNoT L912)
+
+= Ih)
+2h [loyjey~ [1i9)
+
+aon
+
+(1) UH op) 19) = CNeT fet) = CNor A [i0yhy + UN)
+= ih cwerloy iy + cwor t2H))
+
+--- OCR page 3: Lectures/superdense-coding.pdf ---
+~
+= =
+“~~
+= = =
+Ke = S
+= > ZF
+ra bed = 2
+= - J ii aS]
+S ~~ d
++ = %S ! = 4 ’ os
+ay — ~ —S Ss — Cam esao- >
+= «= 2 & = © = 2
+= <= i SF KB ‘ Sf Sarco
+’ ry =
+Act Ls 5 aes Ly Ss apr ’ “= —
+y p vy — y \) yy “ rn med "
+L-~! yt rh) y y y
+Ps o =| va
+— a y ”n J A
+t — i) a —
+= Ss = +
+ea S + $$ <<
+= =
+) ify +t s
+re
+7 Se ws wi, 2 5
+» = rey = 7) » So
+-— — » § * nv 4 rH a
+= = 2 = - ~~
+4 = = ; a S r
+\) — ~ — q
+=s iT) => ia)) .. —
+— ~ 2S
+aml
+
+Also
+
+--- OCR page 4: Lectures/superdense-coding.pdf ---
+et
+i |
+
+DIA AN OS
+
+S le -le Q
+
+i ——
+
+4 (opi +1109)
+
+-
+
+B+
+
+|
+
+a — a —)
+2 eA o
+
+S =" FRO
+
+[Pr=4 (1edity - H'y[0y)= |
+
+_——_.
+
+a)
+v nae — Sr
+
+—)
+se 2 Siero
+
+a)
+== S -\ qe i=)
+“a OD rae
+
+—__—
+
+a)
+———
++ +
+
+ee ee
+“8 S SHA Do ao
+Sa ef OFAN S
+
+S92 fF SF 5 -eH-R80
+
+ano ii)
+
+HL —
++
+
+Aad up: pear
+
+--- OCR page 5: Lectures/superdense-coding.pdf ---
+® Superdense Coding
+
+@ Telepoctation : ding entanglement + clantical information 1 tanimjt gudatinn
+information.
+
+] We can aloo wee entanglement +4 trandmit clanical information:
+
+’ Superdenac coding : using Cat@nglemeat + | qubit H trammit 1 classical bite,
+
+Z
+
+LL p*Enadig bits 2.2
+
+x
+|
+X* Z7 Inte one gubit.
+
+PRS 21
+
+Bell
+Measurement
+
+RA
+(2) =)
+
+To encode (0,1): (2x! e 9) le = [x04)2 (le), b), + 1941p}
+=X
+(alice applion Kt = I { eo), + XL Lg)
+her guit.) . rat DATED?
+< KD
+
+To encode (1,0): (}x°e 11) IB*)49 = [20 1)4i[ 1, lo)g + bi%9 Lig)
+=3
+
+(1) To encode (00) : (2X" e4) |), = [Btye ( alice doen nothing)
+
+--- OCR page 6: Lectures/superdense-coding.pdf ---
+~<
+
+[Alice appli 2 th
+her qutit.
+
++ , A = 5 (10), 10), ~ Lipide }
+= [>
+
+il Elo), lodp +29 Iyp |
+
+—
+
++ To encode (hi): (2'x @ D)IE Sp = auuite Io) + [gh]
+
+zbX
+of (a log + 2XIN) I]
+ie L, = 2) =/0)
+
+SEN eh)
+[-1iy [ny + log Lg}
+
+i)
+
+@ Observatign: There encoded Safer acc the came at the measurennent operator? ef
+the Bell meagurcment!
+
+(1) After encoding Alice Sends her gubit 49 Bob.
+(3) Then Bob does a Bell measurtment on both qubits.
+
+@lecall: the outcome f the Bell measurement it two wits information:
+Outcome $7 & (0,0)
+Outcome B+ & (0)
+Outcome $~ Cy (I,0)
+Outcome $- <> (1,1)
+Each one y Hise outcomes occurs with Some probability, depead ing on
+de State: if the State being meanurtd ig p, then:
+
+rl #) =Te[o#) Ole) = Tepe), ALD) < eye), Ael< nh F)
+
+--- OCR page 7: Lectures/superdense-coding.pdf ---
+The State encoded by Alice if
+8 y
+
+Band = (Boa) le, — ( Layx)e feu}? ame the bitt Che wont fa
+Cond + Bob.
+
+|2,2= 184)
+
+IB, Y= 181) CD Bob menaures one of theae, ctate,
+
+(Be) = 189 byt he dow not know which one it :S.
+G2 l£) ~ be ho to Figure that out fom the Bel
+
+mead ure meat.
+@ What if the probability that Bob retrieved the bits Alice Seat?
+We need ty determing: fel Bob gels outcome (3121), given Alice encoded lex).
+
+Thi it giree by Ti(3** a [ B= exer!)
+Alice's encaded State.
+Bob!s f xex!
+meadurement Dx,3! Ht if rt
+
+We will Show that |7r{ S54) = daa Dy!
+
+This mean: if Alice Stole bite 2.x, then Bob's meadurtmeat outcome
+if aloo zn, With probability one => he Successfully get Alice’s bits.
+
+frool: Ti Be) = Te (Fx" en exe (eH 0d) [Py ot) E | a 1).
+A LS) uy! —
+ee
+
+gu’
+(m 041) (m, 91) = Tel x dul Xl] = (yl) Tr Livyal) = dy, Gila Xiily
+= MMed in =n) = (ulus
+
+dulmy= CEL ye ad) (Fone) =e (EP od) 1
+
+7
+
+--- OCR page 8: Lectures/superdense-coding.pdf ---
+= oS
+o- a ul
+yw |] 1) —
+oe — om
+~ 2aqago 0
+sz = 3
+— — rz * - _ =e
+Ss -
+= 2 ss S\|<— 3 ze
+—, — a = <S ~ ~S = > S _———
+‘
+>| = => el = v C) = ~2T
+= Tal ~~ , La = * = r =?
+SIN = as x a =
+— J — low =
+“ SF a 3 " — xe Se
+a = ™ = te ¥ ms in n
+= = —s > AY x
+= = a ~ hé ST “= >< sk
+> = ™l(,3 * = " I nS =
+a 5 re: ’ = fit Fe os
+7 a a u WN =e
+oo “s ~ ‘= —— Nn sin ls ls “4g (
+>< Y, = — ‘2 > > a a
+% a — u >< & >< 2s - S S
+>< = t wa o
+= a >< ¢ VF 7 FF os Ty Ta owe = a
+= ww ya > cs ~ ses - .
+a a] < ae on in A a Bex =
+— * + - a =
+= = = > pany o ~ — ~
+e{= a = Se » wy Wis = 3
+SiS. 2 “es 2 x oR OM -
+XA L = 2
+te x _, NS NN f ‘| = ¥ d
+>) y) “leh les =h4 wa) ,.
+T ) > Ny =
+=z
+as
+Ww
+poe
+
+--- OCR page 9: Lectures/superdense-coding.pdf ---
+Therefore, T(#y"}= 1d She abefan
+
+Check: 0-0, be 9 =» Te(B)=2
+aco bly THY) =D
+a=, b=0 4 Ttl=0
+
+a=1, bel & Weft) =0.
+“ah ab
+
+Finally : ulyy= dry eer) = = Gon, 690,
+But xéx'<0 & xen! and 2'@¢=0 @ 2/2
+
+iY] (til) = da dy
+Similacly CAL = Wiln) F Gye dy.
+fo (o's) edd. fl
+®@ Recap: Superdense Coding allow! Alice tr send two bit! te Bob wing Ony
+one gubit — or long ah the qubit iS Alrcady entangled, With Bob’ gubit.
+
+Thit Worked ble the 4 Bell Stated were Wsel to encode the information
+and do the meagurement — ana ble the Bell States are orthogonal, they
+are perfectly distinguishable.
+
+@ Why ic thig interesting *
+
+With Juut a single lunentang led) qubit, We COnnet Success fully (w/ prob. | )
+trommit more than one bit info(matiga.
+
+--- OCR page 10: Lectures/superdense-coding.pdf ---
+| ,
+dimenion ol, 10 prob. | at Ing, fd pits,
+= > log, (0) = bj
+atanglement ectiwly in to bh lag (kl=
+"| ve
+(b =),

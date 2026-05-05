@@ -1,0 +1,57 @@
+b) Using (a), prove that {|;)}¢_, is a basis for C%. In other words, prove that every vector
+g (a), P i) bj=1 +P y
+€ C¢ can be written as a unique linear combination of the vectors |y;). We thus have
+q Pj
+that every set of d linearly independent vectors in C? is a basis for C7.
+
+(c) Prove that if an || = La, then {|w); G4 is an orthonormal basis for C¢.
+
+By combining this result with (57), we have that a linearly independent set {lby)} 94 of
+vectors in C4 is an orthonormal basis if and only if vi \by vy] = La.
+16. * Let {By} ey be an orthonormal basis for L(C4), with d € {2,3,...}.
+(a) Prove that
+
+d2
+SOB =a 1)
+j=l
+
+where lg = |T'a)(Pal = v0 |i, 29, 9|. Similarly, prove that
+d2
+SOB aB =F, (22)
+j=l
+
+where F = S0{515 |i, 93,4).
+(Hint: Start by verifying that {By ey is an orthonormal basis for L(C“). Then, use the fact
+that every linear operator Z ¢ L(C4 @ C2) can be written as Z = wit Cj,¢By ® Br for
+some coefficients cj, € C.)
+(b) Prove that for M € L(C%),
+da?
+So Bj) MB! = Tr[M] a. (23)
+j=l
+(Hint: Use (18), (19), and (21).)
+
+(c) Prove that {|B;)) ye
+
+_, isan orthonormal basis for C4 @ C4.
+
+17. * Let {ls) 3929 be a set of linearly independent, normalized, but non-orthogonal vectors in
+
+C4, with d € {2,3,...}. We would like to transform these vectors into a new set {|@;) a
+of orthonormal vectors via an invertible linear operator Q, such that |¢;) = Q|;) for all
+j€{01,...,d—1}.
+
+(a) Prove that the operator S defined as
+
+ay
+
+i
+a
+L
+
+ly vy (24)
+
+B
+ll
+fo)
+
+is invertible and positive definite. (Hint: Write S' in terms of the operator T defined in (20).)

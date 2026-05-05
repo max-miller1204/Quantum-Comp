@@ -1,0 +1,25 @@
+ToTted: IS]
+6. Consider the bipartite state pay = 4(\0, 1)(0, Nan + |1,0)(1,0].41) of Alice (A) and Bob (B).
+(a) Suppose Alice and Bob both measure in the {|0),|1}} basis.
+i, Prove that their outcomes are anti-correlated, ie., Pr{0,0] = Pr{1, 1] = 0 and Pr, 1] = Pr({1, 0] = 3
+
+ii, Calculate the post-measurement states of Bob’s qubit conditioned on Alice’s two outcomes, and demon-
+strate that Bob always gets the opposite outcome as Alice,
+
+(b) Now suppose that Alice and Bob both measure in the {|-+),|—)} basis.
+i, Calculate the probabilities of the possible outcomes: Pr[+, +], Pr[+,—], Pr[-, +, Pr[-, -}.
+
+ii. Prove that their measurement outcomes are now completely uncorrelated: regardless of what outcome
+Alice gets, Bob’s outcomes are completely random.
+
+~
+
+\
+: ') 5 Joy (ial) =o - |oy 18) Ca] ;
+
+nNi—
+
+SS [ 1e> <0) ~ 4
+
+i)
+

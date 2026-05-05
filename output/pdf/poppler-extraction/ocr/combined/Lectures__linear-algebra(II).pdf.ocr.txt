@@ -1,0 +1,324 @@
+--- OCR page 1: Lectures/linear-algebra(II).pdf ---
+|) = a0) + BI1),
+
+e
+ape,
+lol? +18P <1
+|-i) +i)
+Noe, J) = (10) = 11)
+e
+
+4
+1 I) |i) = 4([0) + i1))
+
+Bit Qubit
+
+0 ort; \0) or |1):
+
+or probabilistic a
+aoa or superposition
+mixture
+
+A)Stata ef lire on the Swfave 4 the Black spherr.— they ar
+dercribed by J-dimensibnal Stabe voce |
+
+d\ 7. a 4 I¥) = 105+ pil)
+n= | wpet, ful + sl =]. Q
+) if “OS ua joS= f Ib+
+Peo) Pelil fo}! (")
+
+[State indide the Sphere art aloo poasi bie — they Act, desibed by
+deity madicea. We will See thit later...
+
+QD Complex leche Spaces
+
+Complex numbers !
+A, 4 / | 0 0
+W)= [| Wy =2 Arley, Le= ") lay= i wy [= (
+0 al 0 { \
+
+h=\
+id i I=L alo, WO=L byl
+=|% a -- &)—7 Wizhh dig Benge
+<v| [a a, a,) dvi 2.0, de, ahs (face (4 le?)
+
+--- OCR page 2: Lectures/linear-algebra(II).pdf ---
+ye Kh(kED
+
+kk'=
+
+=2 @
+
+S
+
+ay Ik>
+
+vo
+
+(Ik?
+wn
+
+\keo
+
+(k|
+
+kes
+
+=A
+
+=
+
+a lk> > ’|v>
+
+ke ~~
+
+-
+-
+
+Vv)
+
+--- OCR page 3: Lectures/linear-algebra(II).pdf ---
+BD Notation + 12 = lor, l4yZlid, ...) lead =ld=1) —> The “Stanslard. basis”
+or “computational baoig".
+Ae 0 quit: mt = allo) + pl),
+P) deter, g=diltp
+“(Hits ¢ Vechid:
+re
+
+NE fal, ly 3 L,Y = |W>+ ly) = 6 (a, by) lk,
+
+k=9
+
+* Taner product 4 wet if given by lw.?.
+
+a! d-) dl
+W=Z a ky) WY= = bulky > Cufy>= (7 Th du] [5 baie)
+ia ama:
+
+ce nes
+Lif yok!
+= =F F, b, ele 44 b
+db 4 if Lah! “i hy i me
+kh!
+
+—— far ayn
+“The notin gf a vector it Il ll = {lo = (ee)
+
+4 +
+We call a vechr “normalized” if [woh =t
+ey To nacht a NecHe, just divide by its ai
+
+= Lal — |[Well = [¢ ‘lat}* = |V)= Or Iv? = was
+
+h=0
+
+Check: Mt inf. 04) tor Oy, 9) “ih aT Ih)
+
+--- OCR page 4: Lectures/linear-algebra(II).pdf ---
+* Tenor pidduct DI vectod + Wed TH dtowibe the Ctate of mubkiple gubits
+( And entanglement | ),
+~ One qubit : l-dimemional vechr : m=")
+é
+
+~ TF quit | hos State 149 aad gubit 2 han State 142, thea
+the joint Staje is given by r
+ol; di, of a
+_{% a) _ ; LE 5 (4~ dnenssna
+In) @ by (i } 8 a ‘i ‘b vase
+thy (hy u a pier flo
+Feryor [Kronecker product > pp, fi
+
+@ AbStrac notation: VAY> alo) Aly, th) = 04 t0)+6, 11)
+=? hye td = [fler+@.12) 0 (40+ 6 10)
+— 7
+
+= oo 02 Ol0) + oly 6 lo @ 11) + Bay Ve? ® [oy + Bp br @ 1
+
+| 00 0
+teats 10=(5), v= [1] # Weve Bi: \Detiy= | |
+
+Oyu
+
+--- OCR page 5: Lectures/linear-algebra(II).pdf ---
+_— i)
+
+0
+
+0
+
+I)@ Jo) = *) yey i 7 This defing the vechr soue Cec.
+—_e—_— i ———
+
+% flo) 0107, Bnd, 1 @ lo? Inold} ig He Standard. | computational
+bonis for cec. (Just all_ two- bit String!
+
+@hrobovirva: ALi) leat, Aol = iat, AlLol= al, RCOT=IpAl:
+
+Bis extends ty any dimension!
+
+for oct boais iS £1476 Ly bE 10nd U5, befal,-i4ctlt
+Dimennida if a; dy.
+
+@ Shorthand notation + [70 thy = Ih dlka) = Hey h?.
+
+— Tentor product of tite Vectes:
+
+_(% _(* _[{3
+\ti= (*) W=(4), [%) = Fe
+> [49 a lmy 9149 = [[4>0%>) 0 Im) = Ltyo(l4ya ify)
+
+deh. [ occ, \ 009
+wi of
+bola (; j Wir% [O10
+A pie (*) 6502 |ati
+h Pra. % 109
+@ The rtauthing Vect iy ( by (3) POs fp (0]
+dimenion B=111=2! jones 1)
+QThe vector ace if CoC oc, pips fa. Ete
+
+--- OCR page 6: Lectures/linear-algebra(II).pdf ---
+® Abstract Nofahon LAY = ol lor gtr, [A =r loyt Aur, [62=o410+ Al)
+= AD @ 14) BK \ (a +h i) a [a lod ¢ Au 6 (aslo) 4 pI),
+| [1210.09 ok Ay (0,104 fr oy 19) + p,py lui) 8 (+s1+p,u9)
+
+at dyas 10,0,09 + oy ah By 10,0,1 + oh fiols 10,10) + oA By! 0,119
+
++ fol ts 10,0) + Boy H0.09 + Po 11.0) + BA A Likl?
+
+~ Arbitrac y number Ct temaor prdduch :
+
+I
+Inj I=L Cagle = Goll) + Gull)
+
+é 1
+7 \t)8 (48-01%) = Olhd= =f C6, Oka Casey Uh, base kn?
+a bike
+
+vec ia (C)?",
+Genecaliced fo atpitracy dimension! I%) f Cu lk?
+} i
+d, dy! ae!
+> 6 lt Lf # Coys Caaty °° Gusta Ly hye onp hn?
+
+kzo é,
+
+—
+
+Ver in Coc e-ack.
+~ Bois f n-qubit Space (€)?* js labeled by all n- bit Siri,
+
+(c)"" = Span} [zy : zefoll"| Set 4 all a-bit Strings,
+
+Notation: Le fo)" > X= (x, %,.., %), 27.6601)
+£2 = [1 ¥ po pkn) = 141261) 6 B fan)
+
+--- OCR page 7: Lectures/linear-algebra(II).pdf ---
+‘Example! n=2 + F 1409, 1a, 11,82, hy]
+
+N=3~— f 160,02, 10,0,L2, 16,1,0, 1411), 19,02, 11002, 11,199, Ils)
+
+— Tenwol product and inner product.
+
+By definition: («1 4) Indole) = Cfo Pak
+(o.l0 [thay =¢o DYNO)
+“Example + fie bani vectors dort aN) = Cally: (I l0)-Calny = 0. “|
+
+‘Zo ‘Zo =0
+
+Th gencral: fur bont vec (2), I¥?,
+
+CLG = dag = ding, Bayh” Sip
+* Probabiihu: Ac a State d n qubitt given by
+
+Iif)= zs Cy £? > Nocmolizatoa condition ij 3s lel = |.
+
+xe ful" Lefa|"
+
+Probobilitia Ort. : p-[%] = lel = 4)
+
+@) Matrices: Linear Trowficmahin ef Vectort
+
+Q Matricea wih be used tr define ond derccihe Staten indide the Bloch
+Shere Live, mived stotes) and the pote We Can apply to Qubits On a
+quastion comauter,
+
+--- OCR page 8: Lectures/linear-algebra(II).pdf ---
+@ We ola cali matrices lineor pperatus | tronefrnna tion.
+
+~ Dl Matrices: ne (* i) ) Abo, aee.
+Cad
+
+* Multiplying Oe matrix, with a vectr: |v2= (‘)
+L
+M lv) = (* ‘Vit = anu
+cd ‘| mand
+* Matrices act linearly a follow : M(alvd +li,>) AMI) + pind
+
+vy do ‘)
+(" od
++ Mattix multplication : ania _ = [* "|
+
+CG dy GQ a,
+
+MM, = (* "] (* ° ("" by Gy hike)
+G di Gq dy Cy, + iG C by + didy .
+> Abstract notation from vectyd extends to matrice!
+(a yee feayeeee \\4c/0 o\4ad ae
+Ca Lo 4 0 | 19 ; \
+
+OLeal w= Ll}, IDs [al 2 Ge (1 4), cil= (04)
+
+am)
+
+@ Observe, : [9 Xo] = (a) o)= (, 0) loXa) = [4) (0 \)= (°
+
+2x | , _—_—__
+
+--- OCR page 9: Lectures/linear-algebra(II).pdf ---
+1 Xol = (1) 0) ¥ (° ae UXil= (S)¢e I) =
+
+Then M= alonol + bleXi+chxol +A [Xi ae folalo) ,c=<ilMlo>
+= ol MIU? ‘de CUM
+
+Thit maker multglicatin eouter! (No al fo member matrix
+multiplication rule),
+
+Mixed (aivor+ olodal + cixel +d inca) | yiye% 9)
+f) 4° I
+
+= Av, loYefo Auli agin + by 1X) ‘te bw lou)
+i LXer 4 cy lion + ay, lo) “raver
+
+(av + bv, ) lo) + (cv + dV,) b)
+
+= (* + Wy
+CN, 4 dy
+
+\ {just ah befir!)
+
+~ Atbittacy dxd_matrices :
+
+ChIMIQ) = del (5 mi, | BaD)
+
+Me ‘f mis LX ”
+cg “J dkliyGig) =
+jz 0 Mi, u Meg
+1 arse
+
+tatty in the 3” vow and i” columa, (complex huntber }
+
+Me $ mie aX med mis aj
+
+la <0 20
+
+Mem, = (Z £ all wil oP |
+
+A ra 20 "ads =
+ar} de!
+-f $ Wie ME Kill pil (¢ ms.; we \ aX
+ijjeze yoo Hl iyo Seo! e
+
+‘Ooi iy
+
+00
+0

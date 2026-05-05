@@ -1,0 +1,14 @@
+£
+
+" : Fi ‘Tity ion is given as
+4, Let X be a random variable, taking values in {1,2,3,... }, whose probability mass function is g
+
+(a) What is the value of a?
+(b) Compute Pr[X = 4).
+(c) Compute PrLX < 2.
+
+\
+
+fav? re {1,2,3,4},
+Px(t) = 0 otherwise.
+

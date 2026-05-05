@@ -1,0 +1,107 @@
+# Past-Exams/Test3.pdf
+
+Pages: 6
+Embedded text lines: 0
+Tesseract OCR lines: 95
+
+## Poppler embedded text (`pdftotext -layout`)
+
+[No embedded text extracted by Poppler.]
+
+## Tesseract OCR from Poppler-rendered pages
+
+--- OCR page 1: Past-Exams/Test3.pdf ---
+neem
+
+Oe
+=
+
+1. Consider t} i Ss S|
+vt the following ree-climensi mia ; i i i
+ three-dimensional vector Cc, written with re: pect to the $ tandard basis
+
+{10), |1), {2)}:
+
+5=i }
+|v) = [643i
+7-4i ea
+(a) Write the vector |v) j )
+») in the ¢ act form |v) i
+| he abstract form |v) = a|0) + b[L) + ¢|2), with the appropriate values of a, 6, and e.
+
+(b) Is the vector i . ;
+« 1 normalized? oay Why P Why 7
+Say why or why not. If not normalized, then normalize it.
+
+\ \, \ le \ | \ | ys ) ) / | + '
+{ | v) ~ {5-1} I + | b Ly } } t | 7 APD
+\ / i
+
+--- OCR page 2: Past-Exams/Test3.pdf ---
+| |
+2 (a) Calculate both Tra[Map] and Trp|M 4p} for the following two-qubit matrix: |
+( |
+Lo Ba tka DN |
+Mai = 3 Pid ; -i Ti (2)
+oe eore Bev) ee
+KB ABM
+
+(b) Let 3, = |®-YO-| 45. Prove that Trp[®),] = 41, and Tra[),] = 41p-
+(c) Consider the three-qubit state vector JU) abo = 5 ((00-0, 0) ane +1, 1,1)agc). Calculate Trs (vi Xtilase]
+
+543: ~@ até OF 3 +e Sto | |
+\ tulad = (Qa ON
+
+[oe fi-2) (us), :
+
+) i e(imem) Sa ~ (Io -iny)
+3 [iso by = Joop tay = Wpleay + bony Ye
+at aa |
+
+--- OCR page 3: Past-Exams/Test3.pdf ---
+. A ar a known as a “positive operator-valued
+8. (a) State the mathematical definition of a quantum measurement, also known as a “positive Of
+measure” (POVM).
+(b) Write down an example of a POVM, with justification.
+
+M
+
+isin
+
+--- OCR page 4: Past-Exams/Test3.pdf ---
+y
+
+4, Consider the bipartite quantum state | )(W>|43 of Alice and Bob.
+
+(a) If Alice and Bob both measure in the {\0),{1)} basis, what is the distribution of outcomes? Justify that their
+outcomes are anti-correlated: whenever Alice gets 0/1, Bob gets 1/0.
+
+(b) If instead Alice and Bob measure in the {|+-),|—)} basis, then show that their outcomes are still anti-correlated:
+
+whenever Alice gets +/—, Bob gets —/+.
+
+PERO
+
+- \
+
+CV] = | cal ~20)]
+
+--- OCR page 5: Past-Exams/Test3.pdf ---
+\O
+
+5. Consider the following two-qubit density operator p4y of Alice and Bob:
+
+Pap = (1—p)|®*VO*| 4p 4 5 (i YO- lap t([WtXYt lag + [UY XY Laz),
+
+where p € [0,1]. Suppose Alice and Bob both measure theit qubits with respect to the Pauli-Z basis; 1.e., the
+POVM is {|0)0), |1)(1|}. What is the probability that they obtain the same measurement outcome?
+
+--- OCR page 6: Past-Exams/Test3.pdf ---
+6. (a) State the definition of a separable state and an entangled state.
+(b) State the definition of the Schmidt decomposition of a bipartite state vector |v) ap.
+(c) Under what condition(s), based on the Schmidt decomposition, is |th) 47 entangled?
+(d) Based on the Schmidt decomposition, determine (with justification) whether or not the following state vectors
+are entangled.
+i. Jal0)|+) 4 V3).
+
+ii, (310, 0) — ¥3\0, 1) + V3\1,0) — 1,1).

@@ -1,0 +1,46 @@
+Quantum mechanics
+
+1. Draw a Bloch sphere and label the following locations:
+(a) Where a qubit is exactly |0).
+(b) Where a qubit is exactly |1).
+
+(c) Where a qubit is half |0) and half |1).
+
+(d) Where a qubit is more |0) than |1).
+
+(e) Where a qubit is more |1) then |0).
+
+2. Prove that the Pauli operators are orthogonal to each other; specifically, TrLXY] = 0, Tr_XZ] = 0,
+and Tr[Y Z] = 0, where we recall that the Pauli operators are
+
+3. Define the Bell state vector
+
+1
+va
+\®) = +((0.0) +11.) =|? (48)
+ail ; 0
+4
+Prove that
+; 3 00 3
+000 0
+qe @b+X@X-V@Y+Z@Z) =|®KO|= 0000 (49)
+3 00 5
+4. Prove that
+1000
+1 {0010 -
+p(k @b+X@X+V@Y+4+Z@Z) = 0100 (50)
+0001
+
+5. Consider an operator M € L(C?) decomposed in the Pauli basis as M = $(col +c,X +e2Y +03Z).
+(a) Verify that
+o=Tr{M], a =TrXM], c=TrfYM], c3 = Tr[ZM]. (51)
+
+(b) Verify that the Hilbert-Schmidt norm of M is ||M||ys = V3 (leol? + |e1|? + |e2|? + |es|?).
+
+6. Consider an arbitrary 2 x 2 matrix as follows:
+M= (? “) > BarsEeC. (52)
+
+Show that
+Tr[M])=pt+s, Tr[XM])=q+r, Tr[YM]=i(qg-r), TrlZM]=p--s. (53)
+
+11

@@ -1,0 +1,394 @@
+--- OCR page 1: Lectures/measurements(II).pdf ---
+() Recap: Measurements
+
+—To extract classical information from ov qubit; Ne must Meaaurt it
+
+—fecail: ils le) +6) > Probabitity op 0: lel” | @ Axion
+Probabitty I: ipl’ Wont |
+
+l Ut
+&) Note : lal=[Qo172(", lal = leuyyl (ava " Born tie ).
+
+feo: |<olyol = <ol¥xXelo) = Trlloxe17¥]
+ila > { ‘Me nuremne E ry rotor"
+laity? =anyxaley = Te( [Xe X41). ;
+
+= Mi] Pele) + eelid = trl [loxe1+ iil Jo] =Telp] =|
+* Por demMity (matriy Q: F(a) = Ti[ oxel), br(i) = trl ug)
+
+&) Tht i$ aL ten Called, a “amputations — bait measurtment "!
+Yaa “le, (|= bmif meagurement "
+
+@ fecal ot fley, ui} is ale the eigenvectors of Pauli - 2
+
+tloy=10Y, ehy=4ur. —> So We aloo Sancti Soy "Pauli -2
+meagurtment |
+
+@Guewit Cymbol: — 1¥)—Fa Je
+
+* Powli- X measurement : meagure long x-axis ;
+
+equivalent + measur ny in haois 4/2, I-y} 4 aici Cf
+~ |-i)
+@ Reco: Mr Hby, [-y =HI?, 2 Hadamard gare Na
+
+Qu unitary 2) 51, [-9} ny = il, LY too
+
+0 basis!
+
+Hy
+
+--- OCR page 2: Lectures/measurements(II).pdf ---
+@Foc a Ctate vector #7: Pe(4) = [erly rl = Clowes = T(laeleXe,
+Pele) = [erry] = Cresen-y = te( exclave)
+
+@ Foc A demwity Dpetatar 9 « Pe (+) =Tr (uxel9) , er(-) = TL).
+ZA
+
+Meonuremeat ain i
+fr
+
+[0)
+
+® Circuit Sypebol: ¥Y—[w} fx A
+|-iy
+
+* Powli- Y meowurtment: meagure Alon y-axis; | Na oy
+equivalent te meaguriny in baoit 4 ii2, Ii} a
+® Recall: i=5H[97, -ir=SHID, He jaan gare $= phage yeh
+QSH is unitary 2 Surin} ie = al) - i) I (i)
+O basi!
+For a Ctate vector 12): Pr(ei) = Ideal Dl = il yxer ad = TelaneileXeil,
+[eiXei]+ i Xeal= Pees) = [alroP = Cal P9Cr ei) = te ieile Ke)
+
+@ Fir DA _demity dperatir 9 : Pe fas) = Trlledeity) Pela) = Trax).
+Measurement operators .
+
+- Meaturing multiple 4ubits-
+
+> Comider State vechr (7? N gubitt ( 1#€(€)"). 5 0 dlenaity maby. p.
+
+Computational —barit mensurtment is a $ 03,119} meaaureonent on
+Coch pubit /poledor sil
+
++ Outcome probabilition: Pel 00,1) = |d0,4il791° (fu three gubia)
+
+Px x x5] 2 ( Cay %o x49] Ay), 9 € Lonny.
+(x1, 1 Xa )%gl 7 [a lxs}(x2J yr, l p A 9
+Mey Xap Ag XM ka 431 [GNXi18 ed =T{ Dyan Coun
+@ rar 0 Aenaity operator p Tel bx mp Mm, 15
+
+--- OCR page 3: Lectures/measurements(II).pdf ---
+J
+=” €
+~ a
+>~ =
+Fe |. : =
+$ Ny x
+3s \ = Ss =
+= Ss os tf 2 7 &
+> = am
+in — = = o ~ € g
+~~ => u
+Fa S = 8 oT — = Ce
+S = ‘ ° — = ”
+c: oe 7 1S m nN Ss Ps
+> ae eS > " Ss 2 =
+¢ = te 8 Se Se .
+: ~ — _ —_
+~~ + =) —_ = y = — =
+Ty Le ~@ = 3
+= - Sa vn s = $ = =
+S ¢ > al ~2 ww & xX <
+Ss >< ~ Fe a g x g
+3 5 6 » = = £ ra
+Sa os ; + =): Sg.
+& | = = a ;
+= s e —_— '= \a n <= By =
+"= os, % vo) o .
+cS) oo a4 Ss * ; S m
+q 35 oS t Le a <
+—) = = > as W ‘ :
+N
+& Ss ary ~ 2 =< $ — 4 > = = aan
+— ay a => - _—] cS = = = :
+= ral
+< < Ss Ss € \y Ss = § = sak
+v - Ss 2
+= 3 yS<) ) = yy J Pen =< ~~ 3s ~ =
+= 3 - Or, 4 so = & — 33 wd li ess ees
+= na y pe ~ im 2 h ¥ c=
+3 < Ss a = =) A Fs cy ~_ ne shy = = es = “
+= -
+Ss x= Ss Cs) ra SAYS ; ~y 3 5 = :
+wy 2, = s 5 a4 os) Ss =
+= _ = == = ; nc x 85
+= =; = C { : » = ;
+SO *S mw § -
+E r e .
+Ke)
+)
+
+--- OCR page 4: Lectures/measurements(II).pdf ---
+= é wa
++ x 2\2 $x
+= 7 = = =} ~ o
+w YS Ss
+z~ "Ss =~ i
+Ss S y nal NY) 5 ~S S
+= Se <= w (2 _~ ~
+So. = = -_ ™ *
+ie ~ s (2) S aL Ral
+= c s nn
+Se z = = t > r xy Re i=’
+CA a = = —
+@ Vane 7338 -
+Loe
+h ~ Wi ly =
+2 eo 8 = Co ISR : AS
+| | 1 ) = = a s . oy = 1) *
+{ \ t ay 35 = = 1 = A
+ys 3 = Soy gp 3 4
+= ‘= = — lad = 2 a =
+S os 4 — aes .
+ra Ss > eo
+—_ lower Vy PP =q = —_ 3
+Ss < = + <> <. , te + —
+} es ce 3 ~ Stee 9
+= a = = b +
+we —_ so 4 Ss 3 Ww = = z
+__| = > \ 2 S = ES ~
+kK = re ~~ ST a
+fe 2 > = *
+= . ~ =
+x >s_~ + 2 > x
+= @ ,. Ce
+— SS |
+S - | | 3 a = Ss Ss
+Py 27 1S = Zz + ss = s -
+— = s
+3 ~ a s A y
+~>z x > S = a = = = 3
+= ¢ 7a
+2 ns = Ry OF R = ~ =
+= SS = +— = G&G = 8s
+ra —- = +}
+= I C4
+e
+
+--- OCR page 5: Lectures/measurements(II).pdf ---
+: co
+s = 2 S
+Sm 'e > iw
+= = 3 = »
+S 3s NM 3 = SS
+J 2° ‘ = st
+g sa = ess
+<= — — i: =
+- = mer <= s 2:
+— ~~ — ° As] =
+a = = fF ; a ST
+st : a = “SI ~~
+ss ‘. * = =
+a =
+Bie 3 2 3 =
+LN ea =< So ss —~ FB:
+ee 5 SF . = 3
+~ st 3 = = &S 5 we = Se Z~
+Sy o
+ea 2 3 2 ® $s. 2S] Se
+— Le zs = J s
+Sy, Wy — T =s=3 + 3 =
+lt oo» 3 <= X 8s > 3 z
+aaa : n —_ =
+a 2 = ~ 21> e §2 225) £558
+wT < ad < ‘ > 3 wi o ry
+= ra 3s J c
+We 4 114 + $e ae
+\ Nae = a] = eo v "
+Le — —_ Pin)
+< = = y = =
+Ty
+SS a - = iw +=
+= s mn | Ss 4
+oo! Ss 7 y vy = — bans
+a a= eed sa Ned s —<— _
+Se YQ [ tt i <= 3
+u le z~ eo s =
+res) Ww - ~~
+]
+
+--- OCR page 6: Lectures/measurements(II).pdf ---
+Tf we meoaure only 8, then : P(x] =t[ ( 4,9 bxXlp) fag) , xe faut.
+
+If we meaguee both A+ & then: PL.) = Te (Idi @ I4X% 16 | fag
+
+oot lpg
+~ Suppose we only mean He 1%) 3, ana 5% gulit
+
+bap TIA «Let the State befure
+
+[22 | 7 | meanurtment be given by
+bs 7 | 3 | [ak the demity operate rane
+t’ Ving Phe Fig Fe
+(x, X53) My] he 4.) 24! \"
+
+———> time
+
+«The proba bility ostri bution is gine by :
+Pel, 2,5 | = te (tai, a Yo, a taXalay ® Day @ by Xx, me 4,,) tha | |
+
+Kip %p% €f O11,
+
+@ Ihe fortied Trace
+
+~ When Wwe only meauure parts i b quanta SyStem, we daly need. +0 know the
+State 4 that Subtyttem — We can ign ae" the reat af the system
+
+~The partial trace described how (mathematically) +9 describe ignocinn |
+discarding parts of a System.
+
+--- OCR page 7: Lectures/measurements(II).pdf ---
+~ For O lineat operator MeL (c* ec +) the (full) trace iS
+
+del 4a!
+at 4g) = zf CkiDlag Mag. 'k,L)ap. (sum ot the diagonal elementt ).
+
+(Decal Hat ILI: kefelndy=t}, £66 ode =i} is a. bait.)
+Te(mi)= °F elo)
+
+hl ds~l kro
+
+Teles] = S&, (Céby # le Mas (ey @ 1)
+
+ds-\
+faci! trace vee B+ Ti[Meg]= ££, (ilo UF» Uy)
+
+an operate ta ¢ (% eile (th « 1D)
+
+Scalar like the full trace .
+
+dol
+z
+kro #70
+
+— Pactiol trace ower A: Tr [Mes]
+@Note: the Outcome id
+Qt dpecatir | NaF 0
+Scalar, like the full trace .
+
+a
+
+dh
+f (cul @ ty Jas (Ikdy ® My).
+
+ct woah
+
+a
+
+—S5ome Propettics: = (ey OH ND) = Chy My @ Ng.
+pe Md = Keay g) = Chl My @ Ng
+(1) Ta | Mae Na Calg ail ) (m, 3 na) ( Ih), @ Ie).
+-' @ Property if tender product:
+“f reaa Ms (u.am,} (8,-0.4) = wn, 0 m0,
+
+(1) Ti[ Ma 0 1%} atras Mp. (ce My 2 85) (m, 04,| = 41mg (EN.
+
+--- OCR page 8: Lectures/measurements(II).pdf ---
+dy
+
+L Minin Wily
+
+a é) n
+_ 2r/s 6 > xj
+-s Ss ss s
+Z| rd
+a (B/R rca
+°(E7e (Vs I"
+_~ aw fa) £2) ed =
+3 Sf SF) S/s) 21) R\-
+J f/f 4 = = =
+Sfa/sa (s/= e e <=) in
+i _—s —=
+_— sr om
+8s 2 = a = ( ts
+y = re) #
+7 = a
+2 ~\ ss 4 -
+= = 4 S\lS
+5 ay + x
+ay << =
+\ ae " in
+—
+* \ 1a ~ = all =
+— N o oad aera
+Ro —-sA| 4 Ss
+a ” © -
+J
+= = N
+_
+= =
+
+Ie
+
+--- OCR page 9: Lectures/measurements(II).pdf ---
+- Recall: fr o Compu tational - baair mMeapurement on qubit A of tnQ- gudit
+System AB in Hate fag: Prfx] = Te{ [bXely @ 1) Gy |
+
+fhe? brady 1}, £80 -,44-U if a basis = TL InXeLTglnell.
+det #a-|
+=? Te [HXel oe) fg) = SL SA FV ys) lh
+( This it a Cum over the
+
+diagonal elements.)
+det 45-\
+= $f (cup dh) (nrxons 14) tor) (ik Ie)
+
+bzo £70 AZ
+poaual Property if tenor sr
+
+(.am,) (#0 6,) = on, © ma
+v
+
+Chg (10g 0 Gig) [IsXaly 0S) fy (tye Uy} Ih,
+° (4 8 1h) (Np 6 te)
+
+a
+
+= Nao mM
+= (Wa 0%) (ta me ).
+
+y
+= Chip bXala (Dy ® Ale) fag (y® Ly) Lh,
+
+ds-\
+
+2 £ Chly Xaly [Dp @ Cle) Oa (tye Le) Ih,
+£
+
+d<
+
+Ae!
+q Ae!
+
+k=o
+
+dn-\
+
+s
+
+= Tilt —x the partial trace!
+
+--- OCR page 10: Lectures/measurements(II).pdf ---
+Tr
+
+>
+—
+
+ode
+
+=
+
+_—
+
+=p

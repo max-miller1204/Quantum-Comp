@@ -1,0 +1,8 @@
+1. Consider the following circuit:
+
+|) a {s| bh
+
+The state vector |7) is arbitrary, and the final measurement is in the Pauli-Z basis.
+(a) Show that the probability of both measurement outcomes being 0 is 3.
+
+(b) Calculate the state of the third qubit conditioned on each of the four measurement outcomes.
